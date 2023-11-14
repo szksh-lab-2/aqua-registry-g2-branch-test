@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "firecracker-microvm/firecracker",
+  "version": "v1.4.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "firecracker-microvm",
+      "repo_name": "firecracker",
+      "asset": "firecracker_1.4.0_linux_amd64.tar.gz",
+      "checksum": "494b3298ddf20a948b3f77a72b5bc92b2f6bc4dc9b114f2a05354eacc499a8e5",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "firecracker",
+          "src": "firecracker_1.4.0_linux_amd64/bin/firecracker"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "firecracker-microvm/firecracker/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^firecracker version 1.4.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "firecracker-microvm",
+      "repo_name": "firecracker",
+      "asset": "firecracker_1.4.0_linux_arm64.tar.gz",
+      "checksum": "335843a3fadbf622a64409a1c89df75cbd84527faccb646665a0cbdf1c3d6b02",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "firecracker",
+          "src": "firecracker_1.4.0_linux_arm64/bin/firecracker"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "firecracker-microvm/firecracker/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^firecracker version 1.4.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "firecracker-microvm",
+      "repo_name": "firecracker",
+      "asset": "firecracker_1.4.0_linux_386.tar.gz",
+      "checksum": "72eb5d23f54e052702acb3609ba52a73d3858a66811c4159c3126faad923cd7a",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "firecracker",
+          "src": "firecracker_1.4.0_linux_386/bin/firecracker"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "firecracker-microvm/firecracker/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^firecracker version 1.4.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "firecracker-microvm",
+      "repo_name": "firecracker",
+      "asset": "firecracker_1.4.0_linux_arm.tar.gz",
+      "checksum": "5884e753082e66ec796befc36f16b61611ab06a4b416736469e314ff9577e667",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "firecracker",
+          "src": "firecracker_1.4.0_linux_arm/bin/firecracker"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "firecracker-microvm/firecracker/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^firecracker version 1.4.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "firecracker-microvm",
+      "repo_name": "firecracker",
+      "asset": "firecracker_1.4.0_macOS_amd64.zip",
+      "checksum": "f3d10dc8d138e557da782f41940d5ad8d2b73ac5729cafa39a59308193fc156b",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "firecracker",
+          "src": "firecracker_1.4.0_macOS_amd64/bin/firecracker"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "firecracker-microvm/firecracker/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^firecracker version 1.4.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "firecracker-microvm",
+      "repo_name": "firecracker",
+      "asset": "firecracker_1.4.0_macOS_arm64.zip",
+      "checksum": "dd2e15ab7822b5eabda52e4a205a8a9e70d61799d21d5122d669c0ac04fa3e04",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "firecracker",
+          "src": "firecracker_1.4.0_macOS_arm64/bin/firecracker"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "firecracker-microvm/firecracker/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^firecracker version 1.4.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "firecracker-microvm",
+      "repo_name": "firecracker",
+      "asset": "firecracker_1.4.0_windows_amd64.zip",
+      "checksum": "05a49932825aceaa290ebbdf902b7143aa4fe47df20e583f305bd61a7727be78",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "firecracker",
+          "src": "firecracker_1.4.0_windows_amd64/bin/firecracker.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "firecracker-microvm/firecracker/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^firecracker version 1.4.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "firecracker-microvm",
+      "repo_name": "firecracker",
+      "asset": "firecracker_1.4.0_windows_arm64.zip",
+      "checksum": "d322a786460f0aebf4ae5a22ae84f7639e6496dc9fbf40b259c4e7238c441287",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "firecracker",
+          "src": "firecracker_1.4.0_windows_arm64/bin/firecracker.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "firecracker-microvm/firecracker/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^firecracker version 1.4.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "firecracker-microvm",
+      "repo_name": "firecracker",
+      "asset": "firecracker_1.4.0_windows_386.zip",
+      "checksum": "915bf6354b892b568533a11428505339e5121e723e268828f301bcc11ba9f08c",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "firecracker",
+          "src": "firecracker_1.4.0_windows_386/bin/firecracker.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "firecracker-microvm/firecracker/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^firecracker version 1.4.0"
+      }
+    }
+  ]
+}
