@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "trunk-io/launcher",
+  "version": "v1.9.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "trunk-io",
+      "repo_name": "launcher",
+      "asset": "launcher_1.9.0_linux_amd64.tar.gz",
+      "checksum": "8412eb017feb131cfbe34b2704fb8e63f048cf7bb073ac5ce78310233f732776",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "launcher",
+          "src": "launcher_1.9.0_linux_amd64/bin/launcher"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "trunk-io/launcher/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^launcher version 1.9.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "trunk-io",
+      "repo_name": "launcher",
+      "asset": "launcher_1.9.0_linux_arm64.tar.gz",
+      "checksum": "b3d8db975032970fdd1af8cd56b11aa9b6f3e6bc41d80c4d1da325f779fa967a",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "launcher",
+          "src": "launcher_1.9.0_linux_arm64/bin/launcher"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "trunk-io/launcher/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^launcher version 1.9.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "trunk-io",
+      "repo_name": "launcher",
+      "asset": "launcher_1.9.0_linux_386.tar.gz",
+      "checksum": "f3404f28492e38ee22364409ab77359da1a69bb0c682ca8da5b624ee8bd5c4e6",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "launcher",
+          "src": "launcher_1.9.0_linux_386/bin/launcher"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "trunk-io/launcher/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^launcher version 1.9.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "trunk-io",
+      "repo_name": "launcher",
+      "asset": "launcher_1.9.0_linux_arm.tar.gz",
+      "checksum": "a79cd2bc6ade9abba758a14146c396bf2aeb7d9040c6dd54ec0a566374fe592c",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "launcher",
+          "src": "launcher_1.9.0_linux_arm/bin/launcher"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "trunk-io/launcher/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^launcher version 1.9.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "trunk-io",
+      "repo_name": "launcher",
+      "asset": "launcher_1.9.0_macOS_amd64.zip",
+      "checksum": "e3edd53838047b7770da2dce7643010b67907e3fc48f970346c0839e70f18d7f",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "launcher",
+          "src": "launcher_1.9.0_macOS_amd64/bin/launcher"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "trunk-io/launcher/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^launcher version 1.9.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "trunk-io",
+      "repo_name": "launcher",
+      "asset": "launcher_1.9.0_macOS_arm64.zip",
+      "checksum": "b82d297f9520f35f3bb41f31fd5446d5dd59bf7932eed2cc1a46455cf97fc293",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "launcher",
+          "src": "launcher_1.9.0_macOS_arm64/bin/launcher"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "trunk-io/launcher/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^launcher version 1.9.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "trunk-io",
+      "repo_name": "launcher",
+      "asset": "launcher_1.9.0_windows_amd64.zip",
+      "checksum": "c1a83d3e9d510d9f88b141eb5b9948abdf865e28b4b1b17f17af6da1b4784ed6",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "launcher",
+          "src": "launcher_1.9.0_windows_amd64/bin/launcher.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "trunk-io/launcher/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^launcher version 1.9.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "trunk-io",
+      "repo_name": "launcher",
+      "asset": "launcher_1.9.0_windows_arm64.zip",
+      "checksum": "be58b21faa08ff2aeb34592c91125e200745161de0c727e0d555b079b2533b86",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "launcher",
+          "src": "launcher_1.9.0_windows_arm64/bin/launcher.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "trunk-io/launcher/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^launcher version 1.9.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "trunk-io",
+      "repo_name": "launcher",
+      "asset": "launcher_1.9.0_windows_386.zip",
+      "checksum": "aeaa47b8a3a4c4ba4bfaf323640f1155033e468310fc1bf190549d09abf5f478",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "launcher",
+          "src": "launcher_1.9.0_windows_386/bin/launcher.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "trunk-io/launcher/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^launcher version 1.9.0"
+      }
+    }
+  ]
+}
