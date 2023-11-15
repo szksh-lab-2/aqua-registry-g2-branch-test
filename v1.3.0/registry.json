@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "open-policy-agent/gatekeeper",
+  "version": "v1.3.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "open-policy-agent",
+      "repo_name": "gatekeeper",
+      "asset": "gatekeeper_1.3.0_linux_amd64.tar.gz",
+      "checksum": "7d4ab881d0357431fb7ddb30adabe9507c2fbd4db43fe7f9af490bda60fe67a5",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "gatekeeper",
+          "src": "gatekeeper_1.3.0_linux_amd64/bin/gatekeeper"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "open-policy-agent/gatekeeper/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^gatekeeper version 1.3.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "open-policy-agent",
+      "repo_name": "gatekeeper",
+      "asset": "gatekeeper_1.3.0_linux_arm64.tar.gz",
+      "checksum": "efbc13802df3728488c7bcfe4ababdc59ea8843f373d6bde78a4f962507b0539",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "gatekeeper",
+          "src": "gatekeeper_1.3.0_linux_arm64/bin/gatekeeper"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "open-policy-agent/gatekeeper/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^gatekeeper version 1.3.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "open-policy-agent",
+      "repo_name": "gatekeeper",
+      "asset": "gatekeeper_1.3.0_linux_386.tar.gz",
+      "checksum": "55a31da0b1bdb5556a662bf1640da67ea1c9a39ebbb133fbb26ade9bd93c556b",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "gatekeeper",
+          "src": "gatekeeper_1.3.0_linux_386/bin/gatekeeper"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "open-policy-agent/gatekeeper/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^gatekeeper version 1.3.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "open-policy-agent",
+      "repo_name": "gatekeeper",
+      "asset": "gatekeeper_1.3.0_linux_arm.tar.gz",
+      "checksum": "7c6113716478153a541380a1307ad0c18c102905d4f0f32331bf2a15fd322b47",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "gatekeeper",
+          "src": "gatekeeper_1.3.0_linux_arm/bin/gatekeeper"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "open-policy-agent/gatekeeper/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^gatekeeper version 1.3.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "open-policy-agent",
+      "repo_name": "gatekeeper",
+      "asset": "gatekeeper_1.3.0_macOS_amd64.zip",
+      "checksum": "64a65f5e9199b48d22b53a97e65ffe637db2a2ae808fce765ba2bebcac956b28",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "gatekeeper",
+          "src": "gatekeeper_1.3.0_macOS_amd64/bin/gatekeeper"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "open-policy-agent/gatekeeper/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^gatekeeper version 1.3.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "open-policy-agent",
+      "repo_name": "gatekeeper",
+      "asset": "gatekeeper_1.3.0_macOS_arm64.zip",
+      "checksum": "2db52c0e94746dce318687731d82793279d08fab9273b1bb04ae045a5d209f04",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "gatekeeper",
+          "src": "gatekeeper_1.3.0_macOS_arm64/bin/gatekeeper"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "open-policy-agent/gatekeeper/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^gatekeeper version 1.3.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "open-policy-agent",
+      "repo_name": "gatekeeper",
+      "asset": "gatekeeper_1.3.0_windows_amd64.zip",
+      "checksum": "f99092e017c8983f6e013775097af4c03b9d5ff364569e8f295009712b65ed0a",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "gatekeeper",
+          "src": "gatekeeper_1.3.0_windows_amd64/bin/gatekeeper.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "open-policy-agent/gatekeeper/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^gatekeeper version 1.3.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "open-policy-agent",
+      "repo_name": "gatekeeper",
+      "asset": "gatekeeper_1.3.0_windows_arm64.zip",
+      "checksum": "423d71bf41abc63e96e036e33f03ba5825d707f98725be6d3f36f79cebb3bcba",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "gatekeeper",
+          "src": "gatekeeper_1.3.0_windows_arm64/bin/gatekeeper.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "open-policy-agent/gatekeeper/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^gatekeeper version 1.3.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "open-policy-agent",
+      "repo_name": "gatekeeper",
+      "asset": "gatekeeper_1.3.0_windows_386.zip",
+      "checksum": "791876677efb29342749ff6c6cd6ec6e8a3278c172861db7bf9e8d6215baddbb",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "gatekeeper",
+          "src": "gatekeeper_1.3.0_windows_386/bin/gatekeeper.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "open-policy-agent/gatekeeper/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^gatekeeper version 1.3.0"
+      }
+    }
+  ]
+}
