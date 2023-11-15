@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "spinnaker/spin",
+  "version": "v1.1.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "spinnaker",
+      "repo_name": "spin",
+      "asset": "spin_1.1.0_linux_amd64.tar.gz",
+      "checksum": "9d0437e84b03ec5973581df3841d144ae22fbad066a7eb9fec06f7291bc441a3",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "spin",
+          "src": "spin_1.1.0_linux_amd64/bin/spin"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "spinnaker/spin/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^spin version 1.1.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "spinnaker",
+      "repo_name": "spin",
+      "asset": "spin_1.1.0_linux_arm64.tar.gz",
+      "checksum": "36dbdfdeea63822f404f4fbdab0294205999e79b55e6d4675648a7d18cf31166",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "spin",
+          "src": "spin_1.1.0_linux_arm64/bin/spin"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "spinnaker/spin/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^spin version 1.1.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "spinnaker",
+      "repo_name": "spin",
+      "asset": "spin_1.1.0_linux_386.tar.gz",
+      "checksum": "af172ae920e41ea85a0e262ded307d8d6bc1f9acb5d3a5f1508286eaa9a6ff0a",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "spin",
+          "src": "spin_1.1.0_linux_386/bin/spin"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "spinnaker/spin/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^spin version 1.1.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "spinnaker",
+      "repo_name": "spin",
+      "asset": "spin_1.1.0_linux_arm.tar.gz",
+      "checksum": "2711d291a71d3c740361a98ebdcfe280d37453f5b59983bde3d97b22bbc42719",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "spin",
+          "src": "spin_1.1.0_linux_arm/bin/spin"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "spinnaker/spin/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^spin version 1.1.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "spinnaker",
+      "repo_name": "spin",
+      "asset": "spin_1.1.0_macOS_amd64.zip",
+      "checksum": "550363a855349401cd874b8aec2b2b740b2f906fbaaf26fdaa20a04123b34325",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "spin",
+          "src": "spin_1.1.0_macOS_amd64/bin/spin"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "spinnaker/spin/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^spin version 1.1.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "spinnaker",
+      "repo_name": "spin",
+      "asset": "spin_1.1.0_macOS_arm64.zip",
+      "checksum": "7fd32d017d23223c70736ab3cfb692d42b736d7174bd64a7d07e60ff88a479c4",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "spin",
+          "src": "spin_1.1.0_macOS_arm64/bin/spin"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "spinnaker/spin/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^spin version 1.1.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "spinnaker",
+      "repo_name": "spin",
+      "asset": "spin_1.1.0_windows_amd64.zip",
+      "checksum": "74dec780e1466bf1e6f4d7cf575484708c8219d49962d2c4c717dab546d33c7f",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "spin",
+          "src": "spin_1.1.0_windows_amd64/bin/spin.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "spinnaker/spin/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^spin version 1.1.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "spinnaker",
+      "repo_name": "spin",
+      "asset": "spin_1.1.0_windows_arm64.zip",
+      "checksum": "65070762e61c2d912be9fa642ab358be0064a1692dbc32cf992613dafeed9aa8",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "spin",
+          "src": "spin_1.1.0_windows_arm64/bin/spin.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "spinnaker/spin/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^spin version 1.1.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "spinnaker",
+      "repo_name": "spin",
+      "asset": "spin_1.1.0_windows_386.zip",
+      "checksum": "12a0dd91f08f2ce2accf69ef26e818acc6c12f29933afa5d2f47f668cfc3d48c",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "spin",
+          "src": "spin_1.1.0_windows_386/bin/spin.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "spinnaker/spin/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^spin version 1.1.0"
+      }
+    }
+  ]
+}
