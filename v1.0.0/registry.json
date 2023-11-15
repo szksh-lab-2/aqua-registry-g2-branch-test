@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "argoproj/argo-cd",
+  "version": "v1.0.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "argoproj",
+      "repo_name": "argo-cd",
+      "asset": "argo-cd_1.0.0_linux_amd64.tar.gz",
+      "checksum": "a18cc71743776a54510ae53e133c1279422f5ba806c64f16a2bf6fc872327eef",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "argo-cd",
+          "src": "argo-cd_1.0.0_linux_amd64/bin/argo-cd"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "argoproj/argo-cd/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^argo-cd version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "argoproj",
+      "repo_name": "argo-cd",
+      "asset": "argo-cd_1.0.0_linux_arm64.tar.gz",
+      "checksum": "1b6a1d18e3204785fa1a1c1da0e6dcafbc7011872aa22e330c50b2201d273f02",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "argo-cd",
+          "src": "argo-cd_1.0.0_linux_arm64/bin/argo-cd"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "argoproj/argo-cd/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^argo-cd version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "argoproj",
+      "repo_name": "argo-cd",
+      "asset": "argo-cd_1.0.0_linux_386.tar.gz",
+      "checksum": "e76bf4bc98392f5d7d69eeddfacea4d5b9e2c867deb8df750d2f5fb7f2ac3b7c",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "argo-cd",
+          "src": "argo-cd_1.0.0_linux_386/bin/argo-cd"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "argoproj/argo-cd/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^argo-cd version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "argoproj",
+      "repo_name": "argo-cd",
+      "asset": "argo-cd_1.0.0_linux_arm.tar.gz",
+      "checksum": "ac2386d694f285ce6ea357c4c6bed3ac4c7cd01ba0e200fae689f370a1ca6b74",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "argo-cd",
+          "src": "argo-cd_1.0.0_linux_arm/bin/argo-cd"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "argoproj/argo-cd/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^argo-cd version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "argoproj",
+      "repo_name": "argo-cd",
+      "asset": "argo-cd_1.0.0_macOS_amd64.zip",
+      "checksum": "d95db8354820ee2c935ed27ba5c350fffd4848216c599415837f3ecf309effcc",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "argo-cd",
+          "src": "argo-cd_1.0.0_macOS_amd64/bin/argo-cd"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "argoproj/argo-cd/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^argo-cd version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "argoproj",
+      "repo_name": "argo-cd",
+      "asset": "argo-cd_1.0.0_macOS_arm64.zip",
+      "checksum": "56c8507fdaae579a03da7dbb6f7d572a2bd9364a0897004bb22f3e7ec4314d9d",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "argo-cd",
+          "src": "argo-cd_1.0.0_macOS_arm64/bin/argo-cd"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "argoproj/argo-cd/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^argo-cd version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "argoproj",
+      "repo_name": "argo-cd",
+      "asset": "argo-cd_1.0.0_windows_amd64.zip",
+      "checksum": "7dd4fac05595af3dddf1298a1a58240de9cd7d9fd5147606becabf9603738054",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "argo-cd",
+          "src": "argo-cd_1.0.0_windows_amd64/bin/argo-cd.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "argoproj/argo-cd/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^argo-cd version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "argoproj",
+      "repo_name": "argo-cd",
+      "asset": "argo-cd_1.0.0_windows_arm64.zip",
+      "checksum": "a3f2605d2e1ebe388a997dc6862ea885bc351189e7460d6a4ecdbf77e27acdca",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "argo-cd",
+          "src": "argo-cd_1.0.0_windows_arm64/bin/argo-cd.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "argoproj/argo-cd/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^argo-cd version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "argoproj",
+      "repo_name": "argo-cd",
+      "asset": "argo-cd_1.0.0_windows_386.zip",
+      "checksum": "881d4c4ee17676c2d3b060ef19042ee37b63405a708fdccd4b2f8e3ba9b805ae",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "argo-cd",
+          "src": "argo-cd_1.0.0_windows_386/bin/argo-cd.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "argoproj/argo-cd/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^argo-cd version 1.0.0"
+      }
+    }
+  ]
+}
