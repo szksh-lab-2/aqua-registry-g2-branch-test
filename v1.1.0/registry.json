@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "lxc/incus",
+  "version": "v1.1.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "lxc",
+      "repo_name": "incus",
+      "asset": "incus_1.1.0_linux_amd64.tar.gz",
+      "checksum": "562a647584de6897c6a281b19277a16fcef9c0fbf6280fb40edc0976c48aeec4",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "incus",
+          "src": "incus_1.1.0_linux_amd64/bin/incus"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "lxc/incus/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^incus version 1.1.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "lxc",
+      "repo_name": "incus",
+      "asset": "incus_1.1.0_linux_arm64.tar.gz",
+      "checksum": "1dc115ffbb439c782ddcfce1f2cb657d36bd34b3fc159858d78749c20b416d77",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "incus",
+          "src": "incus_1.1.0_linux_arm64/bin/incus"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "lxc/incus/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^incus version 1.1.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "lxc",
+      "repo_name": "incus",
+      "asset": "incus_1.1.0_linux_386.tar.gz",
+      "checksum": "7fc9b9768e14aaab53669baf5efa1e27cc63edbc9ac6cb346296346fabc94189",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "incus",
+          "src": "incus_1.1.0_linux_386/bin/incus"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "lxc/incus/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^incus version 1.1.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "lxc",
+      "repo_name": "incus",
+      "asset": "incus_1.1.0_linux_arm.tar.gz",
+      "checksum": "d3b9c4515b9d24777baa040d71dc4507284d552eb8139de9a725cbdfdf80e39b",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "incus",
+          "src": "incus_1.1.0_linux_arm/bin/incus"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "lxc/incus/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^incus version 1.1.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "lxc",
+      "repo_name": "incus",
+      "asset": "incus_1.1.0_macOS_amd64.zip",
+      "checksum": "ebd70d184f982e7a32225dbe1ce03526695e98175a75a782b43c3f3dacb62e5b",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "incus",
+          "src": "incus_1.1.0_macOS_amd64/bin/incus"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "lxc/incus/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^incus version 1.1.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "lxc",
+      "repo_name": "incus",
+      "asset": "incus_1.1.0_macOS_arm64.zip",
+      "checksum": "cf8c74c5644feaf7fe7614d85018bb175c14414d08e66bdffed0a2ebba423867",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "incus",
+          "src": "incus_1.1.0_macOS_arm64/bin/incus"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "lxc/incus/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^incus version 1.1.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "lxc",
+      "repo_name": "incus",
+      "asset": "incus_1.1.0_windows_amd64.zip",
+      "checksum": "4d672760339e725dd69f4de25554025107f2182715b2532fc6f7278c72869083",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "incus",
+          "src": "incus_1.1.0_windows_amd64/bin/incus.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "lxc/incus/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^incus version 1.1.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "lxc",
+      "repo_name": "incus",
+      "asset": "incus_1.1.0_windows_arm64.zip",
+      "checksum": "b2952219e7ec8dd7632aa29fdbdc140a5bfb56d6374ea12aff449c86b192ca7e",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "incus",
+          "src": "incus_1.1.0_windows_arm64/bin/incus.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "lxc/incus/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^incus version 1.1.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "lxc",
+      "repo_name": "incus",
+      "asset": "incus_1.1.0_windows_386.zip",
+      "checksum": "c5d3d77075c4ccf0ee6eb73bde5e9ea07ca54a95931bf81b68e28eb6a7ef3134",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "incus",
+          "src": "incus_1.1.0_windows_386/bin/incus.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "lxc/incus/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^incus version 1.1.0"
+      }
+    }
+  ]
+}
