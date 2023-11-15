@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "goreleaser/nfpm",
+  "version": "v1.8.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "goreleaser",
+      "repo_name": "nfpm",
+      "asset": "nfpm_1.8.0_linux_amd64.tar.gz",
+      "checksum": "e0101ac71d647a514d16aee9a83beefa62a806f551fa4b9aa325216d26eb65e9",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "nfpm",
+          "src": "nfpm_1.8.0_linux_amd64/bin/nfpm"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "goreleaser/nfpm/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^nfpm version 1.8.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "goreleaser",
+      "repo_name": "nfpm",
+      "asset": "nfpm_1.8.0_linux_arm64.tar.gz",
+      "checksum": "4b7940ebe4619c1ab452e5fc7d99a321c4bfb89895addab45c11f10085fed989",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "nfpm",
+          "src": "nfpm_1.8.0_linux_arm64/bin/nfpm"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "goreleaser/nfpm/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^nfpm version 1.8.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "goreleaser",
+      "repo_name": "nfpm",
+      "asset": "nfpm_1.8.0_linux_386.tar.gz",
+      "checksum": "0c600684786b7101018ce7f49ed2ce4ac89e3500971b46741e73f074de2faf92",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "nfpm",
+          "src": "nfpm_1.8.0_linux_386/bin/nfpm"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "goreleaser/nfpm/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^nfpm version 1.8.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "goreleaser",
+      "repo_name": "nfpm",
+      "asset": "nfpm_1.8.0_linux_arm.tar.gz",
+      "checksum": "a3434bc695fcc631f8d5b92abc2d287d91a1b1d7a615e10528feabf36f94dad5",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "nfpm",
+          "src": "nfpm_1.8.0_linux_arm/bin/nfpm"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "goreleaser/nfpm/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^nfpm version 1.8.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "goreleaser",
+      "repo_name": "nfpm",
+      "asset": "nfpm_1.8.0_macOS_amd64.zip",
+      "checksum": "e2bfb1afb722dfb9fc1c118e5fdef64e38a8f660ab7d4a2cd964e27560ef63f2",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "nfpm",
+          "src": "nfpm_1.8.0_macOS_amd64/bin/nfpm"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "goreleaser/nfpm/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^nfpm version 1.8.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "goreleaser",
+      "repo_name": "nfpm",
+      "asset": "nfpm_1.8.0_macOS_arm64.zip",
+      "checksum": "42eaf3a460233b57aee2c4c1c9816668106c6c5d1af2bacc83c3342bfefd2785",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "nfpm",
+          "src": "nfpm_1.8.0_macOS_arm64/bin/nfpm"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "goreleaser/nfpm/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^nfpm version 1.8.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "goreleaser",
+      "repo_name": "nfpm",
+      "asset": "nfpm_1.8.0_windows_amd64.zip",
+      "checksum": "73248b2089475e96ada007c0b3e17e1f4e9b6aca0361ae588289f195b967358c",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "nfpm",
+          "src": "nfpm_1.8.0_windows_amd64/bin/nfpm.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "goreleaser/nfpm/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^nfpm version 1.8.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "goreleaser",
+      "repo_name": "nfpm",
+      "asset": "nfpm_1.8.0_windows_arm64.zip",
+      "checksum": "031d3a62d5c00233792dc10aac9980ec3bf9aa5727cb3972cd9469573fc36f42",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "nfpm",
+          "src": "nfpm_1.8.0_windows_arm64/bin/nfpm.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "goreleaser/nfpm/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^nfpm version 1.8.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "goreleaser",
+      "repo_name": "nfpm",
+      "asset": "nfpm_1.8.0_windows_386.zip",
+      "checksum": "c9677016076a3d5d51a35bcc4f42448ba94c370e14d16f770171ecef08a54a50",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "nfpm",
+          "src": "nfpm_1.8.0_windows_386/bin/nfpm.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "goreleaser/nfpm/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^nfpm version 1.8.0"
+      }
+    }
+  ]
+}
