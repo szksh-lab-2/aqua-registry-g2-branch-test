@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "goreleaser/goreleaser",
+  "version": "v1.0.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "goreleaser",
+      "repo_name": "goreleaser",
+      "asset": "goreleaser_1.0.0_linux_amd64.tar.gz",
+      "checksum": "52f20f88fe3cf911ccdfd851f26879a09e7a9ca3ec48125b0d61578b7fee4414",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "goreleaser",
+          "src": "goreleaser_1.0.0_linux_amd64/bin/goreleaser"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "goreleaser/goreleaser/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^goreleaser version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "goreleaser",
+      "repo_name": "goreleaser",
+      "asset": "goreleaser_1.0.0_linux_arm64.tar.gz",
+      "checksum": "752aad09bce241ee900a5d33fe5b91a08d9a49cb2b43e5f4856ffc505b838fad",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "goreleaser",
+          "src": "goreleaser_1.0.0_linux_arm64/bin/goreleaser"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "goreleaser/goreleaser/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^goreleaser version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "goreleaser",
+      "repo_name": "goreleaser",
+      "asset": "goreleaser_1.0.0_linux_386.tar.gz",
+      "checksum": "6fb786aee600859674ae3cfa7a2cdc82e58c801cca061e9263f44fa615b993c7",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "goreleaser",
+          "src": "goreleaser_1.0.0_linux_386/bin/goreleaser"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "goreleaser/goreleaser/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^goreleaser version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "goreleaser",
+      "repo_name": "goreleaser",
+      "asset": "goreleaser_1.0.0_linux_arm.tar.gz",
+      "checksum": "8aaab34f12d81c5d3b16d361f9d81274e98a7ae889793125d849817e9a22b3be",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "goreleaser",
+          "src": "goreleaser_1.0.0_linux_arm/bin/goreleaser"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "goreleaser/goreleaser/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^goreleaser version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "goreleaser",
+      "repo_name": "goreleaser",
+      "asset": "goreleaser_1.0.0_macOS_amd64.zip",
+      "checksum": "b3cb214443400bc9a51d94b71451bd2ae4997bad41751fb0f39745f0a979431e",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "goreleaser",
+          "src": "goreleaser_1.0.0_macOS_amd64/bin/goreleaser"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "goreleaser/goreleaser/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^goreleaser version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "goreleaser",
+      "repo_name": "goreleaser",
+      "asset": "goreleaser_1.0.0_macOS_arm64.zip",
+      "checksum": "84769a866ec04212b143340431f5e0e0a39f8775561a72fef722aa862fc4b24d",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "goreleaser",
+          "src": "goreleaser_1.0.0_macOS_arm64/bin/goreleaser"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "goreleaser/goreleaser/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^goreleaser version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "goreleaser",
+      "repo_name": "goreleaser",
+      "asset": "goreleaser_1.0.0_windows_amd64.zip",
+      "checksum": "c770868cd5a6b70c34d6dccf779e7257924a90f7a5d2df40dc12581a503b0de8",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "goreleaser",
+          "src": "goreleaser_1.0.0_windows_amd64/bin/goreleaser.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "goreleaser/goreleaser/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^goreleaser version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "goreleaser",
+      "repo_name": "goreleaser",
+      "asset": "goreleaser_1.0.0_windows_arm64.zip",
+      "checksum": "528b1c2f7ea677d2c07329d99d135a7bc859e213ffa206b2189d507277b4190d",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "goreleaser",
+          "src": "goreleaser_1.0.0_windows_arm64/bin/goreleaser.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "goreleaser/goreleaser/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^goreleaser version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "goreleaser",
+      "repo_name": "goreleaser",
+      "asset": "goreleaser_1.0.0_windows_386.zip",
+      "checksum": "7ec1ca12d3865ca78fa58ba0d5eeb76861f5b45845eb8ec73cc79989c675cc8d",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "goreleaser",
+          "src": "goreleaser_1.0.0_windows_386/bin/goreleaser.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "goreleaser/goreleaser/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^goreleaser version 1.0.0"
+      }
+    }
+  ]
+}
