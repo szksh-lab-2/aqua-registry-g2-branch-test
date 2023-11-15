@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "open-policy-agent/opa",
+  "version": "v1.2.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "open-policy-agent",
+      "repo_name": "opa",
+      "asset": "opa_1.2.0_linux_amd64.tar.gz",
+      "checksum": "ad95cf74f72f0d4fd66eca203769a7b03ebac4c7d6c4be5bbd781969cc37ac0a",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "opa",
+          "src": "opa_1.2.0_linux_amd64/bin/opa"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "open-policy-agent/opa/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^opa version 1.2.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "open-policy-agent",
+      "repo_name": "opa",
+      "asset": "opa_1.2.0_linux_arm64.tar.gz",
+      "checksum": "d92a50251257c60da7e32322ca590b1e0ed533ba0efd4236c6a4a653caabe869",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "opa",
+          "src": "opa_1.2.0_linux_arm64/bin/opa"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "open-policy-agent/opa/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^opa version 1.2.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "open-policy-agent",
+      "repo_name": "opa",
+      "asset": "opa_1.2.0_linux_386.tar.gz",
+      "checksum": "0cddd4aa058494001486b7b7d6d3828080982df69b86750141b6656cd5a7eaaf",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "opa",
+          "src": "opa_1.2.0_linux_386/bin/opa"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "open-policy-agent/opa/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^opa version 1.2.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "open-policy-agent",
+      "repo_name": "opa",
+      "asset": "opa_1.2.0_linux_arm.tar.gz",
+      "checksum": "f4299c850e2c942530775be65cf912605b344d3811ea8b3515796e8a82b7e467",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "opa",
+          "src": "opa_1.2.0_linux_arm/bin/opa"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "open-policy-agent/opa/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^opa version 1.2.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "open-policy-agent",
+      "repo_name": "opa",
+      "asset": "opa_1.2.0_macOS_amd64.zip",
+      "checksum": "73c7d8e70f503f4e3a43536344441e691e41bcdc89cb3857122e3ab81fcc6118",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "opa",
+          "src": "opa_1.2.0_macOS_amd64/bin/opa"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "open-policy-agent/opa/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^opa version 1.2.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "open-policy-agent",
+      "repo_name": "opa",
+      "asset": "opa_1.2.0_macOS_arm64.zip",
+      "checksum": "aa7311813e757da32bcd83904c63e33da17bf8e53d1b860bc5c4f895eb87bf35",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "opa",
+          "src": "opa_1.2.0_macOS_arm64/bin/opa"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "open-policy-agent/opa/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^opa version 1.2.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "open-policy-agent",
+      "repo_name": "opa",
+      "asset": "opa_1.2.0_windows_amd64.zip",
+      "checksum": "bce0ab9f9caf4ce96583e395790d6d8c88867bc7c780f505a129ee770ade91ca",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "opa",
+          "src": "opa_1.2.0_windows_amd64/bin/opa.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "open-policy-agent/opa/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^opa version 1.2.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "open-policy-agent",
+      "repo_name": "opa",
+      "asset": "opa_1.2.0_windows_arm64.zip",
+      "checksum": "688fe643e491216150f4f94a5f05dbebc51b553f0d497acaaa131bca66fe1efd",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "opa",
+          "src": "opa_1.2.0_windows_arm64/bin/opa.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "open-policy-agent/opa/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^opa version 1.2.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "open-policy-agent",
+      "repo_name": "opa",
+      "asset": "opa_1.2.0_windows_386.zip",
+      "checksum": "9ade0ba4169625e64da2bcdb80a2c11d35434463f0b27987f7a14d141176b06e",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "opa",
+          "src": "opa_1.2.0_windows_386/bin/opa.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "open-policy-agent/opa/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^opa version 1.2.0"
+      }
+    }
+  ]
+}
