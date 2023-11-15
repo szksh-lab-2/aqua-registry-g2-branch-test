@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "openshift/rosa",
+  "version": "v1.1.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "openshift",
+      "repo_name": "rosa",
+      "asset": "rosa_1.1.0_linux_amd64.tar.gz",
+      "checksum": "8249215d536f686b5b83d2705a75fa32a4613649b024da704b637414b0a2fcb3",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "rosa",
+          "src": "rosa_1.1.0_linux_amd64/bin/rosa"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "openshift/rosa/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^rosa version 1.1.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "openshift",
+      "repo_name": "rosa",
+      "asset": "rosa_1.1.0_linux_arm64.tar.gz",
+      "checksum": "1da58ce4488ba39087d1ea7ca707cf9f5a5f257895f1e4a2f2f0f830b9b43e6c",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "rosa",
+          "src": "rosa_1.1.0_linux_arm64/bin/rosa"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "openshift/rosa/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^rosa version 1.1.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "openshift",
+      "repo_name": "rosa",
+      "asset": "rosa_1.1.0_linux_386.tar.gz",
+      "checksum": "c5d26ca61c2a96ac76a9ac96ff9754b96768fccaeccb3732dbd643879875acac",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "rosa",
+          "src": "rosa_1.1.0_linux_386/bin/rosa"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "openshift/rosa/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^rosa version 1.1.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "openshift",
+      "repo_name": "rosa",
+      "asset": "rosa_1.1.0_linux_arm.tar.gz",
+      "checksum": "872e852e862d52d0c76815d7ca66263681a33a9bca82d3f6f90ddde0edda4713",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "rosa",
+          "src": "rosa_1.1.0_linux_arm/bin/rosa"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "openshift/rosa/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^rosa version 1.1.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "openshift",
+      "repo_name": "rosa",
+      "asset": "rosa_1.1.0_macOS_amd64.zip",
+      "checksum": "72d65632e8e73d146855a4a31172e42dc04113d388bd2da7d1af1937a261f069",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "rosa",
+          "src": "rosa_1.1.0_macOS_amd64/bin/rosa"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "openshift/rosa/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^rosa version 1.1.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "openshift",
+      "repo_name": "rosa",
+      "asset": "rosa_1.1.0_macOS_arm64.zip",
+      "checksum": "e1fd778ffd9798321d30d0fcdb829050be5dfc66f98aa5868b2cc3a9b4660622",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "rosa",
+          "src": "rosa_1.1.0_macOS_arm64/bin/rosa"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "openshift/rosa/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^rosa version 1.1.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "openshift",
+      "repo_name": "rosa",
+      "asset": "rosa_1.1.0_windows_amd64.zip",
+      "checksum": "672641a1eb96b8b544dfd07dc9c176a7f243aedc12cd693b58f1dbba6d65a5a6",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "rosa",
+          "src": "rosa_1.1.0_windows_amd64/bin/rosa.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "openshift/rosa/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^rosa version 1.1.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "openshift",
+      "repo_name": "rosa",
+      "asset": "rosa_1.1.0_windows_arm64.zip",
+      "checksum": "81f561866783c423953f32a27c47fd092c501fb2cd253d645ebd794728dbbd27",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "rosa",
+          "src": "rosa_1.1.0_windows_arm64/bin/rosa.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "openshift/rosa/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^rosa version 1.1.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "openshift",
+      "repo_name": "rosa",
+      "asset": "rosa_1.1.0_windows_386.zip",
+      "checksum": "ff5ad3abf125770f2f574da967eb5fd297ab4c2e2c5824cb03801f29bc64ad3c",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "rosa",
+          "src": "rosa_1.1.0_windows_386/bin/rosa.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "openshift/rosa/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^rosa version 1.1.0"
+      }
+    }
+  ]
+}
