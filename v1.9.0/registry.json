@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "minishift/minishift",
+  "version": "v1.9.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "minishift",
+      "repo_name": "minishift",
+      "asset": "minishift_1.9.0_linux_amd64.tar.gz",
+      "checksum": "a5a3d573d1cc0a3f8141bf18534811b29b82e095805fd10ad1bf672eb8cef541",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "minishift",
+          "src": "minishift_1.9.0_linux_amd64/bin/minishift"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "minishift/minishift/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^minishift version 1.9.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "minishift",
+      "repo_name": "minishift",
+      "asset": "minishift_1.9.0_linux_arm64.tar.gz",
+      "checksum": "b86af5db70171006e2ee382e6212d853ba9db77a11e850bab892ce1a6518e65f",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "minishift",
+          "src": "minishift_1.9.0_linux_arm64/bin/minishift"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "minishift/minishift/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^minishift version 1.9.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "minishift",
+      "repo_name": "minishift",
+      "asset": "minishift_1.9.0_linux_386.tar.gz",
+      "checksum": "3589549d20ea83a67784a5576bf2b93331c8d5244c0dc7879e290eea417896de",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "minishift",
+          "src": "minishift_1.9.0_linux_386/bin/minishift"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "minishift/minishift/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^minishift version 1.9.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "minishift",
+      "repo_name": "minishift",
+      "asset": "minishift_1.9.0_linux_arm.tar.gz",
+      "checksum": "2885058785fc755a4af3d3b00e12d0d0f7b44653e361776fb85cec3e298a5770",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "minishift",
+          "src": "minishift_1.9.0_linux_arm/bin/minishift"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "minishift/minishift/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^minishift version 1.9.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "minishift",
+      "repo_name": "minishift",
+      "asset": "minishift_1.9.0_macOS_amd64.zip",
+      "checksum": "398a82696ba8c997a8290c00c7e931d0dcd6c2beeeb7a255c2c86deecf3822dc",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "minishift",
+          "src": "minishift_1.9.0_macOS_amd64/bin/minishift"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "minishift/minishift/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^minishift version 1.9.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "minishift",
+      "repo_name": "minishift",
+      "asset": "minishift_1.9.0_macOS_arm64.zip",
+      "checksum": "6fcb4f86c62f40e877fe3c4747015d1262774714c3f09b374a8165c276d6a567",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "minishift",
+          "src": "minishift_1.9.0_macOS_arm64/bin/minishift"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "minishift/minishift/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^minishift version 1.9.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "minishift",
+      "repo_name": "minishift",
+      "asset": "minishift_1.9.0_windows_amd64.zip",
+      "checksum": "08fafb0a5449aff1d58011e84f4de8bf4e46500d92292df66ad8d994e5926538",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "minishift",
+          "src": "minishift_1.9.0_windows_amd64/bin/minishift.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "minishift/minishift/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^minishift version 1.9.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "minishift",
+      "repo_name": "minishift",
+      "asset": "minishift_1.9.0_windows_arm64.zip",
+      "checksum": "3a0dafc042ca4c938c75bcf716f358f9139c9024fd71d82cf36f0f9686f3bc52",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "minishift",
+          "src": "minishift_1.9.0_windows_arm64/bin/minishift.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "minishift/minishift/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^minishift version 1.9.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "minishift",
+      "repo_name": "minishift",
+      "asset": "minishift_1.9.0_windows_386.zip",
+      "checksum": "8a0fd95ab849528ba9e85c9e59e96f05de15d0a5c4c0ed802704e209897237e7",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "minishift",
+          "src": "minishift_1.9.0_windows_386/bin/minishift.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "minishift/minishift/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^minishift version 1.9.0"
+      }
+    }
+  ]
+}
