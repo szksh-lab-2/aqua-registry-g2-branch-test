@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "crossplane/cli",
+  "version": "v1.0.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "crossplane",
+      "repo_name": "cli",
+      "asset": "cli_1.0.0_linux_amd64.tar.gz",
+      "checksum": "ef96da1aaac3c2605e0d2c341c574af04914597717bcadab27cae1e2e8a1a116",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "cli",
+          "src": "cli_1.0.0_linux_amd64/bin/cli"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "crossplane/cli/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cli version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "crossplane",
+      "repo_name": "cli",
+      "asset": "cli_1.0.0_linux_arm64.tar.gz",
+      "checksum": "ed1acbc04a5d32556565915ed37e44d8706a64da46a2ce93455b4ab9689ae5e8",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "cli",
+          "src": "cli_1.0.0_linux_arm64/bin/cli"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "crossplane/cli/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cli version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "crossplane",
+      "repo_name": "cli",
+      "asset": "cli_1.0.0_linux_386.tar.gz",
+      "checksum": "bb990378aaf28e0d6cc2aec484709e868d61db85cb5fdeca215d169977afa986",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "cli",
+          "src": "cli_1.0.0_linux_386/bin/cli"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "crossplane/cli/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cli version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "crossplane",
+      "repo_name": "cli",
+      "asset": "cli_1.0.0_linux_arm.tar.gz",
+      "checksum": "a50972daa34c5a69cc93e14aa1388088345ca783aafdab45a126182455d10bb5",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "cli",
+          "src": "cli_1.0.0_linux_arm/bin/cli"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "crossplane/cli/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cli version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "crossplane",
+      "repo_name": "cli",
+      "asset": "cli_1.0.0_macOS_amd64.zip",
+      "checksum": "09d778f68ff98aa9e2c47025efb1d95d4273a48dc9669e57d06d65d17290b0c8",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "cli",
+          "src": "cli_1.0.0_macOS_amd64/bin/cli"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "crossplane/cli/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cli version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "crossplane",
+      "repo_name": "cli",
+      "asset": "cli_1.0.0_macOS_arm64.zip",
+      "checksum": "0472959bb96972e190c3b09c62caefb1424a32f8af0df79924d2d583ae7d1437",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "cli",
+          "src": "cli_1.0.0_macOS_arm64/bin/cli"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "crossplane/cli/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cli version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "crossplane",
+      "repo_name": "cli",
+      "asset": "cli_1.0.0_windows_amd64.zip",
+      "checksum": "0ef6b492013cdcb54572a16f1c8c6fe0b27440ff831f7ca23f131bfb96ed5c70",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "cli",
+          "src": "cli_1.0.0_windows_amd64/bin/cli.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "crossplane/cli/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cli version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "crossplane",
+      "repo_name": "cli",
+      "asset": "cli_1.0.0_windows_arm64.zip",
+      "checksum": "14ae5f71a58e5c1502a99bbdd420e46419b56c47359967a911d5264cbf6b8bf8",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "cli",
+          "src": "cli_1.0.0_windows_arm64/bin/cli.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "crossplane/cli/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cli version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "crossplane",
+      "repo_name": "cli",
+      "asset": "cli_1.0.0_windows_386.zip",
+      "checksum": "ea3b229a60afb033581d650d702bf5c9095032f1aad3e1db5c4770a7ffa96fe5",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "cli",
+          "src": "cli_1.0.0_windows_386/bin/cli.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "crossplane/cli/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cli version 1.0.0"
+      }
+    }
+  ]
+}
