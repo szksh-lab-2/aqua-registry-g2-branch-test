@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "buildpacks/pack",
+  "version": "v1.8.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "buildpacks",
+      "repo_name": "pack",
+      "asset": "pack_1.8.0_linux_amd64.tar.gz",
+      "checksum": "baeb1b49cfe2ed434173a8c22d619529ce8619fb8a7d9b6d8bb1a248c7e1bd59",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "pack",
+          "src": "pack_1.8.0_linux_amd64/bin/pack"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "buildpacks/pack/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^pack version 1.8.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "buildpacks",
+      "repo_name": "pack",
+      "asset": "pack_1.8.0_linux_arm64.tar.gz",
+      "checksum": "95f452118b3aa9c881b53d66beb4a5e66140bf49e8de57a2b53432b352236d9e",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "pack",
+          "src": "pack_1.8.0_linux_arm64/bin/pack"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "buildpacks/pack/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^pack version 1.8.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "buildpacks",
+      "repo_name": "pack",
+      "asset": "pack_1.8.0_linux_386.tar.gz",
+      "checksum": "d5201da1db7a5884aa9aec12f48d236f782234b4442e11ed8349079a858120b9",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "pack",
+          "src": "pack_1.8.0_linux_386/bin/pack"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "buildpacks/pack/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^pack version 1.8.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "buildpacks",
+      "repo_name": "pack",
+      "asset": "pack_1.8.0_linux_arm.tar.gz",
+      "checksum": "ee8dd9731e17fe25f301800e1824008c85304d867e17b906c933c49faf51b5e2",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "pack",
+          "src": "pack_1.8.0_linux_arm/bin/pack"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "buildpacks/pack/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^pack version 1.8.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "buildpacks",
+      "repo_name": "pack",
+      "asset": "pack_1.8.0_macOS_amd64.zip",
+      "checksum": "e980612da4216754d49141cdb7a067082509f0f4c15f2b333fd2b455ebe5139b",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "pack",
+          "src": "pack_1.8.0_macOS_amd64/bin/pack"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "buildpacks/pack/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^pack version 1.8.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "buildpacks",
+      "repo_name": "pack",
+      "asset": "pack_1.8.0_macOS_arm64.zip",
+      "checksum": "f9569d2ef0713f89117ee50893a72515d8bd210e8973fdb3a723ed65c3b824b4",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "pack",
+          "src": "pack_1.8.0_macOS_arm64/bin/pack"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "buildpacks/pack/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^pack version 1.8.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "buildpacks",
+      "repo_name": "pack",
+      "asset": "pack_1.8.0_windows_amd64.zip",
+      "checksum": "81507dbf54e8c8bc2c73deaa5273ce25729105272920374ff4e7b239620a6cf7",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "pack",
+          "src": "pack_1.8.0_windows_amd64/bin/pack.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "buildpacks/pack/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^pack version 1.8.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "buildpacks",
+      "repo_name": "pack",
+      "asset": "pack_1.8.0_windows_arm64.zip",
+      "checksum": "82346429b668d8db60eb3fd493b746334141a77e018318ca417bcf0822fde9dd",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "pack",
+          "src": "pack_1.8.0_windows_arm64/bin/pack.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "buildpacks/pack/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^pack version 1.8.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "buildpacks",
+      "repo_name": "pack",
+      "asset": "pack_1.8.0_windows_386.zip",
+      "checksum": "4481f9d3be8b5199d14ffb6a1bb09b488213c9e489ab9392d010f566cce64493",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "pack",
+          "src": "pack_1.8.0_windows_386/bin/pack.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "buildpacks/pack/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^pack version 1.8.0"
+      }
+    }
+  ]
+}
