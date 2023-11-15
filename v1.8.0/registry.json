@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "etcd-io/etcd",
+  "version": "v1.8.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "etcd-io",
+      "repo_name": "etcd",
+      "asset": "etcd_1.8.0_linux_amd64.tar.gz",
+      "checksum": "91d831513ca698c5b52176cefbc57316b4079d8cb0a48b00add18da1d8ae580e",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "etcd",
+          "src": "etcd_1.8.0_linux_amd64/bin/etcd"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "etcd-io/etcd/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^etcd version 1.8.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "etcd-io",
+      "repo_name": "etcd",
+      "asset": "etcd_1.8.0_linux_arm64.tar.gz",
+      "checksum": "7166ea5e2cb9009e2cba777d58a6dd3d272049b3b199b4184b9676f1b1a08fb3",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "etcd",
+          "src": "etcd_1.8.0_linux_arm64/bin/etcd"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "etcd-io/etcd/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^etcd version 1.8.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "etcd-io",
+      "repo_name": "etcd",
+      "asset": "etcd_1.8.0_linux_386.tar.gz",
+      "checksum": "d0339ef1e8f51803056cda205641d747235e3182e78997403655efab7de87ca8",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "etcd",
+          "src": "etcd_1.8.0_linux_386/bin/etcd"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "etcd-io/etcd/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^etcd version 1.8.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "etcd-io",
+      "repo_name": "etcd",
+      "asset": "etcd_1.8.0_linux_arm.tar.gz",
+      "checksum": "fcbfc36610a80584c02fba9f4f6d3f2ade4bf5049df3be84364f19170af14bce",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "etcd",
+          "src": "etcd_1.8.0_linux_arm/bin/etcd"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "etcd-io/etcd/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^etcd version 1.8.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "etcd-io",
+      "repo_name": "etcd",
+      "asset": "etcd_1.8.0_macOS_amd64.zip",
+      "checksum": "aade548c4f92cf8c1e17f69ea819023dfbe636bada433b9dcaf1937d330b4cf9",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "etcd",
+          "src": "etcd_1.8.0_macOS_amd64/bin/etcd"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "etcd-io/etcd/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^etcd version 1.8.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "etcd-io",
+      "repo_name": "etcd",
+      "asset": "etcd_1.8.0_macOS_arm64.zip",
+      "checksum": "08c0c212a806800093d10e93e52a8254338bf3db538fe4f8132a055c77b1d691",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "etcd",
+          "src": "etcd_1.8.0_macOS_arm64/bin/etcd"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "etcd-io/etcd/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^etcd version 1.8.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "etcd-io",
+      "repo_name": "etcd",
+      "asset": "etcd_1.8.0_windows_amd64.zip",
+      "checksum": "e27ee6fc0fbbc4cba8d733626b7acff3691ee2af5c6090abaea7f624bf722e46",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "etcd",
+          "src": "etcd_1.8.0_windows_amd64/bin/etcd.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "etcd-io/etcd/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^etcd version 1.8.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "etcd-io",
+      "repo_name": "etcd",
+      "asset": "etcd_1.8.0_windows_arm64.zip",
+      "checksum": "99b35097af29c154ea41dbf7d4b34b4f6de2da11c81401c238d75c7ef100faf9",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "etcd",
+          "src": "etcd_1.8.0_windows_arm64/bin/etcd.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "etcd-io/etcd/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^etcd version 1.8.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "etcd-io",
+      "repo_name": "etcd",
+      "asset": "etcd_1.8.0_windows_386.zip",
+      "checksum": "327f2430fa456b2dc9dcdd31347f970a0a40bdcfda511cd313c3559bd0741ac4",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "etcd",
+          "src": "etcd_1.8.0_windows_386/bin/etcd.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "etcd-io/etcd/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^etcd version 1.8.0"
+      }
+    }
+  ]
+}
