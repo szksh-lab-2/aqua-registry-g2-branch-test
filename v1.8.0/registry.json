@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "openshift/osdctl",
+  "version": "v1.8.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "openshift",
+      "repo_name": "osdctl",
+      "asset": "osdctl_1.8.0_linux_amd64.tar.gz",
+      "checksum": "1a27fd4568b1590f3cd1cb2930b2e6e0703a00da287bed45f789f577b98c1fe8",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "osdctl",
+          "src": "osdctl_1.8.0_linux_amd64/bin/osdctl"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "openshift/osdctl/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^osdctl version 1.8.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "openshift",
+      "repo_name": "osdctl",
+      "asset": "osdctl_1.8.0_linux_arm64.tar.gz",
+      "checksum": "ead85e7efb98154af4134bec41a09aeb611e9e987983aecb50360e41dadd5a37",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "osdctl",
+          "src": "osdctl_1.8.0_linux_arm64/bin/osdctl"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "openshift/osdctl/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^osdctl version 1.8.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "openshift",
+      "repo_name": "osdctl",
+      "asset": "osdctl_1.8.0_linux_386.tar.gz",
+      "checksum": "cf6c7c810662933b64df42ecde671b57b97a6f194884662581969af6dd123780",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "osdctl",
+          "src": "osdctl_1.8.0_linux_386/bin/osdctl"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "openshift/osdctl/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^osdctl version 1.8.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "openshift",
+      "repo_name": "osdctl",
+      "asset": "osdctl_1.8.0_linux_arm.tar.gz",
+      "checksum": "25ad4d421a5ad7dfe1faf9b844f4cacf1513ed6cab0c932f65a6fcaa26c59e02",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "osdctl",
+          "src": "osdctl_1.8.0_linux_arm/bin/osdctl"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "openshift/osdctl/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^osdctl version 1.8.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "openshift",
+      "repo_name": "osdctl",
+      "asset": "osdctl_1.8.0_macOS_amd64.zip",
+      "checksum": "69ec7e279cc072b90a888437501d5831264b44ee8b823f33880ec5b1332b6b7c",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "osdctl",
+          "src": "osdctl_1.8.0_macOS_amd64/bin/osdctl"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "openshift/osdctl/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^osdctl version 1.8.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "openshift",
+      "repo_name": "osdctl",
+      "asset": "osdctl_1.8.0_macOS_arm64.zip",
+      "checksum": "9f73864fd492e490e907f892ca615bbf0812b08cea524e1bd93095cdf8b1bdb4",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "osdctl",
+          "src": "osdctl_1.8.0_macOS_arm64/bin/osdctl"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "openshift/osdctl/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^osdctl version 1.8.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "openshift",
+      "repo_name": "osdctl",
+      "asset": "osdctl_1.8.0_windows_amd64.zip",
+      "checksum": "c2d5718776011debdd069fa477f551fff354cf0951edb57f8653408da30e861b",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "osdctl",
+          "src": "osdctl_1.8.0_windows_amd64/bin/osdctl.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "openshift/osdctl/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^osdctl version 1.8.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "openshift",
+      "repo_name": "osdctl",
+      "asset": "osdctl_1.8.0_windows_arm64.zip",
+      "checksum": "1f258366db5fee4837473f9e5f5aaef1651d522fc025f685354d34ed9fa6828a",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "osdctl",
+          "src": "osdctl_1.8.0_windows_arm64/bin/osdctl.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "openshift/osdctl/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^osdctl version 1.8.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "openshift",
+      "repo_name": "osdctl",
+      "asset": "osdctl_1.8.0_windows_386.zip",
+      "checksum": "767fa808c2e4d9287f8cda0ae4f262b58c1a4d61d90245def6750cfc247cde19",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "osdctl",
+          "src": "osdctl_1.8.0_windows_386/bin/osdctl.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "openshift/osdctl/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^osdctl version 1.8.0"
+      }
+    }
+  ]
+}
