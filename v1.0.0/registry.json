@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "WebAssembly/wabt",
+  "version": "v1.0.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "WebAssembly",
+      "repo_name": "wabt",
+      "asset": "wabt_1.0.0_linux_amd64.tar.gz",
+      "checksum": "2b149941bf0d49817bfcecba6bfdf32d0531ddf147a1e0e490bc4e920e05620f",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "wabt",
+          "src": "wabt_1.0.0_linux_amd64/bin/wabt"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "WebAssembly/wabt/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^wabt version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "WebAssembly",
+      "repo_name": "wabt",
+      "asset": "wabt_1.0.0_linux_arm64.tar.gz",
+      "checksum": "dfb3f6427117687ab177b96fd1d3f01b779f5f78bcc5bf7fa75b9a4581edc8ea",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "wabt",
+          "src": "wabt_1.0.0_linux_arm64/bin/wabt"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "WebAssembly/wabt/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^wabt version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "WebAssembly",
+      "repo_name": "wabt",
+      "asset": "wabt_1.0.0_linux_386.tar.gz",
+      "checksum": "d12c25e1a83794bb815a48afff1ea3ab81816e9e2eb48cbab12d6740611eb0ed",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "wabt",
+          "src": "wabt_1.0.0_linux_386/bin/wabt"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "WebAssembly/wabt/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^wabt version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "WebAssembly",
+      "repo_name": "wabt",
+      "asset": "wabt_1.0.0_linux_arm.tar.gz",
+      "checksum": "2b834ea584ac11f308497287dcb53f801458e775d2085bc5b549a2f0de6a1d89",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "wabt",
+          "src": "wabt_1.0.0_linux_arm/bin/wabt"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "WebAssembly/wabt/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^wabt version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "WebAssembly",
+      "repo_name": "wabt",
+      "asset": "wabt_1.0.0_macOS_amd64.zip",
+      "checksum": "20402cef94e54d6e704d18818a5178d452d2877f9073279c5d06d89d6031d38b",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "wabt",
+          "src": "wabt_1.0.0_macOS_amd64/bin/wabt"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "WebAssembly/wabt/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^wabt version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "WebAssembly",
+      "repo_name": "wabt",
+      "asset": "wabt_1.0.0_macOS_arm64.zip",
+      "checksum": "d2cc409e26dab6e7f0308cf8a1fd0755320e752a077e8f95046cc083a2e7fdef",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "wabt",
+          "src": "wabt_1.0.0_macOS_arm64/bin/wabt"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "WebAssembly/wabt/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^wabt version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "WebAssembly",
+      "repo_name": "wabt",
+      "asset": "wabt_1.0.0_windows_amd64.zip",
+      "checksum": "80f55a29f0bbf210c59ea72ac6eaeea5face6d332c6e5978976c24a25813c52a",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "wabt",
+          "src": "wabt_1.0.0_windows_amd64/bin/wabt.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "WebAssembly/wabt/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^wabt version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "WebAssembly",
+      "repo_name": "wabt",
+      "asset": "wabt_1.0.0_windows_arm64.zip",
+      "checksum": "f5222a4f614669e52dbc6d62efe08f9a8996ca3fddba167f8d9b52b6f20bac7a",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "wabt",
+          "src": "wabt_1.0.0_windows_arm64/bin/wabt.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "WebAssembly/wabt/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^wabt version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "WebAssembly",
+      "repo_name": "wabt",
+      "asset": "wabt_1.0.0_windows_386.zip",
+      "checksum": "ec5e28c3dab4d92cce7976c29d152b4680f2a15421734f20fb2848e250f7c977",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "wabt",
+          "src": "wabt_1.0.0_windows_386/bin/wabt.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "WebAssembly/wabt/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^wabt version 1.0.0"
+      }
+    }
+  ]
+}
