@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "FairwindsOps/nova",
+  "version": "v1.4.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "FairwindsOps",
+      "repo_name": "nova",
+      "asset": "nova_1.4.0_linux_amd64.tar.gz",
+      "checksum": "0c906cc884a92e3c4325fc8af0dafc123a0ed6e51511926b5a4ba8fca72281ba",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "nova",
+          "src": "nova_1.4.0_linux_amd64/bin/nova"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "FairwindsOps/nova/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^nova version 1.4.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "FairwindsOps",
+      "repo_name": "nova",
+      "asset": "nova_1.4.0_linux_arm64.tar.gz",
+      "checksum": "19c53c333059885a404f9556c0b45375f872c16b08a91106cd4ab6db84d43530",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "nova",
+          "src": "nova_1.4.0_linux_arm64/bin/nova"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "FairwindsOps/nova/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^nova version 1.4.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "FairwindsOps",
+      "repo_name": "nova",
+      "asset": "nova_1.4.0_linux_386.tar.gz",
+      "checksum": "38619eeaf9ccd68ac11095498c085925ece225312ed6ad5e854e2228f1c883ac",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "nova",
+          "src": "nova_1.4.0_linux_386/bin/nova"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "FairwindsOps/nova/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^nova version 1.4.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "FairwindsOps",
+      "repo_name": "nova",
+      "asset": "nova_1.4.0_linux_arm.tar.gz",
+      "checksum": "92e27ea8b510607871a53a28abc7cedff62d91c5557a223451e3e17faf6d4345",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "nova",
+          "src": "nova_1.4.0_linux_arm/bin/nova"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "FairwindsOps/nova/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^nova version 1.4.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "FairwindsOps",
+      "repo_name": "nova",
+      "asset": "nova_1.4.0_macOS_amd64.zip",
+      "checksum": "f5c344391b28af877127b278822364834219344d6203ffbbf1d247d29f505d8f",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "nova",
+          "src": "nova_1.4.0_macOS_amd64/bin/nova"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "FairwindsOps/nova/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^nova version 1.4.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "FairwindsOps",
+      "repo_name": "nova",
+      "asset": "nova_1.4.0_macOS_arm64.zip",
+      "checksum": "255d13f75d1e2dc78070d6c941340ebcc997ace706a472aa360927d678a86be9",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "nova",
+          "src": "nova_1.4.0_macOS_arm64/bin/nova"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "FairwindsOps/nova/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^nova version 1.4.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "FairwindsOps",
+      "repo_name": "nova",
+      "asset": "nova_1.4.0_windows_amd64.zip",
+      "checksum": "8c959421a50d010981fb8eb69491a93e3ed5eed8c98993efd8b40fc8ee97b366",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "nova",
+          "src": "nova_1.4.0_windows_amd64/bin/nova.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "FairwindsOps/nova/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^nova version 1.4.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "FairwindsOps",
+      "repo_name": "nova",
+      "asset": "nova_1.4.0_windows_arm64.zip",
+      "checksum": "2ec4d807c6132b197d2375cc31a15a9877aa26751e3480b984626f93da244c08",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "nova",
+          "src": "nova_1.4.0_windows_arm64/bin/nova.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "FairwindsOps/nova/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^nova version 1.4.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "FairwindsOps",
+      "repo_name": "nova",
+      "asset": "nova_1.4.0_windows_386.zip",
+      "checksum": "639a45d41c6eaaed890da56f2dc13675249d77b997d121a657945014a712ca20",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "nova",
+          "src": "nova_1.4.0_windows_386/bin/nova.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "FairwindsOps/nova/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^nova version 1.4.0"
+      }
+    }
+  ]
+}
