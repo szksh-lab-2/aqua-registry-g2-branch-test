@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "earthly/earthly",
+  "version": "v1.6.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "earthly",
+      "repo_name": "earthly",
+      "asset": "earthly_1.6.0_linux_amd64.tar.gz",
+      "checksum": "82bb9e53ed3d558596be8d13587bc1ee37626450524e22720166c42a2ee1e05b",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "earthly",
+          "src": "earthly_1.6.0_linux_amd64/bin/earthly"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "earthly/earthly/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^earthly version 1.6.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "earthly",
+      "repo_name": "earthly",
+      "asset": "earthly_1.6.0_linux_arm64.tar.gz",
+      "checksum": "68599cf2ba4ec2b1424071c82e297455ab954c0950a3dee56fe7068800b6d737",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "earthly",
+          "src": "earthly_1.6.0_linux_arm64/bin/earthly"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "earthly/earthly/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^earthly version 1.6.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "earthly",
+      "repo_name": "earthly",
+      "asset": "earthly_1.6.0_linux_386.tar.gz",
+      "checksum": "de6ab1edf989c8ed964847165ba24c9325c5f3acf827063d74b9024cba6fb3c9",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "earthly",
+          "src": "earthly_1.6.0_linux_386/bin/earthly"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "earthly/earthly/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^earthly version 1.6.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "earthly",
+      "repo_name": "earthly",
+      "asset": "earthly_1.6.0_linux_arm.tar.gz",
+      "checksum": "6ee6c3e6476fa0badcb649244fac1bf0e4d28d410bf519d59949306055816f1c",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "earthly",
+          "src": "earthly_1.6.0_linux_arm/bin/earthly"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "earthly/earthly/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^earthly version 1.6.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "earthly",
+      "repo_name": "earthly",
+      "asset": "earthly_1.6.0_macOS_amd64.zip",
+      "checksum": "7df9df61ba42a14565a664ebecf5569422cd141a0a8451b66374ea5799558c81",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "earthly",
+          "src": "earthly_1.6.0_macOS_amd64/bin/earthly"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "earthly/earthly/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^earthly version 1.6.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "earthly",
+      "repo_name": "earthly",
+      "asset": "earthly_1.6.0_macOS_arm64.zip",
+      "checksum": "dcf194171bb67c78f04f4b99909cd8a155b74de032add86eb28d38b95909cacb",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "earthly",
+          "src": "earthly_1.6.0_macOS_arm64/bin/earthly"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "earthly/earthly/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^earthly version 1.6.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "earthly",
+      "repo_name": "earthly",
+      "asset": "earthly_1.6.0_windows_amd64.zip",
+      "checksum": "eac78650784830b31f07e6242643432604a99831c422e2eeed1c1e1886516308",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "earthly",
+          "src": "earthly_1.6.0_windows_amd64/bin/earthly.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "earthly/earthly/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^earthly version 1.6.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "earthly",
+      "repo_name": "earthly",
+      "asset": "earthly_1.6.0_windows_arm64.zip",
+      "checksum": "9826cf5d5ef8e326b9b858cf1e516d01cfcdf036199b0caa3730c7b13cc26994",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "earthly",
+          "src": "earthly_1.6.0_windows_arm64/bin/earthly.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "earthly/earthly/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^earthly version 1.6.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "earthly",
+      "repo_name": "earthly",
+      "asset": "earthly_1.6.0_windows_386.zip",
+      "checksum": "79ec9ea3a977019cc27ccd6002b5cafe51028f4a7d34e2b141a890edc10ca269",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "earthly",
+          "src": "earthly_1.6.0_windows_386/bin/earthly.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "earthly/earthly/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^earthly version 1.6.0"
+      }
+    }
+  ]
+}
