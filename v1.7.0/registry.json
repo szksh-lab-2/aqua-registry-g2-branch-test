@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "making/rsc",
+  "version": "v1.7.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "making",
+      "repo_name": "rsc",
+      "asset": "rsc_1.7.0_linux_amd64.tar.gz",
+      "checksum": "6b3c4b0cc1f25114920339e70070d32c615386b15a4782119871f20ae76cd630",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "rsc",
+          "src": "rsc_1.7.0_linux_amd64/bin/rsc"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "making/rsc/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^rsc version 1.7.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "making",
+      "repo_name": "rsc",
+      "asset": "rsc_1.7.0_linux_arm64.tar.gz",
+      "checksum": "06453c5dad7934938424329514794ea27a1fa390488d9d652b37e599950b08b7",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "rsc",
+          "src": "rsc_1.7.0_linux_arm64/bin/rsc"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "making/rsc/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^rsc version 1.7.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "making",
+      "repo_name": "rsc",
+      "asset": "rsc_1.7.0_linux_386.tar.gz",
+      "checksum": "96dad7a95fd99b6204cf0ef4cd38c1bbc89a1680338ebdf3d373da322c5dbc91",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "rsc",
+          "src": "rsc_1.7.0_linux_386/bin/rsc"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "making/rsc/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^rsc version 1.7.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "making",
+      "repo_name": "rsc",
+      "asset": "rsc_1.7.0_linux_arm.tar.gz",
+      "checksum": "84b60a29adf1e01376062c3358245e87a76a29bb2103c56e853c8702ff66d39d",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "rsc",
+          "src": "rsc_1.7.0_linux_arm/bin/rsc"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "making/rsc/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^rsc version 1.7.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "making",
+      "repo_name": "rsc",
+      "asset": "rsc_1.7.0_macOS_amd64.zip",
+      "checksum": "c4243ff11ec8de57d4882a55e7d8a5ddae8088bf8218105699074b48bc543283",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "rsc",
+          "src": "rsc_1.7.0_macOS_amd64/bin/rsc"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "making/rsc/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^rsc version 1.7.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "making",
+      "repo_name": "rsc",
+      "asset": "rsc_1.7.0_macOS_arm64.zip",
+      "checksum": "896aa6af2a5dea88fd184672f085b4187c44d89cb98fa9e3ad25dc80d30030f9",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "rsc",
+          "src": "rsc_1.7.0_macOS_arm64/bin/rsc"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "making/rsc/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^rsc version 1.7.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "making",
+      "repo_name": "rsc",
+      "asset": "rsc_1.7.0_windows_amd64.zip",
+      "checksum": "9f6d95adc43adc23a14c1d10a9be3ade080b9e25a45c0804fc2a187c040ddf74",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "rsc",
+          "src": "rsc_1.7.0_windows_amd64/bin/rsc.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "making/rsc/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^rsc version 1.7.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "making",
+      "repo_name": "rsc",
+      "asset": "rsc_1.7.0_windows_arm64.zip",
+      "checksum": "638febbcee1db31ef8f68b0b7991fc78adbb0f3b78d6b6dae034de2700e0b0d6",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "rsc",
+          "src": "rsc_1.7.0_windows_arm64/bin/rsc.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "making/rsc/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^rsc version 1.7.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "making",
+      "repo_name": "rsc",
+      "asset": "rsc_1.7.0_windows_386.zip",
+      "checksum": "255e36ccd31554dffbc95920793b5aa36ee3cbf58472bf8ce7be156d6cac9783",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "rsc",
+          "src": "rsc_1.7.0_windows_386/bin/rsc.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "making/rsc/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^rsc version 1.7.0"
+      }
+    }
+  ]
+}
