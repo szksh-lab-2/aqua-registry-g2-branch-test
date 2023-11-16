@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "turbot/steampipe",
+  "version": "v1.0.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "turbot",
+      "repo_name": "steampipe",
+      "asset": "steampipe_1.0.0_linux_amd64.tar.gz",
+      "checksum": "711aa17855015e531335726f4b8d21d480f5ebd002002833d4fb3f03f4b3810e",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "steampipe",
+          "src": "steampipe_1.0.0_linux_amd64/bin/steampipe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "turbot/steampipe/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^steampipe version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "turbot",
+      "repo_name": "steampipe",
+      "asset": "steampipe_1.0.0_linux_arm64.tar.gz",
+      "checksum": "88cc7be8e7df44219ca2e6a9885b56c508a6c43d71156e7d56260cff679c6033",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "steampipe",
+          "src": "steampipe_1.0.0_linux_arm64/bin/steampipe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "turbot/steampipe/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^steampipe version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "turbot",
+      "repo_name": "steampipe",
+      "asset": "steampipe_1.0.0_linux_386.tar.gz",
+      "checksum": "f899257cf845fc580987fa0083ca2252e3c1698c27ae2f13f70b293eeaa946f5",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "steampipe",
+          "src": "steampipe_1.0.0_linux_386/bin/steampipe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "turbot/steampipe/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^steampipe version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "turbot",
+      "repo_name": "steampipe",
+      "asset": "steampipe_1.0.0_linux_arm.tar.gz",
+      "checksum": "b5677c998074d5907788957e405393ebd2728f808609f636e2fc365b582f813b",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "steampipe",
+          "src": "steampipe_1.0.0_linux_arm/bin/steampipe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "turbot/steampipe/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^steampipe version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "turbot",
+      "repo_name": "steampipe",
+      "asset": "steampipe_1.0.0_macOS_amd64.zip",
+      "checksum": "7bf1316321bdda6ece11c8ff951fe1be998fd6b7459a53fd6a3c07560b9e0d36",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "steampipe",
+          "src": "steampipe_1.0.0_macOS_amd64/bin/steampipe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "turbot/steampipe/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^steampipe version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "turbot",
+      "repo_name": "steampipe",
+      "asset": "steampipe_1.0.0_macOS_arm64.zip",
+      "checksum": "dec338fc490de4834ff348cd4db27593f85538149894db9fdbe35f0bb02e9e3d",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "steampipe",
+          "src": "steampipe_1.0.0_macOS_arm64/bin/steampipe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "turbot/steampipe/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^steampipe version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "turbot",
+      "repo_name": "steampipe",
+      "asset": "steampipe_1.0.0_windows_amd64.zip",
+      "checksum": "3795b284f5204dae6f71571e844a0974c6072c358d6356ac518c8ffc0bfd26d5",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "steampipe",
+          "src": "steampipe_1.0.0_windows_amd64/bin/steampipe.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "turbot/steampipe/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^steampipe version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "turbot",
+      "repo_name": "steampipe",
+      "asset": "steampipe_1.0.0_windows_arm64.zip",
+      "checksum": "f84d5d5e9115651a1e40ddab0b51f89b5690e5ab84ac0218432458c374b99836",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "steampipe",
+          "src": "steampipe_1.0.0_windows_arm64/bin/steampipe.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "turbot/steampipe/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^steampipe version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "turbot",
+      "repo_name": "steampipe",
+      "asset": "steampipe_1.0.0_windows_386.zip",
+      "checksum": "996f7e347364439bffb5dc98f0c72d998094268d4dd020c5a85a974e1699ed83",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "steampipe",
+          "src": "steampipe_1.0.0_windows_386/bin/steampipe.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "turbot/steampipe/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^steampipe version 1.0.0"
+      }
+    }
+  ]
+}
