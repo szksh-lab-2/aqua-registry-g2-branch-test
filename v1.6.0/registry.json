@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "nmstate/nmstate",
+  "version": "v1.6.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "nmstate",
+      "repo_name": "nmstate",
+      "asset": "nmstate_1.6.0_linux_amd64.tar.gz",
+      "checksum": "1689c7896588355dd50afea48e399a66109d090e5317b828efe69e9d9801fef5",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "nmstate",
+          "src": "nmstate_1.6.0_linux_amd64/bin/nmstate"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "nmstate/nmstate/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^nmstate version 1.6.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "nmstate",
+      "repo_name": "nmstate",
+      "asset": "nmstate_1.6.0_linux_arm64.tar.gz",
+      "checksum": "31c5cd97984637dd551e56d31e4c54cbb500f713ab5157856142e96d261e9bac",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "nmstate",
+          "src": "nmstate_1.6.0_linux_arm64/bin/nmstate"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "nmstate/nmstate/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^nmstate version 1.6.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "nmstate",
+      "repo_name": "nmstate",
+      "asset": "nmstate_1.6.0_linux_386.tar.gz",
+      "checksum": "173d75b57553f55ff07549995561867535524e6dcdcb5b590b2ac072cc59e0bd",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "nmstate",
+          "src": "nmstate_1.6.0_linux_386/bin/nmstate"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "nmstate/nmstate/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^nmstate version 1.6.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "nmstate",
+      "repo_name": "nmstate",
+      "asset": "nmstate_1.6.0_linux_arm.tar.gz",
+      "checksum": "0c7e034384126e0f4912dc0d6c9803cb58648d2c680346bc2418e917cabde0fc",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "nmstate",
+          "src": "nmstate_1.6.0_linux_arm/bin/nmstate"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "nmstate/nmstate/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^nmstate version 1.6.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "nmstate",
+      "repo_name": "nmstate",
+      "asset": "nmstate_1.6.0_macOS_amd64.zip",
+      "checksum": "b3b9a7b32ce3ac9ccdef2f37947ba1f823227c218eb57aa7c6b181cf341fa2cc",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "nmstate",
+          "src": "nmstate_1.6.0_macOS_amd64/bin/nmstate"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "nmstate/nmstate/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^nmstate version 1.6.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "nmstate",
+      "repo_name": "nmstate",
+      "asset": "nmstate_1.6.0_macOS_arm64.zip",
+      "checksum": "9caca23255c3194f68f065cbf351bfe1caa54242d5f864688f075481436310b5",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "nmstate",
+          "src": "nmstate_1.6.0_macOS_arm64/bin/nmstate"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "nmstate/nmstate/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^nmstate version 1.6.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "nmstate",
+      "repo_name": "nmstate",
+      "asset": "nmstate_1.6.0_windows_amd64.zip",
+      "checksum": "e94a23b893a61fa2600527e5facc641e3ed1ea8ee11144e5976097defaab1882",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "nmstate",
+          "src": "nmstate_1.6.0_windows_amd64/bin/nmstate.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "nmstate/nmstate/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^nmstate version 1.6.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "nmstate",
+      "repo_name": "nmstate",
+      "asset": "nmstate_1.6.0_windows_arm64.zip",
+      "checksum": "a910f5f9ca086378b688928d7bd8d0bcda5224c922391f987c0888fd4094d4eb",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "nmstate",
+          "src": "nmstate_1.6.0_windows_arm64/bin/nmstate.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "nmstate/nmstate/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^nmstate version 1.6.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "nmstate",
+      "repo_name": "nmstate",
+      "asset": "nmstate_1.6.0_windows_386.zip",
+      "checksum": "faa2884768f686c5ffb68268c65a0630edc1645f814ccd6d8bd674d0083d612a",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "nmstate",
+          "src": "nmstate_1.6.0_windows_386/bin/nmstate.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "nmstate/nmstate/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^nmstate version 1.6.0"
+      }
+    }
+  ]
+}
