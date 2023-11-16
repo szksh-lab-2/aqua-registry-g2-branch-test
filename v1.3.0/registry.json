@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "lima-vm/lima",
+  "version": "v1.3.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "lima-vm",
+      "repo_name": "lima",
+      "asset": "lima_1.3.0_linux_amd64.tar.gz",
+      "checksum": "16ec27f586f09295644f442454e287ddf7a6303da013fe7bc54ab9aa4b147c45",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "lima",
+          "src": "lima_1.3.0_linux_amd64/bin/lima"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "lima-vm/lima/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^lima version 1.3.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "lima-vm",
+      "repo_name": "lima",
+      "asset": "lima_1.3.0_linux_arm64.tar.gz",
+      "checksum": "85171adc056395ed888b304c40c690f8ca50c31f2cc14703d9bda3ea4c3511a9",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "lima",
+          "src": "lima_1.3.0_linux_arm64/bin/lima"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "lima-vm/lima/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^lima version 1.3.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "lima-vm",
+      "repo_name": "lima",
+      "asset": "lima_1.3.0_linux_386.tar.gz",
+      "checksum": "bd6618abde3873d455b663435429c8fdc37b84762fbd3c259d1b934f9d8aea3f",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "lima",
+          "src": "lima_1.3.0_linux_386/bin/lima"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "lima-vm/lima/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^lima version 1.3.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "lima-vm",
+      "repo_name": "lima",
+      "asset": "lima_1.3.0_linux_arm.tar.gz",
+      "checksum": "5d48cda33f9d513c0e89d39db8ae9f3e86ff74d466e5afb0f814ff42cab86ed1",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "lima",
+          "src": "lima_1.3.0_linux_arm/bin/lima"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "lima-vm/lima/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^lima version 1.3.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "lima-vm",
+      "repo_name": "lima",
+      "asset": "lima_1.3.0_macOS_amd64.zip",
+      "checksum": "0745ad6af09b6924956fb64d9446fa4888c9b409dd71148d1f78851eb90e5175",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "lima",
+          "src": "lima_1.3.0_macOS_amd64/bin/lima"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "lima-vm/lima/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^lima version 1.3.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "lima-vm",
+      "repo_name": "lima",
+      "asset": "lima_1.3.0_macOS_arm64.zip",
+      "checksum": "faa9a57080f841b56879fa1ca87b59e8cd45af2ba04ce7bb0f76300f9a2a3da3",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "lima",
+          "src": "lima_1.3.0_macOS_arm64/bin/lima"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "lima-vm/lima/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^lima version 1.3.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "lima-vm",
+      "repo_name": "lima",
+      "asset": "lima_1.3.0_windows_amd64.zip",
+      "checksum": "2658ab45466f91eec471a68c2e1e5ea3ee14a0a137a9ccfcafc3617799750fe4",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "lima",
+          "src": "lima_1.3.0_windows_amd64/bin/lima.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "lima-vm/lima/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^lima version 1.3.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "lima-vm",
+      "repo_name": "lima",
+      "asset": "lima_1.3.0_windows_arm64.zip",
+      "checksum": "444c55a697a8b555d8ebb49f60d55b3ff37d5a5c4719b60ea4e058e0075637b7",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "lima",
+          "src": "lima_1.3.0_windows_arm64/bin/lima.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "lima-vm/lima/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^lima version 1.3.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "lima-vm",
+      "repo_name": "lima",
+      "asset": "lima_1.3.0_windows_386.zip",
+      "checksum": "7b0acbe6e33302d4fabf090d3039bf56f91178f357bba07a9af680da1c5e8754",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "lima",
+          "src": "lima_1.3.0_windows_386/bin/lima.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "lima-vm/lima/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^lima version 1.3.0"
+      }
+    }
+  ]
+}
