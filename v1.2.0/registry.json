@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "bridgecrewio/checkov",
+  "version": "v1.2.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "bridgecrewio",
+      "repo_name": "checkov",
+      "asset": "checkov_1.2.0_linux_amd64.tar.gz",
+      "checksum": "8b289a22aa65bfadf64d9444afa9a8613b5cba71a7ab7169d444d316c19b2f5e",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "checkov",
+          "src": "checkov_1.2.0_linux_amd64/bin/checkov"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "bridgecrewio/checkov/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^checkov version 1.2.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "bridgecrewio",
+      "repo_name": "checkov",
+      "asset": "checkov_1.2.0_linux_arm64.tar.gz",
+      "checksum": "8ea515623828f7652e8435bbeff948a1f893f176134475a51cd7284621411f7e",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "checkov",
+          "src": "checkov_1.2.0_linux_arm64/bin/checkov"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "bridgecrewio/checkov/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^checkov version 1.2.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "bridgecrewio",
+      "repo_name": "checkov",
+      "asset": "checkov_1.2.0_linux_386.tar.gz",
+      "checksum": "eb9959ac5b21441ee1e38fbd10bf86740d7c1c154e0f7331fbcc2c687c1e3c39",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "checkov",
+          "src": "checkov_1.2.0_linux_386/bin/checkov"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "bridgecrewio/checkov/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^checkov version 1.2.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "bridgecrewio",
+      "repo_name": "checkov",
+      "asset": "checkov_1.2.0_linux_arm.tar.gz",
+      "checksum": "f61d7a442f7945362496b28238546eb2eedea1f00d3d00f56f3d0f082ccf7634",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "checkov",
+          "src": "checkov_1.2.0_linux_arm/bin/checkov"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "bridgecrewio/checkov/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^checkov version 1.2.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "bridgecrewio",
+      "repo_name": "checkov",
+      "asset": "checkov_1.2.0_macOS_amd64.zip",
+      "checksum": "87e2aebaf4d647a1ab96af147978d9b9e45b77398e8948c7a2de151d6632e33d",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "checkov",
+          "src": "checkov_1.2.0_macOS_amd64/bin/checkov"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "bridgecrewio/checkov/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^checkov version 1.2.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "bridgecrewio",
+      "repo_name": "checkov",
+      "asset": "checkov_1.2.0_macOS_arm64.zip",
+      "checksum": "0c035eb67138799fb4e1063713ec9de31f79bbf2b187014dfca6127b108f1858",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "checkov",
+          "src": "checkov_1.2.0_macOS_arm64/bin/checkov"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "bridgecrewio/checkov/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^checkov version 1.2.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "bridgecrewio",
+      "repo_name": "checkov",
+      "asset": "checkov_1.2.0_windows_amd64.zip",
+      "checksum": "ca011d4357dca309385c868e7ecb6b8be7467a4de003d0acea18769a20342ab1",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "checkov",
+          "src": "checkov_1.2.0_windows_amd64/bin/checkov.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "bridgecrewio/checkov/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^checkov version 1.2.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "bridgecrewio",
+      "repo_name": "checkov",
+      "asset": "checkov_1.2.0_windows_arm64.zip",
+      "checksum": "f4478dbade424e34cd625f40774d3f6abedfdd1724dd01294e4815c088ed94a1",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "checkov",
+          "src": "checkov_1.2.0_windows_arm64/bin/checkov.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "bridgecrewio/checkov/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^checkov version 1.2.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "bridgecrewio",
+      "repo_name": "checkov",
+      "asset": "checkov_1.2.0_windows_386.zip",
+      "checksum": "876a2aee0513dc898639600ecb0b92143cd83e1e552fa94b4d85ff7dd7affa3d",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "checkov",
+          "src": "checkov_1.2.0_windows_386/bin/checkov.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "bridgecrewio/checkov/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^checkov version 1.2.0"
+      }
+    }
+  ]
+}
