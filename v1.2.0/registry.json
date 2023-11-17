@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "fluxcd/flux2",
+  "version": "v1.2.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "fluxcd",
+      "repo_name": "flux2",
+      "asset": "flux2_1.2.0_linux_amd64.tar.gz",
+      "checksum": "82a9c906d20c136084d078dc8ee17d32f630cea5717607a1b991c7945ff4f848",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "flux2",
+          "src": "flux2_1.2.0_linux_amd64/bin/flux2"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "fluxcd/flux2/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^flux2 version 1.2.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "fluxcd",
+      "repo_name": "flux2",
+      "asset": "flux2_1.2.0_linux_arm64.tar.gz",
+      "checksum": "6fba8e28973d6e4f303dc7f548444a67f944a42752ca6ed160a723792bd7e183",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "flux2",
+          "src": "flux2_1.2.0_linux_arm64/bin/flux2"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "fluxcd/flux2/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^flux2 version 1.2.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "fluxcd",
+      "repo_name": "flux2",
+      "asset": "flux2_1.2.0_linux_386.tar.gz",
+      "checksum": "43df0ac0673582480dc9087a99b457469d90b2c12f235a2a4af82414d1ef2d77",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "flux2",
+          "src": "flux2_1.2.0_linux_386/bin/flux2"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "fluxcd/flux2/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^flux2 version 1.2.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "fluxcd",
+      "repo_name": "flux2",
+      "asset": "flux2_1.2.0_linux_arm.tar.gz",
+      "checksum": "56514dcacab4f4e5ed857a48fcd21d8723ca317f2fbce7ddcc1d58bfa8cae1b3",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "flux2",
+          "src": "flux2_1.2.0_linux_arm/bin/flux2"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "fluxcd/flux2/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^flux2 version 1.2.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "fluxcd",
+      "repo_name": "flux2",
+      "asset": "flux2_1.2.0_macOS_amd64.zip",
+      "checksum": "24caadd42ee5077c9173df3319d5a89f4c1d447e47eadca6d1a55a32c0c44e84",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "flux2",
+          "src": "flux2_1.2.0_macOS_amd64/bin/flux2"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "fluxcd/flux2/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^flux2 version 1.2.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "fluxcd",
+      "repo_name": "flux2",
+      "asset": "flux2_1.2.0_macOS_arm64.zip",
+      "checksum": "45893d8e6a08a9f92a7a8b572d9cfe4243f8cbb5b4c111c1ab05be1e50fbe309",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "flux2",
+          "src": "flux2_1.2.0_macOS_arm64/bin/flux2"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "fluxcd/flux2/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^flux2 version 1.2.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "fluxcd",
+      "repo_name": "flux2",
+      "asset": "flux2_1.2.0_windows_amd64.zip",
+      "checksum": "d08070d55b3d0d60802fff3def1fe68f7d93e168b3f271997cfd1c47beb657a1",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "flux2",
+          "src": "flux2_1.2.0_windows_amd64/bin/flux2.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "fluxcd/flux2/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^flux2 version 1.2.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "fluxcd",
+      "repo_name": "flux2",
+      "asset": "flux2_1.2.0_windows_arm64.zip",
+      "checksum": "8b35e027365fdfe953908e8ee8e16b62f2a9f2d9f10d2407bab2b5ae6c5565a8",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "flux2",
+          "src": "flux2_1.2.0_windows_arm64/bin/flux2.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "fluxcd/flux2/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^flux2 version 1.2.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "fluxcd",
+      "repo_name": "flux2",
+      "asset": "flux2_1.2.0_windows_386.zip",
+      "checksum": "c381e30be12aec9660c2606a76c75ca33da8928ff91eded5b1f2c67542e14b83",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "flux2",
+          "src": "flux2_1.2.0_windows_386/bin/flux2.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "fluxcd/flux2/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^flux2 version 1.2.0"
+      }
+    }
+  ]
+}
