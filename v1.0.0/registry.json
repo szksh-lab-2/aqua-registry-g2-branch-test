@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "anchore/grype",
+  "version": "v1.0.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "anchore",
+      "repo_name": "grype",
+      "asset": "grype_1.0.0_linux_amd64.tar.gz",
+      "checksum": "bf2164ced63d7c008922881b12793b3457a7623d5306b6992c17f46bbdde6f39",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "grype",
+          "src": "grype_1.0.0_linux_amd64/bin/grype"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "anchore/grype/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^grype version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "anchore",
+      "repo_name": "grype",
+      "asset": "grype_1.0.0_linux_arm64.tar.gz",
+      "checksum": "8b92bfd4aac38539d4c126ba199792c74ef0d06af06d8f3c0d7978867f0f2402",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "grype",
+          "src": "grype_1.0.0_linux_arm64/bin/grype"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "anchore/grype/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^grype version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "anchore",
+      "repo_name": "grype",
+      "asset": "grype_1.0.0_linux_386.tar.gz",
+      "checksum": "e9d732a81499d2489dbd4e96444eab7eac9f188670bc65c735a430a492555fe8",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "grype",
+          "src": "grype_1.0.0_linux_386/bin/grype"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "anchore/grype/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^grype version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "anchore",
+      "repo_name": "grype",
+      "asset": "grype_1.0.0_linux_arm.tar.gz",
+      "checksum": "79b11ef9171e2cb30b072170c0a078f815e12e4f4cdbcd140af14e5426192eed",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "grype",
+          "src": "grype_1.0.0_linux_arm/bin/grype"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "anchore/grype/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^grype version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "anchore",
+      "repo_name": "grype",
+      "asset": "grype_1.0.0_macOS_amd64.zip",
+      "checksum": "1e32b3163138892215746ed310ebb6e92902171e508e795f0283b9dcb20edb20",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "grype",
+          "src": "grype_1.0.0_macOS_amd64/bin/grype"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "anchore/grype/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^grype version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "anchore",
+      "repo_name": "grype",
+      "asset": "grype_1.0.0_macOS_arm64.zip",
+      "checksum": "38a66971655a3991b1bf6587583ef26cac7ef660e404bbf9948c671abc9b961a",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "grype",
+          "src": "grype_1.0.0_macOS_arm64/bin/grype"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "anchore/grype/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^grype version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "anchore",
+      "repo_name": "grype",
+      "asset": "grype_1.0.0_windows_amd64.zip",
+      "checksum": "6b2798ca3f923b1c339f8b1ec8c28c5f6fff8aad9b620107fc6eccbf77cc9f86",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "grype",
+          "src": "grype_1.0.0_windows_amd64/bin/grype.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "anchore/grype/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^grype version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "anchore",
+      "repo_name": "grype",
+      "asset": "grype_1.0.0_windows_arm64.zip",
+      "checksum": "b3d7b8687d846e2a0982b35a96a62de0bcc103d6326aec510022e7fdb9fd8690",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "grype",
+          "src": "grype_1.0.0_windows_arm64/bin/grype.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "anchore/grype/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^grype version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "anchore",
+      "repo_name": "grype",
+      "asset": "grype_1.0.0_windows_386.zip",
+      "checksum": "f20692e97ec44f23bbef38157355837f04bc89d61c31104a4223f6f5b7655936",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "grype",
+          "src": "grype_1.0.0_windows_386/bin/grype.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "anchore/grype/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^grype version 1.0.0"
+      }
+    }
+  ]
+}
