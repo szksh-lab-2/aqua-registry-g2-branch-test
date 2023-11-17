@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "reproducible-containers/diffoci",
+  "version": "v1.1.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "reproducible-containers",
+      "repo_name": "diffoci",
+      "asset": "diffoci_1.1.0_linux_amd64.tar.gz",
+      "checksum": "ff30343836c409c65e78c6b11232a29ef0d97866f5e51885a02049084349b0d8",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "diffoci",
+          "src": "diffoci_1.1.0_linux_amd64/bin/diffoci"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "reproducible-containers/diffoci/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^diffoci version 1.1.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "reproducible-containers",
+      "repo_name": "diffoci",
+      "asset": "diffoci_1.1.0_linux_arm64.tar.gz",
+      "checksum": "85a4748ee138aa4a57c68fca5a9dc0968ff00f98c11dc79b9a6ea85d2ab2eb8c",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "diffoci",
+          "src": "diffoci_1.1.0_linux_arm64/bin/diffoci"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "reproducible-containers/diffoci/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^diffoci version 1.1.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "reproducible-containers",
+      "repo_name": "diffoci",
+      "asset": "diffoci_1.1.0_linux_386.tar.gz",
+      "checksum": "93b48a05e7df142db72f0944be5176dee81e7f1347664d2c7b1a165a53a522de",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "diffoci",
+          "src": "diffoci_1.1.0_linux_386/bin/diffoci"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "reproducible-containers/diffoci/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^diffoci version 1.1.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "reproducible-containers",
+      "repo_name": "diffoci",
+      "asset": "diffoci_1.1.0_linux_arm.tar.gz",
+      "checksum": "91fbcc96bdddbf83d71e991b0771d850a4e1d1c76fe747c693395785c64109a0",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "diffoci",
+          "src": "diffoci_1.1.0_linux_arm/bin/diffoci"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "reproducible-containers/diffoci/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^diffoci version 1.1.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "reproducible-containers",
+      "repo_name": "diffoci",
+      "asset": "diffoci_1.1.0_macOS_amd64.zip",
+      "checksum": "b99ca03c1f57a07842d8f3ddfc65c21ddbc45a2e7f83c068c424e16ed797c260",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "diffoci",
+          "src": "diffoci_1.1.0_macOS_amd64/bin/diffoci"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "reproducible-containers/diffoci/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^diffoci version 1.1.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "reproducible-containers",
+      "repo_name": "diffoci",
+      "asset": "diffoci_1.1.0_macOS_arm64.zip",
+      "checksum": "8d1d8a42ec39a912964b0aeb9af8a12c12c174eef1883397183ba01ae8e5c4d6",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "diffoci",
+          "src": "diffoci_1.1.0_macOS_arm64/bin/diffoci"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "reproducible-containers/diffoci/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^diffoci version 1.1.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "reproducible-containers",
+      "repo_name": "diffoci",
+      "asset": "diffoci_1.1.0_windows_amd64.zip",
+      "checksum": "f38494ceb00d0b04f845c645d8985a00fd1a4ab95a24802325f65c04ba5e48fa",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "diffoci",
+          "src": "diffoci_1.1.0_windows_amd64/bin/diffoci.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "reproducible-containers/diffoci/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^diffoci version 1.1.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "reproducible-containers",
+      "repo_name": "diffoci",
+      "asset": "diffoci_1.1.0_windows_arm64.zip",
+      "checksum": "d27dd4732039b61fbc9cbfa950f382d3819ab0320147bde66b761519c7dc4636",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "diffoci",
+          "src": "diffoci_1.1.0_windows_arm64/bin/diffoci.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "reproducible-containers/diffoci/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^diffoci version 1.1.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "reproducible-containers",
+      "repo_name": "diffoci",
+      "asset": "diffoci_1.1.0_windows_386.zip",
+      "checksum": "dd0736941400a487c2fc583652fd12c194cfdeb7aa4d945c8b0e8f954910b623",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "diffoci",
+          "src": "diffoci_1.1.0_windows_386/bin/diffoci.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "reproducible-containers/diffoci/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^diffoci version 1.1.0"
+      }
+    }
+  ]
+}
