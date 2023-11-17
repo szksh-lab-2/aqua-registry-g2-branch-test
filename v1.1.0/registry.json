@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "compose/transporter",
+  "version": "v1.1.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "compose",
+      "repo_name": "transporter",
+      "asset": "transporter_1.1.0_linux_amd64.tar.gz",
+      "checksum": "3e8c05217145fcebd4ce8556f86282bd6f6685df3a5088f52b5511297cef68bd",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "transporter",
+          "src": "transporter_1.1.0_linux_amd64/bin/transporter"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "compose/transporter/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^transporter version 1.1.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "compose",
+      "repo_name": "transporter",
+      "asset": "transporter_1.1.0_linux_arm64.tar.gz",
+      "checksum": "ce093ba75257a8c6e1fdebd629e1e644c2b1cf8828f46ccd0806c5e2897d3d5f",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "transporter",
+          "src": "transporter_1.1.0_linux_arm64/bin/transporter"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "compose/transporter/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^transporter version 1.1.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "compose",
+      "repo_name": "transporter",
+      "asset": "transporter_1.1.0_linux_386.tar.gz",
+      "checksum": "81a78ed21ce8537a45039c5d27248c965308336f13a7dc58e30a7b07313ce3a2",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "transporter",
+          "src": "transporter_1.1.0_linux_386/bin/transporter"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "compose/transporter/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^transporter version 1.1.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "compose",
+      "repo_name": "transporter",
+      "asset": "transporter_1.1.0_linux_arm.tar.gz",
+      "checksum": "46bf0242a7f191da75036fc8310ad645d05a066e4912c53c909f8a7574045d47",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "transporter",
+          "src": "transporter_1.1.0_linux_arm/bin/transporter"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "compose/transporter/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^transporter version 1.1.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "compose",
+      "repo_name": "transporter",
+      "asset": "transporter_1.1.0_macOS_amd64.zip",
+      "checksum": "6586e3cce6a70765f945798ad7cc77ec541eb81a657ca883741384b36ccb235c",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "transporter",
+          "src": "transporter_1.1.0_macOS_amd64/bin/transporter"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "compose/transporter/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^transporter version 1.1.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "compose",
+      "repo_name": "transporter",
+      "asset": "transporter_1.1.0_macOS_arm64.zip",
+      "checksum": "be788e63f3e7707aa25a50540150406ffbb52a2c444b428c77fefeab42c351a0",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "transporter",
+          "src": "transporter_1.1.0_macOS_arm64/bin/transporter"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "compose/transporter/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^transporter version 1.1.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "compose",
+      "repo_name": "transporter",
+      "asset": "transporter_1.1.0_windows_amd64.zip",
+      "checksum": "d7ee56d58192402bff37b9deac8a14d42751a0ce3de1d52839194180335ec801",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "transporter",
+          "src": "transporter_1.1.0_windows_amd64/bin/transporter.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "compose/transporter/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^transporter version 1.1.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "compose",
+      "repo_name": "transporter",
+      "asset": "transporter_1.1.0_windows_arm64.zip",
+      "checksum": "1f0dd68e2ba70a45e198433d66f94094b84af44c3db97ecbd8c5f2a51cc4a080",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "transporter",
+          "src": "transporter_1.1.0_windows_arm64/bin/transporter.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "compose/transporter/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^transporter version 1.1.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "compose",
+      "repo_name": "transporter",
+      "asset": "transporter_1.1.0_windows_386.zip",
+      "checksum": "b10732b5133137b7a1b9286eaff3e7667b9237f9315ef5e40401a8a9be91e20d",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "transporter",
+          "src": "transporter_1.1.0_windows_386/bin/transporter.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "compose/transporter/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^transporter version 1.1.0"
+      }
+    }
+  ]
+}
