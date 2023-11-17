@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "anchore/syft",
+  "version": "v1.0.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "anchore",
+      "repo_name": "syft",
+      "asset": "syft_1.0.0_linux_amd64.tar.gz",
+      "checksum": "9ebab0d504b4706ef3a0fa93486065fb61a757d7b1fbd8e78449f5cdf9f69f56",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "syft",
+          "src": "syft_1.0.0_linux_amd64/bin/syft"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "anchore/syft/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^syft version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "anchore",
+      "repo_name": "syft",
+      "asset": "syft_1.0.0_linux_arm64.tar.gz",
+      "checksum": "4d7a4f66fd7ce82df32d8fc56661eb84c7c5eae67fcefd481a190af5bfaa7f3a",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "syft",
+          "src": "syft_1.0.0_linux_arm64/bin/syft"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "anchore/syft/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^syft version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "anchore",
+      "repo_name": "syft",
+      "asset": "syft_1.0.0_linux_386.tar.gz",
+      "checksum": "601d3ddccaff3bc07ffaa2669d8d82a0cd52cb13618f7e1bbdc09037f1d7665b",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "syft",
+          "src": "syft_1.0.0_linux_386/bin/syft"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "anchore/syft/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^syft version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "anchore",
+      "repo_name": "syft",
+      "asset": "syft_1.0.0_linux_arm.tar.gz",
+      "checksum": "8f588562f74a4434d8c0c7af867c0cef25e1039e0b3f1677ba5d70e24cc0a021",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "syft",
+          "src": "syft_1.0.0_linux_arm/bin/syft"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "anchore/syft/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^syft version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "anchore",
+      "repo_name": "syft",
+      "asset": "syft_1.0.0_macOS_amd64.zip",
+      "checksum": "e7a981060917327d9d09e1811a1df9eb4f6dcd3df6bd3de2f4b15dd719759667",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "syft",
+          "src": "syft_1.0.0_macOS_amd64/bin/syft"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "anchore/syft/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^syft version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "anchore",
+      "repo_name": "syft",
+      "asset": "syft_1.0.0_macOS_arm64.zip",
+      "checksum": "57a7241e097c27a5764e3601381d9252dd5e131dc5601d36d6319cdf066a3f7d",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "syft",
+          "src": "syft_1.0.0_macOS_arm64/bin/syft"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "anchore/syft/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^syft version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "anchore",
+      "repo_name": "syft",
+      "asset": "syft_1.0.0_windows_amd64.zip",
+      "checksum": "dbebe3a7f00b74b5f6c00647b2f70a26f641775d9c13568f80d776c28b753e74",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "syft",
+          "src": "syft_1.0.0_windows_amd64/bin/syft.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "anchore/syft/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^syft version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "anchore",
+      "repo_name": "syft",
+      "asset": "syft_1.0.0_windows_arm64.zip",
+      "checksum": "05cd8ee8224e4199c61de426dc08b269f7c248a7695ae7a6b9d496f412cf4131",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "syft",
+          "src": "syft_1.0.0_windows_arm64/bin/syft.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "anchore/syft/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^syft version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "anchore",
+      "repo_name": "syft",
+      "asset": "syft_1.0.0_windows_386.zip",
+      "checksum": "3fd646f6289e1b036876f7f2598f2b8fa0456cc56c41027d05ce746861f307dd",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "syft",
+          "src": "syft_1.0.0_windows_386/bin/syft.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "anchore/syft/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^syft version 1.0.0"
+      }
+    }
+  ]
+}
