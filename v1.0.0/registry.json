@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "cli/cli",
+  "version": "v1.0.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "cli",
+      "repo_name": "cli",
+      "asset": "cli_1.0.0_linux_amd64.tar.gz",
+      "checksum": "cc78ba95e47ff702dff0af9109ac27c365ebbcdf8ab646d8955195d055685bd0",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "cli",
+          "src": "cli_1.0.0_linux_amd64/bin/cli"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "cli/cli/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cli version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "cli",
+      "repo_name": "cli",
+      "asset": "cli_1.0.0_linux_arm64.tar.gz",
+      "checksum": "202aeb9b18e4f42176f9b335eb346fd0d3cb9c6373f976751bbb31539464b5b0",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "cli",
+          "src": "cli_1.0.0_linux_arm64/bin/cli"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "cli/cli/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cli version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "cli",
+      "repo_name": "cli",
+      "asset": "cli_1.0.0_linux_386.tar.gz",
+      "checksum": "67c4c9b88c6729de50e559c73e7371d5d75887e6483e92fbc811062ed515e101",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "cli",
+          "src": "cli_1.0.0_linux_386/bin/cli"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "cli/cli/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cli version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "cli",
+      "repo_name": "cli",
+      "asset": "cli_1.0.0_linux_arm.tar.gz",
+      "checksum": "177701bda4cdcda7cb315b3118eb477b20c82af23e5a068603637770a5158512",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "cli",
+          "src": "cli_1.0.0_linux_arm/bin/cli"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "cli/cli/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cli version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "cli",
+      "repo_name": "cli",
+      "asset": "cli_1.0.0_macOS_amd64.zip",
+      "checksum": "104c481f3abd4b7ba19da78830f7cd3e25b5b2fc9ad0aa477858508302bbff45",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "cli",
+          "src": "cli_1.0.0_macOS_amd64/bin/cli"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "cli/cli/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cli version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "cli",
+      "repo_name": "cli",
+      "asset": "cli_1.0.0_macOS_arm64.zip",
+      "checksum": "27036e423a5dfc6d1aebe36c3102e93accd4a92dcaf99b664c0fe364733326a6",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "cli",
+          "src": "cli_1.0.0_macOS_arm64/bin/cli"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "cli/cli/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cli version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "cli",
+      "repo_name": "cli",
+      "asset": "cli_1.0.0_windows_amd64.zip",
+      "checksum": "1f6d47e2e27539c84c0c6fcac646f1084e21c0eb4494734bcffab55471b7faf9",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "cli",
+          "src": "cli_1.0.0_windows_amd64/bin/cli.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "cli/cli/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cli version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "cli",
+      "repo_name": "cli",
+      "asset": "cli_1.0.0_windows_arm64.zip",
+      "checksum": "74a51da1a9246c1e4e65fd6ca95285dcca8c0a25131e301ed5706319d27b3ad0",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "cli",
+          "src": "cli_1.0.0_windows_arm64/bin/cli.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "cli/cli/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cli version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "cli",
+      "repo_name": "cli",
+      "asset": "cli_1.0.0_windows_386.zip",
+      "checksum": "a85b8ca72d4bf66f6a76f69983a6d6b9561723ae497f6ecc7beba3b663cb7ab6",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "cli",
+          "src": "cli_1.0.0_windows_386/bin/cli.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "cli/cli/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cli version 1.0.0"
+      }
+    }
+  ]
+}
