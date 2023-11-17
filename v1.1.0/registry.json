@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "minio/mc",
+  "version": "v1.1.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "minio",
+      "repo_name": "mc",
+      "asset": "mc_1.1.0_linux_amd64.tar.gz",
+      "checksum": "09a6a31dc3be1f29d73d5c3a7e9c92ca1892ebd8e2c236b409966ccb0071046e",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "mc",
+          "src": "mc_1.1.0_linux_amd64/bin/mc"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "minio/mc/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^mc version 1.1.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "minio",
+      "repo_name": "mc",
+      "asset": "mc_1.1.0_linux_arm64.tar.gz",
+      "checksum": "1b806e5dba1e2beed7ff799886cef11fbf6647f33469adfc2f66461321a6e438",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "mc",
+          "src": "mc_1.1.0_linux_arm64/bin/mc"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "minio/mc/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^mc version 1.1.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "minio",
+      "repo_name": "mc",
+      "asset": "mc_1.1.0_linux_386.tar.gz",
+      "checksum": "bfeb706563a050b6a543d8f4dc992f821440cce5cc20adfc06ad079b8f88229a",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "mc",
+          "src": "mc_1.1.0_linux_386/bin/mc"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "minio/mc/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^mc version 1.1.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "minio",
+      "repo_name": "mc",
+      "asset": "mc_1.1.0_linux_arm.tar.gz",
+      "checksum": "196fe09ecdf816753e8198901c8da1f06bcff1d84ece891ca2af32e0fafb9a19",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "mc",
+          "src": "mc_1.1.0_linux_arm/bin/mc"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "minio/mc/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^mc version 1.1.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "minio",
+      "repo_name": "mc",
+      "asset": "mc_1.1.0_macOS_amd64.zip",
+      "checksum": "4360f669ef604fc9c87fb1d1dcd983bad77929e217f9164dee60179a028aa5f2",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "mc",
+          "src": "mc_1.1.0_macOS_amd64/bin/mc"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "minio/mc/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^mc version 1.1.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "minio",
+      "repo_name": "mc",
+      "asset": "mc_1.1.0_macOS_arm64.zip",
+      "checksum": "7f75cef23d084872b2fc6099556f2ad248dccbbf4cd6cb0e8db73bf3adaafa1b",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "mc",
+          "src": "mc_1.1.0_macOS_arm64/bin/mc"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "minio/mc/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^mc version 1.1.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "minio",
+      "repo_name": "mc",
+      "asset": "mc_1.1.0_windows_amd64.zip",
+      "checksum": "ae38d6132f1ff00478a578298033671e211052315e4ff8ed0023ff4302f08084",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "mc",
+          "src": "mc_1.1.0_windows_amd64/bin/mc.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "minio/mc/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^mc version 1.1.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "minio",
+      "repo_name": "mc",
+      "asset": "mc_1.1.0_windows_arm64.zip",
+      "checksum": "08cd61a71909ac9c62baa005848f360370ad429dfa971635cdee0a1c8957380e",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "mc",
+          "src": "mc_1.1.0_windows_arm64/bin/mc.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "minio/mc/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^mc version 1.1.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "minio",
+      "repo_name": "mc",
+      "asset": "mc_1.1.0_windows_386.zip",
+      "checksum": "ca3906c555c0a7c172cdf69e68ec43b49b4a94631b2cb818d75262241d21f0b8",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "mc",
+          "src": "mc_1.1.0_windows_386/bin/mc.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "minio/mc/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^mc version 1.1.0"
+      }
+    }
+  ]
+}
