@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "kubernetes-retired/kubefed",
+  "version": "v1.9.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "kubernetes-retired",
+      "repo_name": "kubefed",
+      "asset": "kubefed_1.9.0_linux_amd64.tar.gz",
+      "checksum": "a95829cdcdf260b102667953be52e000cd894af1d25dc885240bcf337ab8459a",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "kubefed",
+          "src": "kubefed_1.9.0_linux_amd64/bin/kubefed"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes-retired/kubefed/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kubefed version 1.9.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "kubernetes-retired",
+      "repo_name": "kubefed",
+      "asset": "kubefed_1.9.0_linux_arm64.tar.gz",
+      "checksum": "44a4e98f1283a580095b4322a2e377ab552a2d1b71c3ab54dce9c0a15bb2eadd",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "kubefed",
+          "src": "kubefed_1.9.0_linux_arm64/bin/kubefed"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes-retired/kubefed/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kubefed version 1.9.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "kubernetes-retired",
+      "repo_name": "kubefed",
+      "asset": "kubefed_1.9.0_linux_386.tar.gz",
+      "checksum": "3ae40daa0aab92f83d1abe67aa5eccd812e3756351be7fa1047ea412bc9b28ee",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "kubefed",
+          "src": "kubefed_1.9.0_linux_386/bin/kubefed"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes-retired/kubefed/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kubefed version 1.9.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "kubernetes-retired",
+      "repo_name": "kubefed",
+      "asset": "kubefed_1.9.0_linux_arm.tar.gz",
+      "checksum": "d4622544155614ed15f88f2354b8677d2f91646cffae52cc299a935bc68a8066",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "kubefed",
+          "src": "kubefed_1.9.0_linux_arm/bin/kubefed"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes-retired/kubefed/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kubefed version 1.9.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "kubernetes-retired",
+      "repo_name": "kubefed",
+      "asset": "kubefed_1.9.0_macOS_amd64.zip",
+      "checksum": "104b33cfbe62146221078d9dd754899dd8c2dcfd6454f1f17bd94f9d05a932ee",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kubefed",
+          "src": "kubefed_1.9.0_macOS_amd64/bin/kubefed"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes-retired/kubefed/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kubefed version 1.9.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "kubernetes-retired",
+      "repo_name": "kubefed",
+      "asset": "kubefed_1.9.0_macOS_arm64.zip",
+      "checksum": "f9346c8cc4b379cd9302ae6cac4541f7eb526793cb926e3a7c89261fc70f3561",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kubefed",
+          "src": "kubefed_1.9.0_macOS_arm64/bin/kubefed"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes-retired/kubefed/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kubefed version 1.9.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "kubernetes-retired",
+      "repo_name": "kubefed",
+      "asset": "kubefed_1.9.0_windows_amd64.zip",
+      "checksum": "6100734bcd6081c0f0136546db269725e32382915f6478aeb980fa60b1666732",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kubefed",
+          "src": "kubefed_1.9.0_windows_amd64/bin/kubefed.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes-retired/kubefed/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kubefed version 1.9.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "kubernetes-retired",
+      "repo_name": "kubefed",
+      "asset": "kubefed_1.9.0_windows_arm64.zip",
+      "checksum": "9b99a0fb6381ba5d2da5f67eb8925bb0de15e08ed88be75e909d6541392f972f",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kubefed",
+          "src": "kubefed_1.9.0_windows_arm64/bin/kubefed.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes-retired/kubefed/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kubefed version 1.9.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "kubernetes-retired",
+      "repo_name": "kubefed",
+      "asset": "kubefed_1.9.0_windows_386.zip",
+      "checksum": "7d196760c975d289c3a30456ba03013876a4c6ca31c77ab6ecb2d1c0a7186cae",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kubefed",
+          "src": "kubefed_1.9.0_windows_386/bin/kubefed.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes-retired/kubefed/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kubefed version 1.9.0"
+      }
+    }
+  ]
+}
