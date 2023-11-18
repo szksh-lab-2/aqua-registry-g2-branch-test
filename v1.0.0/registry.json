@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "crate-ci/committed",
+  "version": "v1.0.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "crate-ci",
+      "repo_name": "committed",
+      "asset": "committed_1.0.0_linux_amd64.tar.gz",
+      "checksum": "036f26eff9500839ed4105e309bdef4499014f42c2a6b4ccb6d6f25c0a12222d",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "committed",
+          "src": "committed_1.0.0_linux_amd64/bin/committed"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "crate-ci/committed/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^committed version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "crate-ci",
+      "repo_name": "committed",
+      "asset": "committed_1.0.0_linux_arm64.tar.gz",
+      "checksum": "e348903a6c556dbf689cf8434cee86d54d4baa17f69c4354f6fda696d6c14bc5",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "committed",
+          "src": "committed_1.0.0_linux_arm64/bin/committed"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "crate-ci/committed/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^committed version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "crate-ci",
+      "repo_name": "committed",
+      "asset": "committed_1.0.0_linux_386.tar.gz",
+      "checksum": "fecc088f41132229f447914e2df90563b201be1ad2245bd18481c1dacec63bd9",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "committed",
+          "src": "committed_1.0.0_linux_386/bin/committed"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "crate-ci/committed/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^committed version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "crate-ci",
+      "repo_name": "committed",
+      "asset": "committed_1.0.0_linux_arm.tar.gz",
+      "checksum": "650ebc2a843bf3b98f4fda7adc04678d3f83eedf452ccf1c7800f5cede4f6c72",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "committed",
+          "src": "committed_1.0.0_linux_arm/bin/committed"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "crate-ci/committed/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^committed version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "crate-ci",
+      "repo_name": "committed",
+      "asset": "committed_1.0.0_macOS_amd64.zip",
+      "checksum": "b956c4c5133d2d7f5e7062259b2d1d672d560c3c63719abcf40a1e0d3c27bcb6",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "committed",
+          "src": "committed_1.0.0_macOS_amd64/bin/committed"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "crate-ci/committed/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^committed version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "crate-ci",
+      "repo_name": "committed",
+      "asset": "committed_1.0.0_macOS_arm64.zip",
+      "checksum": "059d26f898e46a6194bdadf21fdd6f02975f0b536e4ae03bc55b18568e557221",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "committed",
+          "src": "committed_1.0.0_macOS_arm64/bin/committed"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "crate-ci/committed/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^committed version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "crate-ci",
+      "repo_name": "committed",
+      "asset": "committed_1.0.0_windows_amd64.zip",
+      "checksum": "3514eeb9044e136c23b1281ee1990c39e81599dc889258c87f8776f46c728c92",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "committed",
+          "src": "committed_1.0.0_windows_amd64/bin/committed.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "crate-ci/committed/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^committed version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "crate-ci",
+      "repo_name": "committed",
+      "asset": "committed_1.0.0_windows_arm64.zip",
+      "checksum": "e5133dd936df94895219a1283840f83c57609c8e94ec8fcb929eb947df19a59d",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "committed",
+          "src": "committed_1.0.0_windows_arm64/bin/committed.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "crate-ci/committed/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^committed version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "crate-ci",
+      "repo_name": "committed",
+      "asset": "committed_1.0.0_windows_386.zip",
+      "checksum": "f976417d20141b230b8b7f3a5a88fe31b027cedd06b966fe2f0088c3594a7f28",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "committed",
+          "src": "committed_1.0.0_windows_386/bin/committed.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "crate-ci/committed/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^committed version 1.0.0"
+      }
+    }
+  ]
+}
