@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "square/certigo",
+  "version": "v1.0.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "square",
+      "repo_name": "certigo",
+      "asset": "certigo_1.0.0_linux_amd64.tar.gz",
+      "checksum": "afce4060fe318127add8a9e03d083c9e57d87864c623ba651cb5dee113cfcfa4",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "certigo",
+          "src": "certigo_1.0.0_linux_amd64/bin/certigo"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "square/certigo/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^certigo version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "square",
+      "repo_name": "certigo",
+      "asset": "certigo_1.0.0_linux_arm64.tar.gz",
+      "checksum": "8746680c1907afb6f14ba618bd4ff6f84ca7494a24f891794cefa3fa568ffa0f",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "certigo",
+          "src": "certigo_1.0.0_linux_arm64/bin/certigo"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "square/certigo/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^certigo version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "square",
+      "repo_name": "certigo",
+      "asset": "certigo_1.0.0_linux_386.tar.gz",
+      "checksum": "9fdcbd7e596b22db29f91fa5482523e8267d660ffbac7189acfe7d8f712b6f87",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "certigo",
+          "src": "certigo_1.0.0_linux_386/bin/certigo"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "square/certigo/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^certigo version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "square",
+      "repo_name": "certigo",
+      "asset": "certigo_1.0.0_linux_arm.tar.gz",
+      "checksum": "affb1382c49c4a725aafe6541116e4d88cab9975084fb069d33112f52dbee513",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "certigo",
+          "src": "certigo_1.0.0_linux_arm/bin/certigo"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "square/certigo/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^certigo version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "square",
+      "repo_name": "certigo",
+      "asset": "certigo_1.0.0_macOS_amd64.zip",
+      "checksum": "23aed19a027607d4673d5e55b6bb9fbf3e5dfe6c04020336b76633a5b035e508",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "certigo",
+          "src": "certigo_1.0.0_macOS_amd64/bin/certigo"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "square/certigo/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^certigo version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "square",
+      "repo_name": "certigo",
+      "asset": "certigo_1.0.0_macOS_arm64.zip",
+      "checksum": "7a80ecb0a89b530f0bc2da08f9e35e461d38b1a73e0e6d5fec44fdcdde363a26",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "certigo",
+          "src": "certigo_1.0.0_macOS_arm64/bin/certigo"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "square/certigo/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^certigo version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "square",
+      "repo_name": "certigo",
+      "asset": "certigo_1.0.0_windows_amd64.zip",
+      "checksum": "d2895461cc68b24de97251de7c150d6b071935878dbfde962a8fe41334feab35",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "certigo",
+          "src": "certigo_1.0.0_windows_amd64/bin/certigo.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "square/certigo/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^certigo version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "square",
+      "repo_name": "certigo",
+      "asset": "certigo_1.0.0_windows_arm64.zip",
+      "checksum": "a3070224cc01426129e1b96274f410a350cae6ba332a0662c7b1015f70dbf9ef",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "certigo",
+          "src": "certigo_1.0.0_windows_arm64/bin/certigo.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "square/certigo/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^certigo version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "square",
+      "repo_name": "certigo",
+      "asset": "certigo_1.0.0_windows_386.zip",
+      "checksum": "67e603f49310695e0b9447fcdb4120ef55e9e259b5ae0a99bedfff55f84e3aed",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "certigo",
+          "src": "certigo_1.0.0_windows_386/bin/certigo.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "square/certigo/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^certigo version 1.0.0"
+      }
+    }
+  ]
+}
