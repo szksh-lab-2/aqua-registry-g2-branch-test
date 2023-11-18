@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "containerd/nerdctl",
+  "version": "v1.6.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "containerd",
+      "repo_name": "nerdctl",
+      "asset": "nerdctl_1.6.0_linux_amd64.tar.gz",
+      "checksum": "be28861351705cf1069d4150071211f79ac6689e20b4092e5e13e2ee9c0f5512",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "nerdctl",
+          "src": "nerdctl_1.6.0_linux_amd64/bin/nerdctl"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "containerd/nerdctl/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^nerdctl version 1.6.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "containerd",
+      "repo_name": "nerdctl",
+      "asset": "nerdctl_1.6.0_linux_arm64.tar.gz",
+      "checksum": "84cccbde0ec7f8b0f370eaf82514d89217af075831141bae17aebe2bfd5c95ee",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "nerdctl",
+          "src": "nerdctl_1.6.0_linux_arm64/bin/nerdctl"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "containerd/nerdctl/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^nerdctl version 1.6.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "containerd",
+      "repo_name": "nerdctl",
+      "asset": "nerdctl_1.6.0_linux_386.tar.gz",
+      "checksum": "74909229f79469fb9a1ff1dd0c2e94355006b3a4cdb946a8afca8b684b0978ac",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "nerdctl",
+          "src": "nerdctl_1.6.0_linux_386/bin/nerdctl"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "containerd/nerdctl/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^nerdctl version 1.6.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "containerd",
+      "repo_name": "nerdctl",
+      "asset": "nerdctl_1.6.0_linux_arm.tar.gz",
+      "checksum": "0b9a0dac061c0fae1e58119b6edcb23ca5af4ed0ec655a7f093d96c030f2501f",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "nerdctl",
+          "src": "nerdctl_1.6.0_linux_arm/bin/nerdctl"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "containerd/nerdctl/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^nerdctl version 1.6.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "containerd",
+      "repo_name": "nerdctl",
+      "asset": "nerdctl_1.6.0_macOS_amd64.zip",
+      "checksum": "ebf854d228638ceab377f6020dfc857173f24f8c3bdb60a4595ab5d83ed23fe0",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "nerdctl",
+          "src": "nerdctl_1.6.0_macOS_amd64/bin/nerdctl"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "containerd/nerdctl/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^nerdctl version 1.6.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "containerd",
+      "repo_name": "nerdctl",
+      "asset": "nerdctl_1.6.0_macOS_arm64.zip",
+      "checksum": "f816a15224cd7112aa03d35fbfc63746588a6a6f31c41ea3cd39b88885163604",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "nerdctl",
+          "src": "nerdctl_1.6.0_macOS_arm64/bin/nerdctl"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "containerd/nerdctl/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^nerdctl version 1.6.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "containerd",
+      "repo_name": "nerdctl",
+      "asset": "nerdctl_1.6.0_windows_amd64.zip",
+      "checksum": "d9927f8817a85f342e318f7c63629387a26f2361dfcdd7e71a1e18482b009235",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "nerdctl",
+          "src": "nerdctl_1.6.0_windows_amd64/bin/nerdctl.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "containerd/nerdctl/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^nerdctl version 1.6.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "containerd",
+      "repo_name": "nerdctl",
+      "asset": "nerdctl_1.6.0_windows_arm64.zip",
+      "checksum": "d77428ae200df08448e1e90a689b8ebfb60b40a4b196b311ea8ad4c9f557c9a5",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "nerdctl",
+          "src": "nerdctl_1.6.0_windows_arm64/bin/nerdctl.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "containerd/nerdctl/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^nerdctl version 1.6.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "containerd",
+      "repo_name": "nerdctl",
+      "asset": "nerdctl_1.6.0_windows_386.zip",
+      "checksum": "a8c6ee8ab5f354bb1a2118a7e4a6a77180769cd2fadc6a26a7aa506b2e4ec4f6",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "nerdctl",
+          "src": "nerdctl_1.6.0_windows_386/bin/nerdctl.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "containerd/nerdctl/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^nerdctl version 1.6.0"
+      }
+    }
+  ]
+}
