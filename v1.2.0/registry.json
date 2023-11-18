@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "cri-o/cri-o",
+  "version": "v1.2.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "cri-o",
+      "repo_name": "cri-o",
+      "asset": "cri-o_1.2.0_linux_amd64.tar.gz",
+      "checksum": "cc48eefadab74d468b69412d533792c1e70a317f18fba277749c1113e6bd0c0c",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "cri-o",
+          "src": "cri-o_1.2.0_linux_amd64/bin/cri-o"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "cri-o/cri-o/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cri-o version 1.2.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "cri-o",
+      "repo_name": "cri-o",
+      "asset": "cri-o_1.2.0_linux_arm64.tar.gz",
+      "checksum": "e5a039771e8b4d8306b457b6a8f9fc078ef21ec86875cfa1f270100fc0f60798",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "cri-o",
+          "src": "cri-o_1.2.0_linux_arm64/bin/cri-o"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "cri-o/cri-o/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cri-o version 1.2.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "cri-o",
+      "repo_name": "cri-o",
+      "asset": "cri-o_1.2.0_linux_386.tar.gz",
+      "checksum": "51d324ef5b213da3423836471fcc334b99dcd3a529d30d9e07d4765820469c06",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "cri-o",
+          "src": "cri-o_1.2.0_linux_386/bin/cri-o"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "cri-o/cri-o/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cri-o version 1.2.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "cri-o",
+      "repo_name": "cri-o",
+      "asset": "cri-o_1.2.0_linux_arm.tar.gz",
+      "checksum": "485dea42704e5b2f63bbdc90d049f88a3f99592096ce687deae01390567d46d1",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "cri-o",
+          "src": "cri-o_1.2.0_linux_arm/bin/cri-o"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "cri-o/cri-o/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cri-o version 1.2.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "cri-o",
+      "repo_name": "cri-o",
+      "asset": "cri-o_1.2.0_macOS_amd64.zip",
+      "checksum": "687da70c45cccd87826c58e589a34c432c0d18e6789fa631141981c4b4877b23",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "cri-o",
+          "src": "cri-o_1.2.0_macOS_amd64/bin/cri-o"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "cri-o/cri-o/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cri-o version 1.2.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "cri-o",
+      "repo_name": "cri-o",
+      "asset": "cri-o_1.2.0_macOS_arm64.zip",
+      "checksum": "11e9c4f53a36a916b4840dbad53be8db543c4bbe1f863e03a4933712b3c25441",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "cri-o",
+          "src": "cri-o_1.2.0_macOS_arm64/bin/cri-o"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "cri-o/cri-o/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cri-o version 1.2.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "cri-o",
+      "repo_name": "cri-o",
+      "asset": "cri-o_1.2.0_windows_amd64.zip",
+      "checksum": "35ea19a86aa9c2a6a1f1af8826b67c05913b5f75bddf7529c87bb619c865e7e7",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "cri-o",
+          "src": "cri-o_1.2.0_windows_amd64/bin/cri-o.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "cri-o/cri-o/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cri-o version 1.2.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "cri-o",
+      "repo_name": "cri-o",
+      "asset": "cri-o_1.2.0_windows_arm64.zip",
+      "checksum": "868eabd1214cbe521b4d8d82ca85a7c689c4f6e536a4ea1eafb99594436bf19a",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "cri-o",
+          "src": "cri-o_1.2.0_windows_arm64/bin/cri-o.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "cri-o/cri-o/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cri-o version 1.2.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "cri-o",
+      "repo_name": "cri-o",
+      "asset": "cri-o_1.2.0_windows_386.zip",
+      "checksum": "9ce13fdbb12c1e645baa9070c51b4e00d61e7047eddfc80fafb65380af0752e7",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "cri-o",
+          "src": "cri-o_1.2.0_windows_386/bin/cri-o.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "cri-o/cri-o/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cri-o version 1.2.0"
+      }
+    }
+  ]
+}
