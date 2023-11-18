@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "knative/client",
+  "version": "v1.3.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "knative",
+      "repo_name": "client",
+      "asset": "client_1.3.0_linux_amd64.tar.gz",
+      "checksum": "e5694ce4ca693022b70984256698075af0aabacc350e726124ef8e7192cc7e31",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "client",
+          "src": "client_1.3.0_linux_amd64/bin/client"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "knative/client/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^client version 1.3.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "knative",
+      "repo_name": "client",
+      "asset": "client_1.3.0_linux_arm64.tar.gz",
+      "checksum": "9e8ef8e3f4ae0b19cae7210e4179f4d7d463bf504f9615891fb668264e514827",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "client",
+          "src": "client_1.3.0_linux_arm64/bin/client"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "knative/client/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^client version 1.3.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "knative",
+      "repo_name": "client",
+      "asset": "client_1.3.0_linux_386.tar.gz",
+      "checksum": "9877d2c45c453352d0d83ebb1fce3ccab3d495b137025bf9ca47f971580732fe",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "client",
+          "src": "client_1.3.0_linux_386/bin/client"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "knative/client/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^client version 1.3.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "knative",
+      "repo_name": "client",
+      "asset": "client_1.3.0_linux_arm.tar.gz",
+      "checksum": "75b83d5af6abf25eef3eac40b3fca29ee2b95d613e04cd6d170434d9422ef514",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "client",
+          "src": "client_1.3.0_linux_arm/bin/client"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "knative/client/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^client version 1.3.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "knative",
+      "repo_name": "client",
+      "asset": "client_1.3.0_macOS_amd64.zip",
+      "checksum": "8231de3f57b67df878b191d3d8397c368c3c0d0fb93513e971fc099b9cc85d8f",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "client",
+          "src": "client_1.3.0_macOS_amd64/bin/client"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "knative/client/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^client version 1.3.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "knative",
+      "repo_name": "client",
+      "asset": "client_1.3.0_macOS_arm64.zip",
+      "checksum": "7c2f77417e100d3e89e4c5342e00f7450c20cb0fcfaf415c71412687f09c5c79",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "client",
+          "src": "client_1.3.0_macOS_arm64/bin/client"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "knative/client/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^client version 1.3.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "knative",
+      "repo_name": "client",
+      "asset": "client_1.3.0_windows_amd64.zip",
+      "checksum": "aef55da13063a46cb44cdd7425967b9868c6292693f78f003ecb882615832470",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "client",
+          "src": "client_1.3.0_windows_amd64/bin/client.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "knative/client/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^client version 1.3.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "knative",
+      "repo_name": "client",
+      "asset": "client_1.3.0_windows_arm64.zip",
+      "checksum": "167f994b0b3c392aca716b818c8d1d5e7b18bd44ce40ad54f1cbc169c642a6bd",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "client",
+          "src": "client_1.3.0_windows_arm64/bin/client.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "knative/client/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^client version 1.3.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "knative",
+      "repo_name": "client",
+      "asset": "client_1.3.0_windows_386.zip",
+      "checksum": "06af2027c99ad6f788149559ba8419830de3d4168e7064fc065d1725c1e8db99",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "client",
+          "src": "client_1.3.0_windows_386/bin/client.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "knative/client/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^client version 1.3.0"
+      }
+    }
+  ]
+}
