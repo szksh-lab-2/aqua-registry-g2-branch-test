@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "magefile/mage",
+  "version": "v1.3.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "magefile",
+      "repo_name": "mage",
+      "asset": "mage_1.3.0_linux_amd64.tar.gz",
+      "checksum": "8a18c8a986895064136526a0f5a2e8f41b03dd6d27f30e348d0c5efe6ecac526",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "mage",
+          "src": "mage_1.3.0_linux_amd64/bin/mage"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "magefile/mage/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^mage version 1.3.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "magefile",
+      "repo_name": "mage",
+      "asset": "mage_1.3.0_linux_arm64.tar.gz",
+      "checksum": "b3194fd3fd1a95c59320e535cdc9c516605f202acc3363f010495b6b9b30114f",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "mage",
+          "src": "mage_1.3.0_linux_arm64/bin/mage"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "magefile/mage/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^mage version 1.3.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "magefile",
+      "repo_name": "mage",
+      "asset": "mage_1.3.0_linux_386.tar.gz",
+      "checksum": "239eec67da7687b518522aba9ba40aff4430b976958cb71fbdd87adb59522da7",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "mage",
+          "src": "mage_1.3.0_linux_386/bin/mage"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "magefile/mage/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^mage version 1.3.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "magefile",
+      "repo_name": "mage",
+      "asset": "mage_1.3.0_linux_arm.tar.gz",
+      "checksum": "699925d1da6d74be49467254bddfbbed52f81685e4ef53ebc81c90c54f5cbc9a",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "mage",
+          "src": "mage_1.3.0_linux_arm/bin/mage"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "magefile/mage/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^mage version 1.3.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "magefile",
+      "repo_name": "mage",
+      "asset": "mage_1.3.0_macOS_amd64.zip",
+      "checksum": "58fe1d5050f061b78f76cfb2b149386a298dc1384a3b27e59ce3b9db9bb0d500",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "mage",
+          "src": "mage_1.3.0_macOS_amd64/bin/mage"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "magefile/mage/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^mage version 1.3.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "magefile",
+      "repo_name": "mage",
+      "asset": "mage_1.3.0_macOS_arm64.zip",
+      "checksum": "977bd015fe7253135819a94095216dc7aca3ff87d198d70043e01582a9b922c0",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "mage",
+          "src": "mage_1.3.0_macOS_arm64/bin/mage"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "magefile/mage/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^mage version 1.3.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "magefile",
+      "repo_name": "mage",
+      "asset": "mage_1.3.0_windows_amd64.zip",
+      "checksum": "84f752acb0ec5bfb696cc97132e2f742c5750f4222fa6e977dad4f5401672a0e",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "mage",
+          "src": "mage_1.3.0_windows_amd64/bin/mage.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "magefile/mage/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^mage version 1.3.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "magefile",
+      "repo_name": "mage",
+      "asset": "mage_1.3.0_windows_arm64.zip",
+      "checksum": "73815afdb6720f7fe0cb964fd62ff6a50bc373709b3208295b77644d7f5438e3",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "mage",
+          "src": "mage_1.3.0_windows_arm64/bin/mage.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "magefile/mage/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^mage version 1.3.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "magefile",
+      "repo_name": "mage",
+      "asset": "mage_1.3.0_windows_386.zip",
+      "checksum": "a28c6c767f3c9d201de91348dcf067933f78f1c8feb03e9e4561a96b75180af8",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "mage",
+          "src": "mage_1.3.0_windows_386/bin/mage.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "magefile/mage/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^mage version 1.3.0"
+      }
+    }
+  ]
+}
