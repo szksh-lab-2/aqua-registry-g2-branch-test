@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "linkerd/linkerd2",
+  "version": "v1.9.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "linkerd",
+      "repo_name": "linkerd2",
+      "asset": "linkerd2_1.9.0_linux_amd64.tar.gz",
+      "checksum": "e59031264e426eaf4274463ada93827592be48a0722facabb83f5fcb78b7dfc6",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "linkerd2",
+          "src": "linkerd2_1.9.0_linux_amd64/bin/linkerd2"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "linkerd/linkerd2/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^linkerd2 version 1.9.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "linkerd",
+      "repo_name": "linkerd2",
+      "asset": "linkerd2_1.9.0_linux_arm64.tar.gz",
+      "checksum": "7ee4a64c9a095c2682a03378fdcee441ad6cf1862d17b6943fedfcd4c05fa024",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "linkerd2",
+          "src": "linkerd2_1.9.0_linux_arm64/bin/linkerd2"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "linkerd/linkerd2/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^linkerd2 version 1.9.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "linkerd",
+      "repo_name": "linkerd2",
+      "asset": "linkerd2_1.9.0_linux_386.tar.gz",
+      "checksum": "b4c553c357997d671fecdfbe227e5a7843d88de3b6e45093e2ac6dfd8214fba3",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "linkerd2",
+          "src": "linkerd2_1.9.0_linux_386/bin/linkerd2"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "linkerd/linkerd2/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^linkerd2 version 1.9.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "linkerd",
+      "repo_name": "linkerd2",
+      "asset": "linkerd2_1.9.0_linux_arm.tar.gz",
+      "checksum": "af01dfe7c143a2d6d302444a2245afbc38b419f68c66301139a22b54125663db",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "linkerd2",
+          "src": "linkerd2_1.9.0_linux_arm/bin/linkerd2"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "linkerd/linkerd2/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^linkerd2 version 1.9.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "linkerd",
+      "repo_name": "linkerd2",
+      "asset": "linkerd2_1.9.0_macOS_amd64.zip",
+      "checksum": "b603b8f09a9ca18dd81b989c958d260be7b641a1366211e6544afac0269d9026",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "linkerd2",
+          "src": "linkerd2_1.9.0_macOS_amd64/bin/linkerd2"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "linkerd/linkerd2/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^linkerd2 version 1.9.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "linkerd",
+      "repo_name": "linkerd2",
+      "asset": "linkerd2_1.9.0_macOS_arm64.zip",
+      "checksum": "2152c04af4d43ebdf0bd1ba861ceeba352399c016ceb74987e6831c0f186bee1",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "linkerd2",
+          "src": "linkerd2_1.9.0_macOS_arm64/bin/linkerd2"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "linkerd/linkerd2/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^linkerd2 version 1.9.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "linkerd",
+      "repo_name": "linkerd2",
+      "asset": "linkerd2_1.9.0_windows_amd64.zip",
+      "checksum": "8c9bfffd5e9530d1276d740a31fa45520664d6c0ec6f0983167feefc5882a1f6",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "linkerd2",
+          "src": "linkerd2_1.9.0_windows_amd64/bin/linkerd2.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "linkerd/linkerd2/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^linkerd2 version 1.9.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "linkerd",
+      "repo_name": "linkerd2",
+      "asset": "linkerd2_1.9.0_windows_arm64.zip",
+      "checksum": "1f3447c093c6839149cbcabd927a53d3c9aeb6fc62ec0bdaa7f4a5e766d313d2",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "linkerd2",
+          "src": "linkerd2_1.9.0_windows_arm64/bin/linkerd2.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "linkerd/linkerd2/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^linkerd2 version 1.9.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "linkerd",
+      "repo_name": "linkerd2",
+      "asset": "linkerd2_1.9.0_windows_386.zip",
+      "checksum": "73a6ca63eaaa7ddb5b5de822988b76d1f0956f6b339e5fd619cc1b88285393eb",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "linkerd2",
+          "src": "linkerd2_1.9.0_windows_386/bin/linkerd2.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "linkerd/linkerd2/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^linkerd2 version 1.9.0"
+      }
+    }
+  ]
+}
