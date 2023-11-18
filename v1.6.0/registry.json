@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "containerd/containerd",
+  "version": "v1.6.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "containerd",
+      "repo_name": "containerd",
+      "asset": "containerd_1.6.0_linux_amd64.tar.gz",
+      "checksum": "7aba785f2eabcc8a8899937bba4967f78ed4b442ef06780c889603281db74ebc",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "containerd",
+          "src": "containerd_1.6.0_linux_amd64/bin/containerd"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "containerd/containerd/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^containerd version 1.6.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "containerd",
+      "repo_name": "containerd",
+      "asset": "containerd_1.6.0_linux_arm64.tar.gz",
+      "checksum": "289a973cd221a91231bb8cd3231cc7abf4c91c012f5376f08c82a134bf32c0f2",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "containerd",
+          "src": "containerd_1.6.0_linux_arm64/bin/containerd"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "containerd/containerd/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^containerd version 1.6.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "containerd",
+      "repo_name": "containerd",
+      "asset": "containerd_1.6.0_linux_386.tar.gz",
+      "checksum": "2f98f7afc1fd1ce89ee9d5f92202b8e43b6d00f020842b914181c9ee4568c5ce",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "containerd",
+          "src": "containerd_1.6.0_linux_386/bin/containerd"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "containerd/containerd/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^containerd version 1.6.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "containerd",
+      "repo_name": "containerd",
+      "asset": "containerd_1.6.0_linux_arm.tar.gz",
+      "checksum": "3975435a3b3b7272eb04b7705a2b1fad870375723ab8074eac7c6e8f9d37d3c1",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "containerd",
+          "src": "containerd_1.6.0_linux_arm/bin/containerd"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "containerd/containerd/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^containerd version 1.6.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "containerd",
+      "repo_name": "containerd",
+      "asset": "containerd_1.6.0_macOS_amd64.zip",
+      "checksum": "775503f8a4303626207b39a7197b2dd24db393c0ebfb657675a312e480873da2",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "containerd",
+          "src": "containerd_1.6.0_macOS_amd64/bin/containerd"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "containerd/containerd/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^containerd version 1.6.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "containerd",
+      "repo_name": "containerd",
+      "asset": "containerd_1.6.0_macOS_arm64.zip",
+      "checksum": "d13145e8d0f342eb78c1f0ae4e7f7b9bf720f3d3f0bdbf769da7eea4d5bed5ea",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "containerd",
+          "src": "containerd_1.6.0_macOS_arm64/bin/containerd"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "containerd/containerd/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^containerd version 1.6.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "containerd",
+      "repo_name": "containerd",
+      "asset": "containerd_1.6.0_windows_amd64.zip",
+      "checksum": "deb2cbb070781ac12d6ce2c8d8d250077c29396e6ab1650215c0a284130b56ae",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "containerd",
+          "src": "containerd_1.6.0_windows_amd64/bin/containerd.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "containerd/containerd/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^containerd version 1.6.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "containerd",
+      "repo_name": "containerd",
+      "asset": "containerd_1.6.0_windows_arm64.zip",
+      "checksum": "0822a6c4520d521c87d1f551afcad2452d0524907d41e5782b3dccfb2697f64b",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "containerd",
+          "src": "containerd_1.6.0_windows_arm64/bin/containerd.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "containerd/containerd/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^containerd version 1.6.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "containerd",
+      "repo_name": "containerd",
+      "asset": "containerd_1.6.0_windows_386.zip",
+      "checksum": "c5aa88a563d6e6ba45c610be7b1a45035df6e7d03997d9d52d9001e3f64783d7",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "containerd",
+          "src": "containerd_1.6.0_windows_386/bin/containerd.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "containerd/containerd/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^containerd version 1.6.0"
+      }
+    }
+  ]
+}
