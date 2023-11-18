@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "knative/func",
+  "version": "v1.3.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "knative",
+      "repo_name": "func",
+      "asset": "func_1.3.0_linux_amd64.tar.gz",
+      "checksum": "6d8372f42d30534d2bb3df8c8e730c01f345ba340f353eedf9ab26b80e22cf41",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "func",
+          "src": "func_1.3.0_linux_amd64/bin/func"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "knative/func/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^func version 1.3.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "knative",
+      "repo_name": "func",
+      "asset": "func_1.3.0_linux_arm64.tar.gz",
+      "checksum": "30a1116d7019eba1e8fb0a5390a8ade3288314ac269a99a1f0cce4175cea2768",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "func",
+          "src": "func_1.3.0_linux_arm64/bin/func"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "knative/func/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^func version 1.3.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "knative",
+      "repo_name": "func",
+      "asset": "func_1.3.0_linux_386.tar.gz",
+      "checksum": "7416c25cfe8e57e25f5bde02ef540b5ad8c2a3c5b7873387acf6aaad9be98a14",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "func",
+          "src": "func_1.3.0_linux_386/bin/func"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "knative/func/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^func version 1.3.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "knative",
+      "repo_name": "func",
+      "asset": "func_1.3.0_linux_arm.tar.gz",
+      "checksum": "bbeca1a917ea089cb7ef2f5fa4bf7f81868d036c5f32139e99cddf243775000e",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "func",
+          "src": "func_1.3.0_linux_arm/bin/func"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "knative/func/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^func version 1.3.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "knative",
+      "repo_name": "func",
+      "asset": "func_1.3.0_macOS_amd64.zip",
+      "checksum": "9182c5f3e8134cde39944f764b09d3aa2d69d0fae7f0b5e33441f7d8115688cb",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "func",
+          "src": "func_1.3.0_macOS_amd64/bin/func"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "knative/func/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^func version 1.3.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "knative",
+      "repo_name": "func",
+      "asset": "func_1.3.0_macOS_arm64.zip",
+      "checksum": "dfba6f4c4eb0c34bec352e755324778c7b0238b5aeb3aca0fe0a76c5e68f5888",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "func",
+          "src": "func_1.3.0_macOS_arm64/bin/func"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "knative/func/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^func version 1.3.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "knative",
+      "repo_name": "func",
+      "asset": "func_1.3.0_windows_amd64.zip",
+      "checksum": "7c5a01f4d1b21bc97a080e7763848ab8505fbfd6410c8578f4007b2472a11752",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "func",
+          "src": "func_1.3.0_windows_amd64/bin/func.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "knative/func/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^func version 1.3.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "knative",
+      "repo_name": "func",
+      "asset": "func_1.3.0_windows_arm64.zip",
+      "checksum": "0c1d6af31066e0365e9601e1b67863f02f4c8370b6087081b74f1e0ca6316268",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "func",
+          "src": "func_1.3.0_windows_arm64/bin/func.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "knative/func/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^func version 1.3.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "knative",
+      "repo_name": "func",
+      "asset": "func_1.3.0_windows_386.zip",
+      "checksum": "880f7d07adcec1130d1ada8d6fc26472a76add3f95f42f9c93779e3a6940e018",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "func",
+          "src": "func_1.3.0_windows_386/bin/func.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "knative/func/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^func version 1.3.0"
+      }
+    }
+  ]
+}
