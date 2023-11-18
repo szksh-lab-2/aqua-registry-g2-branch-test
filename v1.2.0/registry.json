@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "ninja-build/ninja",
+  "version": "v1.2.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "ninja-build",
+      "repo_name": "ninja",
+      "asset": "ninja_1.2.0_linux_amd64.tar.gz",
+      "checksum": "5c82344190f523e412b2332b199b6fa6d193ed35203e857c108ea54252c83591",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "ninja",
+          "src": "ninja_1.2.0_linux_amd64/bin/ninja"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "ninja-build/ninja/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^ninja version 1.2.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "ninja-build",
+      "repo_name": "ninja",
+      "asset": "ninja_1.2.0_linux_arm64.tar.gz",
+      "checksum": "78acaca0217eac7962779b6f84acd07c147e7390a8759857f918aefc991dda4f",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "ninja",
+          "src": "ninja_1.2.0_linux_arm64/bin/ninja"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "ninja-build/ninja/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^ninja version 1.2.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "ninja-build",
+      "repo_name": "ninja",
+      "asset": "ninja_1.2.0_linux_386.tar.gz",
+      "checksum": "cd5668187a48f427ede3bd254e1469bd543bbdd92c75d83f1e4dd406b130f999",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "ninja",
+          "src": "ninja_1.2.0_linux_386/bin/ninja"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "ninja-build/ninja/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^ninja version 1.2.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "ninja-build",
+      "repo_name": "ninja",
+      "asset": "ninja_1.2.0_linux_arm.tar.gz",
+      "checksum": "e4c51da87ae670e3b11fd69aec224264327ab704ccc5856e821f8618b290e361",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "ninja",
+          "src": "ninja_1.2.0_linux_arm/bin/ninja"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "ninja-build/ninja/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^ninja version 1.2.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "ninja-build",
+      "repo_name": "ninja",
+      "asset": "ninja_1.2.0_macOS_amd64.zip",
+      "checksum": "1507138bdfc3ae073ca6cc77cd7a8a6231840c4418db179d351ac579d23cb8e2",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "ninja",
+          "src": "ninja_1.2.0_macOS_amd64/bin/ninja"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "ninja-build/ninja/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^ninja version 1.2.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "ninja-build",
+      "repo_name": "ninja",
+      "asset": "ninja_1.2.0_macOS_arm64.zip",
+      "checksum": "eb78199630c7671e038ace50bee83d4cef6b0e18a50f46754f4f5695e93f15c9",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "ninja",
+          "src": "ninja_1.2.0_macOS_arm64/bin/ninja"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "ninja-build/ninja/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^ninja version 1.2.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "ninja-build",
+      "repo_name": "ninja",
+      "asset": "ninja_1.2.0_windows_amd64.zip",
+      "checksum": "de99abeb5de7775afa546a890bc4b472fb4d0aa167a22dc1ffb68ebfe56efef4",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "ninja",
+          "src": "ninja_1.2.0_windows_amd64/bin/ninja.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "ninja-build/ninja/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^ninja version 1.2.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "ninja-build",
+      "repo_name": "ninja",
+      "asset": "ninja_1.2.0_windows_arm64.zip",
+      "checksum": "24b7f2350b6be22a03717d93d03619c9171b4638c88734a1ec721251c90448dc",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "ninja",
+          "src": "ninja_1.2.0_windows_arm64/bin/ninja.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "ninja-build/ninja/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^ninja version 1.2.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "ninja-build",
+      "repo_name": "ninja",
+      "asset": "ninja_1.2.0_windows_386.zip",
+      "checksum": "c79b965622289074876e26e7c79e10b60bbad19e07de134b5affc487dffdbb2e",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "ninja",
+          "src": "ninja_1.2.0_windows_386/bin/ninja.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "ninja-build/ninja/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^ninja version 1.2.0"
+      }
+    }
+  ]
+}
