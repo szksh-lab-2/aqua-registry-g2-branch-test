@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "redhat.com/openshift-install",
+  "version": "v1.8.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "redhat.com",
+      "repo_name": "openshift-install",
+      "asset": "openshift-install_1.8.0_linux_amd64.tar.gz",
+      "checksum": "beb67a9c36c279f42ddb72a65d7c0f825486910e59fd70fe01e015c044be72b5",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "openshift-install",
+          "src": "openshift-install_1.8.0_linux_amd64/bin/openshift-install"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "redhat.com/openshift-install/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^openshift-install version 1.8.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "redhat.com",
+      "repo_name": "openshift-install",
+      "asset": "openshift-install_1.8.0_linux_arm64.tar.gz",
+      "checksum": "f273ed864f39cebce047fd9e35c474872fb96911b685fc84ae2e07055afb0ba9",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "openshift-install",
+          "src": "openshift-install_1.8.0_linux_arm64/bin/openshift-install"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "redhat.com/openshift-install/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^openshift-install version 1.8.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "redhat.com",
+      "repo_name": "openshift-install",
+      "asset": "openshift-install_1.8.0_linux_386.tar.gz",
+      "checksum": "ff1e428ea6d089737b9dce7ab2e1de3e46b8e957abccafaf63a3061de83c323a",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "openshift-install",
+          "src": "openshift-install_1.8.0_linux_386/bin/openshift-install"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "redhat.com/openshift-install/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^openshift-install version 1.8.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "redhat.com",
+      "repo_name": "openshift-install",
+      "asset": "openshift-install_1.8.0_linux_arm.tar.gz",
+      "checksum": "4a5efd9c54e79393224db5d48c5b77273b972c0556ced27a0352704d74de1b16",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "openshift-install",
+          "src": "openshift-install_1.8.0_linux_arm/bin/openshift-install"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "redhat.com/openshift-install/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^openshift-install version 1.8.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "redhat.com",
+      "repo_name": "openshift-install",
+      "asset": "openshift-install_1.8.0_macOS_amd64.zip",
+      "checksum": "f1a89318b7b018794efd532d2c71a03d6411156f67b49839138c23fb22923b97",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "openshift-install",
+          "src": "openshift-install_1.8.0_macOS_amd64/bin/openshift-install"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "redhat.com/openshift-install/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^openshift-install version 1.8.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "redhat.com",
+      "repo_name": "openshift-install",
+      "asset": "openshift-install_1.8.0_macOS_arm64.zip",
+      "checksum": "85e1c06b22b53fc3266397ef438806595349a74f82645570de487f363c7c317c",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "openshift-install",
+          "src": "openshift-install_1.8.0_macOS_arm64/bin/openshift-install"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "redhat.com/openshift-install/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^openshift-install version 1.8.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "redhat.com",
+      "repo_name": "openshift-install",
+      "asset": "openshift-install_1.8.0_windows_amd64.zip",
+      "checksum": "d23d4b582a77e0068a54db08e767b8233c64276e03bcb55309a1d9ed62cbb966",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "openshift-install",
+          "src": "openshift-install_1.8.0_windows_amd64/bin/openshift-install.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "redhat.com/openshift-install/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^openshift-install version 1.8.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "redhat.com",
+      "repo_name": "openshift-install",
+      "asset": "openshift-install_1.8.0_windows_arm64.zip",
+      "checksum": "4849d7a2ac6ae2b36543359512de632cadcfc9552ba316bfa2f944e4f4447a04",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "openshift-install",
+          "src": "openshift-install_1.8.0_windows_arm64/bin/openshift-install.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "redhat.com/openshift-install/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^openshift-install version 1.8.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "redhat.com",
+      "repo_name": "openshift-install",
+      "asset": "openshift-install_1.8.0_windows_386.zip",
+      "checksum": "47b17c815cecbe87bb4eb0fd52e2a00d01e5a596107c0945d7ad0b32b35e171c",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "openshift-install",
+          "src": "openshift-install_1.8.0_windows_386/bin/openshift-install.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "redhat.com/openshift-install/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^openshift-install version 1.8.0"
+      }
+    }
+  ]
+}
