@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "grafana/flint",
+  "version": "v1.2.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "grafana",
+      "repo_name": "flint",
+      "asset": "flint_1.2.0_linux_amd64.tar.gz",
+      "checksum": "d990ffcc8360db1e3919245d9d5f346ee6e22b654905778e0489429855eca965",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "flint",
+          "src": "flint_1.2.0_linux_amd64/bin/flint"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "grafana/flint/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^flint version 1.2.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "grafana",
+      "repo_name": "flint",
+      "asset": "flint_1.2.0_linux_arm64.tar.gz",
+      "checksum": "1f085c7ca92f37509a24373abbb539de366aff5b4acd75429e722dd9240f120e",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "flint",
+          "src": "flint_1.2.0_linux_arm64/bin/flint"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "grafana/flint/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^flint version 1.2.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "grafana",
+      "repo_name": "flint",
+      "asset": "flint_1.2.0_linux_386.tar.gz",
+      "checksum": "d045162080f52d55b1d4d044f52d9f02dd21607dc6d40e9c13e4aeb96815f94f",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "flint",
+          "src": "flint_1.2.0_linux_386/bin/flint"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "grafana/flint/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^flint version 1.2.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "grafana",
+      "repo_name": "flint",
+      "asset": "flint_1.2.0_linux_arm.tar.gz",
+      "checksum": "3c0c0f141e7c813f23b0461a03aa6778b3246281b036bcf2c0094d3b3fb845c1",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "flint",
+          "src": "flint_1.2.0_linux_arm/bin/flint"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "grafana/flint/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^flint version 1.2.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "grafana",
+      "repo_name": "flint",
+      "asset": "flint_1.2.0_macOS_amd64.zip",
+      "checksum": "aa9221c74a666538e01f26291599bff90bbafa828e5bae85964923d3b42c01cc",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "flint",
+          "src": "flint_1.2.0_macOS_amd64/bin/flint"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "grafana/flint/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^flint version 1.2.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "grafana",
+      "repo_name": "flint",
+      "asset": "flint_1.2.0_macOS_arm64.zip",
+      "checksum": "989a42c9c5a19f295266c24d211b9a6f146ee9fd987c132405ab42a939827941",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "flint",
+          "src": "flint_1.2.0_macOS_arm64/bin/flint"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "grafana/flint/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^flint version 1.2.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "grafana",
+      "repo_name": "flint",
+      "asset": "flint_1.2.0_windows_amd64.zip",
+      "checksum": "9e5adc3b4ed7f7466849034a4cdd208307a592f189eb695ddf12416469f61271",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "flint",
+          "src": "flint_1.2.0_windows_amd64/bin/flint.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "grafana/flint/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^flint version 1.2.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "grafana",
+      "repo_name": "flint",
+      "asset": "flint_1.2.0_windows_arm64.zip",
+      "checksum": "1e438b9b3c50abb7dfefdcdda84d61fb2e2599ca3cf8c84d70e852ffe66980c9",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "flint",
+          "src": "flint_1.2.0_windows_arm64/bin/flint.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "grafana/flint/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^flint version 1.2.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "grafana",
+      "repo_name": "flint",
+      "asset": "flint_1.2.0_windows_386.zip",
+      "checksum": "bd3c490869da0f0a1c5a58362917c051f5f8f06fb549844bd5eb767bfb651647",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "flint",
+          "src": "flint_1.2.0_windows_386/bin/flint.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "grafana/flint/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^flint version 1.2.0"
+      }
+    }
+  ]
+}
