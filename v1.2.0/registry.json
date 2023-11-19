@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "grafana/oats",
+  "version": "v1.2.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "grafana",
+      "repo_name": "oats",
+      "asset": "oats_1.2.0_linux_amd64.tar.gz",
+      "checksum": "1349f9555d7e4240f42fac579d9b052ca1362dff83dc77197339299e8d1212fc",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "oats",
+          "src": "oats_1.2.0_linux_amd64/bin/oats"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "grafana/oats/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^oats version 1.2.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "grafana",
+      "repo_name": "oats",
+      "asset": "oats_1.2.0_linux_arm64.tar.gz",
+      "checksum": "ac996d9da8e55921af172d3c0acf9ce540e1590d9e02216492dccf9eee7c08d0",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "oats",
+          "src": "oats_1.2.0_linux_arm64/bin/oats"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "grafana/oats/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^oats version 1.2.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "grafana",
+      "repo_name": "oats",
+      "asset": "oats_1.2.0_linux_386.tar.gz",
+      "checksum": "cc446152a08fefc47f615c11d1d8d365116eb69b300d541ac11da3b967f20b76",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "oats",
+          "src": "oats_1.2.0_linux_386/bin/oats"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "grafana/oats/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^oats version 1.2.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "grafana",
+      "repo_name": "oats",
+      "asset": "oats_1.2.0_linux_arm.tar.gz",
+      "checksum": "f347b6ee39bb7653111da4ef9403ba4bc0c0a8ab87edc8aacd2e48a78b5b1a9b",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "oats",
+          "src": "oats_1.2.0_linux_arm/bin/oats"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "grafana/oats/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^oats version 1.2.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "grafana",
+      "repo_name": "oats",
+      "asset": "oats_1.2.0_macOS_amd64.zip",
+      "checksum": "4fbbd16b960dbabdbe98d73cf186366185ee41068eeb3c4ff98901bf9e928dc4",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "oats",
+          "src": "oats_1.2.0_macOS_amd64/bin/oats"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "grafana/oats/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^oats version 1.2.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "grafana",
+      "repo_name": "oats",
+      "asset": "oats_1.2.0_macOS_arm64.zip",
+      "checksum": "ed5956a2e10beaaa82b660331e1e4e41d8fbfb837c76647444361542868a841e",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "oats",
+          "src": "oats_1.2.0_macOS_arm64/bin/oats"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "grafana/oats/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^oats version 1.2.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "grafana",
+      "repo_name": "oats",
+      "asset": "oats_1.2.0_windows_amd64.zip",
+      "checksum": "27cd1fa1e21868c3d15144755b7bb59bb8504ccbbcd1a47cdc4c1d2a090e7124",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "oats",
+          "src": "oats_1.2.0_windows_amd64/bin/oats.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "grafana/oats/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^oats version 1.2.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "grafana",
+      "repo_name": "oats",
+      "asset": "oats_1.2.0_windows_arm64.zip",
+      "checksum": "891129fee2ab1d1561646ff1973b55872c5cfe9e6681c19daae7da10015f5df4",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "oats",
+          "src": "oats_1.2.0_windows_arm64/bin/oats.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "grafana/oats/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^oats version 1.2.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "grafana",
+      "repo_name": "oats",
+      "asset": "oats_1.2.0_windows_386.zip",
+      "checksum": "c9bbaa1d6c93a53cfbe90d8769b81c3c90ab142d8ba88656e11b3f0709a7a35c",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "oats",
+          "src": "oats_1.2.0_windows_386/bin/oats.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "grafana/oats/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^oats version 1.2.0"
+      }
+    }
+  ]
+}
