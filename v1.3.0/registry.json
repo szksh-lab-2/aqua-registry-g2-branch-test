@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "gravitational/teleport",
+  "version": "v1.3.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "gravitational",
+      "repo_name": "teleport",
+      "asset": "teleport_1.3.0_linux_amd64.tar.gz",
+      "checksum": "cba4ea207ae04d8cec893ec85c771116bc55f20260830bdebee678c9277a639c",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "teleport",
+          "src": "teleport_1.3.0_linux_amd64/bin/teleport"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "gravitational/teleport/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^teleport version 1.3.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "gravitational",
+      "repo_name": "teleport",
+      "asset": "teleport_1.3.0_linux_arm64.tar.gz",
+      "checksum": "ad129bab29f57210300d6262c61b81451d5119fa6e770217ede7773b36a42c99",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "teleport",
+          "src": "teleport_1.3.0_linux_arm64/bin/teleport"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "gravitational/teleport/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^teleport version 1.3.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "gravitational",
+      "repo_name": "teleport",
+      "asset": "teleport_1.3.0_linux_386.tar.gz",
+      "checksum": "72df9fd1594cfec741192b16094052b43a7ab35ec0bb991f1de0f0fd2a7d9e7a",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "teleport",
+          "src": "teleport_1.3.0_linux_386/bin/teleport"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "gravitational/teleport/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^teleport version 1.3.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "gravitational",
+      "repo_name": "teleport",
+      "asset": "teleport_1.3.0_linux_arm.tar.gz",
+      "checksum": "dbe8b46914818aaaaa60759536d2ad91438e065fe59e32579bac897499ad36ea",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "teleport",
+          "src": "teleport_1.3.0_linux_arm/bin/teleport"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "gravitational/teleport/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^teleport version 1.3.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "gravitational",
+      "repo_name": "teleport",
+      "asset": "teleport_1.3.0_macOS_amd64.zip",
+      "checksum": "ba44b9da5bc7357f6921aed85bf1bf690f73b00f6f998872fe8587c5efb54020",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "teleport",
+          "src": "teleport_1.3.0_macOS_amd64/bin/teleport"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "gravitational/teleport/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^teleport version 1.3.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "gravitational",
+      "repo_name": "teleport",
+      "asset": "teleport_1.3.0_macOS_arm64.zip",
+      "checksum": "b7c0bc4f5a8475ad70f8b4ceb0b1c1e5fbb7f3c6dbc4dff7180460bd38456b9b",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "teleport",
+          "src": "teleport_1.3.0_macOS_arm64/bin/teleport"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "gravitational/teleport/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^teleport version 1.3.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "gravitational",
+      "repo_name": "teleport",
+      "asset": "teleport_1.3.0_windows_amd64.zip",
+      "checksum": "829cb255ff6bd948fe6c5270a251527f8266648cdc83d26eb9c41473a76c9ca4",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "teleport",
+          "src": "teleport_1.3.0_windows_amd64/bin/teleport.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "gravitational/teleport/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^teleport version 1.3.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "gravitational",
+      "repo_name": "teleport",
+      "asset": "teleport_1.3.0_windows_arm64.zip",
+      "checksum": "c1f445c308037d1bdc12c24dce4a934134752a185c54cc8a539ab2c5559e913b",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "teleport",
+          "src": "teleport_1.3.0_windows_arm64/bin/teleport.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "gravitational/teleport/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^teleport version 1.3.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "gravitational",
+      "repo_name": "teleport",
+      "asset": "teleport_1.3.0_windows_386.zip",
+      "checksum": "ff2c66051a3e8fb0bf76af12b75c7a1169f739c300870e067fb8f879ede2ec7b",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "teleport",
+          "src": "teleport_1.3.0_windows_386/bin/teleport.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "gravitational/teleport/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^teleport version 1.3.0"
+      }
+    }
+  ]
+}
