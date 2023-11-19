@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "grafana/k6",
+  "version": "v1.6.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "grafana",
+      "repo_name": "k6",
+      "asset": "k6_1.6.0_linux_amd64.tar.gz",
+      "checksum": "1937cfa07c9f200d273a674d6991c58393b7c756dea7262e1618dd1050025248",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "k6",
+          "src": "k6_1.6.0_linux_amd64/bin/k6"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "grafana/k6/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^k6 version 1.6.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "grafana",
+      "repo_name": "k6",
+      "asset": "k6_1.6.0_linux_arm64.tar.gz",
+      "checksum": "9d66bdd0d8124960a576994b20fc1282c9463ea4dc6943d9269ba0ff60856348",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "k6",
+          "src": "k6_1.6.0_linux_arm64/bin/k6"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "grafana/k6/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^k6 version 1.6.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "grafana",
+      "repo_name": "k6",
+      "asset": "k6_1.6.0_linux_386.tar.gz",
+      "checksum": "a3b6a6ab7404b94237fcea1a6cd2dcbb928f642baadcce8dea6d9f34f0b40845",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "k6",
+          "src": "k6_1.6.0_linux_386/bin/k6"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "grafana/k6/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^k6 version 1.6.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "grafana",
+      "repo_name": "k6",
+      "asset": "k6_1.6.0_linux_arm.tar.gz",
+      "checksum": "bdd0e99c670049ea8170d7bdc46ff8891c407fa5bcbc72954a9363982ca5392a",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "k6",
+          "src": "k6_1.6.0_linux_arm/bin/k6"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "grafana/k6/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^k6 version 1.6.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "grafana",
+      "repo_name": "k6",
+      "asset": "k6_1.6.0_macOS_amd64.zip",
+      "checksum": "425afc4cf1f52b5fa7d35ce9b293dadf29115efa01db45f49729ab330edd6fdb",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "k6",
+          "src": "k6_1.6.0_macOS_amd64/bin/k6"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "grafana/k6/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^k6 version 1.6.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "grafana",
+      "repo_name": "k6",
+      "asset": "k6_1.6.0_macOS_arm64.zip",
+      "checksum": "96c36e6565ad8254d6000af897bbc778e2832af8f8e04f389224fc807e0c08d0",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "k6",
+          "src": "k6_1.6.0_macOS_arm64/bin/k6"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "grafana/k6/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^k6 version 1.6.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "grafana",
+      "repo_name": "k6",
+      "asset": "k6_1.6.0_windows_amd64.zip",
+      "checksum": "b14e40d1b47ed28ee1bc1560b960e3b5b7b83ddbf57b5367a85b80969b32e25d",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "k6",
+          "src": "k6_1.6.0_windows_amd64/bin/k6.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "grafana/k6/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^k6 version 1.6.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "grafana",
+      "repo_name": "k6",
+      "asset": "k6_1.6.0_windows_arm64.zip",
+      "checksum": "dd918d9b26d7bff02f8b84daeb06a99ccc7ddfd1928603b3f692addd1f5b6b4a",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "k6",
+          "src": "k6_1.6.0_windows_arm64/bin/k6.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "grafana/k6/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^k6 version 1.6.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "grafana",
+      "repo_name": "k6",
+      "asset": "k6_1.6.0_windows_386.zip",
+      "checksum": "e3de63545e676869780d4ae5acb8385469d08ba64cbdcca0453c20c8cee1c84f",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "k6",
+          "src": "k6_1.6.0_windows_386/bin/k6.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "grafana/k6/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^k6 version 1.6.0"
+      }
+    }
+  ]
+}
