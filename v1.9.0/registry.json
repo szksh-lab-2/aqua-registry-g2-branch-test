@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "grafana/tanka",
+  "version": "v1.9.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "grafana",
+      "repo_name": "tanka",
+      "asset": "tanka_1.9.0_linux_amd64.tar.gz",
+      "checksum": "70feabfef5a34914f633663dbf43759d4dcf9a8425ade254886939d9906821da",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "tanka",
+          "src": "tanka_1.9.0_linux_amd64/bin/tanka"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "grafana/tanka/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^tanka version 1.9.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "grafana",
+      "repo_name": "tanka",
+      "asset": "tanka_1.9.0_linux_arm64.tar.gz",
+      "checksum": "767015158794096bee7230e9cb72073f74b2b8fab62535adeaa17dfa7af12869",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "tanka",
+          "src": "tanka_1.9.0_linux_arm64/bin/tanka"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "grafana/tanka/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^tanka version 1.9.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "grafana",
+      "repo_name": "tanka",
+      "asset": "tanka_1.9.0_linux_386.tar.gz",
+      "checksum": "bf548c8197f37d81b4bfd7e331944e008d84c45236d479398332a91c15c8f9b1",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "tanka",
+          "src": "tanka_1.9.0_linux_386/bin/tanka"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "grafana/tanka/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^tanka version 1.9.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "grafana",
+      "repo_name": "tanka",
+      "asset": "tanka_1.9.0_linux_arm.tar.gz",
+      "checksum": "3d2f1d2562fcdcd66cbe7ac2cf6716d04cf6a07954ea8d5197c880c89b113c40",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "tanka",
+          "src": "tanka_1.9.0_linux_arm/bin/tanka"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "grafana/tanka/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^tanka version 1.9.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "grafana",
+      "repo_name": "tanka",
+      "asset": "tanka_1.9.0_macOS_amd64.zip",
+      "checksum": "52701886634d30fe38fa3a50d2af4798331974e3d0019b5eb645c8bd219e2192",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "tanka",
+          "src": "tanka_1.9.0_macOS_amd64/bin/tanka"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "grafana/tanka/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^tanka version 1.9.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "grafana",
+      "repo_name": "tanka",
+      "asset": "tanka_1.9.0_macOS_arm64.zip",
+      "checksum": "66db8850d70932ae09b65a59292d16992b581be6087a8c726db9feee58e8cd56",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "tanka",
+          "src": "tanka_1.9.0_macOS_arm64/bin/tanka"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "grafana/tanka/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^tanka version 1.9.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "grafana",
+      "repo_name": "tanka",
+      "asset": "tanka_1.9.0_windows_amd64.zip",
+      "checksum": "eb39fc0daff988f2f374372044753e8d3e1e7e75b4dadbd66a427fb5dd98f7b7",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "tanka",
+          "src": "tanka_1.9.0_windows_amd64/bin/tanka.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "grafana/tanka/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^tanka version 1.9.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "grafana",
+      "repo_name": "tanka",
+      "asset": "tanka_1.9.0_windows_arm64.zip",
+      "checksum": "a9ebeffde9ca15e26dfad63fdfca1a9a329b3c45e2905c82a1f1c32c3ae4861a",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "tanka",
+          "src": "tanka_1.9.0_windows_arm64/bin/tanka.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "grafana/tanka/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^tanka version 1.9.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "grafana",
+      "repo_name": "tanka",
+      "asset": "tanka_1.9.0_windows_386.zip",
+      "checksum": "21ecf836122d72a00834d0bb00635f3b19ae0f03ca7200ac61b1569d0194c24c",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "tanka",
+          "src": "tanka_1.9.0_windows_386/bin/tanka.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "grafana/tanka/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^tanka version 1.9.0"
+      }
+    }
+  ]
+}
