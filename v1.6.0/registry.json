@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "grafana/gcx",
+  "version": "v1.6.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "grafana",
+      "repo_name": "gcx",
+      "asset": "gcx_1.6.0_linux_amd64.tar.gz",
+      "checksum": "44c081e417b7f32d39a6ea7c8ed45ee568b020f84bb7e3d19450140497a25058",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "gcx",
+          "src": "gcx_1.6.0_linux_amd64/bin/gcx"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "grafana/gcx/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^gcx version 1.6.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "grafana",
+      "repo_name": "gcx",
+      "asset": "gcx_1.6.0_linux_arm64.tar.gz",
+      "checksum": "232308310af2c1783c64b6c7b3b0649fcecc37e427deadf7fc497fc549f76d18",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "gcx",
+          "src": "gcx_1.6.0_linux_arm64/bin/gcx"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "grafana/gcx/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^gcx version 1.6.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "grafana",
+      "repo_name": "gcx",
+      "asset": "gcx_1.6.0_linux_386.tar.gz",
+      "checksum": "cb8cb752458e77f895f658b40ad7a967d98cd3c9b484a745d86396d03246b8eb",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "gcx",
+          "src": "gcx_1.6.0_linux_386/bin/gcx"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "grafana/gcx/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^gcx version 1.6.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "grafana",
+      "repo_name": "gcx",
+      "asset": "gcx_1.6.0_linux_arm.tar.gz",
+      "checksum": "2266e621520d0c90d936246f5ba489072f391520989236a319823889d9a55e94",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "gcx",
+          "src": "gcx_1.6.0_linux_arm/bin/gcx"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "grafana/gcx/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^gcx version 1.6.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "grafana",
+      "repo_name": "gcx",
+      "asset": "gcx_1.6.0_macOS_amd64.zip",
+      "checksum": "29279ce74ffebf59279dabb0d67321b36caca1f8156e858031d1610cf8e3d3a7",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "gcx",
+          "src": "gcx_1.6.0_macOS_amd64/bin/gcx"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "grafana/gcx/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^gcx version 1.6.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "grafana",
+      "repo_name": "gcx",
+      "asset": "gcx_1.6.0_macOS_arm64.zip",
+      "checksum": "ddfb8740b03862371aaacb6d8758a8f55d58cb6f9ee167acf87621281d493f73",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "gcx",
+          "src": "gcx_1.6.0_macOS_arm64/bin/gcx"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "grafana/gcx/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^gcx version 1.6.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "grafana",
+      "repo_name": "gcx",
+      "asset": "gcx_1.6.0_windows_amd64.zip",
+      "checksum": "106105ecdac6ead3b11d804f6323c31cf22e711244200418eb11c1ff1869542a",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "gcx",
+          "src": "gcx_1.6.0_windows_amd64/bin/gcx.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "grafana/gcx/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^gcx version 1.6.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "grafana",
+      "repo_name": "gcx",
+      "asset": "gcx_1.6.0_windows_arm64.zip",
+      "checksum": "b141047960d8962cb6e08b19bd2fe8de7548c9afa7eef7a6c4122bae261dd131",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "gcx",
+          "src": "gcx_1.6.0_windows_arm64/bin/gcx.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "grafana/gcx/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^gcx version 1.6.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "grafana",
+      "repo_name": "gcx",
+      "asset": "gcx_1.6.0_windows_386.zip",
+      "checksum": "9eec76178e66fa8fa1c51dc4d150eb65d9e8e534385abe535b4f1e59943be037",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "gcx",
+          "src": "gcx_1.6.0_windows_386/bin/gcx.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "grafana/gcx/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^gcx version 1.6.0"
+      }
+    }
+  ]
+}
