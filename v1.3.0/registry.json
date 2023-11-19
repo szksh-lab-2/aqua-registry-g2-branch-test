@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "nuclio/nuclio",
+  "version": "v1.3.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "nuclio",
+      "repo_name": "nuclio",
+      "asset": "nuclio_1.3.0_linux_amd64.tar.gz",
+      "checksum": "1371a54b925e5cae1183e08310f7e1bfa10547c10cf42edfa102a2685fb75141",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "nuclio",
+          "src": "nuclio_1.3.0_linux_amd64/bin/nuclio"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "nuclio/nuclio/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^nuclio version 1.3.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "nuclio",
+      "repo_name": "nuclio",
+      "asset": "nuclio_1.3.0_linux_arm64.tar.gz",
+      "checksum": "6695085d0a5c097685a454a88c372102aebf579524a7242a258e820af25ae330",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "nuclio",
+          "src": "nuclio_1.3.0_linux_arm64/bin/nuclio"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "nuclio/nuclio/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^nuclio version 1.3.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "nuclio",
+      "repo_name": "nuclio",
+      "asset": "nuclio_1.3.0_linux_386.tar.gz",
+      "checksum": "5ef6e678dd6a2df18c83eb9ed956f500fb38471b6829fafe2b69d7caf847e080",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "nuclio",
+          "src": "nuclio_1.3.0_linux_386/bin/nuclio"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "nuclio/nuclio/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^nuclio version 1.3.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "nuclio",
+      "repo_name": "nuclio",
+      "asset": "nuclio_1.3.0_linux_arm.tar.gz",
+      "checksum": "8679421af75d7136e4210c870c11715e09b23c0dbce1189e06ed60bb850bf95c",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "nuclio",
+          "src": "nuclio_1.3.0_linux_arm/bin/nuclio"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "nuclio/nuclio/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^nuclio version 1.3.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "nuclio",
+      "repo_name": "nuclio",
+      "asset": "nuclio_1.3.0_macOS_amd64.zip",
+      "checksum": "a99bf627f2b5e715e3ba404e6ba90c6cfd973dd7e8f6fabb4bba44647bc09970",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "nuclio",
+          "src": "nuclio_1.3.0_macOS_amd64/bin/nuclio"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "nuclio/nuclio/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^nuclio version 1.3.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "nuclio",
+      "repo_name": "nuclio",
+      "asset": "nuclio_1.3.0_macOS_arm64.zip",
+      "checksum": "661e07439502edfd9ab5f9123f1fe8cc912f07eaa1f8d437a57f70ae14f27ea6",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "nuclio",
+          "src": "nuclio_1.3.0_macOS_arm64/bin/nuclio"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "nuclio/nuclio/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^nuclio version 1.3.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "nuclio",
+      "repo_name": "nuclio",
+      "asset": "nuclio_1.3.0_windows_amd64.zip",
+      "checksum": "cc6bf48a48166dd3b1e57d6b4ce454884e53a7c7761d6e51dae9b14d5cce6581",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "nuclio",
+          "src": "nuclio_1.3.0_windows_amd64/bin/nuclio.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "nuclio/nuclio/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^nuclio version 1.3.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "nuclio",
+      "repo_name": "nuclio",
+      "asset": "nuclio_1.3.0_windows_arm64.zip",
+      "checksum": "7f1cad778206e8259bb31bbb12e3f9d9650f9d0c0cbc31983be70e5642415c61",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "nuclio",
+          "src": "nuclio_1.3.0_windows_arm64/bin/nuclio.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "nuclio/nuclio/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^nuclio version 1.3.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "nuclio",
+      "repo_name": "nuclio",
+      "asset": "nuclio_1.3.0_windows_386.zip",
+      "checksum": "f17d5ed937bf49660276182dee34704dc04ccdb153a1ec0f139389bf387a3ff1",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "nuclio",
+          "src": "nuclio_1.3.0_windows_386/bin/nuclio.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "nuclio/nuclio/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^nuclio version 1.3.0"
+      }
+    }
+  ]
+}
