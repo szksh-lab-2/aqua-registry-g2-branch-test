@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "grafana/alloy",
+  "version": "v1.2.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "grafana",
+      "repo_name": "alloy",
+      "asset": "alloy_1.2.0_linux_amd64.tar.gz",
+      "checksum": "99bbcc3b36c2ac67c5f790f19dcb37ea2cac878ae6bdf75dda00941288920242",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "alloy",
+          "src": "alloy_1.2.0_linux_amd64/bin/alloy"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "grafana/alloy/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^alloy version 1.2.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "grafana",
+      "repo_name": "alloy",
+      "asset": "alloy_1.2.0_linux_arm64.tar.gz",
+      "checksum": "79746787ba34b26d2afd5e98cb2ce3f227363a45891bd425ce58e17db02570cb",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "alloy",
+          "src": "alloy_1.2.0_linux_arm64/bin/alloy"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "grafana/alloy/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^alloy version 1.2.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "grafana",
+      "repo_name": "alloy",
+      "asset": "alloy_1.2.0_linux_386.tar.gz",
+      "checksum": "f9e349d927717c1f028cdc73adaeaf367717022e0f702da398a2b1f2d373690a",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "alloy",
+          "src": "alloy_1.2.0_linux_386/bin/alloy"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "grafana/alloy/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^alloy version 1.2.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "grafana",
+      "repo_name": "alloy",
+      "asset": "alloy_1.2.0_linux_arm.tar.gz",
+      "checksum": "d3a6ed8639ee12fedd8dd70005a19cae395e5c03df70c0eddea95405c8ff5ce1",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "alloy",
+          "src": "alloy_1.2.0_linux_arm/bin/alloy"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "grafana/alloy/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^alloy version 1.2.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "grafana",
+      "repo_name": "alloy",
+      "asset": "alloy_1.2.0_macOS_amd64.zip",
+      "checksum": "7baeb2cb4829f434cbe9f9c0c1819ad572417e7ebd99c34bde86cfdad8689b1d",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "alloy",
+          "src": "alloy_1.2.0_macOS_amd64/bin/alloy"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "grafana/alloy/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^alloy version 1.2.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "grafana",
+      "repo_name": "alloy",
+      "asset": "alloy_1.2.0_macOS_arm64.zip",
+      "checksum": "6de1eddc9d9bc2bae2c80e9293b6875778a39f513884810cda13f8062d6df1b7",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "alloy",
+          "src": "alloy_1.2.0_macOS_arm64/bin/alloy"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "grafana/alloy/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^alloy version 1.2.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "grafana",
+      "repo_name": "alloy",
+      "asset": "alloy_1.2.0_windows_amd64.zip",
+      "checksum": "2ca3b5944916be65abd7e85dcf01252d208d9a6c4174099c86ec10e769a22863",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "alloy",
+          "src": "alloy_1.2.0_windows_amd64/bin/alloy.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "grafana/alloy/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^alloy version 1.2.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "grafana",
+      "repo_name": "alloy",
+      "asset": "alloy_1.2.0_windows_arm64.zip",
+      "checksum": "a4eb5cd59f69bc3eab838a9fde93c4482980cea0f215c58f037cd72f19121a03",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "alloy",
+          "src": "alloy_1.2.0_windows_arm64/bin/alloy.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "grafana/alloy/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^alloy version 1.2.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "grafana",
+      "repo_name": "alloy",
+      "asset": "alloy_1.2.0_windows_386.zip",
+      "checksum": "b607313e32626da38ec59c688d019bc39ddaab09ec403f1199ec84efb08f29f4",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "alloy",
+          "src": "alloy_1.2.0_windows_386/bin/alloy.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "grafana/alloy/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^alloy version 1.2.0"
+      }
+    }
+  ]
+}
