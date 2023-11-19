@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "in-toto/witness",
+  "version": "v1.9.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "in-toto",
+      "repo_name": "witness",
+      "asset": "witness_1.9.0_linux_amd64.tar.gz",
+      "checksum": "c9ee024636531b685a0935bc91ddd78f141d023fb7716a4db13ef28df12e88b0",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "witness",
+          "src": "witness_1.9.0_linux_amd64/bin/witness"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "in-toto/witness/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^witness version 1.9.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "in-toto",
+      "repo_name": "witness",
+      "asset": "witness_1.9.0_linux_arm64.tar.gz",
+      "checksum": "070ebf1b2737daa1e72f4ca70e9bedcabd4aa5acb9fc17a00b15161e34fcabea",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "witness",
+          "src": "witness_1.9.0_linux_arm64/bin/witness"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "in-toto/witness/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^witness version 1.9.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "in-toto",
+      "repo_name": "witness",
+      "asset": "witness_1.9.0_linux_386.tar.gz",
+      "checksum": "8c14abcb3980e9c6763531ee1e10242c42048837e2436d0aea53d5fd5d8f7911",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "witness",
+          "src": "witness_1.9.0_linux_386/bin/witness"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "in-toto/witness/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^witness version 1.9.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "in-toto",
+      "repo_name": "witness",
+      "asset": "witness_1.9.0_linux_arm.tar.gz",
+      "checksum": "4a87510ec4bd8e3b1415ace64ff4e02611740d490b48b4d55cea3433d19795f9",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "witness",
+          "src": "witness_1.9.0_linux_arm/bin/witness"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "in-toto/witness/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^witness version 1.9.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "in-toto",
+      "repo_name": "witness",
+      "asset": "witness_1.9.0_macOS_amd64.zip",
+      "checksum": "b3a91d2a3147e2b936f738b7174c4bd9de333190eb3b22762fb44d10541045be",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "witness",
+          "src": "witness_1.9.0_macOS_amd64/bin/witness"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "in-toto/witness/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^witness version 1.9.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "in-toto",
+      "repo_name": "witness",
+      "asset": "witness_1.9.0_macOS_arm64.zip",
+      "checksum": "3348240c75701a62bb5320a39bb422becf9fb3fbb4f5793043d0fce7c96e2840",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "witness",
+          "src": "witness_1.9.0_macOS_arm64/bin/witness"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "in-toto/witness/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^witness version 1.9.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "in-toto",
+      "repo_name": "witness",
+      "asset": "witness_1.9.0_windows_amd64.zip",
+      "checksum": "3b91a856ad5b30f2440e0ae0fdd0104a20d52d4d7cc9211a87c9372bb36f555e",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "witness",
+          "src": "witness_1.9.0_windows_amd64/bin/witness.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "in-toto/witness/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^witness version 1.9.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "in-toto",
+      "repo_name": "witness",
+      "asset": "witness_1.9.0_windows_arm64.zip",
+      "checksum": "6239c7dbdd6813a7a8ed74c76a1a77a3cbdc7fe85a2999dfd579d3f0ea65a47b",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "witness",
+          "src": "witness_1.9.0_windows_arm64/bin/witness.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "in-toto/witness/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^witness version 1.9.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "in-toto",
+      "repo_name": "witness",
+      "asset": "witness_1.9.0_windows_386.zip",
+      "checksum": "a1981b7ce8756dd000eb37add270531fee28c0cbf9ffff92cecc7819c13c32b7",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "witness",
+          "src": "witness_1.9.0_windows_386/bin/witness.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "in-toto/witness/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^witness version 1.9.0"
+      }
+    }
+  ]
+}
