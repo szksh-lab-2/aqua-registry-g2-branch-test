@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "arttor/helmify",
+  "version": "v1.7.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "arttor",
+      "repo_name": "helmify",
+      "asset": "helmify_1.7.0_linux_amd64.tar.gz",
+      "checksum": "ca11994a9535a25773333761f03e9eae2bdc75e353cf0635a586b21be8cc0cb7",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "helmify",
+          "src": "helmify_1.7.0_linux_amd64/bin/helmify"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "arttor/helmify/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^helmify version 1.7.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "arttor",
+      "repo_name": "helmify",
+      "asset": "helmify_1.7.0_linux_arm64.tar.gz",
+      "checksum": "fc7bb9c383bda7184f4cdc13bd1a8ffc361cafaa9547cdbd5aea002269feed83",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "helmify",
+          "src": "helmify_1.7.0_linux_arm64/bin/helmify"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "arttor/helmify/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^helmify version 1.7.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "arttor",
+      "repo_name": "helmify",
+      "asset": "helmify_1.7.0_linux_386.tar.gz",
+      "checksum": "9116d03bcd798478c50e5e3c462735061cc20225ab43f91af61790a748579bb9",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "helmify",
+          "src": "helmify_1.7.0_linux_386/bin/helmify"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "arttor/helmify/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^helmify version 1.7.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "arttor",
+      "repo_name": "helmify",
+      "asset": "helmify_1.7.0_linux_arm.tar.gz",
+      "checksum": "61a24d68c3e8414580786512d5b772c2245da62170263093285080a652081c5d",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "helmify",
+          "src": "helmify_1.7.0_linux_arm/bin/helmify"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "arttor/helmify/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^helmify version 1.7.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "arttor",
+      "repo_name": "helmify",
+      "asset": "helmify_1.7.0_macOS_amd64.zip",
+      "checksum": "ba3a6d259b46b1c7bafcd3611717da03315c12a46f378b2b041f7420d76cee13",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "helmify",
+          "src": "helmify_1.7.0_macOS_amd64/bin/helmify"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "arttor/helmify/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^helmify version 1.7.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "arttor",
+      "repo_name": "helmify",
+      "asset": "helmify_1.7.0_macOS_arm64.zip",
+      "checksum": "1bef552ce8300fa28f816bd72f2d8ae6fe4136233160ae0139b94840a2e29dc1",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "helmify",
+          "src": "helmify_1.7.0_macOS_arm64/bin/helmify"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "arttor/helmify/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^helmify version 1.7.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "arttor",
+      "repo_name": "helmify",
+      "asset": "helmify_1.7.0_windows_amd64.zip",
+      "checksum": "abe14e9b898b97f124da9fa0db9653e174a78228f7087722d2eca88fddc70b44",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "helmify",
+          "src": "helmify_1.7.0_windows_amd64/bin/helmify.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "arttor/helmify/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^helmify version 1.7.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "arttor",
+      "repo_name": "helmify",
+      "asset": "helmify_1.7.0_windows_arm64.zip",
+      "checksum": "19e2dc02285c3d3fbc7007fdf27c4c2ad2c81cfbd064f284e286092daf5cc117",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "helmify",
+          "src": "helmify_1.7.0_windows_arm64/bin/helmify.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "arttor/helmify/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^helmify version 1.7.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "arttor",
+      "repo_name": "helmify",
+      "asset": "helmify_1.7.0_windows_386.zip",
+      "checksum": "d8bcad1da12d245c71cdd743c354e5dff273ce9c727916f88221da52fc760bf8",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "helmify",
+          "src": "helmify_1.7.0_windows_386/bin/helmify.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "arttor/helmify/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^helmify version 1.7.0"
+      }
+    }
+  ]
+}
