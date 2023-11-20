@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "bitwarden/clients",
+  "version": "v1.0.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "bitwarden",
+      "repo_name": "clients",
+      "asset": "clients_1.0.0_linux_amd64.tar.gz",
+      "checksum": "f488bfad8141ce7da8f232c444b874feee0569784c15c992175e9e021da99afd",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "clients",
+          "src": "clients_1.0.0_linux_amd64/bin/clients"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "bitwarden/clients/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^clients version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "bitwarden",
+      "repo_name": "clients",
+      "asset": "clients_1.0.0_linux_arm64.tar.gz",
+      "checksum": "71bc1f39d142ad360a949f59f06fb4531aec624c053ce72d86a41c635fbfeb0a",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "clients",
+          "src": "clients_1.0.0_linux_arm64/bin/clients"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "bitwarden/clients/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^clients version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "bitwarden",
+      "repo_name": "clients",
+      "asset": "clients_1.0.0_linux_386.tar.gz",
+      "checksum": "35ed24da53197dade1cd82d489388d108ead21a7b28104edf0dfca8533daf890",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "clients",
+          "src": "clients_1.0.0_linux_386/bin/clients"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "bitwarden/clients/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^clients version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "bitwarden",
+      "repo_name": "clients",
+      "asset": "clients_1.0.0_linux_arm.tar.gz",
+      "checksum": "a21f7c31f9d85f70062dd966dcc2cbc7c87fa9b6ed962e783ff4c53683b378bb",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "clients",
+          "src": "clients_1.0.0_linux_arm/bin/clients"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "bitwarden/clients/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^clients version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "bitwarden",
+      "repo_name": "clients",
+      "asset": "clients_1.0.0_macOS_amd64.zip",
+      "checksum": "9c72a9299878c18d17d58e515bfca86789363ceb779c3b2b9d466f79e2fa9645",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "clients",
+          "src": "clients_1.0.0_macOS_amd64/bin/clients"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "bitwarden/clients/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^clients version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "bitwarden",
+      "repo_name": "clients",
+      "asset": "clients_1.0.0_macOS_arm64.zip",
+      "checksum": "ee026a46330a7dec9e6420243c9f0afeb9fad97567ae6328170dade2208630c0",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "clients",
+          "src": "clients_1.0.0_macOS_arm64/bin/clients"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "bitwarden/clients/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^clients version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "bitwarden",
+      "repo_name": "clients",
+      "asset": "clients_1.0.0_windows_amd64.zip",
+      "checksum": "5d0c0ce6f2e8915539e4320345b6b4869780facc2edf2de4efe6a3f2beefb9ab",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "clients",
+          "src": "clients_1.0.0_windows_amd64/bin/clients.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "bitwarden/clients/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^clients version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "bitwarden",
+      "repo_name": "clients",
+      "asset": "clients_1.0.0_windows_arm64.zip",
+      "checksum": "c128f3f0913db5ad80a710981f9fe33665108e94078761870d1d76ea82a7a602",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "clients",
+          "src": "clients_1.0.0_windows_arm64/bin/clients.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "bitwarden/clients/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^clients version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "bitwarden",
+      "repo_name": "clients",
+      "asset": "clients_1.0.0_windows_386.zip",
+      "checksum": "18cbd0a72cab0f23befeacc1b7485585fc5a26101922fe7dc89f644ed0a7fca5",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "clients",
+          "src": "clients_1.0.0_windows_386/bin/clients.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "bitwarden/clients/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^clients version 1.0.0"
+      }
+    }
+  ]
+}
