@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "inlets/mixctl",
+  "version": "v1.7.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "inlets",
+      "repo_name": "mixctl",
+      "asset": "mixctl_1.7.0_linux_amd64.tar.gz",
+      "checksum": "e79010656ac314ffe43656656007cf8e43ceb9ef1900e785c5d41a0ed6086295",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "mixctl",
+          "src": "mixctl_1.7.0_linux_amd64/bin/mixctl"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "inlets/mixctl/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^mixctl version 1.7.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "inlets",
+      "repo_name": "mixctl",
+      "asset": "mixctl_1.7.0_linux_arm64.tar.gz",
+      "checksum": "c78fa783f8cb6420970012a0cfecf2699be75b48ec224cfc3122ee67a02e21ea",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "mixctl",
+          "src": "mixctl_1.7.0_linux_arm64/bin/mixctl"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "inlets/mixctl/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^mixctl version 1.7.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "inlets",
+      "repo_name": "mixctl",
+      "asset": "mixctl_1.7.0_linux_386.tar.gz",
+      "checksum": "815291c7b4e4bb8924ecfd3013da18eb48b7a7e2eb7b24f0490fc067b64ccaec",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "mixctl",
+          "src": "mixctl_1.7.0_linux_386/bin/mixctl"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "inlets/mixctl/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^mixctl version 1.7.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "inlets",
+      "repo_name": "mixctl",
+      "asset": "mixctl_1.7.0_linux_arm.tar.gz",
+      "checksum": "2cdb7df216baf9bc00b692b71a4b620851ca88559726c83e6f35fc846ca41a24",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "mixctl",
+          "src": "mixctl_1.7.0_linux_arm/bin/mixctl"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "inlets/mixctl/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^mixctl version 1.7.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "inlets",
+      "repo_name": "mixctl",
+      "asset": "mixctl_1.7.0_macOS_amd64.zip",
+      "checksum": "cced2b565e26b7bc349b9c0d5c328514d49db772bd1073c8796e4100e45b111a",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "mixctl",
+          "src": "mixctl_1.7.0_macOS_amd64/bin/mixctl"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "inlets/mixctl/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^mixctl version 1.7.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "inlets",
+      "repo_name": "mixctl",
+      "asset": "mixctl_1.7.0_macOS_arm64.zip",
+      "checksum": "d55ba8de6189e92f1a5ccb504b7ddf98798597594d20dbfeae93ea5620b510b9",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "mixctl",
+          "src": "mixctl_1.7.0_macOS_arm64/bin/mixctl"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "inlets/mixctl/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^mixctl version 1.7.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "inlets",
+      "repo_name": "mixctl",
+      "asset": "mixctl_1.7.0_windows_amd64.zip",
+      "checksum": "e4f04fbc04412c787013a771625851bf59b1ce1c3a10d656b91b815b19220c17",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "mixctl",
+          "src": "mixctl_1.7.0_windows_amd64/bin/mixctl.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "inlets/mixctl/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^mixctl version 1.7.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "inlets",
+      "repo_name": "mixctl",
+      "asset": "mixctl_1.7.0_windows_arm64.zip",
+      "checksum": "c01d6f46945549c0c65890b03c091722e2cdf16b50538a6623160763b99fa0f8",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "mixctl",
+          "src": "mixctl_1.7.0_windows_arm64/bin/mixctl.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "inlets/mixctl/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^mixctl version 1.7.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "inlets",
+      "repo_name": "mixctl",
+      "asset": "mixctl_1.7.0_windows_386.zip",
+      "checksum": "5060cdf0032671220b78f1b32da3b15effb88a6f8af0c23319158e7632ec066e",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "mixctl",
+          "src": "mixctl_1.7.0_windows_386/bin/mixctl.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "inlets/mixctl/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^mixctl version 1.7.0"
+      }
+    }
+  ]
+}
