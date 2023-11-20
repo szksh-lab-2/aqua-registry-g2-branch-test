@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "hashicorp/boundary",
+  "version": "v1.0.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "hashicorp",
+      "repo_name": "boundary",
+      "asset": "boundary_1.0.0_linux_amd64.tar.gz",
+      "checksum": "7e508bff92ee838ebd38d28305331183f620ce6d83d44e1aaef461957a427858",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "boundary",
+          "src": "boundary_1.0.0_linux_amd64/bin/boundary"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "hashicorp/boundary/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^boundary version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "hashicorp",
+      "repo_name": "boundary",
+      "asset": "boundary_1.0.0_linux_arm64.tar.gz",
+      "checksum": "a423f20fa39c93853ab81f9f78763ff8abefa08577bda6631ca73d6b43f2cc56",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "boundary",
+          "src": "boundary_1.0.0_linux_arm64/bin/boundary"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "hashicorp/boundary/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^boundary version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "hashicorp",
+      "repo_name": "boundary",
+      "asset": "boundary_1.0.0_linux_386.tar.gz",
+      "checksum": "43e10123d7adddf7073144e1d35715f0d1f863ae051981c070bca4be79718642",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "boundary",
+          "src": "boundary_1.0.0_linux_386/bin/boundary"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "hashicorp/boundary/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^boundary version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "hashicorp",
+      "repo_name": "boundary",
+      "asset": "boundary_1.0.0_linux_arm.tar.gz",
+      "checksum": "012591096cd30073a99b1d32ac0b675f78d12702c794f11615c96a8b6fe95235",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "boundary",
+          "src": "boundary_1.0.0_linux_arm/bin/boundary"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "hashicorp/boundary/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^boundary version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "hashicorp",
+      "repo_name": "boundary",
+      "asset": "boundary_1.0.0_macOS_amd64.zip",
+      "checksum": "6bf0b83baca132e7c734e4ca71f0835d049e756e220d6fd9c6ea2f085b694cf4",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "boundary",
+          "src": "boundary_1.0.0_macOS_amd64/bin/boundary"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "hashicorp/boundary/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^boundary version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "hashicorp",
+      "repo_name": "boundary",
+      "asset": "boundary_1.0.0_macOS_arm64.zip",
+      "checksum": "31d5327735622f7e5293295dc709b9d9cf0ff361d72579611bd508291d2d8744",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "boundary",
+          "src": "boundary_1.0.0_macOS_arm64/bin/boundary"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "hashicorp/boundary/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^boundary version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "hashicorp",
+      "repo_name": "boundary",
+      "asset": "boundary_1.0.0_windows_amd64.zip",
+      "checksum": "1a8107705276312342460a06e71efc2fd7f43806eaccfc32b83156d59bfadaf1",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "boundary",
+          "src": "boundary_1.0.0_windows_amd64/bin/boundary.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "hashicorp/boundary/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^boundary version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "hashicorp",
+      "repo_name": "boundary",
+      "asset": "boundary_1.0.0_windows_arm64.zip",
+      "checksum": "96614cf02deb458eb8627abeea4d8173d5162d84b4ccaa6d8659b6ac96448e84",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "boundary",
+          "src": "boundary_1.0.0_windows_arm64/bin/boundary.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "hashicorp/boundary/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^boundary version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "hashicorp",
+      "repo_name": "boundary",
+      "asset": "boundary_1.0.0_windows_386.zip",
+      "checksum": "1ab0bd87a8b40f313e9e1d45534f2e04834ca5492d7a318cdd896a6e674f1b2e",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "boundary",
+          "src": "boundary_1.0.0_windows_386/bin/boundary.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "hashicorp/boundary/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^boundary version 1.0.0"
+      }
+    }
+  ]
+}
