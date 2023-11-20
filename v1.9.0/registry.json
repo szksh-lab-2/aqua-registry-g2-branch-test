@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "hashicorp/consul",
+  "version": "v1.9.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "hashicorp",
+      "repo_name": "consul",
+      "asset": "consul_1.9.0_linux_amd64.tar.gz",
+      "checksum": "3bbd1b37e7ab59152b535b85cf4a82f8935939e504325586f2c8b628c72ca77f",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "consul",
+          "src": "consul_1.9.0_linux_amd64/bin/consul"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "hashicorp/consul/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^consul version 1.9.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "hashicorp",
+      "repo_name": "consul",
+      "asset": "consul_1.9.0_linux_arm64.tar.gz",
+      "checksum": "7d3fe6dfd21c9d5bee530d9e0daa78ab66824deda85a09520ae61bb454a9f69a",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "consul",
+          "src": "consul_1.9.0_linux_arm64/bin/consul"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "hashicorp/consul/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^consul version 1.9.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "hashicorp",
+      "repo_name": "consul",
+      "asset": "consul_1.9.0_linux_386.tar.gz",
+      "checksum": "8d22a7f094dab6357f15bb8fdd901cecb09ed1d444d40b4c75d2110e32779147",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "consul",
+          "src": "consul_1.9.0_linux_386/bin/consul"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "hashicorp/consul/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^consul version 1.9.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "hashicorp",
+      "repo_name": "consul",
+      "asset": "consul_1.9.0_linux_arm.tar.gz",
+      "checksum": "a07422019fca6e4db782c9d610a8572616c7c34f6de68e60c52562764ba2570c",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "consul",
+          "src": "consul_1.9.0_linux_arm/bin/consul"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "hashicorp/consul/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^consul version 1.9.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "hashicorp",
+      "repo_name": "consul",
+      "asset": "consul_1.9.0_macOS_amd64.zip",
+      "checksum": "e2960901dcb2cc52ec38d2f11c2696cadfb6a8a731241c59c61c488e39afeb5a",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "consul",
+          "src": "consul_1.9.0_macOS_amd64/bin/consul"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "hashicorp/consul/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^consul version 1.9.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "hashicorp",
+      "repo_name": "consul",
+      "asset": "consul_1.9.0_macOS_arm64.zip",
+      "checksum": "07a9cb156100cf8c452bfca96fa7d9f556d34c936897955151c4e10ae4bf5b30",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "consul",
+          "src": "consul_1.9.0_macOS_arm64/bin/consul"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "hashicorp/consul/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^consul version 1.9.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "hashicorp",
+      "repo_name": "consul",
+      "asset": "consul_1.9.0_windows_amd64.zip",
+      "checksum": "da9a6eb08f56b89c541f0112fc5bb23748c0a6d646332a91fdeb563b0b8c3f22",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "consul",
+          "src": "consul_1.9.0_windows_amd64/bin/consul.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "hashicorp/consul/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^consul version 1.9.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "hashicorp",
+      "repo_name": "consul",
+      "asset": "consul_1.9.0_windows_arm64.zip",
+      "checksum": "3f6b7bdad23a8e8f816f2844fb8599c4bf436cd97034aedb32fbec2b4db87e5d",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "consul",
+          "src": "consul_1.9.0_windows_arm64/bin/consul.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "hashicorp/consul/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^consul version 1.9.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "hashicorp",
+      "repo_name": "consul",
+      "asset": "consul_1.9.0_windows_386.zip",
+      "checksum": "c1ce143d7791cd3a3348a1a1c78e923d9e4233255e76080e784eefe1de8ca68b",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "consul",
+          "src": "consul_1.9.0_windows_386/bin/consul.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "hashicorp/consul/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^consul version 1.9.0"
+      }
+    }
+  ]
+}
