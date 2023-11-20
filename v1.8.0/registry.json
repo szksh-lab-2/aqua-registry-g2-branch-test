@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "hashicorp/vault",
+  "version": "v1.8.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "hashicorp",
+      "repo_name": "vault",
+      "asset": "vault_1.8.0_linux_amd64.tar.gz",
+      "checksum": "bc1900f904929c1fef8bd94c47c5255b68bd64a3347245f950997cb6e6a14b7c",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "vault",
+          "src": "vault_1.8.0_linux_amd64/bin/vault"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "hashicorp/vault/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^vault version 1.8.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "hashicorp",
+      "repo_name": "vault",
+      "asset": "vault_1.8.0_linux_arm64.tar.gz",
+      "checksum": "36ec5c07ec761a1081e5003ee1727bd0c751477f1c7a13ca02aeb9ad4bb47dd6",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "vault",
+          "src": "vault_1.8.0_linux_arm64/bin/vault"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "hashicorp/vault/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^vault version 1.8.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "hashicorp",
+      "repo_name": "vault",
+      "asset": "vault_1.8.0_linux_386.tar.gz",
+      "checksum": "9a831f487cf70f34e0c4b544e5c92a41ec2d8b24c5181e769e5e911a7c0eaa08",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "vault",
+          "src": "vault_1.8.0_linux_386/bin/vault"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "hashicorp/vault/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^vault version 1.8.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "hashicorp",
+      "repo_name": "vault",
+      "asset": "vault_1.8.0_linux_arm.tar.gz",
+      "checksum": "d11503d8fb4843a5f14f1e7d3c6f95289c25fc2439ea00db6b056b7e32e8ede8",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "vault",
+          "src": "vault_1.8.0_linux_arm/bin/vault"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "hashicorp/vault/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^vault version 1.8.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "hashicorp",
+      "repo_name": "vault",
+      "asset": "vault_1.8.0_macOS_amd64.zip",
+      "checksum": "a743085f06e9b873f2b81289371586d287fbbf16d9274f6d82ed3b0ffb7e417d",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "vault",
+          "src": "vault_1.8.0_macOS_amd64/bin/vault"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "hashicorp/vault/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^vault version 1.8.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "hashicorp",
+      "repo_name": "vault",
+      "asset": "vault_1.8.0_macOS_arm64.zip",
+      "checksum": "d43c748a24cd8e723a65f82cefc83e49d5f8705d5510e0e40b0d48eac1eadec9",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "vault",
+          "src": "vault_1.8.0_macOS_arm64/bin/vault"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "hashicorp/vault/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^vault version 1.8.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "hashicorp",
+      "repo_name": "vault",
+      "asset": "vault_1.8.0_windows_amd64.zip",
+      "checksum": "089c24729046510c59ed7f761fb1f4a57f18492be72225d8925e08ccaabdcffa",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "vault",
+          "src": "vault_1.8.0_windows_amd64/bin/vault.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "hashicorp/vault/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^vault version 1.8.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "hashicorp",
+      "repo_name": "vault",
+      "asset": "vault_1.8.0_windows_arm64.zip",
+      "checksum": "b70e87653288128016f7687b05cc6c6f20cba79f1579853e4c65a9568453bba8",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "vault",
+          "src": "vault_1.8.0_windows_arm64/bin/vault.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "hashicorp/vault/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^vault version 1.8.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "hashicorp",
+      "repo_name": "vault",
+      "asset": "vault_1.8.0_windows_386.zip",
+      "checksum": "d2aa17e58d38ec31747a37bcd4e2a4599fdf030acdfd922fd16269b69ba6d48d",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "vault",
+          "src": "vault_1.8.0_windows_386/bin/vault.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "hashicorp/vault/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^vault version 1.8.0"
+      }
+    }
+  ]
+}
