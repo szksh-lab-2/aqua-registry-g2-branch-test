@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "golang/go",
+  "version": "v1.2.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "golang",
+      "repo_name": "go",
+      "asset": "go_1.2.0_linux_amd64.tar.gz",
+      "checksum": "161770a77854c95e849e3ed5c0a1681777729cfa36a9e56d4a58512a81a5d99b",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "go",
+          "src": "go_1.2.0_linux_amd64/bin/go"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "golang/go/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^go version 1.2.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "golang",
+      "repo_name": "go",
+      "asset": "go_1.2.0_linux_arm64.tar.gz",
+      "checksum": "3da59227846c24cb3ab4b5fbd0f2e22d14fab84a27eb39755966a7a9968dbde7",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "go",
+          "src": "go_1.2.0_linux_arm64/bin/go"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "golang/go/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^go version 1.2.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "golang",
+      "repo_name": "go",
+      "asset": "go_1.2.0_linux_386.tar.gz",
+      "checksum": "3937d31d0a45e05300a4356338a6cef6ae06109c26e122244a9b1ffa31a7543c",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "go",
+          "src": "go_1.2.0_linux_386/bin/go"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "golang/go/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^go version 1.2.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "golang",
+      "repo_name": "go",
+      "asset": "go_1.2.0_linux_arm.tar.gz",
+      "checksum": "5e546be8d6cb46d8c933c514089fb74100b4b0de4006c2e12fc4dd65689bd25a",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "go",
+          "src": "go_1.2.0_linux_arm/bin/go"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "golang/go/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^go version 1.2.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "golang",
+      "repo_name": "go",
+      "asset": "go_1.2.0_macOS_amd64.zip",
+      "checksum": "7743cdfc59c4363c4853f9ddb833d208303fda26eef3a602d03b57cd86f4f7bc",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "go",
+          "src": "go_1.2.0_macOS_amd64/bin/go"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "golang/go/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^go version 1.2.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "golang",
+      "repo_name": "go",
+      "asset": "go_1.2.0_macOS_arm64.zip",
+      "checksum": "4aae6b32622c482d1086b9aa8713de0b9591c2c07c074bb691b0719545ac1d2e",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "go",
+          "src": "go_1.2.0_macOS_arm64/bin/go"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "golang/go/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^go version 1.2.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "golang",
+      "repo_name": "go",
+      "asset": "go_1.2.0_windows_amd64.zip",
+      "checksum": "a17261efebec46a58ec977cfe054c059777531878e6c6d5c07b236f19c652234",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "go",
+          "src": "go_1.2.0_windows_amd64/bin/go.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "golang/go/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^go version 1.2.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "golang",
+      "repo_name": "go",
+      "asset": "go_1.2.0_windows_arm64.zip",
+      "checksum": "f6b6c8a6dd36c154c8f87438c3c778dc50bf95e4caae905ac11bcd1a8a2f8395",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "go",
+          "src": "go_1.2.0_windows_arm64/bin/go.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "golang/go/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^go version 1.2.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "golang",
+      "repo_name": "go",
+      "asset": "go_1.2.0_windows_386.zip",
+      "checksum": "e18e2e4b3044fe2e9f486933b793736e771270ace88934a368ee1446d4bedb0c",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "go",
+          "src": "go_1.2.0_windows_386/bin/go.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "golang/go/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^go version 1.2.0"
+      }
+    }
+  ]
+}
