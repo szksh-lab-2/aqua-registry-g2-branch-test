@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "tektoncd/cli",
+  "version": "v1.2.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "tektoncd",
+      "repo_name": "cli",
+      "asset": "cli_1.2.0_linux_amd64.tar.gz",
+      "checksum": "8fdda890cd829f74e0fa1a24598c89d6bb7fbf3cdc3751073599a9c11f06e95d",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "cli",
+          "src": "cli_1.2.0_linux_amd64/bin/cli"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "tektoncd/cli/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cli version 1.2.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "tektoncd",
+      "repo_name": "cli",
+      "asset": "cli_1.2.0_linux_arm64.tar.gz",
+      "checksum": "946f444dfa767fab55d8e4d1df06214fcea734591f81085c865d42917c5b5294",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "cli",
+          "src": "cli_1.2.0_linux_arm64/bin/cli"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "tektoncd/cli/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cli version 1.2.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "tektoncd",
+      "repo_name": "cli",
+      "asset": "cli_1.2.0_linux_386.tar.gz",
+      "checksum": "16c25bff637a95946bf186a24b52db37eab2bf6e642b0312a2caaa6b9c9ce9a9",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "cli",
+          "src": "cli_1.2.0_linux_386/bin/cli"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "tektoncd/cli/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cli version 1.2.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "tektoncd",
+      "repo_name": "cli",
+      "asset": "cli_1.2.0_linux_arm.tar.gz",
+      "checksum": "57487ac921259e02535ef4efdb63e6cdb003255b0ae6c45ca312fd60d2b05264",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "cli",
+          "src": "cli_1.2.0_linux_arm/bin/cli"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "tektoncd/cli/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cli version 1.2.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "tektoncd",
+      "repo_name": "cli",
+      "asset": "cli_1.2.0_macOS_amd64.zip",
+      "checksum": "81f872e3f6b6595f4bf1fcf0e9daf4f54caf03c7b8939faa600eeaa4240fa7e7",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "cli",
+          "src": "cli_1.2.0_macOS_amd64/bin/cli"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "tektoncd/cli/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cli version 1.2.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "tektoncd",
+      "repo_name": "cli",
+      "asset": "cli_1.2.0_macOS_arm64.zip",
+      "checksum": "fbc7c5f4ba6b8b8a173dd5a9cdd807c81788a79b3f0eb7c63ba2058d7f14315e",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "cli",
+          "src": "cli_1.2.0_macOS_arm64/bin/cli"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "tektoncd/cli/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cli version 1.2.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "tektoncd",
+      "repo_name": "cli",
+      "asset": "cli_1.2.0_windows_amd64.zip",
+      "checksum": "1d07ee87624b1396fb4b5cbd3636a9ca8709bb4533f295842022174843f88314",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "cli",
+          "src": "cli_1.2.0_windows_amd64/bin/cli.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "tektoncd/cli/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cli version 1.2.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "tektoncd",
+      "repo_name": "cli",
+      "asset": "cli_1.2.0_windows_arm64.zip",
+      "checksum": "2486c6bdda9cbc50d3b54a395baa40a35118120ed3baea2144d4d3c8b55fc27f",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "cli",
+          "src": "cli_1.2.0_windows_arm64/bin/cli.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "tektoncd/cli/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cli version 1.2.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "tektoncd",
+      "repo_name": "cli",
+      "asset": "cli_1.2.0_windows_386.zip",
+      "checksum": "8f0e8de135f1263830cc4d1bccd0926fae33d325aeba090414e0fa1268b7f715",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "cli",
+          "src": "cli_1.2.0_windows_386/bin/cli.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "tektoncd/cli/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cli version 1.2.0"
+      }
+    }
+  ]
+}
