@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "aptly-dev/aptly",
+  "version": "v1.0.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "aptly-dev",
+      "repo_name": "aptly",
+      "asset": "aptly_1.0.0_linux_amd64.tar.gz",
+      "checksum": "01317eb3ae2a2b8c9708d1b45a24ba6c97fae07c1f28c117b67f8b03dda99a15",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "aptly",
+          "src": "aptly_1.0.0_linux_amd64/bin/aptly"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "aptly-dev/aptly/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^aptly version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "aptly-dev",
+      "repo_name": "aptly",
+      "asset": "aptly_1.0.0_linux_arm64.tar.gz",
+      "checksum": "6122fc41b20c4ca55aae60b957bf7802e4cc25bad7fe49d1d6b096324db28afd",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "aptly",
+          "src": "aptly_1.0.0_linux_arm64/bin/aptly"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "aptly-dev/aptly/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^aptly version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "aptly-dev",
+      "repo_name": "aptly",
+      "asset": "aptly_1.0.0_linux_386.tar.gz",
+      "checksum": "6d8bed9c6bce0b7423f42bd865a7b65fba07f8397e639618fa01a1aa3ed2186f",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "aptly",
+          "src": "aptly_1.0.0_linux_386/bin/aptly"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "aptly-dev/aptly/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^aptly version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "aptly-dev",
+      "repo_name": "aptly",
+      "asset": "aptly_1.0.0_linux_arm.tar.gz",
+      "checksum": "7e6170549b8a725830207dd20c04c5e9ad50a659a27857afbe1c8c81715a52b7",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "aptly",
+          "src": "aptly_1.0.0_linux_arm/bin/aptly"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "aptly-dev/aptly/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^aptly version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "aptly-dev",
+      "repo_name": "aptly",
+      "asset": "aptly_1.0.0_macOS_amd64.zip",
+      "checksum": "ffa834b82b689a06d8e2a9fb584f5297eb914e3886ab916c9384319ca52c4e71",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "aptly",
+          "src": "aptly_1.0.0_macOS_amd64/bin/aptly"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "aptly-dev/aptly/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^aptly version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "aptly-dev",
+      "repo_name": "aptly",
+      "asset": "aptly_1.0.0_macOS_arm64.zip",
+      "checksum": "8d77c051e4ba3566506c41ef7d5df3e79e24382d1e4d7318de63e5fe4dad9021",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "aptly",
+          "src": "aptly_1.0.0_macOS_arm64/bin/aptly"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "aptly-dev/aptly/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^aptly version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "aptly-dev",
+      "repo_name": "aptly",
+      "asset": "aptly_1.0.0_windows_amd64.zip",
+      "checksum": "69419153a4eea5371957251f17b7a93a488b13be07006c18d7322a00b927262f",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "aptly",
+          "src": "aptly_1.0.0_windows_amd64/bin/aptly.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "aptly-dev/aptly/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^aptly version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "aptly-dev",
+      "repo_name": "aptly",
+      "asset": "aptly_1.0.0_windows_arm64.zip",
+      "checksum": "d23302782ee0c180cea7014ad2f7b40332cc92a6c3618c383099fe0abe1bba09",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "aptly",
+          "src": "aptly_1.0.0_windows_arm64/bin/aptly.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "aptly-dev/aptly/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^aptly version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "aptly-dev",
+      "repo_name": "aptly",
+      "asset": "aptly_1.0.0_windows_386.zip",
+      "checksum": "504cca43c6ba234c405468213e9796db3dd4ea0ee24dbc8ba338e15c431076f6",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "aptly",
+          "src": "aptly_1.0.0_windows_386/bin/aptly.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "aptly-dev/aptly/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^aptly version 1.0.0"
+      }
+    }
+  ]
+}
