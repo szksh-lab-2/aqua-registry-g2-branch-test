@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "hashicorp/nomad",
+  "version": "v1.5.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "hashicorp",
+      "repo_name": "nomad",
+      "asset": "nomad_1.5.0_linux_amd64.tar.gz",
+      "checksum": "7318a0efb1aa65342f1c5389dbe4ea6ae094cd89abc28d0a2b70adb056ffb114",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "nomad",
+          "src": "nomad_1.5.0_linux_amd64/bin/nomad"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "hashicorp/nomad/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^nomad version 1.5.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "hashicorp",
+      "repo_name": "nomad",
+      "asset": "nomad_1.5.0_linux_arm64.tar.gz",
+      "checksum": "76190626a99f0ee6388dee699a206af97de531136f4e3e8fda753d097918122d",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "nomad",
+          "src": "nomad_1.5.0_linux_arm64/bin/nomad"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "hashicorp/nomad/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^nomad version 1.5.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "hashicorp",
+      "repo_name": "nomad",
+      "asset": "nomad_1.5.0_linux_386.tar.gz",
+      "checksum": "f99e2974e3246fa0eaeecb32a12309c2eb573a9600f95ee934d59d08c83b1416",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "nomad",
+          "src": "nomad_1.5.0_linux_386/bin/nomad"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "hashicorp/nomad/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^nomad version 1.5.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "hashicorp",
+      "repo_name": "nomad",
+      "asset": "nomad_1.5.0_linux_arm.tar.gz",
+      "checksum": "f150c6e609e2dca9c5a5d6e5fc2a2c36fbc3db3a8634f28ccd04fb98c113bfc4",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "nomad",
+          "src": "nomad_1.5.0_linux_arm/bin/nomad"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "hashicorp/nomad/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^nomad version 1.5.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "hashicorp",
+      "repo_name": "nomad",
+      "asset": "nomad_1.5.0_macOS_amd64.zip",
+      "checksum": "aebf23769179ac68facacb646d0d779fe2eb4dc2d24e9f02452778bb80fc2c50",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "nomad",
+          "src": "nomad_1.5.0_macOS_amd64/bin/nomad"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "hashicorp/nomad/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^nomad version 1.5.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "hashicorp",
+      "repo_name": "nomad",
+      "asset": "nomad_1.5.0_macOS_arm64.zip",
+      "checksum": "5a160021f0cf32362439451a8512a94b2966ecf540ff6227a2d26289c3232b82",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "nomad",
+          "src": "nomad_1.5.0_macOS_arm64/bin/nomad"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "hashicorp/nomad/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^nomad version 1.5.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "hashicorp",
+      "repo_name": "nomad",
+      "asset": "nomad_1.5.0_windows_amd64.zip",
+      "checksum": "ef20a2759fb5b9448fad1632572bee5ce9eb6cb4e7d07bb7b3d5f6cccb0cd78f",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "nomad",
+          "src": "nomad_1.5.0_windows_amd64/bin/nomad.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "hashicorp/nomad/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^nomad version 1.5.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "hashicorp",
+      "repo_name": "nomad",
+      "asset": "nomad_1.5.0_windows_arm64.zip",
+      "checksum": "ee320be986dd2a59d9ae9ff63c8f542855aa0d4484ea4a0251cacf752f839776",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "nomad",
+          "src": "nomad_1.5.0_windows_arm64/bin/nomad.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "hashicorp/nomad/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^nomad version 1.5.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "hashicorp",
+      "repo_name": "nomad",
+      "asset": "nomad_1.5.0_windows_386.zip",
+      "checksum": "b5dfcdc9bc097eb78f403565497aa5c4fbc6241e431c6d52cb6a1214856a9ed3",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "nomad",
+          "src": "nomad_1.5.0_windows_386/bin/nomad.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "hashicorp/nomad/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^nomad version 1.5.0"
+      }
+    }
+  ]
+}
