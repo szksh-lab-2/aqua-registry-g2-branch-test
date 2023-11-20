@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "hashicorp/terraform",
+  "version": "v1.8.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "hashicorp",
+      "repo_name": "terraform",
+      "asset": "terraform_1.8.0_linux_amd64.tar.gz",
+      "checksum": "99c7983e82eba60ceac33407bcca968d21854f8d5beeb04b65a355eaedb52603",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "terraform",
+          "src": "terraform_1.8.0_linux_amd64/bin/terraform"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "hashicorp/terraform/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^terraform version 1.8.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "hashicorp",
+      "repo_name": "terraform",
+      "asset": "terraform_1.8.0_linux_arm64.tar.gz",
+      "checksum": "204fa86b896a9373df12f17c9ee17b18f1124bb8ebf8b43799916b616438b592",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "terraform",
+          "src": "terraform_1.8.0_linux_arm64/bin/terraform"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "hashicorp/terraform/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^terraform version 1.8.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "hashicorp",
+      "repo_name": "terraform",
+      "asset": "terraform_1.8.0_linux_386.tar.gz",
+      "checksum": "6ce71c131255406f25b26340e839f8057d967629eee6e53105eb072c64300578",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "terraform",
+          "src": "terraform_1.8.0_linux_386/bin/terraform"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "hashicorp/terraform/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^terraform version 1.8.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "hashicorp",
+      "repo_name": "terraform",
+      "asset": "terraform_1.8.0_linux_arm.tar.gz",
+      "checksum": "9c128b797750de45ba71e92eb22699e1eb0c8179e7a34e5de695f3d9049d9875",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "terraform",
+          "src": "terraform_1.8.0_linux_arm/bin/terraform"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "hashicorp/terraform/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^terraform version 1.8.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "hashicorp",
+      "repo_name": "terraform",
+      "asset": "terraform_1.8.0_macOS_amd64.zip",
+      "checksum": "3b2f2c25af66e4e02c8080cda7f0feb9f7c5026828cb3de17e5fbc6af9f147f1",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "terraform",
+          "src": "terraform_1.8.0_macOS_amd64/bin/terraform"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "hashicorp/terraform/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^terraform version 1.8.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "hashicorp",
+      "repo_name": "terraform",
+      "asset": "terraform_1.8.0_macOS_arm64.zip",
+      "checksum": "9990918895aaa75e07817cd60bd627d561a491701b48adbfde3ccd80168d09ab",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "terraform",
+          "src": "terraform_1.8.0_macOS_arm64/bin/terraform"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "hashicorp/terraform/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^terraform version 1.8.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "hashicorp",
+      "repo_name": "terraform",
+      "asset": "terraform_1.8.0_windows_amd64.zip",
+      "checksum": "ddc900d8e6ba760d678af5deaf4af1384162c5953082228b23ced79668f8b850",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "terraform",
+          "src": "terraform_1.8.0_windows_amd64/bin/terraform.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "hashicorp/terraform/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^terraform version 1.8.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "hashicorp",
+      "repo_name": "terraform",
+      "asset": "terraform_1.8.0_windows_arm64.zip",
+      "checksum": "bbe1782cf78b3795737f87c389a04a15186780e4f05f9639c9473bb76d375c3b",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "terraform",
+          "src": "terraform_1.8.0_windows_arm64/bin/terraform.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "hashicorp/terraform/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^terraform version 1.8.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "hashicorp",
+      "repo_name": "terraform",
+      "asset": "terraform_1.8.0_windows_386.zip",
+      "checksum": "a769b290f80fd6baaebc6a01e7b2a845685c753680c7b9f6b94ecdc29873a837",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "terraform",
+          "src": "terraform_1.8.0_windows_386/bin/terraform.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "hashicorp/terraform/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^terraform version 1.8.0"
+      }
+    }
+  ]
+}
