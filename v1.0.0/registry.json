@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "hashicorp/packer",
+  "version": "v1.0.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "hashicorp",
+      "repo_name": "packer",
+      "asset": "packer_1.0.0_linux_amd64.tar.gz",
+      "checksum": "23c26564d7b3a862a593333c1563ccffbebca9da9201c274975968646f90ecb2",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "packer",
+          "src": "packer_1.0.0_linux_amd64/bin/packer"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "hashicorp/packer/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^packer version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "hashicorp",
+      "repo_name": "packer",
+      "asset": "packer_1.0.0_linux_arm64.tar.gz",
+      "checksum": "bf2936b7087ba1ba1ebc871fde890493b9965b7c0e0f3e53bfaa6379e47cfd20",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "packer",
+          "src": "packer_1.0.0_linux_arm64/bin/packer"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "hashicorp/packer/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^packer version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "hashicorp",
+      "repo_name": "packer",
+      "asset": "packer_1.0.0_linux_386.tar.gz",
+      "checksum": "fbeca10ed1f59cb96c53ecb8d816eb312a1a485d7168465f642efbfe4fd3f52e",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "packer",
+          "src": "packer_1.0.0_linux_386/bin/packer"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "hashicorp/packer/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^packer version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "hashicorp",
+      "repo_name": "packer",
+      "asset": "packer_1.0.0_linux_arm.tar.gz",
+      "checksum": "429c4f5365384e08b64f7ba092e16daf59fc3150aa5a488ec48f2f312a11df4f",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "packer",
+          "src": "packer_1.0.0_linux_arm/bin/packer"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "hashicorp/packer/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^packer version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "hashicorp",
+      "repo_name": "packer",
+      "asset": "packer_1.0.0_macOS_amd64.zip",
+      "checksum": "f7036df9759d13a33a5020d636da0faf59e7d488db68ea3983cb3dc817eeb7af",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "packer",
+          "src": "packer_1.0.0_macOS_amd64/bin/packer"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "hashicorp/packer/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^packer version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "hashicorp",
+      "repo_name": "packer",
+      "asset": "packer_1.0.0_macOS_arm64.zip",
+      "checksum": "dee72c63bdf53ec0c138d0139a61c989318beafb917e7d48f8e28ed14cbacf4a",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "packer",
+          "src": "packer_1.0.0_macOS_arm64/bin/packer"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "hashicorp/packer/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^packer version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "hashicorp",
+      "repo_name": "packer",
+      "asset": "packer_1.0.0_windows_amd64.zip",
+      "checksum": "79df5e1ad14d76fac08409b5b04cc21a7b91fb914ef3049ac5267def3e26816e",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "packer",
+          "src": "packer_1.0.0_windows_amd64/bin/packer.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "hashicorp/packer/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^packer version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "hashicorp",
+      "repo_name": "packer",
+      "asset": "packer_1.0.0_windows_arm64.zip",
+      "checksum": "12efe1c606b4a44222be86eb6e3a49d9ca6c1cd2b690d3115e9928c424f47297",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "packer",
+          "src": "packer_1.0.0_windows_arm64/bin/packer.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "hashicorp/packer/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^packer version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "hashicorp",
+      "repo_name": "packer",
+      "asset": "packer_1.0.0_windows_386.zip",
+      "checksum": "e5240fd02f71aa5d6da1570b2a8be77c41c719d8e2f38148ecb1ab1d358be3e8",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "packer",
+          "src": "packer_1.0.0_windows_386/bin/packer.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "hashicorp/packer/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^packer version 1.0.0"
+      }
+    }
+  ]
+}
