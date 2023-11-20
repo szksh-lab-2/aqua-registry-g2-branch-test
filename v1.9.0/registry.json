@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "ko-build/ko",
+  "version": "v1.9.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "ko-build",
+      "repo_name": "ko",
+      "asset": "ko_1.9.0_linux_amd64.tar.gz",
+      "checksum": "351a0773846d7808870d623cd3d785bc21d29413075c701edeabaf99916c51af",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "ko",
+          "src": "ko_1.9.0_linux_amd64/bin/ko"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "ko-build/ko/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^ko version 1.9.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "ko-build",
+      "repo_name": "ko",
+      "asset": "ko_1.9.0_linux_arm64.tar.gz",
+      "checksum": "8cb9d6c13c211cb1b66781e3528f5297f2d9b752087c9b8cf6bb8a747554534e",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "ko",
+          "src": "ko_1.9.0_linux_arm64/bin/ko"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "ko-build/ko/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^ko version 1.9.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "ko-build",
+      "repo_name": "ko",
+      "asset": "ko_1.9.0_linux_386.tar.gz",
+      "checksum": "44c076a4437a67362dd0d098c28845d7867d48ddcd835c8c58efb4896e68d84b",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "ko",
+          "src": "ko_1.9.0_linux_386/bin/ko"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "ko-build/ko/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^ko version 1.9.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "ko-build",
+      "repo_name": "ko",
+      "asset": "ko_1.9.0_linux_arm.tar.gz",
+      "checksum": "1123dcd21c41782849be1d334c847f40e706e945fc808c5e0f3f52c5498fbc55",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "ko",
+          "src": "ko_1.9.0_linux_arm/bin/ko"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "ko-build/ko/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^ko version 1.9.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "ko-build",
+      "repo_name": "ko",
+      "asset": "ko_1.9.0_macOS_amd64.zip",
+      "checksum": "ad26278348cb4a71e1cba43e261f97093beafac5513d45ddca99e2ba8eca107d",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "ko",
+          "src": "ko_1.9.0_macOS_amd64/bin/ko"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "ko-build/ko/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^ko version 1.9.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "ko-build",
+      "repo_name": "ko",
+      "asset": "ko_1.9.0_macOS_arm64.zip",
+      "checksum": "008618840aedc49e27c2548aeafea2db51bf43f0703057631e30f05c9e183318",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "ko",
+          "src": "ko_1.9.0_macOS_arm64/bin/ko"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "ko-build/ko/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^ko version 1.9.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "ko-build",
+      "repo_name": "ko",
+      "asset": "ko_1.9.0_windows_amd64.zip",
+      "checksum": "f9549b99840cdb1ffc93ed0e1a07d9ef3d4ab931e0afc9f367cbea6a77a8254b",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "ko",
+          "src": "ko_1.9.0_windows_amd64/bin/ko.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "ko-build/ko/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^ko version 1.9.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "ko-build",
+      "repo_name": "ko",
+      "asset": "ko_1.9.0_windows_arm64.zip",
+      "checksum": "94823e6a473bc3bf504d7cf8ea5fec638476a710b2c7ee7bc512147ac0a53202",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "ko",
+          "src": "ko_1.9.0_windows_arm64/bin/ko.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "ko-build/ko/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^ko version 1.9.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "ko-build",
+      "repo_name": "ko",
+      "asset": "ko_1.9.0_windows_386.zip",
+      "checksum": "3a5563b3cb9b4567fd3a3d9d3e38b8f1b242d80ec0a2c762bb08407fe862fa5e",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "ko",
+          "src": "ko_1.9.0_windows_386/bin/ko.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "ko-build/ko/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^ko version 1.9.0"
+      }
+    }
+  ]
+}
