@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "bufbuild/buf",
+  "version": "v1.8.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "bufbuild",
+      "repo_name": "buf",
+      "asset": "buf_1.8.0_linux_amd64.tar.gz",
+      "checksum": "570e6f9f7f78489478b2683dacd5d4f0bf5d5917b598ac3645b4312e90b3a93e",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "buf",
+          "src": "buf_1.8.0_linux_amd64/bin/buf"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "bufbuild/buf/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^buf version 1.8.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "bufbuild",
+      "repo_name": "buf",
+      "asset": "buf_1.8.0_linux_arm64.tar.gz",
+      "checksum": "b05c0df48c07b765fac0b7a744e84a31724e98e4c93c92a6e0e06b1f0bf77ea7",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "buf",
+          "src": "buf_1.8.0_linux_arm64/bin/buf"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "bufbuild/buf/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^buf version 1.8.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "bufbuild",
+      "repo_name": "buf",
+      "asset": "buf_1.8.0_linux_386.tar.gz",
+      "checksum": "62e1e426c9d37b6807ac968c6d837f9f6e2f6bd9e1c22a0540c45e51715a2fa8",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "buf",
+          "src": "buf_1.8.0_linux_386/bin/buf"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "bufbuild/buf/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^buf version 1.8.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "bufbuild",
+      "repo_name": "buf",
+      "asset": "buf_1.8.0_linux_arm.tar.gz",
+      "checksum": "cd415d3661dd12361cfe1e8561df4c3c13c9a4af936eea8ff7bd66b2bd88efcb",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "buf",
+          "src": "buf_1.8.0_linux_arm/bin/buf"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "bufbuild/buf/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^buf version 1.8.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "bufbuild",
+      "repo_name": "buf",
+      "asset": "buf_1.8.0_macOS_amd64.zip",
+      "checksum": "eb318930a93726b44c259e703899bac9f21ede85016acd8d0e9f2918ae288152",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "buf",
+          "src": "buf_1.8.0_macOS_amd64/bin/buf"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "bufbuild/buf/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^buf version 1.8.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "bufbuild",
+      "repo_name": "buf",
+      "asset": "buf_1.8.0_macOS_arm64.zip",
+      "checksum": "f3b9bf7298a37dd980d82ea86fbd5b40ab095ab02a4a1cb0223b6300108f35b6",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "buf",
+          "src": "buf_1.8.0_macOS_arm64/bin/buf"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "bufbuild/buf/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^buf version 1.8.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "bufbuild",
+      "repo_name": "buf",
+      "asset": "buf_1.8.0_windows_amd64.zip",
+      "checksum": "8c4ed9093bfa8c2cad8d07835185dc74e2516fb862fee0d98290a5d8e12f2c33",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "buf",
+          "src": "buf_1.8.0_windows_amd64/bin/buf.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "bufbuild/buf/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^buf version 1.8.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "bufbuild",
+      "repo_name": "buf",
+      "asset": "buf_1.8.0_windows_arm64.zip",
+      "checksum": "a708d733d0af18fb70669cc85f980845040624d329f91bea6ebc98509383e805",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "buf",
+          "src": "buf_1.8.0_windows_arm64/bin/buf.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "bufbuild/buf/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^buf version 1.8.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "bufbuild",
+      "repo_name": "buf",
+      "asset": "buf_1.8.0_windows_386.zip",
+      "checksum": "a6feea2f4e586e5fe81f8f4266e13d2097e5f5d36be8cee7b6dbaa5e87877028",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "buf",
+          "src": "buf_1.8.0_windows_386/bin/buf.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "bufbuild/buf/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^buf version 1.8.0"
+      }
+    }
+  ]
+}
