@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "concourse/concourse",
+  "version": "v1.0.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "concourse",
+      "repo_name": "concourse",
+      "asset": "concourse_1.0.0_linux_amd64.tar.gz",
+      "checksum": "b9acc77fa45d56a369df02857d53f3e922f17c9fd4b28994819ed9a6e3fb70a1",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "concourse",
+          "src": "concourse_1.0.0_linux_amd64/bin/concourse"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "concourse/concourse/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^concourse version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "concourse",
+      "repo_name": "concourse",
+      "asset": "concourse_1.0.0_linux_arm64.tar.gz",
+      "checksum": "6317f7c36299be65aee038f769d3941ef26cad159abad3a0deb3b84fa61fce03",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "concourse",
+          "src": "concourse_1.0.0_linux_arm64/bin/concourse"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "concourse/concourse/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^concourse version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "concourse",
+      "repo_name": "concourse",
+      "asset": "concourse_1.0.0_linux_386.tar.gz",
+      "checksum": "1b8f58872526aba3ceac3ee7cb1621308e5f0b890716cc64fb6ebcd91252a879",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "concourse",
+          "src": "concourse_1.0.0_linux_386/bin/concourse"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "concourse/concourse/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^concourse version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "concourse",
+      "repo_name": "concourse",
+      "asset": "concourse_1.0.0_linux_arm.tar.gz",
+      "checksum": "ee2f74561c9f36104c029fa16db7abe8b75a8e84218be97267d17d874b1e200f",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "concourse",
+          "src": "concourse_1.0.0_linux_arm/bin/concourse"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "concourse/concourse/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^concourse version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "concourse",
+      "repo_name": "concourse",
+      "asset": "concourse_1.0.0_macOS_amd64.zip",
+      "checksum": "28a564fe0203a67164103268853b797598fd2f07597d764d93413dc6bdeca140",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "concourse",
+          "src": "concourse_1.0.0_macOS_amd64/bin/concourse"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "concourse/concourse/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^concourse version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "concourse",
+      "repo_name": "concourse",
+      "asset": "concourse_1.0.0_macOS_arm64.zip",
+      "checksum": "3aa642d3018a2dc2be65af7a373a4f940ff264ab19f4267e012195f3442ffbfb",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "concourse",
+          "src": "concourse_1.0.0_macOS_arm64/bin/concourse"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "concourse/concourse/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^concourse version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "concourse",
+      "repo_name": "concourse",
+      "asset": "concourse_1.0.0_windows_amd64.zip",
+      "checksum": "bf281391ff8dcb59b0c9c1d40fba1fd3557b7b85777324ea2bd5ad18ecf36cc6",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "concourse",
+          "src": "concourse_1.0.0_windows_amd64/bin/concourse.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "concourse/concourse/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^concourse version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "concourse",
+      "repo_name": "concourse",
+      "asset": "concourse_1.0.0_windows_arm64.zip",
+      "checksum": "5b42cfa696160c9db7b940219e34fa681b3a613028e96b74c0ee90fde9b15e25",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "concourse",
+          "src": "concourse_1.0.0_windows_arm64/bin/concourse.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "concourse/concourse/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^concourse version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "concourse",
+      "repo_name": "concourse",
+      "asset": "concourse_1.0.0_windows_386.zip",
+      "checksum": "520fd71b7659460d86d6741e01fc0eeba2fbc69198e8d2e5e3075a5c72b642b0",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "concourse",
+          "src": "concourse_1.0.0_windows_386/bin/concourse.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "concourse/concourse/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^concourse version 1.0.0"
+      }
+    }
+  ]
+}
