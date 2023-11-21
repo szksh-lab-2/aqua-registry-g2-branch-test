@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "squat/kilo",
+  "version": "v1.0.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "squat",
+      "repo_name": "kilo",
+      "asset": "kilo_1.0.0_linux_amd64.tar.gz",
+      "checksum": "be6f063c027740400f34af197cc16826c56dcb28c1925c474528925e83716f76",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "kilo",
+          "src": "kilo_1.0.0_linux_amd64/bin/kilo"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "squat/kilo/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kilo version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "squat",
+      "repo_name": "kilo",
+      "asset": "kilo_1.0.0_linux_arm64.tar.gz",
+      "checksum": "a02a6dd406c49fb8aaf4949d9c31ca1f4bddc0b955121ed668d969acc3044c8c",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "kilo",
+          "src": "kilo_1.0.0_linux_arm64/bin/kilo"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "squat/kilo/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kilo version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "squat",
+      "repo_name": "kilo",
+      "asset": "kilo_1.0.0_linux_386.tar.gz",
+      "checksum": "31c9b1cd71e006028ed54f24cc766e219f42e9bd4c33628370478b1dfb0fa71d",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "kilo",
+          "src": "kilo_1.0.0_linux_386/bin/kilo"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "squat/kilo/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kilo version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "squat",
+      "repo_name": "kilo",
+      "asset": "kilo_1.0.0_linux_arm.tar.gz",
+      "checksum": "8e174823e88cd1bad27a764ca9af96a7604a7fd628f0a3e063e2916c37ae4a30",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "kilo",
+          "src": "kilo_1.0.0_linux_arm/bin/kilo"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "squat/kilo/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kilo version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "squat",
+      "repo_name": "kilo",
+      "asset": "kilo_1.0.0_macOS_amd64.zip",
+      "checksum": "bb68224bc6c977e05aab51d383fdb672900203dbd4bd6b6b32bdf1a7f43d2722",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kilo",
+          "src": "kilo_1.0.0_macOS_amd64/bin/kilo"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "squat/kilo/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kilo version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "squat",
+      "repo_name": "kilo",
+      "asset": "kilo_1.0.0_macOS_arm64.zip",
+      "checksum": "876458492ca7d5631535c78c491e1fc1d8e629627057e3ddeec900403e42289f",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kilo",
+          "src": "kilo_1.0.0_macOS_arm64/bin/kilo"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "squat/kilo/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kilo version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "squat",
+      "repo_name": "kilo",
+      "asset": "kilo_1.0.0_windows_amd64.zip",
+      "checksum": "4ce3519d9b36f05b29163690061cafb0c7a875f95637673214a842acd9bf7c6a",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kilo",
+          "src": "kilo_1.0.0_windows_amd64/bin/kilo.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "squat/kilo/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kilo version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "squat",
+      "repo_name": "kilo",
+      "asset": "kilo_1.0.0_windows_arm64.zip",
+      "checksum": "ea47d61ca7d6abe46ecdd0d724793232df91ae5632cce485f24326c0a2e6ed20",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kilo",
+          "src": "kilo_1.0.0_windows_arm64/bin/kilo.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "squat/kilo/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kilo version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "squat",
+      "repo_name": "kilo",
+      "asset": "kilo_1.0.0_windows_386.zip",
+      "checksum": "22332f53705c123c23e017c2d439d7eff56914f4faaf50780a7cdc589125606b",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kilo",
+          "src": "kilo_1.0.0_windows_386/bin/kilo.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "squat/kilo/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kilo version 1.0.0"
+      }
+    }
+  ]
+}
