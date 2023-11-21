@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "grafana/mimir",
+  "version": "v1.9.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "grafana",
+      "repo_name": "mimir",
+      "asset": "mimir_1.9.0_linux_amd64.tar.gz",
+      "checksum": "d9476834667be77d21d6122a523374e44e5a7f87d95e4793e21ee370d5fe89fa",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "mimir",
+          "src": "mimir_1.9.0_linux_amd64/bin/mimir"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "grafana/mimir/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^mimir version 1.9.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "grafana",
+      "repo_name": "mimir",
+      "asset": "mimir_1.9.0_linux_arm64.tar.gz",
+      "checksum": "24b81e4262d1951e4d150a6f74a8fcbb43808acad6ad28ea6f3f6a4aa6a4cd79",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "mimir",
+          "src": "mimir_1.9.0_linux_arm64/bin/mimir"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "grafana/mimir/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^mimir version 1.9.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "grafana",
+      "repo_name": "mimir",
+      "asset": "mimir_1.9.0_linux_386.tar.gz",
+      "checksum": "f93c7af60ec2b329a2e0a04ac720698a3b6e3345cdcde7b04ad678dd1400962a",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "mimir",
+          "src": "mimir_1.9.0_linux_386/bin/mimir"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "grafana/mimir/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^mimir version 1.9.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "grafana",
+      "repo_name": "mimir",
+      "asset": "mimir_1.9.0_linux_arm.tar.gz",
+      "checksum": "092d8846a01ab29e39d0e4d0ca3e0c31c38e02f6914006e7292d0d440b10bd47",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "mimir",
+          "src": "mimir_1.9.0_linux_arm/bin/mimir"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "grafana/mimir/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^mimir version 1.9.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "grafana",
+      "repo_name": "mimir",
+      "asset": "mimir_1.9.0_macOS_amd64.zip",
+      "checksum": "bb531a42f7cac3facf8c8e644e84c0db61d1c2fd8a299347f866460dd20791b1",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "mimir",
+          "src": "mimir_1.9.0_macOS_amd64/bin/mimir"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "grafana/mimir/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^mimir version 1.9.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "grafana",
+      "repo_name": "mimir",
+      "asset": "mimir_1.9.0_macOS_arm64.zip",
+      "checksum": "09d168095cb0089fc5830765e9488cfca133b8b179872051da5cc397ef3f3c75",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "mimir",
+          "src": "mimir_1.9.0_macOS_arm64/bin/mimir"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "grafana/mimir/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^mimir version 1.9.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "grafana",
+      "repo_name": "mimir",
+      "asset": "mimir_1.9.0_windows_amd64.zip",
+      "checksum": "665ae576872cc4ad2c9823eeb348504e617ab9136b75753fd4617261c44ae60e",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "mimir",
+          "src": "mimir_1.9.0_windows_amd64/bin/mimir.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "grafana/mimir/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^mimir version 1.9.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "grafana",
+      "repo_name": "mimir",
+      "asset": "mimir_1.9.0_windows_arm64.zip",
+      "checksum": "d707a0ea027e3ebf995263829f739abb1f66a877973c11af0ab81ed2ec54111e",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "mimir",
+          "src": "mimir_1.9.0_windows_arm64/bin/mimir.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "grafana/mimir/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^mimir version 1.9.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "grafana",
+      "repo_name": "mimir",
+      "asset": "mimir_1.9.0_windows_386.zip",
+      "checksum": "7613f0c1e82f7b4b05b3e22dd3448c95e02f04573c6db8cf2744c64ddebdbef9",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "mimir",
+          "src": "mimir_1.9.0_windows_386/bin/mimir.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "grafana/mimir/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^mimir version 1.9.0"
+      }
+    }
+  ]
+}
