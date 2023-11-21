@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "distribution/registry",
+  "version": "v1.4.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "distribution",
+      "repo_name": "registry",
+      "asset": "registry_1.4.0_linux_amd64.tar.gz",
+      "checksum": "14cf4cbe2c8434ace560845ab44397f86a7c2d3d4d9b7c7f036d8c79547d2821",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "registry",
+          "src": "registry_1.4.0_linux_amd64/bin/registry"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "distribution/registry/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^registry version 1.4.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "distribution",
+      "repo_name": "registry",
+      "asset": "registry_1.4.0_linux_arm64.tar.gz",
+      "checksum": "8ec34f2eddcf4ea11a134af5d0d833a6a2bbd763afb5d8f9c9865a6ba7dd5f2d",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "registry",
+          "src": "registry_1.4.0_linux_arm64/bin/registry"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "distribution/registry/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^registry version 1.4.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "distribution",
+      "repo_name": "registry",
+      "asset": "registry_1.4.0_linux_386.tar.gz",
+      "checksum": "2ee1e3b5ede38cd3ba81cfe9ca2663b0dba800da739026cb8f259e8d0fcb2006",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "registry",
+          "src": "registry_1.4.0_linux_386/bin/registry"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "distribution/registry/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^registry version 1.4.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "distribution",
+      "repo_name": "registry",
+      "asset": "registry_1.4.0_linux_arm.tar.gz",
+      "checksum": "256998c92938ff087c80d2bd404bf75df5ecaac6ed68fbf5fbcbb39677aaae55",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "registry",
+          "src": "registry_1.4.0_linux_arm/bin/registry"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "distribution/registry/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^registry version 1.4.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "distribution",
+      "repo_name": "registry",
+      "asset": "registry_1.4.0_macOS_amd64.zip",
+      "checksum": "95485cbecfea8d07804580612ea9eab761eb75c8e8ca8ee0ce41febe375f7a6a",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "registry",
+          "src": "registry_1.4.0_macOS_amd64/bin/registry"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "distribution/registry/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^registry version 1.4.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "distribution",
+      "repo_name": "registry",
+      "asset": "registry_1.4.0_macOS_arm64.zip",
+      "checksum": "9d8fa714ec60017f134f44a1f72396434d8c490564f8108a08ec2f22bc07aee9",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "registry",
+          "src": "registry_1.4.0_macOS_arm64/bin/registry"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "distribution/registry/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^registry version 1.4.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "distribution",
+      "repo_name": "registry",
+      "asset": "registry_1.4.0_windows_amd64.zip",
+      "checksum": "b6b73f328bd2cdb7c104ca60c98afb4a7a958b97482c959caf1e61aff9943273",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "registry",
+          "src": "registry_1.4.0_windows_amd64/bin/registry.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "distribution/registry/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^registry version 1.4.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "distribution",
+      "repo_name": "registry",
+      "asset": "registry_1.4.0_windows_arm64.zip",
+      "checksum": "3bbbc4681af083f4e9efde23b4084a348315331dbcde71314f96f2ae1d79dde2",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "registry",
+          "src": "registry_1.4.0_windows_arm64/bin/registry.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "distribution/registry/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^registry version 1.4.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "distribution",
+      "repo_name": "registry",
+      "asset": "registry_1.4.0_windows_386.zip",
+      "checksum": "208b269be149b933f3ce290e6a71a40c4a6a96677bcc74d51dc7137f37f4429d",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "registry",
+          "src": "registry_1.4.0_windows_386/bin/registry.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "distribution/registry/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^registry version 1.4.0"
+      }
+    }
+  ]
+}
