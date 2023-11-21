@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "gitea.com/tea",
+  "version": "v1.0.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "gitea.com",
+      "repo_name": "tea",
+      "asset": "tea_1.0.0_linux_amd64.tar.gz",
+      "checksum": "5ae0361dc1e2940be88592f05c3421606c382651c8745a2446222050bb8188e8",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "tea",
+          "src": "tea_1.0.0_linux_amd64/bin/tea"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "gitea.com/tea/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^tea version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "gitea.com",
+      "repo_name": "tea",
+      "asset": "tea_1.0.0_linux_arm64.tar.gz",
+      "checksum": "d16e2b91f40c97cc1c0382c6c0e3e531b49af7bc6c273ff95c63651423c26c26",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "tea",
+          "src": "tea_1.0.0_linux_arm64/bin/tea"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "gitea.com/tea/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^tea version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "gitea.com",
+      "repo_name": "tea",
+      "asset": "tea_1.0.0_linux_386.tar.gz",
+      "checksum": "19eb5ddcf21771bec13def1383901d7e768100da8d6f49e78fc696a9ab950577",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "tea",
+          "src": "tea_1.0.0_linux_386/bin/tea"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "gitea.com/tea/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^tea version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "gitea.com",
+      "repo_name": "tea",
+      "asset": "tea_1.0.0_linux_arm.tar.gz",
+      "checksum": "d9c307b2408490a15feaf819ab5a65f4a902904007da1cc67291f4ea5dfa977b",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "tea",
+          "src": "tea_1.0.0_linux_arm/bin/tea"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "gitea.com/tea/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^tea version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "gitea.com",
+      "repo_name": "tea",
+      "asset": "tea_1.0.0_macOS_amd64.zip",
+      "checksum": "94831361cc5a09ba3f904d63cbbcece28a8de395b4fa984b4d5ce845aa230c20",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "tea",
+          "src": "tea_1.0.0_macOS_amd64/bin/tea"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "gitea.com/tea/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^tea version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "gitea.com",
+      "repo_name": "tea",
+      "asset": "tea_1.0.0_macOS_arm64.zip",
+      "checksum": "b0acaba69bbf17cb6dc6a5a3e5ec9e662c0dc28a6710aa1c5614b89c60e3755b",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "tea",
+          "src": "tea_1.0.0_macOS_arm64/bin/tea"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "gitea.com/tea/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^tea version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "gitea.com",
+      "repo_name": "tea",
+      "asset": "tea_1.0.0_windows_amd64.zip",
+      "checksum": "503d460587b557041cc31bf04f8411abd7427db29aedf5e815934afe8dbd77fe",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "tea",
+          "src": "tea_1.0.0_windows_amd64/bin/tea.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "gitea.com/tea/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^tea version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "gitea.com",
+      "repo_name": "tea",
+      "asset": "tea_1.0.0_windows_arm64.zip",
+      "checksum": "e0ec5dea0d20c72654f6a6a55f7928bf06092eb4ba8ab30fc038c9016f26bf53",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "tea",
+          "src": "tea_1.0.0_windows_arm64/bin/tea.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "gitea.com/tea/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^tea version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "gitea.com",
+      "repo_name": "tea",
+      "asset": "tea_1.0.0_windows_386.zip",
+      "checksum": "d328bbebf0398ac5952ca32318f71f1235efdcaefa30aaea7d54873da98a01ba",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "tea",
+          "src": "tea_1.0.0_windows_386/bin/tea.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "gitea.com/tea/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^tea version 1.0.0"
+      }
+    }
+  ]
+}
