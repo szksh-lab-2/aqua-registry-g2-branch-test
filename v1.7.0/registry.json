@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "concourse/fly",
+  "version": "v1.7.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "concourse",
+      "repo_name": "fly",
+      "asset": "fly_1.7.0_linux_amd64.tar.gz",
+      "checksum": "91a1b62df869883551c078207d4112ed7386ddddb804c8a67fcb6fdd05acfd32",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "fly",
+          "src": "fly_1.7.0_linux_amd64/bin/fly"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "concourse/fly/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^fly version 1.7.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "concourse",
+      "repo_name": "fly",
+      "asset": "fly_1.7.0_linux_arm64.tar.gz",
+      "checksum": "e12b48030d041ab8dacb0527c60c7e7de7134acb1c143a671d121d213a402290",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "fly",
+          "src": "fly_1.7.0_linux_arm64/bin/fly"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "concourse/fly/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^fly version 1.7.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "concourse",
+      "repo_name": "fly",
+      "asset": "fly_1.7.0_linux_386.tar.gz",
+      "checksum": "1de414b2a62dbffb888133a55c10e5dbe0b41578c964d18b17f82497377f1474",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "fly",
+          "src": "fly_1.7.0_linux_386/bin/fly"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "concourse/fly/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^fly version 1.7.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "concourse",
+      "repo_name": "fly",
+      "asset": "fly_1.7.0_linux_arm.tar.gz",
+      "checksum": "a92290f49ec0d9aace26ae13579fda50d0a9b1964d064b195960a4f700838777",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "fly",
+          "src": "fly_1.7.0_linux_arm/bin/fly"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "concourse/fly/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^fly version 1.7.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "concourse",
+      "repo_name": "fly",
+      "asset": "fly_1.7.0_macOS_amd64.zip",
+      "checksum": "82ace115c34ec33de94e06b57e731f18b96b136b004a3f73a4a1de47158f1d14",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "fly",
+          "src": "fly_1.7.0_macOS_amd64/bin/fly"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "concourse/fly/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^fly version 1.7.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "concourse",
+      "repo_name": "fly",
+      "asset": "fly_1.7.0_macOS_arm64.zip",
+      "checksum": "8b75ed0f0cd97772d19812dca34125edb9046556c354686c3f7fa3411d9c514a",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "fly",
+          "src": "fly_1.7.0_macOS_arm64/bin/fly"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "concourse/fly/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^fly version 1.7.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "concourse",
+      "repo_name": "fly",
+      "asset": "fly_1.7.0_windows_amd64.zip",
+      "checksum": "c9b7ac8181f17b9d00bc47662a712dbd57f2150a3ff97e898371ffdd09356ae6",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "fly",
+          "src": "fly_1.7.0_windows_amd64/bin/fly.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "concourse/fly/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^fly version 1.7.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "concourse",
+      "repo_name": "fly",
+      "asset": "fly_1.7.0_windows_arm64.zip",
+      "checksum": "d3206399feb666c2e6ab5f0ebc130e306a1d3fe9724376863a578152022b9caa",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "fly",
+          "src": "fly_1.7.0_windows_arm64/bin/fly.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "concourse/fly/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^fly version 1.7.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "concourse",
+      "repo_name": "fly",
+      "asset": "fly_1.7.0_windows_386.zip",
+      "checksum": "e5f224854355cc7623b34c79d85b0ab160b7e173d50f90ff3ffe59e4ddc1d8e0",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "fly",
+          "src": "fly_1.7.0_windows_386/bin/fly.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "concourse/fly/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^fly version 1.7.0"
+      }
+    }
+  ]
+}
