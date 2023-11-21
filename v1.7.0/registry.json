@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "containerd/static",
+  "version": "v1.7.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "containerd",
+      "repo_name": "static",
+      "asset": "static_1.7.0_linux_amd64.tar.gz",
+      "checksum": "5ff7f5675882bdf968394fe290bc31500d2ebe5c59358111ac28aac987b56ebc",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "static",
+          "src": "static_1.7.0_linux_amd64/bin/static"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "containerd/static/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^static version 1.7.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "containerd",
+      "repo_name": "static",
+      "asset": "static_1.7.0_linux_arm64.tar.gz",
+      "checksum": "a7d0d6ffe46621f2b16d24f755a351740ca5bdeff39d0f5a9ba0a87fcd614bab",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "static",
+          "src": "static_1.7.0_linux_arm64/bin/static"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "containerd/static/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^static version 1.7.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "containerd",
+      "repo_name": "static",
+      "asset": "static_1.7.0_linux_386.tar.gz",
+      "checksum": "8c3531304c670d8593cf95ba9341a0601fb45d799019b53ecdb87bf59f834c85",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "static",
+          "src": "static_1.7.0_linux_386/bin/static"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "containerd/static/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^static version 1.7.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "containerd",
+      "repo_name": "static",
+      "asset": "static_1.7.0_linux_arm.tar.gz",
+      "checksum": "d039b04ac571f171923d35ad46cb9cc44d17f85653d78eb21461d1505f086d7e",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "static",
+          "src": "static_1.7.0_linux_arm/bin/static"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "containerd/static/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^static version 1.7.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "containerd",
+      "repo_name": "static",
+      "asset": "static_1.7.0_macOS_amd64.zip",
+      "checksum": "0cf341cace294821160bb355672b5f45813a5962cc36fc6a054e1724ca4f1a65",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "static",
+          "src": "static_1.7.0_macOS_amd64/bin/static"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "containerd/static/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^static version 1.7.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "containerd",
+      "repo_name": "static",
+      "asset": "static_1.7.0_macOS_arm64.zip",
+      "checksum": "05cf2b9ba1c4712441edd555154a1cc44c9cf81b60f66628e521504448b632f5",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "static",
+          "src": "static_1.7.0_macOS_arm64/bin/static"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "containerd/static/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^static version 1.7.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "containerd",
+      "repo_name": "static",
+      "asset": "static_1.7.0_windows_amd64.zip",
+      "checksum": "601dd547dd0e12f1c2893185b368d3f0f25bfb58f88fc74189fc008eb3f675a8",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "static",
+          "src": "static_1.7.0_windows_amd64/bin/static.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "containerd/static/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^static version 1.7.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "containerd",
+      "repo_name": "static",
+      "asset": "static_1.7.0_windows_arm64.zip",
+      "checksum": "3e4505d00304c6199229dc5e1ebb64e60119a4fae44b80d00984382ecca84af3",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "static",
+          "src": "static_1.7.0_windows_arm64/bin/static.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "containerd/static/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^static version 1.7.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "containerd",
+      "repo_name": "static",
+      "asset": "static_1.7.0_windows_386.zip",
+      "checksum": "01ffd9991cecb9e8d589dc2954c6517cde3b191c9e89cb7c7dbf1f15fbc9c83e",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "static",
+          "src": "static_1.7.0_windows_386/bin/static.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "containerd/static/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^static version 1.7.0"
+      }
+    }
+  ]
+}
