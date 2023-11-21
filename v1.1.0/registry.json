@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "jreleaser/standalone",
+  "version": "v1.1.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "jreleaser",
+      "repo_name": "standalone",
+      "asset": "standalone_1.1.0_linux_amd64.tar.gz",
+      "checksum": "b4366c7f32104d724914247edf4d410ee902e6cf063dc59bba38af8c1edb9966",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "standalone",
+          "src": "standalone_1.1.0_linux_amd64/bin/standalone"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "jreleaser/standalone/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^standalone version 1.1.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "jreleaser",
+      "repo_name": "standalone",
+      "asset": "standalone_1.1.0_linux_arm64.tar.gz",
+      "checksum": "e7b9c6b22bf9f9f051d1e3fa424072096d9d56636a97228b31df65d7d9305e04",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "standalone",
+          "src": "standalone_1.1.0_linux_arm64/bin/standalone"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "jreleaser/standalone/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^standalone version 1.1.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "jreleaser",
+      "repo_name": "standalone",
+      "asset": "standalone_1.1.0_linux_386.tar.gz",
+      "checksum": "9fafebd8a4013bbea19ffe4b291258d36f50bfacf3aa331081a84178199e9593",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "standalone",
+          "src": "standalone_1.1.0_linux_386/bin/standalone"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "jreleaser/standalone/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^standalone version 1.1.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "jreleaser",
+      "repo_name": "standalone",
+      "asset": "standalone_1.1.0_linux_arm.tar.gz",
+      "checksum": "16ee9a4f570a3892904889dd00cc30a1c593e2244b749b336e73a1eb08d4799c",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "standalone",
+          "src": "standalone_1.1.0_linux_arm/bin/standalone"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "jreleaser/standalone/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^standalone version 1.1.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "jreleaser",
+      "repo_name": "standalone",
+      "asset": "standalone_1.1.0_macOS_amd64.zip",
+      "checksum": "615e0f99b9d396f513a1479c1ef1603baf21a44b861e7f0bb79c95e8efbdcdc5",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "standalone",
+          "src": "standalone_1.1.0_macOS_amd64/bin/standalone"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "jreleaser/standalone/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^standalone version 1.1.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "jreleaser",
+      "repo_name": "standalone",
+      "asset": "standalone_1.1.0_macOS_arm64.zip",
+      "checksum": "01282f722abb9ea9415c0a2a26c629f857a734d8c9412520d8cb832bdced663d",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "standalone",
+          "src": "standalone_1.1.0_macOS_arm64/bin/standalone"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "jreleaser/standalone/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^standalone version 1.1.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "jreleaser",
+      "repo_name": "standalone",
+      "asset": "standalone_1.1.0_windows_amd64.zip",
+      "checksum": "a3a59fdb006085d497c4c323a786f04097f9b78a76bb76683e8916e02c172115",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "standalone",
+          "src": "standalone_1.1.0_windows_amd64/bin/standalone.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "jreleaser/standalone/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^standalone version 1.1.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "jreleaser",
+      "repo_name": "standalone",
+      "asset": "standalone_1.1.0_windows_arm64.zip",
+      "checksum": "0c1b4ba186106d7946ad3f40436dda3fa2318b39e70bc112ca536df0039a17bc",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "standalone",
+          "src": "standalone_1.1.0_windows_arm64/bin/standalone.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "jreleaser/standalone/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^standalone version 1.1.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "jreleaser",
+      "repo_name": "standalone",
+      "asset": "standalone_1.1.0_windows_386.zip",
+      "checksum": "0d0b473c4584d1e4c42e14c1dfcb6ca7ced18248d8a0daa1ce8d83d84bf675a6",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "standalone",
+          "src": "standalone_1.1.0_windows_386/bin/standalone.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "jreleaser/standalone/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^standalone version 1.1.0"
+      }
+    }
+  ]
+}
