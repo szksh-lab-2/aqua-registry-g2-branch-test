@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "ipfs/kubo",
+  "version": "v1.0.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "ipfs",
+      "repo_name": "kubo",
+      "asset": "kubo_1.0.0_linux_amd64.tar.gz",
+      "checksum": "d73d34c253c0e780bbb02d1895d7585687cb79fe12e8d40fb386779e8ff909b0",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "kubo",
+          "src": "kubo_1.0.0_linux_amd64/bin/kubo"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "ipfs/kubo/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kubo version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "ipfs",
+      "repo_name": "kubo",
+      "asset": "kubo_1.0.0_linux_arm64.tar.gz",
+      "checksum": "6a933ccb84551679831901967d8daa08190290f2c93ef981679bd6f251ad734a",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "kubo",
+          "src": "kubo_1.0.0_linux_arm64/bin/kubo"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "ipfs/kubo/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kubo version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "ipfs",
+      "repo_name": "kubo",
+      "asset": "kubo_1.0.0_linux_386.tar.gz",
+      "checksum": "b91d7c4bdc645f4916fff844327b339a89892d84ea19f976bd9ca4ffccc71899",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "kubo",
+          "src": "kubo_1.0.0_linux_386/bin/kubo"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "ipfs/kubo/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kubo version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "ipfs",
+      "repo_name": "kubo",
+      "asset": "kubo_1.0.0_linux_arm.tar.gz",
+      "checksum": "89357a08f19dc874adc0427d27d471cef66d413e65f331b93354727bf79879cc",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "kubo",
+          "src": "kubo_1.0.0_linux_arm/bin/kubo"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "ipfs/kubo/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kubo version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "ipfs",
+      "repo_name": "kubo",
+      "asset": "kubo_1.0.0_macOS_amd64.zip",
+      "checksum": "8d4e41906c1a742abf0bd929b2632e87356d232810b2792a45a6e02ba7565943",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kubo",
+          "src": "kubo_1.0.0_macOS_amd64/bin/kubo"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "ipfs/kubo/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kubo version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "ipfs",
+      "repo_name": "kubo",
+      "asset": "kubo_1.0.0_macOS_arm64.zip",
+      "checksum": "2895f50f864e9365e56882c8dce61097eeff726e686d9a46c2f952444e7c6053",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kubo",
+          "src": "kubo_1.0.0_macOS_arm64/bin/kubo"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "ipfs/kubo/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kubo version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "ipfs",
+      "repo_name": "kubo",
+      "asset": "kubo_1.0.0_windows_amd64.zip",
+      "checksum": "8044aa9cf19c9dc3fb64293b2afebc9ae8adf16cd84643f3aa4dae9479ed0c36",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kubo",
+          "src": "kubo_1.0.0_windows_amd64/bin/kubo.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "ipfs/kubo/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kubo version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "ipfs",
+      "repo_name": "kubo",
+      "asset": "kubo_1.0.0_windows_arm64.zip",
+      "checksum": "3feffc51cd67e61f8838d626bf5b4eb5331b26301fb5a8bdea10e246f90d72b3",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kubo",
+          "src": "kubo_1.0.0_windows_arm64/bin/kubo.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "ipfs/kubo/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kubo version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "ipfs",
+      "repo_name": "kubo",
+      "asset": "kubo_1.0.0_windows_386.zip",
+      "checksum": "a0596cfc24cb72481467a347badcbfb7b059406a4d6653a9605f14f8af762fcd",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kubo",
+          "src": "kubo_1.0.0_windows_386/bin/kubo.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "ipfs/kubo/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kubo version 1.0.0"
+      }
+    }
+  ]
+}
