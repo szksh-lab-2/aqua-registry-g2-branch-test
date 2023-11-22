@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "reviewdog/nightly",
+  "version": "v1.7.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "reviewdog",
+      "repo_name": "nightly",
+      "asset": "nightly_1.7.0_linux_amd64.tar.gz",
+      "checksum": "595bad4e4091eaee8f83330289aa6dd774ea891dc047a99288ff8cd372057e4a",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "nightly",
+          "src": "nightly_1.7.0_linux_amd64/bin/nightly"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "reviewdog/nightly/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^nightly version 1.7.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "reviewdog",
+      "repo_name": "nightly",
+      "asset": "nightly_1.7.0_linux_arm64.tar.gz",
+      "checksum": "445b976a65bb9ad9910b4445296349a9d898e0a54a818a8f406d57e241e2310b",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "nightly",
+          "src": "nightly_1.7.0_linux_arm64/bin/nightly"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "reviewdog/nightly/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^nightly version 1.7.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "reviewdog",
+      "repo_name": "nightly",
+      "asset": "nightly_1.7.0_linux_386.tar.gz",
+      "checksum": "e30dc50f1221780e9f7b592a0bf2bfd9112c446c401b770e366e89f62f4172fe",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "nightly",
+          "src": "nightly_1.7.0_linux_386/bin/nightly"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "reviewdog/nightly/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^nightly version 1.7.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "reviewdog",
+      "repo_name": "nightly",
+      "asset": "nightly_1.7.0_linux_arm.tar.gz",
+      "checksum": "881750ae9c0478f8e74c3165593d1b92c0be71de7a8b0b7ebdd312ffc54d535c",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "nightly",
+          "src": "nightly_1.7.0_linux_arm/bin/nightly"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "reviewdog/nightly/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^nightly version 1.7.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "reviewdog",
+      "repo_name": "nightly",
+      "asset": "nightly_1.7.0_macOS_amd64.zip",
+      "checksum": "d5cb8ffcb7e420dfc97fa39c548014b970184e06a7c1464f403885f6f362a928",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "nightly",
+          "src": "nightly_1.7.0_macOS_amd64/bin/nightly"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "reviewdog/nightly/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^nightly version 1.7.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "reviewdog",
+      "repo_name": "nightly",
+      "asset": "nightly_1.7.0_macOS_arm64.zip",
+      "checksum": "e076617aadb9c82cc07b76ec615b86feec99a87319dab40d08be8e105080d308",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "nightly",
+          "src": "nightly_1.7.0_macOS_arm64/bin/nightly"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "reviewdog/nightly/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^nightly version 1.7.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "reviewdog",
+      "repo_name": "nightly",
+      "asset": "nightly_1.7.0_windows_amd64.zip",
+      "checksum": "8e27d836e86d4351677599575adbb785db1810e6d15c4104b825007c53741d60",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "nightly",
+          "src": "nightly_1.7.0_windows_amd64/bin/nightly.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "reviewdog/nightly/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^nightly version 1.7.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "reviewdog",
+      "repo_name": "nightly",
+      "asset": "nightly_1.7.0_windows_arm64.zip",
+      "checksum": "219717350b41a9d833092d9dc4b86a2a81ea00cf5ef6c53bc76faeec0a32a958",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "nightly",
+          "src": "nightly_1.7.0_windows_arm64/bin/nightly.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "reviewdog/nightly/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^nightly version 1.7.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "reviewdog",
+      "repo_name": "nightly",
+      "asset": "nightly_1.7.0_windows_386.zip",
+      "checksum": "1b6e7eaf20d29dc3d3628f27b89cf5e75a4750d8f6c69430a92c844496133335",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "nightly",
+          "src": "nightly_1.7.0_windows_386/bin/nightly.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "reviewdog/nightly/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^nightly version 1.7.0"
+      }
+    }
+  ]
+}
