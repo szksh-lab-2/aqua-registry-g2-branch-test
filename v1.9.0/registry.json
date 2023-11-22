@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "okteto/okteto",
+  "version": "v1.9.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "okteto",
+      "repo_name": "okteto",
+      "asset": "okteto_1.9.0_linux_amd64.tar.gz",
+      "checksum": "d4923dc527faa8586f821a960e32497dfeb9dff52211096de64952ac97b12cbf",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "okteto",
+          "src": "okteto_1.9.0_linux_amd64/bin/okteto"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "okteto/okteto/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^okteto version 1.9.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "okteto",
+      "repo_name": "okteto",
+      "asset": "okteto_1.9.0_linux_arm64.tar.gz",
+      "checksum": "fb089ac5f11737db63b69fb97d38154858337d4335381461a1f68c5247293bdb",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "okteto",
+          "src": "okteto_1.9.0_linux_arm64/bin/okteto"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "okteto/okteto/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^okteto version 1.9.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "okteto",
+      "repo_name": "okteto",
+      "asset": "okteto_1.9.0_linux_386.tar.gz",
+      "checksum": "6f8df4ded1dce3cc6aaf55697c90c6066effcfe8657dd39197b640bc92154a16",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "okteto",
+          "src": "okteto_1.9.0_linux_386/bin/okteto"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "okteto/okteto/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^okteto version 1.9.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "okteto",
+      "repo_name": "okteto",
+      "asset": "okteto_1.9.0_linux_arm.tar.gz",
+      "checksum": "7585651cd794de51e1adeaf998012355c19d41bfa91f78159eb735ab95bc339b",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "okteto",
+          "src": "okteto_1.9.0_linux_arm/bin/okteto"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "okteto/okteto/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^okteto version 1.9.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "okteto",
+      "repo_name": "okteto",
+      "asset": "okteto_1.9.0_macOS_amd64.zip",
+      "checksum": "bc0aee1963d1724665d8cbb6f217a789acae899f1b53ec13529b1bfe4fe3ec2f",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "okteto",
+          "src": "okteto_1.9.0_macOS_amd64/bin/okteto"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "okteto/okteto/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^okteto version 1.9.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "okteto",
+      "repo_name": "okteto",
+      "asset": "okteto_1.9.0_macOS_arm64.zip",
+      "checksum": "0cf463ea318c8b3804ae361e10cd169d2e6de45b5919f9fc39272ed20a524960",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "okteto",
+          "src": "okteto_1.9.0_macOS_arm64/bin/okteto"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "okteto/okteto/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^okteto version 1.9.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "okteto",
+      "repo_name": "okteto",
+      "asset": "okteto_1.9.0_windows_amd64.zip",
+      "checksum": "cf9f2cb0f7aaa9da4ea5ed3e090b48adaaabe1726f33cc0dddbe5ea248e0fd91",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "okteto",
+          "src": "okteto_1.9.0_windows_amd64/bin/okteto.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "okteto/okteto/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^okteto version 1.9.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "okteto",
+      "repo_name": "okteto",
+      "asset": "okteto_1.9.0_windows_arm64.zip",
+      "checksum": "a806e20a0165b6c3b9b04bfe50311ea5df6a44a9ffb264006cca1d324024ec0e",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "okteto",
+          "src": "okteto_1.9.0_windows_arm64/bin/okteto.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "okteto/okteto/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^okteto version 1.9.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "okteto",
+      "repo_name": "okteto",
+      "asset": "okteto_1.9.0_windows_386.zip",
+      "checksum": "f79bdd09e2ce8f2ddfa0b0a345979e8a3a62c68e7ab3a767e64e46a1b9f07264",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "okteto",
+          "src": "okteto_1.9.0_windows_386/bin/okteto.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "okteto/okteto/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^okteto version 1.9.0"
+      }
+    }
+  ]
+}
