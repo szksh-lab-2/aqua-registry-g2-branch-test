@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "cloudflare/cfssl",
+  "version": "v1.0.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "cloudflare",
+      "repo_name": "cfssl",
+      "asset": "cfssl_1.0.0_linux_amd64.tar.gz",
+      "checksum": "25e227362c7c919de8b2eda3bd18c79e0621c362529f08f349a26324dcb1c538",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "cfssl",
+          "src": "cfssl_1.0.0_linux_amd64/bin/cfssl"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "cloudflare/cfssl/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cfssl version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "cloudflare",
+      "repo_name": "cfssl",
+      "asset": "cfssl_1.0.0_linux_arm64.tar.gz",
+      "checksum": "7cfddaf5bd37af29c506fff8fe6591e39fd0c9ac6da64bfa72495c80639211b0",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "cfssl",
+          "src": "cfssl_1.0.0_linux_arm64/bin/cfssl"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "cloudflare/cfssl/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cfssl version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "cloudflare",
+      "repo_name": "cfssl",
+      "asset": "cfssl_1.0.0_linux_386.tar.gz",
+      "checksum": "45ae490f2d6b20642851a4dccb1659f3022d04b70721913228d6ce289eddf716",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "cfssl",
+          "src": "cfssl_1.0.0_linux_386/bin/cfssl"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "cloudflare/cfssl/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cfssl version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "cloudflare",
+      "repo_name": "cfssl",
+      "asset": "cfssl_1.0.0_linux_arm.tar.gz",
+      "checksum": "afb1200d3154fd102adafebc270d7997da7bef0fa48416b35d05be4105f2fc4d",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "cfssl",
+          "src": "cfssl_1.0.0_linux_arm/bin/cfssl"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "cloudflare/cfssl/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cfssl version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "cloudflare",
+      "repo_name": "cfssl",
+      "asset": "cfssl_1.0.0_macOS_amd64.zip",
+      "checksum": "0293d62682ae291bfe523a73ae3ca28cfdfaf406e73039750255c444a5e76cb6",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "cfssl",
+          "src": "cfssl_1.0.0_macOS_amd64/bin/cfssl"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "cloudflare/cfssl/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cfssl version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "cloudflare",
+      "repo_name": "cfssl",
+      "asset": "cfssl_1.0.0_macOS_arm64.zip",
+      "checksum": "a7242337079f63b712ba459627592352c1e5d0b0259db0168a3e8777c4cb02bc",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "cfssl",
+          "src": "cfssl_1.0.0_macOS_arm64/bin/cfssl"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "cloudflare/cfssl/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cfssl version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "cloudflare",
+      "repo_name": "cfssl",
+      "asset": "cfssl_1.0.0_windows_amd64.zip",
+      "checksum": "13d31668da5e202a6f5cf05420abc40819774e2473db6b899d918f919842fb08",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "cfssl",
+          "src": "cfssl_1.0.0_windows_amd64/bin/cfssl.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "cloudflare/cfssl/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cfssl version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "cloudflare",
+      "repo_name": "cfssl",
+      "asset": "cfssl_1.0.0_windows_arm64.zip",
+      "checksum": "421f8e996a374c831cb5e7c9aa28bff42674b4751743bc98676e9ea14cb62615",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "cfssl",
+          "src": "cfssl_1.0.0_windows_arm64/bin/cfssl.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "cloudflare/cfssl/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cfssl version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "cloudflare",
+      "repo_name": "cfssl",
+      "asset": "cfssl_1.0.0_windows_386.zip",
+      "checksum": "f49f138595965adf06c0c2adf5f13a7248807cd028a9f436c50ef9caea3b59dc",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "cfssl",
+          "src": "cfssl_1.0.0_windows_386/bin/cfssl.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "cloudflare/cfssl/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cfssl version 1.0.0"
+      }
+    }
+  ]
+}
