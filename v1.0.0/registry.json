@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "jenkins-x/jx",
+  "version": "v1.0.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "jenkins-x",
+      "repo_name": "jx",
+      "asset": "jx_1.0.0_linux_amd64.tar.gz",
+      "checksum": "29eb184350e50b1f2bfe3c96b2f0d0377377f77b800de2d641ae0b3bdea36425",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "jx",
+          "src": "jx_1.0.0_linux_amd64/bin/jx"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "jenkins-x/jx/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^jx version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "jenkins-x",
+      "repo_name": "jx",
+      "asset": "jx_1.0.0_linux_arm64.tar.gz",
+      "checksum": "5057704d6d9cf16e463f8b6c91a3a6024b06d66341da406a28e658efd336f923",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "jx",
+          "src": "jx_1.0.0_linux_arm64/bin/jx"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "jenkins-x/jx/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^jx version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "jenkins-x",
+      "repo_name": "jx",
+      "asset": "jx_1.0.0_linux_386.tar.gz",
+      "checksum": "34b3e642653781406f0b0773225db30433e82efaebb7a3f56e46666f04254ed3",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "jx",
+          "src": "jx_1.0.0_linux_386/bin/jx"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "jenkins-x/jx/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^jx version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "jenkins-x",
+      "repo_name": "jx",
+      "asset": "jx_1.0.0_linux_arm.tar.gz",
+      "checksum": "65a4156f9eca94353a053c7f1017415f47faa2c5fb5d3b4146afcd0093516e9c",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "jx",
+          "src": "jx_1.0.0_linux_arm/bin/jx"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "jenkins-x/jx/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^jx version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "jenkins-x",
+      "repo_name": "jx",
+      "asset": "jx_1.0.0_macOS_amd64.zip",
+      "checksum": "a9c6fe36da309e05a53f67edb991c0579f9265e35f1f46c1b1877780ca5b7f02",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "jx",
+          "src": "jx_1.0.0_macOS_amd64/bin/jx"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "jenkins-x/jx/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^jx version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "jenkins-x",
+      "repo_name": "jx",
+      "asset": "jx_1.0.0_macOS_arm64.zip",
+      "checksum": "c0e05b5b447bb8383eee287690aeb1f33a781096c6334d857b00186282f75a02",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "jx",
+          "src": "jx_1.0.0_macOS_arm64/bin/jx"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "jenkins-x/jx/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^jx version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "jenkins-x",
+      "repo_name": "jx",
+      "asset": "jx_1.0.0_windows_amd64.zip",
+      "checksum": "e37545541c84400f5b75dba903357e2764daa7964fca9313f03a4a5bcb5fc483",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "jx",
+          "src": "jx_1.0.0_windows_amd64/bin/jx.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "jenkins-x/jx/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^jx version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "jenkins-x",
+      "repo_name": "jx",
+      "asset": "jx_1.0.0_windows_arm64.zip",
+      "checksum": "9503735f1c8b881cba626a59eebaf809ac2a8b11f7bd90005b3c4ea5b1e75625",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "jx",
+          "src": "jx_1.0.0_windows_arm64/bin/jx.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "jenkins-x/jx/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^jx version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "jenkins-x",
+      "repo_name": "jx",
+      "asset": "jx_1.0.0_windows_386.zip",
+      "checksum": "ff8412e6a582b8754733e8a122919c607f22105504b6f4244cf9f1b0dd709c13",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "jx",
+          "src": "jx_1.0.0_windows_386/bin/jx.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "jenkins-x/jx/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^jx version 1.0.0"
+      }
+    }
+  ]
+}
