@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "travis-ci/gimme",
+  "version": "v1.0.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "travis-ci",
+      "repo_name": "gimme",
+      "asset": "gimme_1.0.0_linux_amd64.tar.gz",
+      "checksum": "e6a7b696eb8d2e8118533af34fb75ead73060a07b59619dbbe76bf25fece5e5b",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "gimme",
+          "src": "gimme_1.0.0_linux_amd64/bin/gimme"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "travis-ci/gimme/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^gimme version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "travis-ci",
+      "repo_name": "gimme",
+      "asset": "gimme_1.0.0_linux_arm64.tar.gz",
+      "checksum": "b0bbaa6954a14ecaef40c76a6912617e6dbc9fa66f89ad20fd219c6b8022bdc3",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "gimme",
+          "src": "gimme_1.0.0_linux_arm64/bin/gimme"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "travis-ci/gimme/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^gimme version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "travis-ci",
+      "repo_name": "gimme",
+      "asset": "gimme_1.0.0_linux_386.tar.gz",
+      "checksum": "23783352a10ce4867251f00db43b5ddc492366e5282fcf5a6431ddd6b5a21451",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "gimme",
+          "src": "gimme_1.0.0_linux_386/bin/gimme"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "travis-ci/gimme/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^gimme version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "travis-ci",
+      "repo_name": "gimme",
+      "asset": "gimme_1.0.0_linux_arm.tar.gz",
+      "checksum": "40bb3788a7a79e8dc44f8a1930864c1ec8225fea09a0e40613f313596589f226",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "gimme",
+          "src": "gimme_1.0.0_linux_arm/bin/gimme"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "travis-ci/gimme/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^gimme version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "travis-ci",
+      "repo_name": "gimme",
+      "asset": "gimme_1.0.0_macOS_amd64.zip",
+      "checksum": "6ddd7b5b510d527190f0d12e717ff120413234d9ee05e088dea90ffcac3d9df9",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "gimme",
+          "src": "gimme_1.0.0_macOS_amd64/bin/gimme"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "travis-ci/gimme/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^gimme version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "travis-ci",
+      "repo_name": "gimme",
+      "asset": "gimme_1.0.0_macOS_arm64.zip",
+      "checksum": "18ae018f63c598522604ff63431ae05fcf9d86d02bfd5f2c7570e721aba0c6d8",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "gimme",
+          "src": "gimme_1.0.0_macOS_arm64/bin/gimme"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "travis-ci/gimme/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^gimme version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "travis-ci",
+      "repo_name": "gimme",
+      "asset": "gimme_1.0.0_windows_amd64.zip",
+      "checksum": "bad31a567c66e94ce44483a939160690a3ff71623a3743c0ea02ef7f263000a4",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "gimme",
+          "src": "gimme_1.0.0_windows_amd64/bin/gimme.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "travis-ci/gimme/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^gimme version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "travis-ci",
+      "repo_name": "gimme",
+      "asset": "gimme_1.0.0_windows_arm64.zip",
+      "checksum": "51cdaa9c1f7a279221c16bb825f85b9d5a88d4994f328c15c292d9b16773ec1a",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "gimme",
+          "src": "gimme_1.0.0_windows_arm64/bin/gimme.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "travis-ci/gimme/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^gimme version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "travis-ci",
+      "repo_name": "gimme",
+      "asset": "gimme_1.0.0_windows_386.zip",
+      "checksum": "79ae859818ec100c361ae2ebcea5ecd6cb7dedd05beed021e47bbf2abc929161",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "gimme",
+          "src": "gimme_1.0.0_windows_386/bin/gimme.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "travis-ci/gimme/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^gimme version 1.0.0"
+      }
+    }
+  ]
+}
