@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "werf/nelm",
+  "version": "v1.8.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "werf",
+      "repo_name": "nelm",
+      "asset": "nelm_1.8.0_linux_amd64.tar.gz",
+      "checksum": "10dab685706c427c0ded85443ee09fb838cd83857164ab2873289068a33527cb",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "nelm",
+          "src": "nelm_1.8.0_linux_amd64/bin/nelm"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "werf/nelm/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^nelm version 1.8.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "werf",
+      "repo_name": "nelm",
+      "asset": "nelm_1.8.0_linux_arm64.tar.gz",
+      "checksum": "67b7fdbf550cc8e99cc446f2be7bd9939102c6b83c8e33b9dfb0dfa315243527",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "nelm",
+          "src": "nelm_1.8.0_linux_arm64/bin/nelm"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "werf/nelm/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^nelm version 1.8.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "werf",
+      "repo_name": "nelm",
+      "asset": "nelm_1.8.0_linux_386.tar.gz",
+      "checksum": "2a7c77f2b7e279702c57601c74796f0c215ba33037c489d26e8d2736479c5b77",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "nelm",
+          "src": "nelm_1.8.0_linux_386/bin/nelm"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "werf/nelm/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^nelm version 1.8.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "werf",
+      "repo_name": "nelm",
+      "asset": "nelm_1.8.0_linux_arm.tar.gz",
+      "checksum": "f01c273fcdeb4a69c29abcd2d35c710cd4de37749b10280e1df0b144fa00101f",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "nelm",
+          "src": "nelm_1.8.0_linux_arm/bin/nelm"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "werf/nelm/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^nelm version 1.8.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "werf",
+      "repo_name": "nelm",
+      "asset": "nelm_1.8.0_macOS_amd64.zip",
+      "checksum": "6636a9e32b8154bcf5fbe5bb44fefc674babfbf0a1ddddb723d1d1aa722f4ccf",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "nelm",
+          "src": "nelm_1.8.0_macOS_amd64/bin/nelm"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "werf/nelm/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^nelm version 1.8.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "werf",
+      "repo_name": "nelm",
+      "asset": "nelm_1.8.0_macOS_arm64.zip",
+      "checksum": "4d51f645a4b38a2978a1a8023dbbc9cf496ac10d57481a17920aec93ca327bdb",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "nelm",
+          "src": "nelm_1.8.0_macOS_arm64/bin/nelm"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "werf/nelm/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^nelm version 1.8.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "werf",
+      "repo_name": "nelm",
+      "asset": "nelm_1.8.0_windows_amd64.zip",
+      "checksum": "6ab02f426cd553c23be27eec58a011331ef49830c85f8dbd95a1b551157843f9",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "nelm",
+          "src": "nelm_1.8.0_windows_amd64/bin/nelm.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "werf/nelm/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^nelm version 1.8.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "werf",
+      "repo_name": "nelm",
+      "asset": "nelm_1.8.0_windows_arm64.zip",
+      "checksum": "1995a7fd282563a41bac68cb522214b8fd80c09a14a51543a109444d73aafa8b",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "nelm",
+          "src": "nelm_1.8.0_windows_arm64/bin/nelm.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "werf/nelm/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^nelm version 1.8.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "werf",
+      "repo_name": "nelm",
+      "asset": "nelm_1.8.0_windows_386.zip",
+      "checksum": "8c209161b8faaa0ed9892c59a4307728d1c7c587b68a9340261507100afab549",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "nelm",
+          "src": "nelm_1.8.0_windows_386/bin/nelm.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "werf/nelm/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^nelm version 1.8.0"
+      }
+    }
+  ]
+}
