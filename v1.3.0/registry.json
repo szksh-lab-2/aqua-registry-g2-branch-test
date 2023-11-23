@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "earendil-works/pi",
+  "version": "v1.3.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "earendil-works",
+      "repo_name": "pi",
+      "asset": "pi_1.3.0_linux_amd64.tar.gz",
+      "checksum": "005b85306cc0c3f640e35f8a2ea5719235b49ae629d6f87fb95bb1060fdc6940",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "pi",
+          "src": "pi_1.3.0_linux_amd64/bin/pi"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "earendil-works/pi/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^pi version 1.3.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "earendil-works",
+      "repo_name": "pi",
+      "asset": "pi_1.3.0_linux_arm64.tar.gz",
+      "checksum": "0dafd7a7f11fc6770ca68ae1ebfec06094e84c4fda0eee25c8f5017e66029225",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "pi",
+          "src": "pi_1.3.0_linux_arm64/bin/pi"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "earendil-works/pi/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^pi version 1.3.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "earendil-works",
+      "repo_name": "pi",
+      "asset": "pi_1.3.0_linux_386.tar.gz",
+      "checksum": "986c508677584305d00611a68b723c17905749692b160816f9f6abc3e19e1076",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "pi",
+          "src": "pi_1.3.0_linux_386/bin/pi"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "earendil-works/pi/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^pi version 1.3.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "earendil-works",
+      "repo_name": "pi",
+      "asset": "pi_1.3.0_linux_arm.tar.gz",
+      "checksum": "103fcc9d61b4fb3658c25b78ace12d0184a42d3ab1047b87d7ffb71c0b16348c",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "pi",
+          "src": "pi_1.3.0_linux_arm/bin/pi"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "earendil-works/pi/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^pi version 1.3.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "earendil-works",
+      "repo_name": "pi",
+      "asset": "pi_1.3.0_macOS_amd64.zip",
+      "checksum": "913e5b1940c90b33bdd7091d9473b9cbb25019c0681a4871210c5d3170139291",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "pi",
+          "src": "pi_1.3.0_macOS_amd64/bin/pi"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "earendil-works/pi/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^pi version 1.3.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "earendil-works",
+      "repo_name": "pi",
+      "asset": "pi_1.3.0_macOS_arm64.zip",
+      "checksum": "16ad75311bd7bdc34e28ffa78794c97234b0ab49507950b2441778a7836dbf3e",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "pi",
+          "src": "pi_1.3.0_macOS_arm64/bin/pi"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "earendil-works/pi/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^pi version 1.3.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "earendil-works",
+      "repo_name": "pi",
+      "asset": "pi_1.3.0_windows_amd64.zip",
+      "checksum": "463eec6eacec2ea5c1f4898a3537d72e865df4dc50a1b2c55fce7af5987a4d70",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "pi",
+          "src": "pi_1.3.0_windows_amd64/bin/pi.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "earendil-works/pi/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^pi version 1.3.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "earendil-works",
+      "repo_name": "pi",
+      "asset": "pi_1.3.0_windows_arm64.zip",
+      "checksum": "641854f57ce8aa197b7ff0cf239613401438b6a1e23ec4feab7dbf22302f145b",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "pi",
+          "src": "pi_1.3.0_windows_arm64/bin/pi.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "earendil-works/pi/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^pi version 1.3.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "earendil-works",
+      "repo_name": "pi",
+      "asset": "pi_1.3.0_windows_386.zip",
+      "checksum": "ee3047aed065052e37c0bb55b5e220afb2659795563ab3e48cae74c7dc5eeaad",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "pi",
+          "src": "pi_1.3.0_windows_386/bin/pi.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "earendil-works/pi/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^pi version 1.3.0"
+      }
+    }
+  ]
+}
