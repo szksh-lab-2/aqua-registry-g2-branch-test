@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "mozilla/sccache",
+  "version": "v1.3.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "mozilla",
+      "repo_name": "sccache",
+      "asset": "sccache_1.3.0_linux_amd64.tar.gz",
+      "checksum": "b56fd32bd293371463b4bad7e33d7b69847f5784ea9d50452dfc5cb585577c08",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "sccache",
+          "src": "sccache_1.3.0_linux_amd64/bin/sccache"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "mozilla/sccache/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^sccache version 1.3.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "mozilla",
+      "repo_name": "sccache",
+      "asset": "sccache_1.3.0_linux_arm64.tar.gz",
+      "checksum": "3b4bd1ed778f78a21b1d983edcf9ec4571812b38e65bed921757ea9f30286231",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "sccache",
+          "src": "sccache_1.3.0_linux_arm64/bin/sccache"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "mozilla/sccache/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^sccache version 1.3.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "mozilla",
+      "repo_name": "sccache",
+      "asset": "sccache_1.3.0_linux_386.tar.gz",
+      "checksum": "c381bea7ffd70b133f41bcf2f5459d8ed6b6a9361893be2d8c62c5d233efd1f3",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "sccache",
+          "src": "sccache_1.3.0_linux_386/bin/sccache"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "mozilla/sccache/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^sccache version 1.3.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "mozilla",
+      "repo_name": "sccache",
+      "asset": "sccache_1.3.0_linux_arm.tar.gz",
+      "checksum": "13952783808e786dc19a2a15fc23511970c6073d69a8048a713b24987d71d292",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "sccache",
+          "src": "sccache_1.3.0_linux_arm/bin/sccache"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "mozilla/sccache/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^sccache version 1.3.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "mozilla",
+      "repo_name": "sccache",
+      "asset": "sccache_1.3.0_macOS_amd64.zip",
+      "checksum": "dd73440fa69ff3e12eb279004e78756141b6df7c54acc2b849adcd8fbea1007d",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "sccache",
+          "src": "sccache_1.3.0_macOS_amd64/bin/sccache"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "mozilla/sccache/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^sccache version 1.3.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "mozilla",
+      "repo_name": "sccache",
+      "asset": "sccache_1.3.0_macOS_arm64.zip",
+      "checksum": "d135d881a4b7adb2f666a916d8dc9fc5b4628d7d5d5ea6159a7a1d51b144ab3a",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "sccache",
+          "src": "sccache_1.3.0_macOS_arm64/bin/sccache"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "mozilla/sccache/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^sccache version 1.3.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "mozilla",
+      "repo_name": "sccache",
+      "asset": "sccache_1.3.0_windows_amd64.zip",
+      "checksum": "67babd10981bad4a42bbbab7067e9c7af73da74befd9ecfdd7d4178a8b153c5d",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "sccache",
+          "src": "sccache_1.3.0_windows_amd64/bin/sccache.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "mozilla/sccache/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^sccache version 1.3.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "mozilla",
+      "repo_name": "sccache",
+      "asset": "sccache_1.3.0_windows_arm64.zip",
+      "checksum": "68bd4bda733be7fb5a5d9ee7a33718ab555b4e26da816b929cfdc433013d3fe8",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "sccache",
+          "src": "sccache_1.3.0_windows_arm64/bin/sccache.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "mozilla/sccache/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^sccache version 1.3.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "mozilla",
+      "repo_name": "sccache",
+      "asset": "sccache_1.3.0_windows_386.zip",
+      "checksum": "4510089e0abab794825eb87c6293b6fe7123fe6147754a60de11d1bdfc88ef64",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "sccache",
+          "src": "sccache_1.3.0_windows_386/bin/sccache.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "mozilla/sccache/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^sccache version 1.3.0"
+      }
+    }
+  ]
+}
