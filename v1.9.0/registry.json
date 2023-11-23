@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "docker/buildx",
+  "version": "v1.9.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "docker",
+      "repo_name": "buildx",
+      "asset": "buildx_1.9.0_linux_amd64.tar.gz",
+      "checksum": "2c032999a4e1135f4858c426b03c282d940d6e4b7c989eb90b06f11b03bdbd1d",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "buildx",
+          "src": "buildx_1.9.0_linux_amd64/bin/buildx"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "docker/buildx/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^buildx version 1.9.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "docker",
+      "repo_name": "buildx",
+      "asset": "buildx_1.9.0_linux_arm64.tar.gz",
+      "checksum": "bd1f489788f09f8fb95dfecd0043a521067a6aa3da38055d8264ddaa90488a9a",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "buildx",
+          "src": "buildx_1.9.0_linux_arm64/bin/buildx"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "docker/buildx/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^buildx version 1.9.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "docker",
+      "repo_name": "buildx",
+      "asset": "buildx_1.9.0_linux_386.tar.gz",
+      "checksum": "b06a5d0c5fd8231a7ada5ce93f02cdb55c8d5d1b0ee38b4b63a4588b9f6a4432",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "buildx",
+          "src": "buildx_1.9.0_linux_386/bin/buildx"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "docker/buildx/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^buildx version 1.9.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "docker",
+      "repo_name": "buildx",
+      "asset": "buildx_1.9.0_linux_arm.tar.gz",
+      "checksum": "1e41c39bf9ca4640e21beab8f89bd14290b3f6b360696f71a16d74ed2befe2d9",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "buildx",
+          "src": "buildx_1.9.0_linux_arm/bin/buildx"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "docker/buildx/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^buildx version 1.9.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "docker",
+      "repo_name": "buildx",
+      "asset": "buildx_1.9.0_macOS_amd64.zip",
+      "checksum": "faa8cc2e3c943216f6c09e236d70167fe82529f12e1c73af736a4e24808f29a0",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "buildx",
+          "src": "buildx_1.9.0_macOS_amd64/bin/buildx"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "docker/buildx/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^buildx version 1.9.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "docker",
+      "repo_name": "buildx",
+      "asset": "buildx_1.9.0_macOS_arm64.zip",
+      "checksum": "bae25ea3763bbeedec7a50b964b3cf14816a90a2a384042ccfb8f957b91836f6",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "buildx",
+          "src": "buildx_1.9.0_macOS_arm64/bin/buildx"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "docker/buildx/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^buildx version 1.9.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "docker",
+      "repo_name": "buildx",
+      "asset": "buildx_1.9.0_windows_amd64.zip",
+      "checksum": "c9d2cb158c89aaeadf7ddf06f172c70caba4bed0a1fbc3f783d95ae3227ec153",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "buildx",
+          "src": "buildx_1.9.0_windows_amd64/bin/buildx.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "docker/buildx/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^buildx version 1.9.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "docker",
+      "repo_name": "buildx",
+      "asset": "buildx_1.9.0_windows_arm64.zip",
+      "checksum": "44c3bf9a2702fe85f6c4d8bbdee97b72326f30e0448acc2dfde8ddf3b19a309f",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "buildx",
+          "src": "buildx_1.9.0_windows_arm64/bin/buildx.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "docker/buildx/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^buildx version 1.9.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "docker",
+      "repo_name": "buildx",
+      "asset": "buildx_1.9.0_windows_386.zip",
+      "checksum": "4d6ddb52f500c94d53da29ba4906fe0c32a843a5a4b6d85c51bbc8d8a89e3ffe",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "buildx",
+          "src": "buildx_1.9.0_windows_386/bin/buildx.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "docker/buildx/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^buildx version 1.9.0"
+      }
+    }
+  ]
+}
