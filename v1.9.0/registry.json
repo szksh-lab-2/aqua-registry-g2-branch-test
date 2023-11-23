@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "ovh/venom",
+  "version": "v1.9.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "ovh",
+      "repo_name": "venom",
+      "asset": "venom_1.9.0_linux_amd64.tar.gz",
+      "checksum": "98b38c1c84915eba9481554aeb96556ea12324fd69668ecc0679c6a35560a481",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "venom",
+          "src": "venom_1.9.0_linux_amd64/bin/venom"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "ovh/venom/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^venom version 1.9.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "ovh",
+      "repo_name": "venom",
+      "asset": "venom_1.9.0_linux_arm64.tar.gz",
+      "checksum": "731bd763938422ff7aa019885038fe07b8ec28bcdee74c66c39074b47e8f2787",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "venom",
+          "src": "venom_1.9.0_linux_arm64/bin/venom"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "ovh/venom/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^venom version 1.9.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "ovh",
+      "repo_name": "venom",
+      "asset": "venom_1.9.0_linux_386.tar.gz",
+      "checksum": "9d153b6a828851dec110e356e7f42e99b1c8d5eb3bfd3382e6a508cc8db89172",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "venom",
+          "src": "venom_1.9.0_linux_386/bin/venom"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "ovh/venom/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^venom version 1.9.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "ovh",
+      "repo_name": "venom",
+      "asset": "venom_1.9.0_linux_arm.tar.gz",
+      "checksum": "26a56632ca5a42a95170d977b72ce33d955f6563b98e2927df9685e069ddcf75",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "venom",
+          "src": "venom_1.9.0_linux_arm/bin/venom"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "ovh/venom/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^venom version 1.9.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "ovh",
+      "repo_name": "venom",
+      "asset": "venom_1.9.0_macOS_amd64.zip",
+      "checksum": "32e94252b6f2c246b07dc349468773d5bf4b92177abb6e4cbf6de5efa918199a",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "venom",
+          "src": "venom_1.9.0_macOS_amd64/bin/venom"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "ovh/venom/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^venom version 1.9.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "ovh",
+      "repo_name": "venom",
+      "asset": "venom_1.9.0_macOS_arm64.zip",
+      "checksum": "a5e7264e5079503214ad44c02bc881bcab682136135068c808eeabf45d7677e1",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "venom",
+          "src": "venom_1.9.0_macOS_arm64/bin/venom"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "ovh/venom/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^venom version 1.9.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "ovh",
+      "repo_name": "venom",
+      "asset": "venom_1.9.0_windows_amd64.zip",
+      "checksum": "0bbe77232c176e87fb77ee42195be7af313ad23c5bf51640e4c3488c3b93cb66",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "venom",
+          "src": "venom_1.9.0_windows_amd64/bin/venom.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "ovh/venom/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^venom version 1.9.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "ovh",
+      "repo_name": "venom",
+      "asset": "venom_1.9.0_windows_arm64.zip",
+      "checksum": "9705affb33b21493f56f746776e1af20a8c2ad4918b521f9984ab9e999c64d8e",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "venom",
+          "src": "venom_1.9.0_windows_arm64/bin/venom.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "ovh/venom/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^venom version 1.9.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "ovh",
+      "repo_name": "venom",
+      "asset": "venom_1.9.0_windows_386.zip",
+      "checksum": "036331a33e7dfa554e2e856824714ffc9d1d6a637de15c706b53fcf0d28bb4c5",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "venom",
+          "src": "venom_1.9.0_windows_386/bin/venom.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "ovh/venom/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^venom version 1.9.0"
+      }
+    }
+  ]
+}
