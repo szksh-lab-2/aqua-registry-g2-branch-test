@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "docker/cli",
+  "version": "v1.4.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "docker",
+      "repo_name": "cli",
+      "asset": "cli_1.4.0_linux_amd64.tar.gz",
+      "checksum": "03417b61fc727b254809a0fc9017cf53cdc3b3653cb54bfdf850529c107fc217",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "cli",
+          "src": "cli_1.4.0_linux_amd64/bin/cli"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "docker/cli/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cli version 1.4.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "docker",
+      "repo_name": "cli",
+      "asset": "cli_1.4.0_linux_arm64.tar.gz",
+      "checksum": "dfa694d2f202d6d5d56ae0a047f316909a82c78f4bd90bdba547ce14dcac1414",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "cli",
+          "src": "cli_1.4.0_linux_arm64/bin/cli"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "docker/cli/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cli version 1.4.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "docker",
+      "repo_name": "cli",
+      "asset": "cli_1.4.0_linux_386.tar.gz",
+      "checksum": "19d2def44af2fd97a3c71da2e933d259efe284ff3ea158447212df6808d294c4",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "cli",
+          "src": "cli_1.4.0_linux_386/bin/cli"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "docker/cli/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cli version 1.4.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "docker",
+      "repo_name": "cli",
+      "asset": "cli_1.4.0_linux_arm.tar.gz",
+      "checksum": "b652e6f6c59acfa21c87044b77ee985019e99597ce1befc20c27ba434fa7ec71",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "cli",
+          "src": "cli_1.4.0_linux_arm/bin/cli"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "docker/cli/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cli version 1.4.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "docker",
+      "repo_name": "cli",
+      "asset": "cli_1.4.0_macOS_amd64.zip",
+      "checksum": "f698f14df6317d72e24dc10a4588f817e4d12a820643e0c3c595b19b1dfe06f0",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "cli",
+          "src": "cli_1.4.0_macOS_amd64/bin/cli"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "docker/cli/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cli version 1.4.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "docker",
+      "repo_name": "cli",
+      "asset": "cli_1.4.0_macOS_arm64.zip",
+      "checksum": "e81019723eacc354af98a2aca86ddc456b4a57d96393432b129c2d997e02fac8",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "cli",
+          "src": "cli_1.4.0_macOS_arm64/bin/cli"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "docker/cli/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cli version 1.4.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "docker",
+      "repo_name": "cli",
+      "asset": "cli_1.4.0_windows_amd64.zip",
+      "checksum": "2b2b5d06f5b283c83cc05cb236c6f5af0d958aae8d60840b2795cfab9f2a2ff6",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "cli",
+          "src": "cli_1.4.0_windows_amd64/bin/cli.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "docker/cli/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cli version 1.4.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "docker",
+      "repo_name": "cli",
+      "asset": "cli_1.4.0_windows_arm64.zip",
+      "checksum": "4ea4f4f9f3e8c1acdb62756100ff15cfb8fe4412ecef940f3849144a8d0f97d3",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "cli",
+          "src": "cli_1.4.0_windows_arm64/bin/cli.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "docker/cli/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cli version 1.4.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "docker",
+      "repo_name": "cli",
+      "asset": "cli_1.4.0_windows_386.zip",
+      "checksum": "bab57f7635151218294dbebfca778f36635d921865df2cc72a9199a6aaea6227",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "cli",
+          "src": "cli_1.4.0_windows_386/bin/cli.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "docker/cli/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cli version 1.4.0"
+      }
+    }
+  ]
+}
