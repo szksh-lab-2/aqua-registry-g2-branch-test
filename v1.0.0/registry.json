@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "werf/werf",
+  "version": "v1.0.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "werf",
+      "repo_name": "werf",
+      "asset": "werf_1.0.0_linux_amd64.tar.gz",
+      "checksum": "d03a5d5a44d64dc17b2a2f3b690f303dcadf2d698855667f3e590624d1f504f6",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "werf",
+          "src": "werf_1.0.0_linux_amd64/bin/werf"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "werf/werf/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^werf version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "werf",
+      "repo_name": "werf",
+      "asset": "werf_1.0.0_linux_arm64.tar.gz",
+      "checksum": "7d7189611c7b383e46b5a0987bea19c35ef75c4d68a7c5c96b0c925a224d70ed",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "werf",
+          "src": "werf_1.0.0_linux_arm64/bin/werf"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "werf/werf/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^werf version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "werf",
+      "repo_name": "werf",
+      "asset": "werf_1.0.0_linux_386.tar.gz",
+      "checksum": "da4cd8abb7df514fc8c4c7b9bf62e8faf2297c1fe73fa3d5116ecef84d51c5c5",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "werf",
+          "src": "werf_1.0.0_linux_386/bin/werf"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "werf/werf/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^werf version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "werf",
+      "repo_name": "werf",
+      "asset": "werf_1.0.0_linux_arm.tar.gz",
+      "checksum": "08e08c6edbaa2e7269cc3c897b10e053280c745de2979343485de95d373adb97",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "werf",
+          "src": "werf_1.0.0_linux_arm/bin/werf"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "werf/werf/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^werf version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "werf",
+      "repo_name": "werf",
+      "asset": "werf_1.0.0_macOS_amd64.zip",
+      "checksum": "28f480388528c4ddaa5cc3b7847330844bb7ba6c6cc6beb5100b99aae2cdb4d5",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "werf",
+          "src": "werf_1.0.0_macOS_amd64/bin/werf"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "werf/werf/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^werf version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "werf",
+      "repo_name": "werf",
+      "asset": "werf_1.0.0_macOS_arm64.zip",
+      "checksum": "ebdcd12fc0a27e6b51a9b6f754cc90b79ddbc933ef10f882dd5f84458e37ca18",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "werf",
+          "src": "werf_1.0.0_macOS_arm64/bin/werf"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "werf/werf/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^werf version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "werf",
+      "repo_name": "werf",
+      "asset": "werf_1.0.0_windows_amd64.zip",
+      "checksum": "62a31de5a09092eaea31f70c49f229a109a15824e959f252bf421fe63092e9bb",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "werf",
+          "src": "werf_1.0.0_windows_amd64/bin/werf.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "werf/werf/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^werf version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "werf",
+      "repo_name": "werf",
+      "asset": "werf_1.0.0_windows_arm64.zip",
+      "checksum": "a6c20f4182ad51459dea1283ee8d76440fa84ae9ec875dd4b6fac50319b68134",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "werf",
+          "src": "werf_1.0.0_windows_arm64/bin/werf.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "werf/werf/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^werf version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "werf",
+      "repo_name": "werf",
+      "asset": "werf_1.0.0_windows_386.zip",
+      "checksum": "d6ea27f865e1dc2a453759b96fafb841ebfb03a1b650cc57dbd3877c21641af7",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "werf",
+          "src": "werf_1.0.0_windows_386/bin/werf.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "werf/werf/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^werf version 1.0.0"
+      }
+    }
+  ]
+}
