@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "bazelbuild/bazel",
+  "version": "v1.0.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "bazelbuild",
+      "repo_name": "bazel",
+      "asset": "bazel_1.0.0_linux_amd64.tar.gz",
+      "checksum": "793509cb9423d75ea87a9c24dfcabbeb2c8a5c069ee9685138119c738c44bf33",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "bazel",
+          "src": "bazel_1.0.0_linux_amd64/bin/bazel"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "bazelbuild/bazel/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^bazel version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "bazelbuild",
+      "repo_name": "bazel",
+      "asset": "bazel_1.0.0_linux_arm64.tar.gz",
+      "checksum": "61ccf6d298f735b2642a5d292df4ea0de626251755ebb98185ed2df490a2cba3",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "bazel",
+          "src": "bazel_1.0.0_linux_arm64/bin/bazel"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "bazelbuild/bazel/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^bazel version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "bazelbuild",
+      "repo_name": "bazel",
+      "asset": "bazel_1.0.0_linux_386.tar.gz",
+      "checksum": "ca5d0a1cffb5e25d378232ce52639269d724b348399ceef0d5dea6e73ef484ee",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "bazel",
+          "src": "bazel_1.0.0_linux_386/bin/bazel"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "bazelbuild/bazel/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^bazel version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "bazelbuild",
+      "repo_name": "bazel",
+      "asset": "bazel_1.0.0_linux_arm.tar.gz",
+      "checksum": "456399d6ebba6f07f3939c70313a1c966480658b894f3ae8842948c386926b32",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "bazel",
+          "src": "bazel_1.0.0_linux_arm/bin/bazel"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "bazelbuild/bazel/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^bazel version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "bazelbuild",
+      "repo_name": "bazel",
+      "asset": "bazel_1.0.0_macOS_amd64.zip",
+      "checksum": "76ce0e6ee212f9687520ea306b13d5dd2ebeaa87dceb007f324385601df4b903",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "bazel",
+          "src": "bazel_1.0.0_macOS_amd64/bin/bazel"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "bazelbuild/bazel/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^bazel version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "bazelbuild",
+      "repo_name": "bazel",
+      "asset": "bazel_1.0.0_macOS_arm64.zip",
+      "checksum": "5b4b0af5a0a9aa068ab5e0e2f44a2c9088c4faa1aede1e5d145b3ade930f115c",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "bazel",
+          "src": "bazel_1.0.0_macOS_arm64/bin/bazel"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "bazelbuild/bazel/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^bazel version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "bazelbuild",
+      "repo_name": "bazel",
+      "asset": "bazel_1.0.0_windows_amd64.zip",
+      "checksum": "3a7ea92e27523403d4f0a5ee5ebdd9c04777ea264aecc7b18f23a8a045e374ea",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "bazel",
+          "src": "bazel_1.0.0_windows_amd64/bin/bazel.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "bazelbuild/bazel/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^bazel version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "bazelbuild",
+      "repo_name": "bazel",
+      "asset": "bazel_1.0.0_windows_arm64.zip",
+      "checksum": "cf8cac3f9095a9a75b9ccb9ae510d67d5695effc12b0e9dd4ff714b1174bda28",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "bazel",
+          "src": "bazel_1.0.0_windows_arm64/bin/bazel.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "bazelbuild/bazel/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^bazel version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "bazelbuild",
+      "repo_name": "bazel",
+      "asset": "bazel_1.0.0_windows_386.zip",
+      "checksum": "2c2aeef6ddc280c1499fc2ab326cc0696c7a17e1aa47dd7870efce435e2d4aaa",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "bazel",
+          "src": "bazel_1.0.0_windows_386/bin/bazel.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "bazelbuild/bazel/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^bazel version 1.0.0"
+      }
+    }
+  ]
+}
