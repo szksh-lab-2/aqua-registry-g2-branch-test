@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "docker/compose",
+  "version": "v1.1.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "docker",
+      "repo_name": "compose",
+      "asset": "compose_1.1.0_linux_amd64.tar.gz",
+      "checksum": "c7d8b298225dcc63df47b94282fa8690ec3fa4a0e572b1d944e625e08433b75d",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "compose",
+          "src": "compose_1.1.0_linux_amd64/bin/compose"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "docker/compose/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^compose version 1.1.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "docker",
+      "repo_name": "compose",
+      "asset": "compose_1.1.0_linux_arm64.tar.gz",
+      "checksum": "c086b0bc736971de75cbb367a6d4713bfd510905fafc95db5cd29c69bbdb8242",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "compose",
+          "src": "compose_1.1.0_linux_arm64/bin/compose"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "docker/compose/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^compose version 1.1.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "docker",
+      "repo_name": "compose",
+      "asset": "compose_1.1.0_linux_386.tar.gz",
+      "checksum": "6638ba0ed42d25ee3c851b425b5b7ca69b529a13ff5717a388b2514716c194d2",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "compose",
+          "src": "compose_1.1.0_linux_386/bin/compose"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "docker/compose/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^compose version 1.1.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "docker",
+      "repo_name": "compose",
+      "asset": "compose_1.1.0_linux_arm.tar.gz",
+      "checksum": "573ffcdf69fc91337e47c685dd40970821f51c188e4fbe684fdbe7086af42abc",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "compose",
+          "src": "compose_1.1.0_linux_arm/bin/compose"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "docker/compose/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^compose version 1.1.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "docker",
+      "repo_name": "compose",
+      "asset": "compose_1.1.0_macOS_amd64.zip",
+      "checksum": "c550ff99b520007bbfc3aa16559e8383d84d39087a9989f0188b30d503843303",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "compose",
+          "src": "compose_1.1.0_macOS_amd64/bin/compose"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "docker/compose/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^compose version 1.1.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "docker",
+      "repo_name": "compose",
+      "asset": "compose_1.1.0_macOS_arm64.zip",
+      "checksum": "4ab63a178b1f41316946962751000bad7d7955630275c0f4bd6329fbc2c4114a",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "compose",
+          "src": "compose_1.1.0_macOS_arm64/bin/compose"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "docker/compose/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^compose version 1.1.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "docker",
+      "repo_name": "compose",
+      "asset": "compose_1.1.0_windows_amd64.zip",
+      "checksum": "e5ba11d0fd760aa63dc0556328eb378471f9477462b899fb1d199de6104eb162",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "compose",
+          "src": "compose_1.1.0_windows_amd64/bin/compose.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "docker/compose/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^compose version 1.1.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "docker",
+      "repo_name": "compose",
+      "asset": "compose_1.1.0_windows_arm64.zip",
+      "checksum": "a3ee4ed93dd3c97440eb35b46e8078b93ad5bea6123e2009ecf416a0221dfe8c",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "compose",
+          "src": "compose_1.1.0_windows_arm64/bin/compose.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "docker/compose/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^compose version 1.1.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "docker",
+      "repo_name": "compose",
+      "asset": "compose_1.1.0_windows_386.zip",
+      "checksum": "c20cd4a1fd58bc7484e26bb9075dbc1e48e76c591c65c93fe3fec1094f686350",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "compose",
+          "src": "compose_1.1.0_windows_386/bin/compose.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "docker/compose/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^compose version 1.1.0"
+      }
+    }
+  ]
+}
