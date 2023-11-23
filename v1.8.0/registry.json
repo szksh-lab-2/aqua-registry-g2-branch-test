@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "docker/cagent",
+  "version": "v1.8.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "docker",
+      "repo_name": "cagent",
+      "asset": "cagent_1.8.0_linux_amd64.tar.gz",
+      "checksum": "7776e69121b7832ad949a3574d83e93941bdd142eea75efced984eec8c5582ff",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "cagent",
+          "src": "cagent_1.8.0_linux_amd64/bin/cagent"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "docker/cagent/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cagent version 1.8.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "docker",
+      "repo_name": "cagent",
+      "asset": "cagent_1.8.0_linux_arm64.tar.gz",
+      "checksum": "bca49767164f5e66d0df98c6040bb7cf70bff1932619c5d73efd22a52074ef3c",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "cagent",
+          "src": "cagent_1.8.0_linux_arm64/bin/cagent"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "docker/cagent/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cagent version 1.8.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "docker",
+      "repo_name": "cagent",
+      "asset": "cagent_1.8.0_linux_386.tar.gz",
+      "checksum": "0f836862bf14aa695d2a47788f0fd29b2599062937ec0e83ebcbdf91991b5e6c",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "cagent",
+          "src": "cagent_1.8.0_linux_386/bin/cagent"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "docker/cagent/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cagent version 1.8.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "docker",
+      "repo_name": "cagent",
+      "asset": "cagent_1.8.0_linux_arm.tar.gz",
+      "checksum": "f77126578b5ebb0c4c6d7aa5f22bcef0f8a0feb5b2eba6ea75a3a4bc19b49996",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "cagent",
+          "src": "cagent_1.8.0_linux_arm/bin/cagent"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "docker/cagent/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cagent version 1.8.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "docker",
+      "repo_name": "cagent",
+      "asset": "cagent_1.8.0_macOS_amd64.zip",
+      "checksum": "2cf07c6bb12f5cec04a9277240f17f7a904a2dc9a12685d1b1f245ae22194e5e",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "cagent",
+          "src": "cagent_1.8.0_macOS_amd64/bin/cagent"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "docker/cagent/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cagent version 1.8.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "docker",
+      "repo_name": "cagent",
+      "asset": "cagent_1.8.0_macOS_arm64.zip",
+      "checksum": "c331efb48452eb8cb8214551e615adcb4e4f34cce40d1c6ba77ec35098bb2e60",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "cagent",
+          "src": "cagent_1.8.0_macOS_arm64/bin/cagent"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "docker/cagent/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cagent version 1.8.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "docker",
+      "repo_name": "cagent",
+      "asset": "cagent_1.8.0_windows_amd64.zip",
+      "checksum": "b6c44538e2a65cdd1202bf4ccd6e3626b44d0baa54269a1ffc6f641ec4167863",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "cagent",
+          "src": "cagent_1.8.0_windows_amd64/bin/cagent.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "docker/cagent/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cagent version 1.8.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "docker",
+      "repo_name": "cagent",
+      "asset": "cagent_1.8.0_windows_arm64.zip",
+      "checksum": "0b3c84a73d132d83365c382bfa5790636dd1fe43d5ceabff5bb42630c81fedb3",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "cagent",
+          "src": "cagent_1.8.0_windows_arm64/bin/cagent.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "docker/cagent/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cagent version 1.8.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "docker",
+      "repo_name": "cagent",
+      "asset": "cagent_1.8.0_windows_386.zip",
+      "checksum": "59e170b06e6fd00500117c364d4bc18b30ffeec1c92d22681375783731e75228",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "cagent",
+          "src": "cagent_1.8.0_windows_386/bin/cagent.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "docker/cagent/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cagent version 1.8.0"
+      }
+    }
+  ]
+}
