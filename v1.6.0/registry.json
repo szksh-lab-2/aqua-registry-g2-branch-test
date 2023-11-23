@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "kubernetes-sigs/kind",
+  "version": "v1.6.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "kubernetes-sigs",
+      "repo_name": "kind",
+      "asset": "kind_1.6.0_linux_amd64.tar.gz",
+      "checksum": "8b0c0f84cfa340085c3fd9e3f6e90f1e2e30f64636670849f89691839481e82b",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "kind",
+          "src": "kind_1.6.0_linux_amd64/bin/kind"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes-sigs/kind/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kind version 1.6.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "kubernetes-sigs",
+      "repo_name": "kind",
+      "asset": "kind_1.6.0_linux_arm64.tar.gz",
+      "checksum": "c6032dc8c8ef33d9b2625ced23f2ff75bce6efc775bf45ac0d484c6924b5ba69",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "kind",
+          "src": "kind_1.6.0_linux_arm64/bin/kind"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes-sigs/kind/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kind version 1.6.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "kubernetes-sigs",
+      "repo_name": "kind",
+      "asset": "kind_1.6.0_linux_386.tar.gz",
+      "checksum": "27240c2b930290b13fed5f28419d663169522d60fbd4428e84df74a767ae7da1",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "kind",
+          "src": "kind_1.6.0_linux_386/bin/kind"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes-sigs/kind/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kind version 1.6.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "kubernetes-sigs",
+      "repo_name": "kind",
+      "asset": "kind_1.6.0_linux_arm.tar.gz",
+      "checksum": "dc24d1d1fd17bb0e5df276657b4bbe28b3d0c45c09873b9826b089e14fc250cf",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "kind",
+          "src": "kind_1.6.0_linux_arm/bin/kind"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes-sigs/kind/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kind version 1.6.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "kubernetes-sigs",
+      "repo_name": "kind",
+      "asset": "kind_1.6.0_macOS_amd64.zip",
+      "checksum": "55205bbf222419b72c3d779ee129824b139db1493bddea88d2e9fc7ff4005ced",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kind",
+          "src": "kind_1.6.0_macOS_amd64/bin/kind"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes-sigs/kind/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kind version 1.6.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "kubernetes-sigs",
+      "repo_name": "kind",
+      "asset": "kind_1.6.0_macOS_arm64.zip",
+      "checksum": "2ce23918d4d9eb20bdeed7f4a9d642f90987a3ec2c90828ffa6b05ee6548eda3",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kind",
+          "src": "kind_1.6.0_macOS_arm64/bin/kind"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes-sigs/kind/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kind version 1.6.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "kubernetes-sigs",
+      "repo_name": "kind",
+      "asset": "kind_1.6.0_windows_amd64.zip",
+      "checksum": "8ca04dbaf5154493d0f950467aa86969d094e1dd151444383b64c73eb9edd973",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kind",
+          "src": "kind_1.6.0_windows_amd64/bin/kind.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes-sigs/kind/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kind version 1.6.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "kubernetes-sigs",
+      "repo_name": "kind",
+      "asset": "kind_1.6.0_windows_arm64.zip",
+      "checksum": "e11d90879e0495dd27932458050d881859ec931f2c5ddc1d80deaa45b90413d0",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kind",
+          "src": "kind_1.6.0_windows_arm64/bin/kind.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes-sigs/kind/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kind version 1.6.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "kubernetes-sigs",
+      "repo_name": "kind",
+      "asset": "kind_1.6.0_windows_386.zip",
+      "checksum": "474294920469f4695bf9220fd028dd04364ef35cd020269eee781ffb3ebd054f",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kind",
+          "src": "kind_1.6.0_windows_386/bin/kind.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes-sigs/kind/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kind version 1.6.0"
+      }
+    }
+  ]
+}
