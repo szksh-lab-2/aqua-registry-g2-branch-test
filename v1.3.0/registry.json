@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "helmfile/helmfile",
+  "version": "v1.3.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "helmfile",
+      "repo_name": "helmfile",
+      "asset": "helmfile_1.3.0_linux_amd64.tar.gz",
+      "checksum": "418f9e169b1d9b04da5d4b767752241c62c378072281a42042aecf766fd7b0f9",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "helmfile",
+          "src": "helmfile_1.3.0_linux_amd64/bin/helmfile"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "helmfile/helmfile/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^helmfile version 1.3.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "helmfile",
+      "repo_name": "helmfile",
+      "asset": "helmfile_1.3.0_linux_arm64.tar.gz",
+      "checksum": "4331d490c4ec5616ae8703545c2c937117f077495978fd752dfce3ff1409bbc1",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "helmfile",
+          "src": "helmfile_1.3.0_linux_arm64/bin/helmfile"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "helmfile/helmfile/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^helmfile version 1.3.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "helmfile",
+      "repo_name": "helmfile",
+      "asset": "helmfile_1.3.0_linux_386.tar.gz",
+      "checksum": "f20faff455bac7bc1286738cb8d32fb473c3dde4c4bfdfcf3e747f7b5d7e4fba",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "helmfile",
+          "src": "helmfile_1.3.0_linux_386/bin/helmfile"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "helmfile/helmfile/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^helmfile version 1.3.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "helmfile",
+      "repo_name": "helmfile",
+      "asset": "helmfile_1.3.0_linux_arm.tar.gz",
+      "checksum": "c297411c8e60f4589f7b8e7a854be5609091acffa7892004624421c67d6dbba3",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "helmfile",
+          "src": "helmfile_1.3.0_linux_arm/bin/helmfile"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "helmfile/helmfile/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^helmfile version 1.3.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "helmfile",
+      "repo_name": "helmfile",
+      "asset": "helmfile_1.3.0_macOS_amd64.zip",
+      "checksum": "c9cce86a3e730421b59a794801eef53af40cf7dead8733a80e79da8d47b5aa3f",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "helmfile",
+          "src": "helmfile_1.3.0_macOS_amd64/bin/helmfile"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "helmfile/helmfile/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^helmfile version 1.3.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "helmfile",
+      "repo_name": "helmfile",
+      "asset": "helmfile_1.3.0_macOS_arm64.zip",
+      "checksum": "aa3f8e3133d1377db3ea4909c79dd90a593d0522fe291ca95ac2452f12ddb582",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "helmfile",
+          "src": "helmfile_1.3.0_macOS_arm64/bin/helmfile"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "helmfile/helmfile/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^helmfile version 1.3.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "helmfile",
+      "repo_name": "helmfile",
+      "asset": "helmfile_1.3.0_windows_amd64.zip",
+      "checksum": "d8de7d546875a288bf391e1b4dcb8df50636daccd996802464cb9b7f150e007f",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "helmfile",
+          "src": "helmfile_1.3.0_windows_amd64/bin/helmfile.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "helmfile/helmfile/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^helmfile version 1.3.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "helmfile",
+      "repo_name": "helmfile",
+      "asset": "helmfile_1.3.0_windows_arm64.zip",
+      "checksum": "96c888343797ab872cf1ce28a54c627e87b57c659577651232067ca7e291eef2",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "helmfile",
+          "src": "helmfile_1.3.0_windows_arm64/bin/helmfile.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "helmfile/helmfile/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^helmfile version 1.3.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "helmfile",
+      "repo_name": "helmfile",
+      "asset": "helmfile_1.3.0_windows_386.zip",
+      "checksum": "b19c121edb6ccbb699c2dde7f6f4d5cf2ee775ae39f07d36b02338858f373639",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "helmfile",
+          "src": "helmfile_1.3.0_windows_386/bin/helmfile.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "helmfile/helmfile/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^helmfile version 1.3.0"
+      }
+    }
+  ]
+}
