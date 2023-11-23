@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "borgbackup/borg",
+  "version": "v1.7.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "borgbackup",
+      "repo_name": "borg",
+      "asset": "borg_1.7.0_linux_amd64.tar.gz",
+      "checksum": "11c9bccfa77d1e555ac3688a91b043ff45c5a8d6dfe51d84313ace742451cdb3",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "borg",
+          "src": "borg_1.7.0_linux_amd64/bin/borg"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "borgbackup/borg/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^borg version 1.7.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "borgbackup",
+      "repo_name": "borg",
+      "asset": "borg_1.7.0_linux_arm64.tar.gz",
+      "checksum": "f3bc3cb53aca8c1a175198079dc9fa787ebbd8ee5240cd32b09a4a4b9fd5ba1b",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "borg",
+          "src": "borg_1.7.0_linux_arm64/bin/borg"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "borgbackup/borg/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^borg version 1.7.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "borgbackup",
+      "repo_name": "borg",
+      "asset": "borg_1.7.0_linux_386.tar.gz",
+      "checksum": "830c54b35733167ed689e9ad66abeea2d7125457766990fd5377e309010c3350",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "borg",
+          "src": "borg_1.7.0_linux_386/bin/borg"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "borgbackup/borg/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^borg version 1.7.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "borgbackup",
+      "repo_name": "borg",
+      "asset": "borg_1.7.0_linux_arm.tar.gz",
+      "checksum": "61faaf18090e6763d46d7d0c0d13db87b4185f9094850bf84cf7469236286ae2",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "borg",
+          "src": "borg_1.7.0_linux_arm/bin/borg"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "borgbackup/borg/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^borg version 1.7.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "borgbackup",
+      "repo_name": "borg",
+      "asset": "borg_1.7.0_macOS_amd64.zip",
+      "checksum": "77bf2a0fba2262ec269055bd8d54093a8340756a811a606b35ae2cd30907d3bd",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "borg",
+          "src": "borg_1.7.0_macOS_amd64/bin/borg"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "borgbackup/borg/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^borg version 1.7.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "borgbackup",
+      "repo_name": "borg",
+      "asset": "borg_1.7.0_macOS_arm64.zip",
+      "checksum": "63f202212fab84b859ccb42d60114576bf409af3530ac64bab0948441d1c89e6",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "borg",
+          "src": "borg_1.7.0_macOS_arm64/bin/borg"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "borgbackup/borg/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^borg version 1.7.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "borgbackup",
+      "repo_name": "borg",
+      "asset": "borg_1.7.0_windows_amd64.zip",
+      "checksum": "bcb255033f34cafff736b721eea3ce9d976aecf5c76f9128b742e673d7cc8af4",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "borg",
+          "src": "borg_1.7.0_windows_amd64/bin/borg.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "borgbackup/borg/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^borg version 1.7.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "borgbackup",
+      "repo_name": "borg",
+      "asset": "borg_1.7.0_windows_arm64.zip",
+      "checksum": "f016273d837c1175aeffc92326ba4e484fea15936f713c48ba3e9026098ea949",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "borg",
+          "src": "borg_1.7.0_windows_arm64/bin/borg.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "borgbackup/borg/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^borg version 1.7.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "borgbackup",
+      "repo_name": "borg",
+      "asset": "borg_1.7.0_windows_386.zip",
+      "checksum": "5dd06a7f052a1ac0dfd58c5f81715eb322faccc7ce4eef89ed1b8d145d45768a",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "borg",
+          "src": "borg_1.7.0_windows_386/bin/borg.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "borgbackup/borg/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^borg version 1.7.0"
+      }
+    }
+  ]
+}
