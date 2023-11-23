@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "glossia.ai/cli",
+  "version": "v1.8.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "glossia.ai",
+      "repo_name": "cli",
+      "asset": "cli_1.8.0_linux_amd64.tar.gz",
+      "checksum": "0400e649407a5093645b659c9c63e58804a714f4c4ea70c50438ebb242f10fe2",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "cli",
+          "src": "cli_1.8.0_linux_amd64/bin/cli"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "glossia.ai/cli/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cli version 1.8.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "glossia.ai",
+      "repo_name": "cli",
+      "asset": "cli_1.8.0_linux_arm64.tar.gz",
+      "checksum": "c5f035008474cce0a7cf7c33e7d9fb20cad80030989679caac5fad7a888dc673",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "cli",
+          "src": "cli_1.8.0_linux_arm64/bin/cli"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "glossia.ai/cli/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cli version 1.8.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "glossia.ai",
+      "repo_name": "cli",
+      "asset": "cli_1.8.0_linux_386.tar.gz",
+      "checksum": "1d21f57c9cb2e77f86a0a236889952f67a5fc500f19128a79a92a189387b8163",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "cli",
+          "src": "cli_1.8.0_linux_386/bin/cli"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "glossia.ai/cli/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cli version 1.8.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "glossia.ai",
+      "repo_name": "cli",
+      "asset": "cli_1.8.0_linux_arm.tar.gz",
+      "checksum": "c804672e6dfa1b282e6335f755b3ede968069229837c4c5bb84616763d3d9be0",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "cli",
+          "src": "cli_1.8.0_linux_arm/bin/cli"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "glossia.ai/cli/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cli version 1.8.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "glossia.ai",
+      "repo_name": "cli",
+      "asset": "cli_1.8.0_macOS_amd64.zip",
+      "checksum": "5717941ad3d4bb2c0c22b1f70abf0f0c42c1ccaa170b92c10f8bec88ef7a1bb9",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "cli",
+          "src": "cli_1.8.0_macOS_amd64/bin/cli"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "glossia.ai/cli/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cli version 1.8.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "glossia.ai",
+      "repo_name": "cli",
+      "asset": "cli_1.8.0_macOS_arm64.zip",
+      "checksum": "f382472b9b114c3f9eb0f75cfe3adc86cc048422e0c92788edbd51ef50f93b60",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "cli",
+          "src": "cli_1.8.0_macOS_arm64/bin/cli"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "glossia.ai/cli/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cli version 1.8.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "glossia.ai",
+      "repo_name": "cli",
+      "asset": "cli_1.8.0_windows_amd64.zip",
+      "checksum": "34894786bcbacc2e219cbe3474db7a51a93a757ff56f82b98f8f9cde15efa210",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "cli",
+          "src": "cli_1.8.0_windows_amd64/bin/cli.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "glossia.ai/cli/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cli version 1.8.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "glossia.ai",
+      "repo_name": "cli",
+      "asset": "cli_1.8.0_windows_arm64.zip",
+      "checksum": "05d56de9c42cf259d53a0cf46b048b586bd1f215f5be307dadc5f30bb0a97f04",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "cli",
+          "src": "cli_1.8.0_windows_arm64/bin/cli.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "glossia.ai/cli/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cli version 1.8.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "glossia.ai",
+      "repo_name": "cli",
+      "asset": "cli_1.8.0_windows_386.zip",
+      "checksum": "c399bac2e4d05d89b4dbdab532200254f2afc4b7c4ee7546d22a8aa9b77c1497",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "cli",
+          "src": "cli_1.8.0_windows_386/bin/cli.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "glossia.ai/cli/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cli version 1.8.0"
+      }
+    }
+  ]
+}
