@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "derailed/k9s",
+  "version": "v1.4.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "derailed",
+      "repo_name": "k9s",
+      "asset": "k9s_1.4.0_linux_amd64.tar.gz",
+      "checksum": "e1990bf6a4f0b8ef228416deea111b70a3015e9899cf8be15799b22b689247a2",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "k9s",
+          "src": "k9s_1.4.0_linux_amd64/bin/k9s"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "derailed/k9s/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^k9s version 1.4.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "derailed",
+      "repo_name": "k9s",
+      "asset": "k9s_1.4.0_linux_arm64.tar.gz",
+      "checksum": "cf241d68870502bc9da8c225fb3d5b55995e1ace714f14436d3342c746959a5b",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "k9s",
+          "src": "k9s_1.4.0_linux_arm64/bin/k9s"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "derailed/k9s/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^k9s version 1.4.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "derailed",
+      "repo_name": "k9s",
+      "asset": "k9s_1.4.0_linux_386.tar.gz",
+      "checksum": "45791e50266c205c01736d12ee918a3bced92022d5ff99d17e431161be243511",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "k9s",
+          "src": "k9s_1.4.0_linux_386/bin/k9s"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "derailed/k9s/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^k9s version 1.4.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "derailed",
+      "repo_name": "k9s",
+      "asset": "k9s_1.4.0_linux_arm.tar.gz",
+      "checksum": "ca38b49343dbbc81756844bfa36f335ecb7b66fe81400dbfc7088fc11b1d57fd",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "k9s",
+          "src": "k9s_1.4.0_linux_arm/bin/k9s"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "derailed/k9s/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^k9s version 1.4.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "derailed",
+      "repo_name": "k9s",
+      "asset": "k9s_1.4.0_macOS_amd64.zip",
+      "checksum": "3c52327766307e433457750821a8d421a780bf51f7990db51a9ba00239b2638a",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "k9s",
+          "src": "k9s_1.4.0_macOS_amd64/bin/k9s"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "derailed/k9s/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^k9s version 1.4.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "derailed",
+      "repo_name": "k9s",
+      "asset": "k9s_1.4.0_macOS_arm64.zip",
+      "checksum": "3a58ee58f941dfd1ef4d1d2bd1cedd43376262e2e93d91b1e4b85022d3fb998e",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "k9s",
+          "src": "k9s_1.4.0_macOS_arm64/bin/k9s"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "derailed/k9s/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^k9s version 1.4.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "derailed",
+      "repo_name": "k9s",
+      "asset": "k9s_1.4.0_windows_amd64.zip",
+      "checksum": "69e29e6f2b2e79a96d4d4267e8070091a9737ddc90828f13b3a533680b82d6c2",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "k9s",
+          "src": "k9s_1.4.0_windows_amd64/bin/k9s.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "derailed/k9s/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^k9s version 1.4.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "derailed",
+      "repo_name": "k9s",
+      "asset": "k9s_1.4.0_windows_arm64.zip",
+      "checksum": "c09789de87176fd8004db10eaf65b7755d985fd5521169e1d4d9386db2bdbc4a",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "k9s",
+          "src": "k9s_1.4.0_windows_arm64/bin/k9s.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "derailed/k9s/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^k9s version 1.4.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "derailed",
+      "repo_name": "k9s",
+      "asset": "k9s_1.4.0_windows_386.zip",
+      "checksum": "dd880853c71ad44e23f76df9aa165759af12dc9e7e9600ee413fe4b2162ecbd5",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "k9s",
+          "src": "k9s_1.4.0_windows_386/bin/k9s.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "derailed/k9s/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^k9s version 1.4.0"
+      }
+    }
+  ]
+}
