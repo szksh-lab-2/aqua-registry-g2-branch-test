@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "kiali/kiali",
+  "version": "v1.2.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "kiali",
+      "repo_name": "kiali",
+      "asset": "kiali_1.2.0_linux_amd64.tar.gz",
+      "checksum": "54a74a8b6e028b6af39af685118c84249ad8a3224d60346fd5a1aad2e2c3e790",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "kiali",
+          "src": "kiali_1.2.0_linux_amd64/bin/kiali"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kiali/kiali/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kiali version 1.2.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "kiali",
+      "repo_name": "kiali",
+      "asset": "kiali_1.2.0_linux_arm64.tar.gz",
+      "checksum": "135ddbdb8729e30c0eb8787260bbc0ed09505171263687149025fdc0d53ee0da",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "kiali",
+          "src": "kiali_1.2.0_linux_arm64/bin/kiali"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kiali/kiali/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kiali version 1.2.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "kiali",
+      "repo_name": "kiali",
+      "asset": "kiali_1.2.0_linux_386.tar.gz",
+      "checksum": "375508b42732ea525075cfa3f32d0936dc47e9ea84c55f3740cd31a6dc8acaa2",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "kiali",
+          "src": "kiali_1.2.0_linux_386/bin/kiali"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kiali/kiali/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kiali version 1.2.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "kiali",
+      "repo_name": "kiali",
+      "asset": "kiali_1.2.0_linux_arm.tar.gz",
+      "checksum": "f61099e07baccaf6a8d088a7ae1ee41600c32e5a3ed51a9e17e18616562eaf23",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "kiali",
+          "src": "kiali_1.2.0_linux_arm/bin/kiali"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kiali/kiali/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kiali version 1.2.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "kiali",
+      "repo_name": "kiali",
+      "asset": "kiali_1.2.0_macOS_amd64.zip",
+      "checksum": "6c95a65c52fdd503b6a6b0863a684660f0237c8f4d92c254d3b1e34efcfcbc5e",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kiali",
+          "src": "kiali_1.2.0_macOS_amd64/bin/kiali"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kiali/kiali/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kiali version 1.2.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "kiali",
+      "repo_name": "kiali",
+      "asset": "kiali_1.2.0_macOS_arm64.zip",
+      "checksum": "46af0c6a00482d06b1e288879c33d65bbcc2b460950e3df47527ff38a434c29b",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kiali",
+          "src": "kiali_1.2.0_macOS_arm64/bin/kiali"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kiali/kiali/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kiali version 1.2.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "kiali",
+      "repo_name": "kiali",
+      "asset": "kiali_1.2.0_windows_amd64.zip",
+      "checksum": "2c842bf38e0a1b8516f68634baf048c95cfcafb6d095d3c61b613d09b0cc75b2",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kiali",
+          "src": "kiali_1.2.0_windows_amd64/bin/kiali.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kiali/kiali/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kiali version 1.2.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "kiali",
+      "repo_name": "kiali",
+      "asset": "kiali_1.2.0_windows_arm64.zip",
+      "checksum": "67edfeba7089d455f57bb65dd79ecf74eb367471f38d0ad2b27b7c7fbb1f0e1b",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kiali",
+          "src": "kiali_1.2.0_windows_arm64/bin/kiali.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kiali/kiali/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kiali version 1.2.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "kiali",
+      "repo_name": "kiali",
+      "asset": "kiali_1.2.0_windows_386.zip",
+      "checksum": "d27fce552133d4dea579673d0f4f66bc39d5f5a9cc75cb7ad3cb676951870bc5",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kiali",
+          "src": "kiali_1.2.0_windows_386/bin/kiali.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kiali/kiali/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kiali version 1.2.0"
+      }
+    }
+  ]
+}
