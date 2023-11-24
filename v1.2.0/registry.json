@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "k3s-io/k3s",
+  "version": "v1.2.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "k3s-io",
+      "repo_name": "k3s",
+      "asset": "k3s_1.2.0_linux_amd64.tar.gz",
+      "checksum": "2ef4d1cde75f69b33c39211ac63bcd50272f68a2b447f8a55ae2e41e4fd95256",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "k3s",
+          "src": "k3s_1.2.0_linux_amd64/bin/k3s"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "k3s-io/k3s/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^k3s version 1.2.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "k3s-io",
+      "repo_name": "k3s",
+      "asset": "k3s_1.2.0_linux_arm64.tar.gz",
+      "checksum": "b0ca1353ee5cc08a3aadb68b8609c9b13b8c92c14f4c193cd80abeea6c8541f8",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "k3s",
+          "src": "k3s_1.2.0_linux_arm64/bin/k3s"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "k3s-io/k3s/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^k3s version 1.2.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "k3s-io",
+      "repo_name": "k3s",
+      "asset": "k3s_1.2.0_linux_386.tar.gz",
+      "checksum": "9e9cfa16782c828b057471c71dccd4558962a589fb1503d7621aa950308f66e1",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "k3s",
+          "src": "k3s_1.2.0_linux_386/bin/k3s"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "k3s-io/k3s/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^k3s version 1.2.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "k3s-io",
+      "repo_name": "k3s",
+      "asset": "k3s_1.2.0_linux_arm.tar.gz",
+      "checksum": "108a70ece524ee758e0f99346c150357d31463223a43fe309821f2e44113f4ff",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "k3s",
+          "src": "k3s_1.2.0_linux_arm/bin/k3s"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "k3s-io/k3s/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^k3s version 1.2.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "k3s-io",
+      "repo_name": "k3s",
+      "asset": "k3s_1.2.0_macOS_amd64.zip",
+      "checksum": "92f3187bb02a820a556280b0c8fb32effcd321764709538ab8fa871df0724215",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "k3s",
+          "src": "k3s_1.2.0_macOS_amd64/bin/k3s"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "k3s-io/k3s/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^k3s version 1.2.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "k3s-io",
+      "repo_name": "k3s",
+      "asset": "k3s_1.2.0_macOS_arm64.zip",
+      "checksum": "caa2de4cbec7394b8006c27cd443e7f9d30d3f101871520f600f4079ca7e0d8b",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "k3s",
+          "src": "k3s_1.2.0_macOS_arm64/bin/k3s"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "k3s-io/k3s/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^k3s version 1.2.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "k3s-io",
+      "repo_name": "k3s",
+      "asset": "k3s_1.2.0_windows_amd64.zip",
+      "checksum": "c071531a82adaf687f1340b6a9a23f544e27572ef8330e58d124a1bed7d5e569",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "k3s",
+          "src": "k3s_1.2.0_windows_amd64/bin/k3s.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "k3s-io/k3s/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^k3s version 1.2.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "k3s-io",
+      "repo_name": "k3s",
+      "asset": "k3s_1.2.0_windows_arm64.zip",
+      "checksum": "a951e860f9e118d8083c8ce114539dafff5decb7dbdcd0bcad508b5f033fca43",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "k3s",
+          "src": "k3s_1.2.0_windows_arm64/bin/k3s.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "k3s-io/k3s/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^k3s version 1.2.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "k3s-io",
+      "repo_name": "k3s",
+      "asset": "k3s_1.2.0_windows_386.zip",
+      "checksum": "5380607ee6ed1511e7fab235b68dc28c08052755da30f8f6e13aefaa17a3175a",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "k3s",
+          "src": "k3s_1.2.0_windows_386/bin/k3s.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "k3s-io/k3s/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^k3s version 1.2.0"
+      }
+    }
+  ]
+}
