@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "thanos-io/thanos",
+  "version": "v1.6.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "thanos-io",
+      "repo_name": "thanos",
+      "asset": "thanos_1.6.0_linux_amd64.tar.gz",
+      "checksum": "07010f13f2b882e612d42e9c2daa24de1992a5f581f7e929d99f9ed36d905cfe",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "thanos",
+          "src": "thanos_1.6.0_linux_amd64/bin/thanos"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "thanos-io/thanos/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^thanos version 1.6.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "thanos-io",
+      "repo_name": "thanos",
+      "asset": "thanos_1.6.0_linux_arm64.tar.gz",
+      "checksum": "98463c5d40f2f7eeeba06f34711bd6d7dc9598c6be56aee47888914ca8a890f1",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "thanos",
+          "src": "thanos_1.6.0_linux_arm64/bin/thanos"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "thanos-io/thanos/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^thanos version 1.6.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "thanos-io",
+      "repo_name": "thanos",
+      "asset": "thanos_1.6.0_linux_386.tar.gz",
+      "checksum": "f346bf3c7081f13ddca18b4143cf0a382b084a14b4fbd5636f82dce9b221f653",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "thanos",
+          "src": "thanos_1.6.0_linux_386/bin/thanos"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "thanos-io/thanos/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^thanos version 1.6.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "thanos-io",
+      "repo_name": "thanos",
+      "asset": "thanos_1.6.0_linux_arm.tar.gz",
+      "checksum": "9db603f39376083884ffadd3f9ae9cb6f2b01b690f0aafc0eeff863eff069940",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "thanos",
+          "src": "thanos_1.6.0_linux_arm/bin/thanos"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "thanos-io/thanos/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^thanos version 1.6.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "thanos-io",
+      "repo_name": "thanos",
+      "asset": "thanos_1.6.0_macOS_amd64.zip",
+      "checksum": "9114771b4465eb09f6d0028e0da3079de47b4c09d513244805a8b58d5e009d88",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "thanos",
+          "src": "thanos_1.6.0_macOS_amd64/bin/thanos"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "thanos-io/thanos/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^thanos version 1.6.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "thanos-io",
+      "repo_name": "thanos",
+      "asset": "thanos_1.6.0_macOS_arm64.zip",
+      "checksum": "c77599ceebcb0de2a46bbce240a8eedb2aa4b60d5090a76826317b9080446f8d",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "thanos",
+          "src": "thanos_1.6.0_macOS_arm64/bin/thanos"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "thanos-io/thanos/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^thanos version 1.6.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "thanos-io",
+      "repo_name": "thanos",
+      "asset": "thanos_1.6.0_windows_amd64.zip",
+      "checksum": "99103343c201214606a75b7b992f29d59b6f8d2873c8d3b2a9c5304f696e101b",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "thanos",
+          "src": "thanos_1.6.0_windows_amd64/bin/thanos.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "thanos-io/thanos/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^thanos version 1.6.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "thanos-io",
+      "repo_name": "thanos",
+      "asset": "thanos_1.6.0_windows_arm64.zip",
+      "checksum": "0c0b9b26ec8b0c6f66093710ef9b26f96e87864fd57dd3333a136dc69b11d79d",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "thanos",
+          "src": "thanos_1.6.0_windows_arm64/bin/thanos.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "thanos-io/thanos/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^thanos version 1.6.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "thanos-io",
+      "repo_name": "thanos",
+      "asset": "thanos_1.6.0_windows_386.zip",
+      "checksum": "f4fa8dc71f7f8de7911c4b144037e2491932799d98301c37d873f14e216b24e8",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "thanos",
+          "src": "thanos_1.6.0_windows_386/bin/thanos.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "thanos-io/thanos/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^thanos version 1.6.0"
+      }
+    }
+  ]
+}
