@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "fission/fission",
+  "version": "v1.6.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "fission",
+      "repo_name": "fission",
+      "asset": "fission_1.6.0_linux_amd64.tar.gz",
+      "checksum": "0e13d92174b3ef9620f27312865f9a8bf4948b26d0587cd91883eb1cd042ec82",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "fission",
+          "src": "fission_1.6.0_linux_amd64/bin/fission"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "fission/fission/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^fission version 1.6.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "fission",
+      "repo_name": "fission",
+      "asset": "fission_1.6.0_linux_arm64.tar.gz",
+      "checksum": "d87cc95c336c7ebf7670916bbb1e6c3037fa068de9611a6504d83be2c6cd5df4",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "fission",
+          "src": "fission_1.6.0_linux_arm64/bin/fission"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "fission/fission/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^fission version 1.6.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "fission",
+      "repo_name": "fission",
+      "asset": "fission_1.6.0_linux_386.tar.gz",
+      "checksum": "100502f6b63b36316f23e873b6c7d3cfbd6d06fcdb218e0b26326e784a89129d",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "fission",
+          "src": "fission_1.6.0_linux_386/bin/fission"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "fission/fission/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^fission version 1.6.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "fission",
+      "repo_name": "fission",
+      "asset": "fission_1.6.0_linux_arm.tar.gz",
+      "checksum": "c1ad7dbbd04b997ce8c980728fda3ff328e504c52dca9e249b0d95112b05bbe8",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "fission",
+          "src": "fission_1.6.0_linux_arm/bin/fission"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "fission/fission/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^fission version 1.6.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "fission",
+      "repo_name": "fission",
+      "asset": "fission_1.6.0_macOS_amd64.zip",
+      "checksum": "50b9b15e92e0ea4c62f4c8a69570ec28ff25bda14d5bc63cb65b24f502150442",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "fission",
+          "src": "fission_1.6.0_macOS_amd64/bin/fission"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "fission/fission/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^fission version 1.6.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "fission",
+      "repo_name": "fission",
+      "asset": "fission_1.6.0_macOS_arm64.zip",
+      "checksum": "219264e275b36e7ea94a5091150c4d1045e27561a1ec0d49337a0709a97732f3",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "fission",
+          "src": "fission_1.6.0_macOS_arm64/bin/fission"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "fission/fission/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^fission version 1.6.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "fission",
+      "repo_name": "fission",
+      "asset": "fission_1.6.0_windows_amd64.zip",
+      "checksum": "e089e92a8dd56a4c13171c889553d5c0462805ab5e2db3c97e8a77ada77dad03",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "fission",
+          "src": "fission_1.6.0_windows_amd64/bin/fission.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "fission/fission/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^fission version 1.6.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "fission",
+      "repo_name": "fission",
+      "asset": "fission_1.6.0_windows_arm64.zip",
+      "checksum": "117fa75a09848c397ede5f6b170c1b2a9d70f7dfabb61016cfa0463fd5c3571b",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "fission",
+          "src": "fission_1.6.0_windows_arm64/bin/fission.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "fission/fission/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^fission version 1.6.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "fission",
+      "repo_name": "fission",
+      "asset": "fission_1.6.0_windows_386.zip",
+      "checksum": "219ce6126fd2b67744d3ad207feead003f604db82f344593f0957e8d01e2d3c7",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "fission",
+          "src": "fission_1.6.0_windows_386/bin/fission.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "fission/fission/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^fission version 1.6.0"
+      }
+    }
+  ]
+}
