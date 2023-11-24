@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "apple/container",
+  "version": "v1.0.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "apple",
+      "repo_name": "container",
+      "asset": "container_1.0.0_linux_amd64.tar.gz",
+      "checksum": "9eb1add6340c36ab9623e3fbc03d71f7530c94526118881e60178f43925c243f",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "container",
+          "src": "container_1.0.0_linux_amd64/bin/container"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "apple/container/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^container version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "apple",
+      "repo_name": "container",
+      "asset": "container_1.0.0_linux_arm64.tar.gz",
+      "checksum": "5b1da052dc659bfb953fad29cf64779f5d1cb2541d1bd16bcfeb99461a77ee3f",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "container",
+          "src": "container_1.0.0_linux_arm64/bin/container"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "apple/container/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^container version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "apple",
+      "repo_name": "container",
+      "asset": "container_1.0.0_linux_386.tar.gz",
+      "checksum": "6beed979031590dd4e1d3ecde62fc30e297044f8ecced7cb1f4778d320dab7bc",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "container",
+          "src": "container_1.0.0_linux_386/bin/container"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "apple/container/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^container version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "apple",
+      "repo_name": "container",
+      "asset": "container_1.0.0_linux_arm.tar.gz",
+      "checksum": "093b99d05387c9651a49ff58c571c0d0f2623a411896700fc85f7861294b2835",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "container",
+          "src": "container_1.0.0_linux_arm/bin/container"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "apple/container/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^container version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "apple",
+      "repo_name": "container",
+      "asset": "container_1.0.0_macOS_amd64.zip",
+      "checksum": "db3c95450b440acddf800e15ce4ed549be8f4378ce9b18cafb3282a1fa1f435b",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "container",
+          "src": "container_1.0.0_macOS_amd64/bin/container"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "apple/container/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^container version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "apple",
+      "repo_name": "container",
+      "asset": "container_1.0.0_macOS_arm64.zip",
+      "checksum": "2c3fca15120ed4337f9c2a84a10f7cc5653236f31f197eeeb558dfa8e91a14ed",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "container",
+          "src": "container_1.0.0_macOS_arm64/bin/container"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "apple/container/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^container version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "apple",
+      "repo_name": "container",
+      "asset": "container_1.0.0_windows_amd64.zip",
+      "checksum": "4e05d0cb21c5627db2af638f34402e7fc83146d0fa7ac06b95d3c7ad5de5b0af",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "container",
+          "src": "container_1.0.0_windows_amd64/bin/container.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "apple/container/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^container version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "apple",
+      "repo_name": "container",
+      "asset": "container_1.0.0_windows_arm64.zip",
+      "checksum": "6445cf1976d39d84bb4b79624c6cbddcf342af84149b0fb2bdcb5464e7e31fc9",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "container",
+          "src": "container_1.0.0_windows_arm64/bin/container.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "apple/container/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^container version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "apple",
+      "repo_name": "container",
+      "asset": "container_1.0.0_windows_386.zip",
+      "checksum": "3b7acb132a32650325139239e90351045237eecc54343b87bbafa938c2efe2c2",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "container",
+          "src": "container_1.0.0_windows_386/bin/container.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "apple/container/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^container version 1.0.0"
+      }
+    }
+  ]
+}
