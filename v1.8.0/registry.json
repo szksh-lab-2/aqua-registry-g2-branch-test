@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "pivotal-cf/om",
+  "version": "v1.8.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "pivotal-cf",
+      "repo_name": "om",
+      "asset": "om_1.8.0_linux_amd64.tar.gz",
+      "checksum": "568f5f94f24b8abf20324872bb6d8d041267cf122b6b60f7454143a1b4308d27",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "om",
+          "src": "om_1.8.0_linux_amd64/bin/om"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "pivotal-cf/om/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^om version 1.8.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "pivotal-cf",
+      "repo_name": "om",
+      "asset": "om_1.8.0_linux_arm64.tar.gz",
+      "checksum": "d94ac0101d07ad0e768963dcde1809c71c9ee7c6c7a2eda64e9ffb94aaace5c1",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "om",
+          "src": "om_1.8.0_linux_arm64/bin/om"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "pivotal-cf/om/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^om version 1.8.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "pivotal-cf",
+      "repo_name": "om",
+      "asset": "om_1.8.0_linux_386.tar.gz",
+      "checksum": "9eaaf24fd7a16a2dc39cfa2ca0796437c347ff15dd065945b7e3f9631a006de3",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "om",
+          "src": "om_1.8.0_linux_386/bin/om"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "pivotal-cf/om/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^om version 1.8.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "pivotal-cf",
+      "repo_name": "om",
+      "asset": "om_1.8.0_linux_arm.tar.gz",
+      "checksum": "fcc0a2c45ac04f4cb085f22a827d1b007e4cb778c9c93fbec4dedbbfd26b2780",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "om",
+          "src": "om_1.8.0_linux_arm/bin/om"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "pivotal-cf/om/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^om version 1.8.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "pivotal-cf",
+      "repo_name": "om",
+      "asset": "om_1.8.0_macOS_amd64.zip",
+      "checksum": "b23711350fdaa6329e9f36b20ac5b1ce4f47570b608d0ef7f81f6ae17abd7bb4",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "om",
+          "src": "om_1.8.0_macOS_amd64/bin/om"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "pivotal-cf/om/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^om version 1.8.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "pivotal-cf",
+      "repo_name": "om",
+      "asset": "om_1.8.0_macOS_arm64.zip",
+      "checksum": "41496719b31461d2d6082c98e1daa40972b5837b0117f91969f97fecf92838c5",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "om",
+          "src": "om_1.8.0_macOS_arm64/bin/om"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "pivotal-cf/om/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^om version 1.8.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "pivotal-cf",
+      "repo_name": "om",
+      "asset": "om_1.8.0_windows_amd64.zip",
+      "checksum": "bb19c92985ba430b02a541584347e9b163e64a4c165e1dd163fadf3dd6ed235b",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "om",
+          "src": "om_1.8.0_windows_amd64/bin/om.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "pivotal-cf/om/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^om version 1.8.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "pivotal-cf",
+      "repo_name": "om",
+      "asset": "om_1.8.0_windows_arm64.zip",
+      "checksum": "19bfed9185e7b7ee07410201075cdc03ed5514f8cb1551d57d2853a6a8766ed9",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "om",
+          "src": "om_1.8.0_windows_arm64/bin/om.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "pivotal-cf/om/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^om version 1.8.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "pivotal-cf",
+      "repo_name": "om",
+      "asset": "om_1.8.0_windows_386.zip",
+      "checksum": "d19ab811515832994bb00f5f93ada12d6a2586a5deb2a3dc2705b11672fdbcd2",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "om",
+          "src": "om_1.8.0_windows_386/bin/om.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "pivotal-cf/om/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^om version 1.8.0"
+      }
+    }
+  ]
+}
