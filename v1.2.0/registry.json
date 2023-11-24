@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "aquasecurity/trivy",
+  "version": "v1.2.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "aquasecurity",
+      "repo_name": "trivy",
+      "asset": "trivy_1.2.0_linux_amd64.tar.gz",
+      "checksum": "6395b394b6534bd1222755efb7fcba26d07998d9d54d1ee778bab7777998654e",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "trivy",
+          "src": "trivy_1.2.0_linux_amd64/bin/trivy"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "aquasecurity/trivy/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^trivy version 1.2.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "aquasecurity",
+      "repo_name": "trivy",
+      "asset": "trivy_1.2.0_linux_arm64.tar.gz",
+      "checksum": "39ebbb78ab38839d3b81c520e371e7d27b0aebb84626d94082d62b5627aeaa1e",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "trivy",
+          "src": "trivy_1.2.0_linux_arm64/bin/trivy"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "aquasecurity/trivy/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^trivy version 1.2.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "aquasecurity",
+      "repo_name": "trivy",
+      "asset": "trivy_1.2.0_linux_386.tar.gz",
+      "checksum": "ae467f05a430c2e3378a85bdc85507e3c245f117fc0df2e7f05e39ee23c468ec",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "trivy",
+          "src": "trivy_1.2.0_linux_386/bin/trivy"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "aquasecurity/trivy/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^trivy version 1.2.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "aquasecurity",
+      "repo_name": "trivy",
+      "asset": "trivy_1.2.0_linux_arm.tar.gz",
+      "checksum": "196d90c63deb0fbdf4100889bfad4904a065e5d4c5c540f92c53cecefa663f9e",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "trivy",
+          "src": "trivy_1.2.0_linux_arm/bin/trivy"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "aquasecurity/trivy/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^trivy version 1.2.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "aquasecurity",
+      "repo_name": "trivy",
+      "asset": "trivy_1.2.0_macOS_amd64.zip",
+      "checksum": "252a39eb8e096b1455118b6c78beb117d564c5c9955a213eb966aaf3f48ebd7b",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "trivy",
+          "src": "trivy_1.2.0_macOS_amd64/bin/trivy"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "aquasecurity/trivy/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^trivy version 1.2.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "aquasecurity",
+      "repo_name": "trivy",
+      "asset": "trivy_1.2.0_macOS_arm64.zip",
+      "checksum": "9ae575c1ad6354019c160ce87c5ed5c39f1398b74d5687452966cc49fcd5fef8",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "trivy",
+          "src": "trivy_1.2.0_macOS_arm64/bin/trivy"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "aquasecurity/trivy/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^trivy version 1.2.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "aquasecurity",
+      "repo_name": "trivy",
+      "asset": "trivy_1.2.0_windows_amd64.zip",
+      "checksum": "e61f9f5d99709ee4a84648e5afeeef5dcc1d0adf46f824854c552c485c9e0f44",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "trivy",
+          "src": "trivy_1.2.0_windows_amd64/bin/trivy.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "aquasecurity/trivy/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^trivy version 1.2.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "aquasecurity",
+      "repo_name": "trivy",
+      "asset": "trivy_1.2.0_windows_arm64.zip",
+      "checksum": "66b2b06ceaa65d622e50c6fb7154db3e3b46595075653b84993772c61f25326b",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "trivy",
+          "src": "trivy_1.2.0_windows_arm64/bin/trivy.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "aquasecurity/trivy/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^trivy version 1.2.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "aquasecurity",
+      "repo_name": "trivy",
+      "asset": "trivy_1.2.0_windows_386.zip",
+      "checksum": "18fdc31eb09a1473f6762220f046c00c2749ecd4ad2d4211e07c0ea68f775816",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "trivy",
+          "src": "trivy_1.2.0_windows_386/bin/trivy.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "aquasecurity/trivy/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^trivy version 1.2.0"
+      }
+    }
+  ]
+}
