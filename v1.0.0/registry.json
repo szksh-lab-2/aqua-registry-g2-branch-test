@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "nodejs/node",
+  "version": "v1.0.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "nodejs",
+      "repo_name": "node",
+      "asset": "node_1.0.0_linux_amd64.tar.gz",
+      "checksum": "4aa5ec222242b4520a31a627dc675115e8e0332fb34b1edca5179e1021f31e32",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "node",
+          "src": "node_1.0.0_linux_amd64/bin/node"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "nodejs/node/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^node version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "nodejs",
+      "repo_name": "node",
+      "asset": "node_1.0.0_linux_arm64.tar.gz",
+      "checksum": "71ac487772cfefaa2ff34cf10316a26570fa0f1c2a31d5fced174c3fbabab1ff",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "node",
+          "src": "node_1.0.0_linux_arm64/bin/node"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "nodejs/node/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^node version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "nodejs",
+      "repo_name": "node",
+      "asset": "node_1.0.0_linux_386.tar.gz",
+      "checksum": "f1b36dc3506f903c5083350e2a01acd2a7aec4c3c2d532b9a65a6228ace5ed60",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "node",
+          "src": "node_1.0.0_linux_386/bin/node"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "nodejs/node/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^node version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "nodejs",
+      "repo_name": "node",
+      "asset": "node_1.0.0_linux_arm.tar.gz",
+      "checksum": "f7667a79c680913b1aa5f61bffb22ff46ae3419ac90264dab9e37fb5e43c493c",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "node",
+          "src": "node_1.0.0_linux_arm/bin/node"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "nodejs/node/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^node version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "nodejs",
+      "repo_name": "node",
+      "asset": "node_1.0.0_macOS_amd64.zip",
+      "checksum": "761a4211671491943e410db9e13405cee9a029c622fb4df91bed33187de1146b",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "node",
+          "src": "node_1.0.0_macOS_amd64/bin/node"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "nodejs/node/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^node version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "nodejs",
+      "repo_name": "node",
+      "asset": "node_1.0.0_macOS_arm64.zip",
+      "checksum": "92301c0e19a395ef7c91fea3e2cc2a5379498d0d1c5d38b67141b41e0b81cb35",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "node",
+          "src": "node_1.0.0_macOS_arm64/bin/node"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "nodejs/node/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^node version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "nodejs",
+      "repo_name": "node",
+      "asset": "node_1.0.0_windows_amd64.zip",
+      "checksum": "5170b2b2b7cfbfcd1a26079a95d0f75193ccad6c80b83123cb19d5715dfc5bcc",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "node",
+          "src": "node_1.0.0_windows_amd64/bin/node.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "nodejs/node/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^node version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "nodejs",
+      "repo_name": "node",
+      "asset": "node_1.0.0_windows_arm64.zip",
+      "checksum": "b4f5a631b545fba63bb40cc8012f34d3e2021d4ddf9244c3da21d9c753890196",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "node",
+          "src": "node_1.0.0_windows_arm64/bin/node.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "nodejs/node/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^node version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "nodejs",
+      "repo_name": "node",
+      "asset": "node_1.0.0_windows_386.zip",
+      "checksum": "3da6448b4a4c695834399b6b7c9bd3317c5ef4acd72a336da0fbfbcf654f1a2a",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "node",
+          "src": "node_1.0.0_windows_386/bin/node.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "nodejs/node/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^node version 1.0.0"
+      }
+    }
+  ]
+}
