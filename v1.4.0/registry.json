@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "aquasecurity/starboard",
+  "version": "v1.4.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "aquasecurity",
+      "repo_name": "starboard",
+      "asset": "starboard_1.4.0_linux_amd64.tar.gz",
+      "checksum": "67708401abf178dbd9ded3753d053daeabf146a3ee32818bde685e635a91add1",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "starboard",
+          "src": "starboard_1.4.0_linux_amd64/bin/starboard"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "aquasecurity/starboard/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^starboard version 1.4.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "aquasecurity",
+      "repo_name": "starboard",
+      "asset": "starboard_1.4.0_linux_arm64.tar.gz",
+      "checksum": "2f195343e5b1027f249b211b07a37ba33563ae18f44138e587fb5db16556dabf",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "starboard",
+          "src": "starboard_1.4.0_linux_arm64/bin/starboard"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "aquasecurity/starboard/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^starboard version 1.4.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "aquasecurity",
+      "repo_name": "starboard",
+      "asset": "starboard_1.4.0_linux_386.tar.gz",
+      "checksum": "731839e1477cc66ad813822508236ae33d093d78002ac58196286ef11d9240be",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "starboard",
+          "src": "starboard_1.4.0_linux_386/bin/starboard"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "aquasecurity/starboard/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^starboard version 1.4.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "aquasecurity",
+      "repo_name": "starboard",
+      "asset": "starboard_1.4.0_linux_arm.tar.gz",
+      "checksum": "8894cd8539885f5bdf1af38d888fd24a393f10562a47182dee03e4c7c1900457",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "starboard",
+          "src": "starboard_1.4.0_linux_arm/bin/starboard"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "aquasecurity/starboard/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^starboard version 1.4.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "aquasecurity",
+      "repo_name": "starboard",
+      "asset": "starboard_1.4.0_macOS_amd64.zip",
+      "checksum": "f51b8940286a722bf4feb089b10c0ca9d019411ad463972ab8433600f72c3783",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "starboard",
+          "src": "starboard_1.4.0_macOS_amd64/bin/starboard"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "aquasecurity/starboard/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^starboard version 1.4.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "aquasecurity",
+      "repo_name": "starboard",
+      "asset": "starboard_1.4.0_macOS_arm64.zip",
+      "checksum": "74aa9bc6ff80ca68541dacdc84e68dba8f06b20591bc1d7e8f3be50a5866079e",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "starboard",
+          "src": "starboard_1.4.0_macOS_arm64/bin/starboard"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "aquasecurity/starboard/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^starboard version 1.4.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "aquasecurity",
+      "repo_name": "starboard",
+      "asset": "starboard_1.4.0_windows_amd64.zip",
+      "checksum": "46dd94796060ca34080ff0c9ab8f031d7472ba1b2556aa8fd242a7f8e8f16544",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "starboard",
+          "src": "starboard_1.4.0_windows_amd64/bin/starboard.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "aquasecurity/starboard/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^starboard version 1.4.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "aquasecurity",
+      "repo_name": "starboard",
+      "asset": "starboard_1.4.0_windows_arm64.zip",
+      "checksum": "72b048e19c518b91134540e855a5eaed3cf66d177797d50853453d897803f9ba",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "starboard",
+          "src": "starboard_1.4.0_windows_arm64/bin/starboard.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "aquasecurity/starboard/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^starboard version 1.4.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "aquasecurity",
+      "repo_name": "starboard",
+      "asset": "starboard_1.4.0_windows_386.zip",
+      "checksum": "a3125e3209eb9dc039eae2aa7f9105fc474b13b7c1d9fc5a38c5de7a898af4a2",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "starboard",
+          "src": "starboard_1.4.0_windows_386/bin/starboard.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "aquasecurity/starboard/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^starboard version 1.4.0"
+      }
+    }
+  ]
+}
