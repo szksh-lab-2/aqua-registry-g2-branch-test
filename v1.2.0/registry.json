@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "istio/istioctl",
+  "version": "v1.2.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "istio",
+      "repo_name": "istioctl",
+      "asset": "istioctl_1.2.0_linux_amd64.tar.gz",
+      "checksum": "fde9b590c93c16ea5bf3d0992810ea8e84120f5168e4770378c092d9ef37d76a",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "istioctl",
+          "src": "istioctl_1.2.0_linux_amd64/bin/istioctl"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "istio/istioctl/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^istioctl version 1.2.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "istio",
+      "repo_name": "istioctl",
+      "asset": "istioctl_1.2.0_linux_arm64.tar.gz",
+      "checksum": "c31e30a0dc28c5302d1ea962b84348c57f307da112f770e6575cc84935e608c7",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "istioctl",
+          "src": "istioctl_1.2.0_linux_arm64/bin/istioctl"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "istio/istioctl/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^istioctl version 1.2.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "istio",
+      "repo_name": "istioctl",
+      "asset": "istioctl_1.2.0_linux_386.tar.gz",
+      "checksum": "d3422720d6d7002a251e3b514863e9990642ab5a8c00525c94fe8ed3de5e7577",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "istioctl",
+          "src": "istioctl_1.2.0_linux_386/bin/istioctl"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "istio/istioctl/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^istioctl version 1.2.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "istio",
+      "repo_name": "istioctl",
+      "asset": "istioctl_1.2.0_linux_arm.tar.gz",
+      "checksum": "567ad31c06fc14a9aa054e65cbeff37267729315e2928223d988d961f1da032e",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "istioctl",
+          "src": "istioctl_1.2.0_linux_arm/bin/istioctl"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "istio/istioctl/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^istioctl version 1.2.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "istio",
+      "repo_name": "istioctl",
+      "asset": "istioctl_1.2.0_macOS_amd64.zip",
+      "checksum": "48698a62b7307bbf235e54e236f050d3837549cadc833daf4c74ce0b0115f441",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "istioctl",
+          "src": "istioctl_1.2.0_macOS_amd64/bin/istioctl"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "istio/istioctl/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^istioctl version 1.2.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "istio",
+      "repo_name": "istioctl",
+      "asset": "istioctl_1.2.0_macOS_arm64.zip",
+      "checksum": "8784971a916aaea4d02451a9308d2094a6997fc088151376048f947b9ecc005d",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "istioctl",
+          "src": "istioctl_1.2.0_macOS_arm64/bin/istioctl"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "istio/istioctl/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^istioctl version 1.2.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "istio",
+      "repo_name": "istioctl",
+      "asset": "istioctl_1.2.0_windows_amd64.zip",
+      "checksum": "08946afbf07e904b3e0e5ee734285b6f3fcd4d9409b6c8983392e846d864c2af",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "istioctl",
+          "src": "istioctl_1.2.0_windows_amd64/bin/istioctl.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "istio/istioctl/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^istioctl version 1.2.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "istio",
+      "repo_name": "istioctl",
+      "asset": "istioctl_1.2.0_windows_arm64.zip",
+      "checksum": "bf81b3de8c499c42af7545e14a755db0063878d9794bdce039832b33534dde0a",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "istioctl",
+          "src": "istioctl_1.2.0_windows_arm64/bin/istioctl.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "istio/istioctl/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^istioctl version 1.2.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "istio",
+      "repo_name": "istioctl",
+      "asset": "istioctl_1.2.0_windows_386.zip",
+      "checksum": "0e44a2010257eaf198616fe8d3c28866e02a6026a4b24e7b18978b96d2c9a0c7",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "istioctl",
+          "src": "istioctl_1.2.0_windows_386/bin/istioctl.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "istio/istioctl/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^istioctl version 1.2.0"
+      }
+    }
+  ]
+}
