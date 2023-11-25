@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "docker/rootless",
+  "version": "v1.4.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "docker",
+      "repo_name": "rootless",
+      "asset": "rootless_1.4.0_linux_amd64.tar.gz",
+      "checksum": "28d4d3726a510b2df21e7f7949ffbf83426d328921b7e7d8192108f6ff8c50c1",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "rootless",
+          "src": "rootless_1.4.0_linux_amd64/bin/rootless"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "docker/rootless/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^rootless version 1.4.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "docker",
+      "repo_name": "rootless",
+      "asset": "rootless_1.4.0_linux_arm64.tar.gz",
+      "checksum": "d41e221e0982bae0843f754a0152194466b372813ebdd1a396507529a175258d",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "rootless",
+          "src": "rootless_1.4.0_linux_arm64/bin/rootless"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "docker/rootless/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^rootless version 1.4.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "docker",
+      "repo_name": "rootless",
+      "asset": "rootless_1.4.0_linux_386.tar.gz",
+      "checksum": "ee00b33956dbe99a230c6afac3176797e70ed80878c394ac025b402c7ab050e2",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "rootless",
+          "src": "rootless_1.4.0_linux_386/bin/rootless"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "docker/rootless/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^rootless version 1.4.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "docker",
+      "repo_name": "rootless",
+      "asset": "rootless_1.4.0_linux_arm.tar.gz",
+      "checksum": "aa0445894ebcceb34e4f11c5824216454e0c0f1d4debed7bb82343e1d188672c",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "rootless",
+          "src": "rootless_1.4.0_linux_arm/bin/rootless"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "docker/rootless/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^rootless version 1.4.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "docker",
+      "repo_name": "rootless",
+      "asset": "rootless_1.4.0_macOS_amd64.zip",
+      "checksum": "b734e16c346c6c45183a9cc186badae182655a22753ad043fc747ab36c6531e7",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "rootless",
+          "src": "rootless_1.4.0_macOS_amd64/bin/rootless"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "docker/rootless/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^rootless version 1.4.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "docker",
+      "repo_name": "rootless",
+      "asset": "rootless_1.4.0_macOS_arm64.zip",
+      "checksum": "8e7ab77e5319278f47e388881ea28d1dbeb37774d5578b3407ac91b25ecd9621",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "rootless",
+          "src": "rootless_1.4.0_macOS_arm64/bin/rootless"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "docker/rootless/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^rootless version 1.4.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "docker",
+      "repo_name": "rootless",
+      "asset": "rootless_1.4.0_windows_amd64.zip",
+      "checksum": "f56e8b9d09f1d45584823fe8667b459f888ca69ceaea1186fbb7f8da560f1772",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "rootless",
+          "src": "rootless_1.4.0_windows_amd64/bin/rootless.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "docker/rootless/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^rootless version 1.4.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "docker",
+      "repo_name": "rootless",
+      "asset": "rootless_1.4.0_windows_arm64.zip",
+      "checksum": "b4d250a0ba6244e5154138df38a1dde0b67fa3738be4339ca1aa42f2ec2d0589",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "rootless",
+          "src": "rootless_1.4.0_windows_arm64/bin/rootless.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "docker/rootless/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^rootless version 1.4.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "docker",
+      "repo_name": "rootless",
+      "asset": "rootless_1.4.0_windows_386.zip",
+      "checksum": "e0d302036a907da8f8ab723448b75606c805b344aa818535e1a4191f8ff8cac0",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "rootless",
+          "src": "rootless_1.4.0_windows_386/bin/rootless.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "docker/rootless/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^rootless version 1.4.0"
+      }
+    }
+  ]
+}
