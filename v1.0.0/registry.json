@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "loft-sh/devpod",
+  "version": "v1.0.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "loft-sh",
+      "repo_name": "devpod",
+      "asset": "devpod_1.0.0_linux_amd64.tar.gz",
+      "checksum": "b02832de8ce007e4c2a80d21b30fd37d93ecd415a12fd23c13357900c3277afa",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "devpod",
+          "src": "devpod_1.0.0_linux_amd64/bin/devpod"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "loft-sh/devpod/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^devpod version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "loft-sh",
+      "repo_name": "devpod",
+      "asset": "devpod_1.0.0_linux_arm64.tar.gz",
+      "checksum": "d790cd6d65adbc36a2f854a4f81b57ef20703ea870d558279d986d1bdccbd20e",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "devpod",
+          "src": "devpod_1.0.0_linux_arm64/bin/devpod"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "loft-sh/devpod/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^devpod version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "loft-sh",
+      "repo_name": "devpod",
+      "asset": "devpod_1.0.0_linux_386.tar.gz",
+      "checksum": "8cb956ef9ae64b61d67d110086f7f1b8c577d41d5a46e0aa0dfb79d2bc5cc19e",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "devpod",
+          "src": "devpod_1.0.0_linux_386/bin/devpod"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "loft-sh/devpod/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^devpod version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "loft-sh",
+      "repo_name": "devpod",
+      "asset": "devpod_1.0.0_linux_arm.tar.gz",
+      "checksum": "a8fa94cfa3e9e5249eac38bd90bc67558ec893c68a9cccf5a780aac2e043c12e",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "devpod",
+          "src": "devpod_1.0.0_linux_arm/bin/devpod"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "loft-sh/devpod/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^devpod version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "loft-sh",
+      "repo_name": "devpod",
+      "asset": "devpod_1.0.0_macOS_amd64.zip",
+      "checksum": "a8145e584f9e1ae186e8e4a6ea27d93df9b81d4efd1620d8453dc405161928a6",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "devpod",
+          "src": "devpod_1.0.0_macOS_amd64/bin/devpod"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "loft-sh/devpod/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^devpod version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "loft-sh",
+      "repo_name": "devpod",
+      "asset": "devpod_1.0.0_macOS_arm64.zip",
+      "checksum": "a10e5c5e5e391318195b39ca3c058e3a4ba97aafd7abac3f806d51dd0143676f",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "devpod",
+          "src": "devpod_1.0.0_macOS_arm64/bin/devpod"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "loft-sh/devpod/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^devpod version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "loft-sh",
+      "repo_name": "devpod",
+      "asset": "devpod_1.0.0_windows_amd64.zip",
+      "checksum": "98579a35e1e11ef61193906ddedc28fd306a546474f793b0e8701cc9568cbac9",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "devpod",
+          "src": "devpod_1.0.0_windows_amd64/bin/devpod.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "loft-sh/devpod/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^devpod version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "loft-sh",
+      "repo_name": "devpod",
+      "asset": "devpod_1.0.0_windows_arm64.zip",
+      "checksum": "8701eb013a31ff14aee9f4a547a5e0af00a9bd27f7c31e4a12972b7f50ead250",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "devpod",
+          "src": "devpod_1.0.0_windows_arm64/bin/devpod.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "loft-sh/devpod/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^devpod version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "loft-sh",
+      "repo_name": "devpod",
+      "asset": "devpod_1.0.0_windows_386.zip",
+      "checksum": "8f5758404f77c070050c3c3d3c5c8221492a70b5ffd25c399ba9960883469d56",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "devpod",
+          "src": "devpod_1.0.0_windows_386/bin/devpod.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "loft-sh/devpod/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^devpod version 1.0.0"
+      }
+    }
+  ]
+}
