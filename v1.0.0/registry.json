@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "wasmCloud/wash",
+  "version": "v1.0.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "wasmCloud",
+      "repo_name": "wash",
+      "asset": "wash_1.0.0_linux_amd64.tar.gz",
+      "checksum": "9acfc96d54b0302e7740eaf3263d54bdb30f43f3440b9c648e293d4742a29627",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "wash",
+          "src": "wash_1.0.0_linux_amd64/bin/wash"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "wasmCloud/wash/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^wash version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "wasmCloud",
+      "repo_name": "wash",
+      "asset": "wash_1.0.0_linux_arm64.tar.gz",
+      "checksum": "a2a7761b0bd0b06ff84cf28d58f0380b94200270309337354763a872b37e6ffd",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "wash",
+          "src": "wash_1.0.0_linux_arm64/bin/wash"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "wasmCloud/wash/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^wash version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "wasmCloud",
+      "repo_name": "wash",
+      "asset": "wash_1.0.0_linux_386.tar.gz",
+      "checksum": "2c7f6ad44ccba772b94fb9d2cbe9d9a6244b5fd7515316f5364e27a72f883865",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "wash",
+          "src": "wash_1.0.0_linux_386/bin/wash"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "wasmCloud/wash/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^wash version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "wasmCloud",
+      "repo_name": "wash",
+      "asset": "wash_1.0.0_linux_arm.tar.gz",
+      "checksum": "a0b5d55f0e037e72afc268af52f93f4fc4173ff48b2b8fdb163f7d812d6d00dc",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "wash",
+          "src": "wash_1.0.0_linux_arm/bin/wash"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "wasmCloud/wash/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^wash version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "wasmCloud",
+      "repo_name": "wash",
+      "asset": "wash_1.0.0_macOS_amd64.zip",
+      "checksum": "603d80c0381d24fc6dba39202594fc3afff0aec1816d65b06f6b53ec6e78b2c7",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "wash",
+          "src": "wash_1.0.0_macOS_amd64/bin/wash"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "wasmCloud/wash/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^wash version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "wasmCloud",
+      "repo_name": "wash",
+      "asset": "wash_1.0.0_macOS_arm64.zip",
+      "checksum": "b20739f891b11148bc3e6740d686fba22abeb13620ab1d0d16a71f037c043d10",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "wash",
+          "src": "wash_1.0.0_macOS_arm64/bin/wash"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "wasmCloud/wash/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^wash version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "wasmCloud",
+      "repo_name": "wash",
+      "asset": "wash_1.0.0_windows_amd64.zip",
+      "checksum": "5e3098afac335af2d933f4063dabe74b875088e6cff4331b9561d6e288f65497",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "wash",
+          "src": "wash_1.0.0_windows_amd64/bin/wash.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "wasmCloud/wash/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^wash version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "wasmCloud",
+      "repo_name": "wash",
+      "asset": "wash_1.0.0_windows_arm64.zip",
+      "checksum": "9f9ceddb367a5996562c7fa03ebdc097a2ed0f1e9867905ca6d0589ab0cc4cc5",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "wash",
+          "src": "wash_1.0.0_windows_arm64/bin/wash.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "wasmCloud/wash/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^wash version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "wasmCloud",
+      "repo_name": "wash",
+      "asset": "wash_1.0.0_windows_386.zip",
+      "checksum": "e9be1abd57ff775bad91bd731d50ffac05c9fb6eb6d8a6e7f14ae78efb03abf1",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "wash",
+          "src": "wash_1.0.0_windows_386/bin/wash.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "wasmCloud/wash/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^wash version 1.0.0"
+      }
+    }
+  ]
+}
