@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "sigstore/sget",
+  "version": "v1.2.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "sigstore",
+      "repo_name": "sget",
+      "asset": "sget_1.2.0_linux_amd64.tar.gz",
+      "checksum": "bf176f124432f41feb1d090348d1cf52c82399dece6766cd6b5e431ee0f68393",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "sget",
+          "src": "sget_1.2.0_linux_amd64/bin/sget"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "sigstore/sget/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^sget version 1.2.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "sigstore",
+      "repo_name": "sget",
+      "asset": "sget_1.2.0_linux_arm64.tar.gz",
+      "checksum": "b3a68669d0cb8493f730fdcf5f13f96930004f17c69a56494b514af236e758d7",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "sget",
+          "src": "sget_1.2.0_linux_arm64/bin/sget"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "sigstore/sget/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^sget version 1.2.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "sigstore",
+      "repo_name": "sget",
+      "asset": "sget_1.2.0_linux_386.tar.gz",
+      "checksum": "58eda559e251373b3afe35c378e1cff534a574d1914bbd3a46da02d62fde68d8",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "sget",
+          "src": "sget_1.2.0_linux_386/bin/sget"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "sigstore/sget/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^sget version 1.2.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "sigstore",
+      "repo_name": "sget",
+      "asset": "sget_1.2.0_linux_arm.tar.gz",
+      "checksum": "e7bf5ec7b58acde587a0d10544a36bd9eee6c2c6821882ec290b40aa770f9b58",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "sget",
+          "src": "sget_1.2.0_linux_arm/bin/sget"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "sigstore/sget/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^sget version 1.2.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "sigstore",
+      "repo_name": "sget",
+      "asset": "sget_1.2.0_macOS_amd64.zip",
+      "checksum": "8f76a06198290da8b8fd9451d64f5fb04eaa8aae3ab8adec329de40a7b56af0a",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "sget",
+          "src": "sget_1.2.0_macOS_amd64/bin/sget"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "sigstore/sget/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^sget version 1.2.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "sigstore",
+      "repo_name": "sget",
+      "asset": "sget_1.2.0_macOS_arm64.zip",
+      "checksum": "8aee285e2bafe20cbb0a67edda07d78493ecac571af7daefc9c18319934173c6",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "sget",
+          "src": "sget_1.2.0_macOS_arm64/bin/sget"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "sigstore/sget/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^sget version 1.2.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "sigstore",
+      "repo_name": "sget",
+      "asset": "sget_1.2.0_windows_amd64.zip",
+      "checksum": "09f9f4409ca97331976a051654524196a6d5635343d16976e8ffd810147c91bd",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "sget",
+          "src": "sget_1.2.0_windows_amd64/bin/sget.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "sigstore/sget/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^sget version 1.2.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "sigstore",
+      "repo_name": "sget",
+      "asset": "sget_1.2.0_windows_arm64.zip",
+      "checksum": "dee369ea16a4933b244b5862fe7881688bed841086f642cb8570dd3f549788e9",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "sget",
+          "src": "sget_1.2.0_windows_arm64/bin/sget.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "sigstore/sget/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^sget version 1.2.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "sigstore",
+      "repo_name": "sget",
+      "asset": "sget_1.2.0_windows_386.zip",
+      "checksum": "6bf02241ef47401ec53b524419cb2755daccff93f22558edec4a8627fd3cf6f4",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "sget",
+          "src": "sget_1.2.0_windows_386/bin/sget.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "sigstore/sget/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^sget version 1.2.0"
+      }
+    }
+  ]
+}
