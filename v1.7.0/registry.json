@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "sigstore/cosign",
+  "version": "v1.7.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "sigstore",
+      "repo_name": "cosign",
+      "asset": "cosign_1.7.0_linux_amd64.tar.gz",
+      "checksum": "29499687349c86709db1f832ae0b7e084fc61af4911a25a9d2c3ab40fc9cd373",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "cosign",
+          "src": "cosign_1.7.0_linux_amd64/bin/cosign"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "sigstore/cosign/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cosign version 1.7.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "sigstore",
+      "repo_name": "cosign",
+      "asset": "cosign_1.7.0_linux_arm64.tar.gz",
+      "checksum": "68ce125d17ae64bcaaf426cf1496d60b3992368f5af579b0e02f7f38d6624663",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "cosign",
+          "src": "cosign_1.7.0_linux_arm64/bin/cosign"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "sigstore/cosign/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cosign version 1.7.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "sigstore",
+      "repo_name": "cosign",
+      "asset": "cosign_1.7.0_linux_386.tar.gz",
+      "checksum": "5408e29923113d1edaead8ac8183bbba79d88611145f5b3094a362e519aeed87",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "cosign",
+          "src": "cosign_1.7.0_linux_386/bin/cosign"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "sigstore/cosign/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cosign version 1.7.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "sigstore",
+      "repo_name": "cosign",
+      "asset": "cosign_1.7.0_linux_arm.tar.gz",
+      "checksum": "1fc9bfa2693db42b35458d44cfa55501707a8cff39183b7917e193ca1c970044",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "cosign",
+          "src": "cosign_1.7.0_linux_arm/bin/cosign"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "sigstore/cosign/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cosign version 1.7.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "sigstore",
+      "repo_name": "cosign",
+      "asset": "cosign_1.7.0_macOS_amd64.zip",
+      "checksum": "0e3d2316fe8099706800f09f6f0ea050297578af36154f6825bfef2280f697d0",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "cosign",
+          "src": "cosign_1.7.0_macOS_amd64/bin/cosign"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "sigstore/cosign/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cosign version 1.7.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "sigstore",
+      "repo_name": "cosign",
+      "asset": "cosign_1.7.0_macOS_arm64.zip",
+      "checksum": "a3c76ff6af3b401f50f2faea32788b1b9c972348925cf6fda4a030bb2ccecea3",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "cosign",
+          "src": "cosign_1.7.0_macOS_arm64/bin/cosign"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "sigstore/cosign/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cosign version 1.7.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "sigstore",
+      "repo_name": "cosign",
+      "asset": "cosign_1.7.0_windows_amd64.zip",
+      "checksum": "9d69d0f8d4897aaa88e1df75e2912c0c8e3c241c58b8425c0373a5e4dca7915a",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "cosign",
+          "src": "cosign_1.7.0_windows_amd64/bin/cosign.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "sigstore/cosign/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cosign version 1.7.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "sigstore",
+      "repo_name": "cosign",
+      "asset": "cosign_1.7.0_windows_arm64.zip",
+      "checksum": "1e912d20d7f3880cc41ac783bd3c4729d97ce0b95665c84e370ca679fc02cfcc",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "cosign",
+          "src": "cosign_1.7.0_windows_arm64/bin/cosign.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "sigstore/cosign/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cosign version 1.7.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "sigstore",
+      "repo_name": "cosign",
+      "asset": "cosign_1.7.0_windows_386.zip",
+      "checksum": "13b59cf0f64918972c1af5a43f45624c3cd3ff04e779bd9ec9f5f71f7613d4ad",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "cosign",
+          "src": "cosign_1.7.0_windows_386/bin/cosign.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "sigstore/cosign/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cosign version 1.7.0"
+      }
+    }
+  ]
+}
