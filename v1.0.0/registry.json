@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "sigstore/gitsign",
+  "version": "v1.0.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "sigstore",
+      "repo_name": "gitsign",
+      "asset": "gitsign_1.0.0_linux_amd64.tar.gz",
+      "checksum": "cbfa016fc0780b350f988e1020492539ece38e2e9f754b300ebf4ffb9cc63be3",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "gitsign",
+          "src": "gitsign_1.0.0_linux_amd64/bin/gitsign"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "sigstore/gitsign/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^gitsign version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "sigstore",
+      "repo_name": "gitsign",
+      "asset": "gitsign_1.0.0_linux_arm64.tar.gz",
+      "checksum": "7d25547233dd022745765dcd1162959c614bde1f80cfa9353fb053d447ca50cd",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "gitsign",
+          "src": "gitsign_1.0.0_linux_arm64/bin/gitsign"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "sigstore/gitsign/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^gitsign version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "sigstore",
+      "repo_name": "gitsign",
+      "asset": "gitsign_1.0.0_linux_386.tar.gz",
+      "checksum": "dc9d5d70d3a888aa14746051a01eb90b330f3d76fc6fa32576eafb5ed9e2e7cc",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "gitsign",
+          "src": "gitsign_1.0.0_linux_386/bin/gitsign"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "sigstore/gitsign/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^gitsign version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "sigstore",
+      "repo_name": "gitsign",
+      "asset": "gitsign_1.0.0_linux_arm.tar.gz",
+      "checksum": "b8b8d9a1b76a419225aac1cdaac149c1dedce773a8c03a0499efb7f127495ea4",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "gitsign",
+          "src": "gitsign_1.0.0_linux_arm/bin/gitsign"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "sigstore/gitsign/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^gitsign version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "sigstore",
+      "repo_name": "gitsign",
+      "asset": "gitsign_1.0.0_macOS_amd64.zip",
+      "checksum": "ac09e3e5eb0b43e282a42a6817bdadc3ea597eaf92bb2cbcb5ea2e34e78029df",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "gitsign",
+          "src": "gitsign_1.0.0_macOS_amd64/bin/gitsign"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "sigstore/gitsign/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^gitsign version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "sigstore",
+      "repo_name": "gitsign",
+      "asset": "gitsign_1.0.0_macOS_arm64.zip",
+      "checksum": "15e55f5d012a393bb8eca6cf37cf1ccda4f200c7223de289d7d91bf91ad489d4",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "gitsign",
+          "src": "gitsign_1.0.0_macOS_arm64/bin/gitsign"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "sigstore/gitsign/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^gitsign version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "sigstore",
+      "repo_name": "gitsign",
+      "asset": "gitsign_1.0.0_windows_amd64.zip",
+      "checksum": "5f4087fc61be5fda72fa359818362bc75fb085954cc48b9f94c7f60af6a13b68",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "gitsign",
+          "src": "gitsign_1.0.0_windows_amd64/bin/gitsign.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "sigstore/gitsign/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^gitsign version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "sigstore",
+      "repo_name": "gitsign",
+      "asset": "gitsign_1.0.0_windows_arm64.zip",
+      "checksum": "994f3817e1b2a9241b415c04e7903143549c92e3be35400680b6c85d94487c7b",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "gitsign",
+          "src": "gitsign_1.0.0_windows_arm64/bin/gitsign.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "sigstore/gitsign/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^gitsign version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "sigstore",
+      "repo_name": "gitsign",
+      "asset": "gitsign_1.0.0_windows_386.zip",
+      "checksum": "3e2936fb5f285ac282c141d3e9860f5cef87d3eee9f61dfcfaf4da6b4c3c68d3",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "gitsign",
+          "src": "gitsign_1.0.0_windows_386/bin/gitsign.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "sigstore/gitsign/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^gitsign version 1.0.0"
+      }
+    }
+  ]
+}
