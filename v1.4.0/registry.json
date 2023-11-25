@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "sigstore/rekor",
+  "version": "v1.4.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "sigstore",
+      "repo_name": "rekor",
+      "asset": "rekor_1.4.0_linux_amd64.tar.gz",
+      "checksum": "306ac5c32cfa257ce8860a77fb1a0798cdcb5d6eae07f6ab18d29934f1e5a991",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "rekor",
+          "src": "rekor_1.4.0_linux_amd64/bin/rekor"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "sigstore/rekor/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^rekor version 1.4.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "sigstore",
+      "repo_name": "rekor",
+      "asset": "rekor_1.4.0_linux_arm64.tar.gz",
+      "checksum": "9c72a1187458076a4384717e639a6c3b44ba6f167a68eebcd226f0d7616a8698",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "rekor",
+          "src": "rekor_1.4.0_linux_arm64/bin/rekor"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "sigstore/rekor/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^rekor version 1.4.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "sigstore",
+      "repo_name": "rekor",
+      "asset": "rekor_1.4.0_linux_386.tar.gz",
+      "checksum": "3af6a68610e38b2da8f9b83d6d75af45cc346454621a3c35a9c46c107916c673",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "rekor",
+          "src": "rekor_1.4.0_linux_386/bin/rekor"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "sigstore/rekor/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^rekor version 1.4.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "sigstore",
+      "repo_name": "rekor",
+      "asset": "rekor_1.4.0_linux_arm.tar.gz",
+      "checksum": "2123a8c269b6b531dff5045d3d182be2b56323feb85947e6e1443750cdcc969b",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "rekor",
+          "src": "rekor_1.4.0_linux_arm/bin/rekor"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "sigstore/rekor/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^rekor version 1.4.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "sigstore",
+      "repo_name": "rekor",
+      "asset": "rekor_1.4.0_macOS_amd64.zip",
+      "checksum": "8713ed0c0ba621f30cee6f698c210744e17e529cf5185a879152412ff8d85733",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "rekor",
+          "src": "rekor_1.4.0_macOS_amd64/bin/rekor"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "sigstore/rekor/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^rekor version 1.4.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "sigstore",
+      "repo_name": "rekor",
+      "asset": "rekor_1.4.0_macOS_arm64.zip",
+      "checksum": "5c22f0f2320cbc2aa49cbcb5a47d5faf5c5bc0b7605a36547c1b5063674a47e0",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "rekor",
+          "src": "rekor_1.4.0_macOS_arm64/bin/rekor"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "sigstore/rekor/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^rekor version 1.4.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "sigstore",
+      "repo_name": "rekor",
+      "asset": "rekor_1.4.0_windows_amd64.zip",
+      "checksum": "dc0acf88208874eb043845f210984a3d793ddd674356a7012f8ef6e3181c4897",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "rekor",
+          "src": "rekor_1.4.0_windows_amd64/bin/rekor.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "sigstore/rekor/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^rekor version 1.4.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "sigstore",
+      "repo_name": "rekor",
+      "asset": "rekor_1.4.0_windows_arm64.zip",
+      "checksum": "2ea96cac36f3f936275859794c4e657acb3e063d6e7cc846250a0fbfb208edad",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "rekor",
+          "src": "rekor_1.4.0_windows_arm64/bin/rekor.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "sigstore/rekor/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^rekor version 1.4.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "sigstore",
+      "repo_name": "rekor",
+      "asset": "rekor_1.4.0_windows_386.zip",
+      "checksum": "bcd5601d14679ef2d44dece2e5fe87337f85c8842df162491ff8cfa55cbf2e98",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "rekor",
+          "src": "rekor_1.4.0_windows_386/bin/rekor.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "sigstore/rekor/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^rekor version 1.4.0"
+      }
+    }
+  ]
+}
