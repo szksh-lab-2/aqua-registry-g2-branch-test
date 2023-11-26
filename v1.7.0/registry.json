@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "moby/buildkit",
+  "version": "v1.7.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "moby",
+      "repo_name": "buildkit",
+      "asset": "buildkit_1.7.0_linux_amd64.tar.gz",
+      "checksum": "29f31931b91dd8f89a1bdbdd630baf324f147348f6cbcbc4e37c81f98d7909e5",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "buildkit",
+          "src": "buildkit_1.7.0_linux_amd64/bin/buildkit"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "moby/buildkit/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^buildkit version 1.7.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "moby",
+      "repo_name": "buildkit",
+      "asset": "buildkit_1.7.0_linux_arm64.tar.gz",
+      "checksum": "1db1f08ea6d027a3bd23a66ab1b5014ebe8760373fb5078c667ee3523fd03e84",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "buildkit",
+          "src": "buildkit_1.7.0_linux_arm64/bin/buildkit"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "moby/buildkit/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^buildkit version 1.7.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "moby",
+      "repo_name": "buildkit",
+      "asset": "buildkit_1.7.0_linux_386.tar.gz",
+      "checksum": "3bf09195957228894575dff22c63d295311b58b6c8fdc0d9342f3a38193180a3",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "buildkit",
+          "src": "buildkit_1.7.0_linux_386/bin/buildkit"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "moby/buildkit/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^buildkit version 1.7.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "moby",
+      "repo_name": "buildkit",
+      "asset": "buildkit_1.7.0_linux_arm.tar.gz",
+      "checksum": "3e66e52842a37f82b34aad2eb97f9530a11e673042b21596a8137cfba5a0d3d1",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "buildkit",
+          "src": "buildkit_1.7.0_linux_arm/bin/buildkit"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "moby/buildkit/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^buildkit version 1.7.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "moby",
+      "repo_name": "buildkit",
+      "asset": "buildkit_1.7.0_macOS_amd64.zip",
+      "checksum": "3b0dcb8a671f3899986f8259bcc1ab9fa7b1db3c1fcf90b0213cc4825e53bcb2",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "buildkit",
+          "src": "buildkit_1.7.0_macOS_amd64/bin/buildkit"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "moby/buildkit/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^buildkit version 1.7.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "moby",
+      "repo_name": "buildkit",
+      "asset": "buildkit_1.7.0_macOS_arm64.zip",
+      "checksum": "7361f7f2b2e0fc978448b2105282296b65c14edf07ce98d0515a841a7c526a01",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "buildkit",
+          "src": "buildkit_1.7.0_macOS_arm64/bin/buildkit"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "moby/buildkit/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^buildkit version 1.7.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "moby",
+      "repo_name": "buildkit",
+      "asset": "buildkit_1.7.0_windows_amd64.zip",
+      "checksum": "c4d911b1fbe9c690be48257237d6ab5c8ad24d7bb3152038cb4ba4f4ac8d00c9",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "buildkit",
+          "src": "buildkit_1.7.0_windows_amd64/bin/buildkit.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "moby/buildkit/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^buildkit version 1.7.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "moby",
+      "repo_name": "buildkit",
+      "asset": "buildkit_1.7.0_windows_arm64.zip",
+      "checksum": "3c5845969c7d85e266e11fa9d9e602c8e8d9f2fe272ecd4c0155c94b9cf14dd5",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "buildkit",
+          "src": "buildkit_1.7.0_windows_arm64/bin/buildkit.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "moby/buildkit/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^buildkit version 1.7.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "moby",
+      "repo_name": "buildkit",
+      "asset": "buildkit_1.7.0_windows_386.zip",
+      "checksum": "b6b369af5f1aeea16e401ca952eb62e13793743b3ae4a8c61bfcca6b98b27dc1",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "buildkit",
+          "src": "buildkit_1.7.0_windows_386/bin/buildkit.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "moby/buildkit/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^buildkit version 1.7.0"
+      }
+    }
+  ]
+}
