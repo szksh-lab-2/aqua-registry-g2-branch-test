@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "tailscale/tailscale",
+  "version": "v1.0.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "tailscale",
+      "repo_name": "tailscale",
+      "asset": "tailscale_1.0.0_linux_amd64.tar.gz",
+      "checksum": "848afd2bface7379f161813bfc6ecaea6a51fb2b1fc1d07a643456c576f563ea",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "tailscale",
+          "src": "tailscale_1.0.0_linux_amd64/bin/tailscale"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "tailscale/tailscale/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^tailscale version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "tailscale",
+      "repo_name": "tailscale",
+      "asset": "tailscale_1.0.0_linux_arm64.tar.gz",
+      "checksum": "15af9bff08310556c707c5f9c645220387b6e1785c91d4177de361abf88578ae",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "tailscale",
+          "src": "tailscale_1.0.0_linux_arm64/bin/tailscale"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "tailscale/tailscale/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^tailscale version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "tailscale",
+      "repo_name": "tailscale",
+      "asset": "tailscale_1.0.0_linux_386.tar.gz",
+      "checksum": "dbc40d306006d8f250887fd34ba78c55986971ad5102245673de9106f613cb42",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "tailscale",
+          "src": "tailscale_1.0.0_linux_386/bin/tailscale"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "tailscale/tailscale/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^tailscale version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "tailscale",
+      "repo_name": "tailscale",
+      "asset": "tailscale_1.0.0_linux_arm.tar.gz",
+      "checksum": "6a6091fd1845502a12a0ce92ea5ec1c6dbfbc0e4938fe8cb27813b2ed41610da",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "tailscale",
+          "src": "tailscale_1.0.0_linux_arm/bin/tailscale"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "tailscale/tailscale/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^tailscale version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "tailscale",
+      "repo_name": "tailscale",
+      "asset": "tailscale_1.0.0_macOS_amd64.zip",
+      "checksum": "460c8504b9cfb84d49d7384a826d89d96bd2905f495c860694fbd5d4279b6baa",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "tailscale",
+          "src": "tailscale_1.0.0_macOS_amd64/bin/tailscale"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "tailscale/tailscale/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^tailscale version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "tailscale",
+      "repo_name": "tailscale",
+      "asset": "tailscale_1.0.0_macOS_arm64.zip",
+      "checksum": "a5cb38e1209133935ed4d43e959ee95239bc78a7eff43cb54c46f31bb81cd729",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "tailscale",
+          "src": "tailscale_1.0.0_macOS_arm64/bin/tailscale"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "tailscale/tailscale/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^tailscale version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "tailscale",
+      "repo_name": "tailscale",
+      "asset": "tailscale_1.0.0_windows_amd64.zip",
+      "checksum": "fbd087dc864aec1a9444f826e0c98d6c78d15d548f64ea2a7af597deaeafd50b",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "tailscale",
+          "src": "tailscale_1.0.0_windows_amd64/bin/tailscale.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "tailscale/tailscale/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^tailscale version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "tailscale",
+      "repo_name": "tailscale",
+      "asset": "tailscale_1.0.0_windows_arm64.zip",
+      "checksum": "810eba33132a3155ee5ccd9173f263bfa933c97373710c5daa30c9d545e5bb4e",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "tailscale",
+          "src": "tailscale_1.0.0_windows_arm64/bin/tailscale.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "tailscale/tailscale/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^tailscale version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "tailscale",
+      "repo_name": "tailscale",
+      "asset": "tailscale_1.0.0_windows_386.zip",
+      "checksum": "5e92981548b4cfe3c0f0ed59d262d55bb95c6d6bef4f1184a3f68e08dbb6b12f",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "tailscale",
+          "src": "tailscale_1.0.0_windows_386/bin/tailscale.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "tailscale/tailscale/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^tailscale version 1.0.0"
+      }
+    }
+  ]
+}
