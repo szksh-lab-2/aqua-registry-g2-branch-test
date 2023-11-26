@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "zarf-dev/zarf",
+  "version": "v1.6.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "zarf-dev",
+      "repo_name": "zarf",
+      "asset": "zarf_1.6.0_linux_amd64.tar.gz",
+      "checksum": "aab70891ee37b680b7c76f839de250f22d06daf8c25e3cbc072f032c1d83a100",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "zarf",
+          "src": "zarf_1.6.0_linux_amd64/bin/zarf"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "zarf-dev/zarf/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^zarf version 1.6.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "zarf-dev",
+      "repo_name": "zarf",
+      "asset": "zarf_1.6.0_linux_arm64.tar.gz",
+      "checksum": "d1b8575f82bea614104f5fffab9cfd7bd917e7829eb1bcc9c66a16df99772d54",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "zarf",
+          "src": "zarf_1.6.0_linux_arm64/bin/zarf"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "zarf-dev/zarf/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^zarf version 1.6.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "zarf-dev",
+      "repo_name": "zarf",
+      "asset": "zarf_1.6.0_linux_386.tar.gz",
+      "checksum": "cf619e89c420c67450556454b9f713b5a6c8f3fbf27c496884ba2cb76db1eb45",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "zarf",
+          "src": "zarf_1.6.0_linux_386/bin/zarf"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "zarf-dev/zarf/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^zarf version 1.6.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "zarf-dev",
+      "repo_name": "zarf",
+      "asset": "zarf_1.6.0_linux_arm.tar.gz",
+      "checksum": "65723a5f0c1fb5f16d2b34014dfd536cde364b29e2fdf3dbbe2c56d1b4891c3b",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "zarf",
+          "src": "zarf_1.6.0_linux_arm/bin/zarf"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "zarf-dev/zarf/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^zarf version 1.6.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "zarf-dev",
+      "repo_name": "zarf",
+      "asset": "zarf_1.6.0_macOS_amd64.zip",
+      "checksum": "5845b3316ad74107dce8f8d11afe985533fc686895e1cd9b3ec0eab8c02e2012",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "zarf",
+          "src": "zarf_1.6.0_macOS_amd64/bin/zarf"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "zarf-dev/zarf/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^zarf version 1.6.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "zarf-dev",
+      "repo_name": "zarf",
+      "asset": "zarf_1.6.0_macOS_arm64.zip",
+      "checksum": "cb6e8b4b4aed6935c4564fc7a03abe49455a5fdadf0fd4ebbc21cd31ceedffe6",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "zarf",
+          "src": "zarf_1.6.0_macOS_arm64/bin/zarf"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "zarf-dev/zarf/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^zarf version 1.6.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "zarf-dev",
+      "repo_name": "zarf",
+      "asset": "zarf_1.6.0_windows_amd64.zip",
+      "checksum": "f95a9bc071618bac22cc8da92ba828a7c11ef4e26eea00e36b430b9d2853f44b",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "zarf",
+          "src": "zarf_1.6.0_windows_amd64/bin/zarf.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "zarf-dev/zarf/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^zarf version 1.6.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "zarf-dev",
+      "repo_name": "zarf",
+      "asset": "zarf_1.6.0_windows_arm64.zip",
+      "checksum": "c0560873bbb39ff90029c6184ed9712ebe6ac5038f6356da4a8953c984a186d9",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "zarf",
+          "src": "zarf_1.6.0_windows_arm64/bin/zarf.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "zarf-dev/zarf/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^zarf version 1.6.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "zarf-dev",
+      "repo_name": "zarf",
+      "asset": "zarf_1.6.0_windows_386.zip",
+      "checksum": "8247fa854c435d57e46ae7cc311ce40fa6c21d9f9c5ace67b04de966486ed78c",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "zarf",
+          "src": "zarf_1.6.0_windows_386/bin/zarf.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "zarf-dev/zarf/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^zarf version 1.6.0"
+      }
+    }
+  ]
+}
