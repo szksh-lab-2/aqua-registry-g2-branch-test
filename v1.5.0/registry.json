@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "opencontainers/umoci",
+  "version": "v1.5.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "opencontainers",
+      "repo_name": "umoci",
+      "asset": "umoci_1.5.0_linux_amd64.tar.gz",
+      "checksum": "45f9721263e2bc779cb796836337102046e9cf78037047c865e6f4a35905e7f5",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "umoci",
+          "src": "umoci_1.5.0_linux_amd64/bin/umoci"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "opencontainers/umoci/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^umoci version 1.5.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "opencontainers",
+      "repo_name": "umoci",
+      "asset": "umoci_1.5.0_linux_arm64.tar.gz",
+      "checksum": "29860d99c64ed2e5c987c0cc2d8d7ab826c8106d0c729b44ae4b54a34d995bc5",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "umoci",
+          "src": "umoci_1.5.0_linux_arm64/bin/umoci"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "opencontainers/umoci/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^umoci version 1.5.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "opencontainers",
+      "repo_name": "umoci",
+      "asset": "umoci_1.5.0_linux_386.tar.gz",
+      "checksum": "1649a6c7601f4b9ec10ec0a6a5984e5d79bb333b5a651df3e1d4b4094e21564d",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "umoci",
+          "src": "umoci_1.5.0_linux_386/bin/umoci"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "opencontainers/umoci/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^umoci version 1.5.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "opencontainers",
+      "repo_name": "umoci",
+      "asset": "umoci_1.5.0_linux_arm.tar.gz",
+      "checksum": "fe8275da57c144e350b2df85e3639acf5f5e7e141f5d182c4fab32be37057f0f",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "umoci",
+          "src": "umoci_1.5.0_linux_arm/bin/umoci"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "opencontainers/umoci/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^umoci version 1.5.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "opencontainers",
+      "repo_name": "umoci",
+      "asset": "umoci_1.5.0_macOS_amd64.zip",
+      "checksum": "996287700f25959e6eb0423d107b68a3feec36fcd5d781d28d8d8e2beb4095b0",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "umoci",
+          "src": "umoci_1.5.0_macOS_amd64/bin/umoci"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "opencontainers/umoci/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^umoci version 1.5.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "opencontainers",
+      "repo_name": "umoci",
+      "asset": "umoci_1.5.0_macOS_arm64.zip",
+      "checksum": "82b64a5adfe6ac3092eac2e8c03d81ce4592df05a1b561f1a403bcf6aa879382",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "umoci",
+          "src": "umoci_1.5.0_macOS_arm64/bin/umoci"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "opencontainers/umoci/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^umoci version 1.5.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "opencontainers",
+      "repo_name": "umoci",
+      "asset": "umoci_1.5.0_windows_amd64.zip",
+      "checksum": "5878bd8dd70273be98b435607ce4704ec7b5adf5a58b911a280e29d01accab82",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "umoci",
+          "src": "umoci_1.5.0_windows_amd64/bin/umoci.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "opencontainers/umoci/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^umoci version 1.5.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "opencontainers",
+      "repo_name": "umoci",
+      "asset": "umoci_1.5.0_windows_arm64.zip",
+      "checksum": "ea6a0affd41e2f6625802b0dbbb35eba14ea2507e1b6a388fa262ed1fcd97c69",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "umoci",
+          "src": "umoci_1.5.0_windows_arm64/bin/umoci.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "opencontainers/umoci/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^umoci version 1.5.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "opencontainers",
+      "repo_name": "umoci",
+      "asset": "umoci_1.5.0_windows_386.zip",
+      "checksum": "7f2dce3c1746fdcf1402b969c4a383c460b5f58b9b0374168522b608ddb53841",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "umoci",
+          "src": "umoci_1.5.0_windows_386/bin/umoci.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "opencontainers/umoci/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^umoci version 1.5.0"
+      }
+    }
+  ]
+}
