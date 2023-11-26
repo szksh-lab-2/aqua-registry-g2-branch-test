@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "opencontainers/runc",
+  "version": "v1.1.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "opencontainers",
+      "repo_name": "runc",
+      "asset": "runc_1.1.0_linux_amd64.tar.gz",
+      "checksum": "bf0f08b14eb218c70c966e38fcb47f0e9b6d7c9402e000d5b185f09393f7b4c5",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "runc",
+          "src": "runc_1.1.0_linux_amd64/bin/runc"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "opencontainers/runc/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^runc version 1.1.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "opencontainers",
+      "repo_name": "runc",
+      "asset": "runc_1.1.0_linux_arm64.tar.gz",
+      "checksum": "700a7598525adc13489089168b7facb2ecd3ebc130831da83ca54ebf724282e3",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "runc",
+          "src": "runc_1.1.0_linux_arm64/bin/runc"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "opencontainers/runc/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^runc version 1.1.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "opencontainers",
+      "repo_name": "runc",
+      "asset": "runc_1.1.0_linux_386.tar.gz",
+      "checksum": "5e07209ce6a4c525a9cf7df9e6f376f6097ff89eb09c14f838644abe97469858",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "runc",
+          "src": "runc_1.1.0_linux_386/bin/runc"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "opencontainers/runc/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^runc version 1.1.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "opencontainers",
+      "repo_name": "runc",
+      "asset": "runc_1.1.0_linux_arm.tar.gz",
+      "checksum": "2da7a211df035bbc54b3afb448747b998f0722544a3f17caaae55bdd67cd5a55",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "runc",
+          "src": "runc_1.1.0_linux_arm/bin/runc"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "opencontainers/runc/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^runc version 1.1.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "opencontainers",
+      "repo_name": "runc",
+      "asset": "runc_1.1.0_macOS_amd64.zip",
+      "checksum": "99ed589b068d53cd63adb32c414fb6e843f6c86c3da59c7976278b00f309e217",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "runc",
+          "src": "runc_1.1.0_macOS_amd64/bin/runc"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "opencontainers/runc/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^runc version 1.1.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "opencontainers",
+      "repo_name": "runc",
+      "asset": "runc_1.1.0_macOS_arm64.zip",
+      "checksum": "c53d0c346be4a7bfd85af74deb4c8b20a39f188e9f6de0d372e4905fb1cee93e",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "runc",
+          "src": "runc_1.1.0_macOS_arm64/bin/runc"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "opencontainers/runc/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^runc version 1.1.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "opencontainers",
+      "repo_name": "runc",
+      "asset": "runc_1.1.0_windows_amd64.zip",
+      "checksum": "0dc9e3e2cba5dfe2a7bbf9ec05060d65b9333aa8170078806cc55ba6979ae591",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "runc",
+          "src": "runc_1.1.0_windows_amd64/bin/runc.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "opencontainers/runc/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^runc version 1.1.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "opencontainers",
+      "repo_name": "runc",
+      "asset": "runc_1.1.0_windows_arm64.zip",
+      "checksum": "4e6310932a3ebe8568209130442260cbc8faff8db641a2e415358b928fefe63e",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "runc",
+          "src": "runc_1.1.0_windows_arm64/bin/runc.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "opencontainers/runc/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^runc version 1.1.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "opencontainers",
+      "repo_name": "runc",
+      "asset": "runc_1.1.0_windows_386.zip",
+      "checksum": "9ca2db0b47a87f2a3486ef5bc3744665dbf29448a63f0b70dfcdfe3543331c96",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "runc",
+          "src": "runc_1.1.0_windows_386/bin/runc.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "opencontainers/runc/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^runc version 1.1.0"
+      }
+    }
+  ]
+}
