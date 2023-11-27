@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "temporalio/temporal",
+  "version": "v1.0.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "temporalio",
+      "repo_name": "temporal",
+      "asset": "temporal_1.0.0_linux_amd64.tar.gz",
+      "checksum": "8f78eeb01c0f80a05fa2bcf5f3f2f77d0a284d2faa1f05ff044caf5fe0cca04f",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "temporal",
+          "src": "temporal_1.0.0_linux_amd64/bin/temporal"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "temporalio/temporal/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^temporal version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "temporalio",
+      "repo_name": "temporal",
+      "asset": "temporal_1.0.0_linux_arm64.tar.gz",
+      "checksum": "38958ae9459f61adffaa27e1d8c2b1a1a0e46dd4c06315c473131c83a808ac3c",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "temporal",
+          "src": "temporal_1.0.0_linux_arm64/bin/temporal"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "temporalio/temporal/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^temporal version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "temporalio",
+      "repo_name": "temporal",
+      "asset": "temporal_1.0.0_linux_386.tar.gz",
+      "checksum": "b6847a88f763a9a66d9f276e008cc4d599a4fd7150d3a822da81dad7f84d7f3a",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "temporal",
+          "src": "temporal_1.0.0_linux_386/bin/temporal"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "temporalio/temporal/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^temporal version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "temporalio",
+      "repo_name": "temporal",
+      "asset": "temporal_1.0.0_linux_arm.tar.gz",
+      "checksum": "6d7f61a1ff39ad656bf8bfac5e8d22ec36be2a0fc4bee31819276db0db0bbf8a",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "temporal",
+          "src": "temporal_1.0.0_linux_arm/bin/temporal"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "temporalio/temporal/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^temporal version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "temporalio",
+      "repo_name": "temporal",
+      "asset": "temporal_1.0.0_macOS_amd64.zip",
+      "checksum": "6a797448489b38f0c2b7243dc145729046af36ce4263e01d562aafb828629c2a",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "temporal",
+          "src": "temporal_1.0.0_macOS_amd64/bin/temporal"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "temporalio/temporal/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^temporal version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "temporalio",
+      "repo_name": "temporal",
+      "asset": "temporal_1.0.0_macOS_arm64.zip",
+      "checksum": "ce6c4acafd5e60de2297ae4b64d974bcfb2e784e543d54fe364ca7321e9f4f2e",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "temporal",
+          "src": "temporal_1.0.0_macOS_arm64/bin/temporal"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "temporalio/temporal/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^temporal version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "temporalio",
+      "repo_name": "temporal",
+      "asset": "temporal_1.0.0_windows_amd64.zip",
+      "checksum": "d1d06ff2881dd45ac6bc0d6a74535963c75631de2fe3e26162d4cc205a9e72f5",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "temporal",
+          "src": "temporal_1.0.0_windows_amd64/bin/temporal.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "temporalio/temporal/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^temporal version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "temporalio",
+      "repo_name": "temporal",
+      "asset": "temporal_1.0.0_windows_arm64.zip",
+      "checksum": "e4b391d22f353a87a5ed1d42b87ab74cc003e07922ac8fc62e814b6bdd53a268",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "temporal",
+          "src": "temporal_1.0.0_windows_arm64/bin/temporal.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "temporalio/temporal/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^temporal version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "temporalio",
+      "repo_name": "temporal",
+      "asset": "temporal_1.0.0_windows_386.zip",
+      "checksum": "ace78db01dfdcde80768562e5ca2c01c2ab610836df262429816beb045c73f73",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "temporal",
+          "src": "temporal_1.0.0_windows_386/bin/temporal.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "temporalio/temporal/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^temporal version 1.0.0"
+      }
+    }
+  ]
+}
