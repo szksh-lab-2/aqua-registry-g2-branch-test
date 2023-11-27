@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "aws/eks-hybrid",
+  "version": "v1.7.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "aws",
+      "repo_name": "eks-hybrid",
+      "asset": "eks-hybrid_1.7.0_linux_amd64.tar.gz",
+      "checksum": "6e3a678f29d346e44529d287bcb72056bc4c3dd3b87f2a117a0c1820ec0170fa",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "eks-hybrid",
+          "src": "eks-hybrid_1.7.0_linux_amd64/bin/eks-hybrid"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "aws/eks-hybrid/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^eks-hybrid version 1.7.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "aws",
+      "repo_name": "eks-hybrid",
+      "asset": "eks-hybrid_1.7.0_linux_arm64.tar.gz",
+      "checksum": "7eeee07111f4d21532c0d5f2e13b5fd7cdcf7599ef992ccd7ac80e8030334514",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "eks-hybrid",
+          "src": "eks-hybrid_1.7.0_linux_arm64/bin/eks-hybrid"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "aws/eks-hybrid/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^eks-hybrid version 1.7.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "aws",
+      "repo_name": "eks-hybrid",
+      "asset": "eks-hybrid_1.7.0_linux_386.tar.gz",
+      "checksum": "c9ce4ad27222f7d7c1b2da1f71c5cd3633a0938be585ffb833f55875289bfcea",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "eks-hybrid",
+          "src": "eks-hybrid_1.7.0_linux_386/bin/eks-hybrid"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "aws/eks-hybrid/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^eks-hybrid version 1.7.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "aws",
+      "repo_name": "eks-hybrid",
+      "asset": "eks-hybrid_1.7.0_linux_arm.tar.gz",
+      "checksum": "b493731ab65d1c86bc75b77ada7a43de5a16cbee7958b5552edc4eb54540be15",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "eks-hybrid",
+          "src": "eks-hybrid_1.7.0_linux_arm/bin/eks-hybrid"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "aws/eks-hybrid/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^eks-hybrid version 1.7.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "aws",
+      "repo_name": "eks-hybrid",
+      "asset": "eks-hybrid_1.7.0_macOS_amd64.zip",
+      "checksum": "601bcca1f3c3c11380244c2190d69fd50e1b562023837c34ec5f7138bd78edf5",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "eks-hybrid",
+          "src": "eks-hybrid_1.7.0_macOS_amd64/bin/eks-hybrid"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "aws/eks-hybrid/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^eks-hybrid version 1.7.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "aws",
+      "repo_name": "eks-hybrid",
+      "asset": "eks-hybrid_1.7.0_macOS_arm64.zip",
+      "checksum": "a5b3b1a49e93b4ef73a519403ebbd7c069ba3b78e6eefd816df5caf66bdcc64b",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "eks-hybrid",
+          "src": "eks-hybrid_1.7.0_macOS_arm64/bin/eks-hybrid"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "aws/eks-hybrid/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^eks-hybrid version 1.7.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "aws",
+      "repo_name": "eks-hybrid",
+      "asset": "eks-hybrid_1.7.0_windows_amd64.zip",
+      "checksum": "90ce8014e04f5f6b018b409188aaefd0256a27fadc386641486d48f2f150dabd",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "eks-hybrid",
+          "src": "eks-hybrid_1.7.0_windows_amd64/bin/eks-hybrid.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "aws/eks-hybrid/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^eks-hybrid version 1.7.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "aws",
+      "repo_name": "eks-hybrid",
+      "asset": "eks-hybrid_1.7.0_windows_arm64.zip",
+      "checksum": "0db83a0182a4b428ec082e93c3d68ca5c9616321eded898b4053d6688fa32eee",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "eks-hybrid",
+          "src": "eks-hybrid_1.7.0_windows_arm64/bin/eks-hybrid.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "aws/eks-hybrid/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^eks-hybrid version 1.7.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "aws",
+      "repo_name": "eks-hybrid",
+      "asset": "eks-hybrid_1.7.0_windows_386.zip",
+      "checksum": "7a73121a584e6c9d3c67671d6c35e7d588c31c8083b7b8d24be69231bb4934cf",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "eks-hybrid",
+          "src": "eks-hybrid_1.7.0_windows_386/bin/eks-hybrid.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "aws/eks-hybrid/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^eks-hybrid version 1.7.0"
+      }
+    }
+  ]
+}
