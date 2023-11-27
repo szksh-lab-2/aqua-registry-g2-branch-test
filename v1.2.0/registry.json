@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "rancher/cli",
+  "version": "v1.2.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "rancher",
+      "repo_name": "cli",
+      "asset": "cli_1.2.0_linux_amd64.tar.gz",
+      "checksum": "50f6175d73109285b977373ae845eb407a82941d570c877f3c6a37ac4cb7d834",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "cli",
+          "src": "cli_1.2.0_linux_amd64/bin/cli"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "rancher/cli/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cli version 1.2.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "rancher",
+      "repo_name": "cli",
+      "asset": "cli_1.2.0_linux_arm64.tar.gz",
+      "checksum": "45c92c69d9058e0489658f745533c67d8fc0cce2edadef2e8653c0a99007bc93",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "cli",
+          "src": "cli_1.2.0_linux_arm64/bin/cli"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "rancher/cli/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cli version 1.2.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "rancher",
+      "repo_name": "cli",
+      "asset": "cli_1.2.0_linux_386.tar.gz",
+      "checksum": "4268d5f650edf7630099b00fc46260404d0b961e67e8c8a4e8b187233b7d8ca2",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "cli",
+          "src": "cli_1.2.0_linux_386/bin/cli"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "rancher/cli/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cli version 1.2.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "rancher",
+      "repo_name": "cli",
+      "asset": "cli_1.2.0_linux_arm.tar.gz",
+      "checksum": "a3598a0aebb6f3d42e0361735bfc41591629b6f3db1ad1fe35ec344521c4e456",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "cli",
+          "src": "cli_1.2.0_linux_arm/bin/cli"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "rancher/cli/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cli version 1.2.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "rancher",
+      "repo_name": "cli",
+      "asset": "cli_1.2.0_macOS_amd64.zip",
+      "checksum": "827fc00face5df38d158cef07ab9210df7fa97bc40c3d1ba16529faaeb80c1cd",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "cli",
+          "src": "cli_1.2.0_macOS_amd64/bin/cli"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "rancher/cli/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cli version 1.2.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "rancher",
+      "repo_name": "cli",
+      "asset": "cli_1.2.0_macOS_arm64.zip",
+      "checksum": "68acc384a634d1048c114227d3a5dffdaf920c4aa354e023e1833af633172cd4",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "cli",
+          "src": "cli_1.2.0_macOS_arm64/bin/cli"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "rancher/cli/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cli version 1.2.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "rancher",
+      "repo_name": "cli",
+      "asset": "cli_1.2.0_windows_amd64.zip",
+      "checksum": "9c38a6ddb222b25253c156069a084c61ec0c971d586186ade8151a384785c8c8",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "cli",
+          "src": "cli_1.2.0_windows_amd64/bin/cli.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "rancher/cli/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cli version 1.2.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "rancher",
+      "repo_name": "cli",
+      "asset": "cli_1.2.0_windows_arm64.zip",
+      "checksum": "07f66ea9b8c0d7c1f41704531898b585ca33ae44adabc36c612b58437958c676",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "cli",
+          "src": "cli_1.2.0_windows_arm64/bin/cli.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "rancher/cli/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cli version 1.2.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "rancher",
+      "repo_name": "cli",
+      "asset": "cli_1.2.0_windows_386.zip",
+      "checksum": "88e8d30a15aa21e73a382a85e0de70eb4fdd080c3b4a2a72e20480d17034de8b",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "cli",
+          "src": "cli_1.2.0_windows_386/bin/cli.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "rancher/cli/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cli version 1.2.0"
+      }
+    }
+  ]
+}
