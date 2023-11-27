@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "kubernetes/minikube",
+  "version": "v1.7.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "minikube",
+      "asset": "minikube_1.7.0_linux_amd64.tar.gz",
+      "checksum": "9cd704316b4046cdec22b8057e086a2718fa33a88b6994d77e2c899adb2a81f4",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "minikube",
+          "src": "minikube_1.7.0_linux_amd64/bin/minikube"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/minikube/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^minikube version 1.7.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "minikube",
+      "asset": "minikube_1.7.0_linux_arm64.tar.gz",
+      "checksum": "fbea2ddad03862d8181b3bb927ad40ae9363c4a91ace9aebd181f605c9bddb34",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "minikube",
+          "src": "minikube_1.7.0_linux_arm64/bin/minikube"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/minikube/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^minikube version 1.7.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "minikube",
+      "asset": "minikube_1.7.0_linux_386.tar.gz",
+      "checksum": "569304f706438a19ec3ceed6070f5590b57b6cb75b294d3e3b2a5b4ef7c5a151",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "minikube",
+          "src": "minikube_1.7.0_linux_386/bin/minikube"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/minikube/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^minikube version 1.7.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "minikube",
+      "asset": "minikube_1.7.0_linux_arm.tar.gz",
+      "checksum": "35061c22988976237fb588a70ef5d38dc1ca5a2c6dff9aebef168979bb98b5ca",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "minikube",
+          "src": "minikube_1.7.0_linux_arm/bin/minikube"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/minikube/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^minikube version 1.7.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "minikube",
+      "asset": "minikube_1.7.0_macOS_amd64.zip",
+      "checksum": "e98218a3221f7add0e59820e7bf58e054559804f92c67b6812dfa515343783d1",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "minikube",
+          "src": "minikube_1.7.0_macOS_amd64/bin/minikube"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/minikube/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^minikube version 1.7.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "minikube",
+      "asset": "minikube_1.7.0_macOS_arm64.zip",
+      "checksum": "c7fdaa532f1235a7968e57b30da576e592968437cf5f66c8641eaf3f32249a86",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "minikube",
+          "src": "minikube_1.7.0_macOS_arm64/bin/minikube"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/minikube/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^minikube version 1.7.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "minikube",
+      "asset": "minikube_1.7.0_windows_amd64.zip",
+      "checksum": "4565ec5ae2ee85b0262f0ead59b26e5a4822e3b9d44c8daaf09e00f7e342004a",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "minikube",
+          "src": "minikube_1.7.0_windows_amd64/bin/minikube.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/minikube/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^minikube version 1.7.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "minikube",
+      "asset": "minikube_1.7.0_windows_arm64.zip",
+      "checksum": "add192df6feef5c810c73f4bac46c96853f4da3e557caab003854e3581d0df99",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "minikube",
+          "src": "minikube_1.7.0_windows_arm64/bin/minikube.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/minikube/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^minikube version 1.7.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "minikube",
+      "asset": "minikube_1.7.0_windows_386.zip",
+      "checksum": "b3c8029defe0a8221e7a6aa7c19d6e61b55459eb89a1273d7370018cb57d1c9d",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "minikube",
+          "src": "minikube_1.7.0_windows_386/bin/minikube.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/minikube/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^minikube version 1.7.0"
+      }
+    }
+  ]
+}
