@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "helmwave/helmwave",
+  "version": "v1.0.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "helmwave",
+      "repo_name": "helmwave",
+      "asset": "helmwave_1.0.0_linux_amd64.tar.gz",
+      "checksum": "91a7da95df34e6b0185c391fe093ea59badfe1afb7f4ef366254ef95e299ffd6",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "helmwave",
+          "src": "helmwave_1.0.0_linux_amd64/bin/helmwave"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "helmwave/helmwave/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^helmwave version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "helmwave",
+      "repo_name": "helmwave",
+      "asset": "helmwave_1.0.0_linux_arm64.tar.gz",
+      "checksum": "2e75e2b1706d99f5d1aafc023c5fcd771d44024388c32ac508aff06c71357848",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "helmwave",
+          "src": "helmwave_1.0.0_linux_arm64/bin/helmwave"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "helmwave/helmwave/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^helmwave version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "helmwave",
+      "repo_name": "helmwave",
+      "asset": "helmwave_1.0.0_linux_386.tar.gz",
+      "checksum": "44606e9907ecde7978b403160c77e918a27f8b214264f3439ebed82863c322b5",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "helmwave",
+          "src": "helmwave_1.0.0_linux_386/bin/helmwave"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "helmwave/helmwave/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^helmwave version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "helmwave",
+      "repo_name": "helmwave",
+      "asset": "helmwave_1.0.0_linux_arm.tar.gz",
+      "checksum": "6bf007d831d87707b4fd34c201f398d8846056eecae426dd6331886c6ab72dd9",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "helmwave",
+          "src": "helmwave_1.0.0_linux_arm/bin/helmwave"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "helmwave/helmwave/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^helmwave version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "helmwave",
+      "repo_name": "helmwave",
+      "asset": "helmwave_1.0.0_macOS_amd64.zip",
+      "checksum": "4f8643d6521b260481122a11f80511454d80391634efa195258fcc6d6e6e6bf3",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "helmwave",
+          "src": "helmwave_1.0.0_macOS_amd64/bin/helmwave"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "helmwave/helmwave/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^helmwave version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "helmwave",
+      "repo_name": "helmwave",
+      "asset": "helmwave_1.0.0_macOS_arm64.zip",
+      "checksum": "7ea7fd02be40ddaa2d75aee263b29b4b490b9e48e283c448749a0de112ebeeb0",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "helmwave",
+          "src": "helmwave_1.0.0_macOS_arm64/bin/helmwave"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "helmwave/helmwave/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^helmwave version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "helmwave",
+      "repo_name": "helmwave",
+      "asset": "helmwave_1.0.0_windows_amd64.zip",
+      "checksum": "8c8b411e5c1f374ee91c76313c8f9647902f20872c429c4ca047d076d973b94a",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "helmwave",
+          "src": "helmwave_1.0.0_windows_amd64/bin/helmwave.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "helmwave/helmwave/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^helmwave version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "helmwave",
+      "repo_name": "helmwave",
+      "asset": "helmwave_1.0.0_windows_arm64.zip",
+      "checksum": "f08b6422c6a4c28814872d06f7564f4f59399c8ff9b7563f6008ac82328bb601",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "helmwave",
+          "src": "helmwave_1.0.0_windows_arm64/bin/helmwave.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "helmwave/helmwave/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^helmwave version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "helmwave",
+      "repo_name": "helmwave",
+      "asset": "helmwave_1.0.0_windows_386.zip",
+      "checksum": "c6966bf0416502e974f4a427b1c45cca7cae98c0ce662a4840089a8fe985dee0",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "helmwave",
+          "src": "helmwave_1.0.0_windows_386/bin/helmwave.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "helmwave/helmwave/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^helmwave version 1.0.0"
+      }
+    }
+  ]
+}
