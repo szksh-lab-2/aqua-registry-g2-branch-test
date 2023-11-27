@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "controlplaneio-fluxcd/flux-operator",
+  "version": "v1.0.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "controlplaneio-fluxcd",
+      "repo_name": "flux-operator",
+      "asset": "flux-operator_1.0.0_linux_amd64.tar.gz",
+      "checksum": "cfe19646cef7ae89b9330166b0d8ed19599b570e1fa43858414b13493ac1335b",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "flux-operator",
+          "src": "flux-operator_1.0.0_linux_amd64/bin/flux-operator"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "controlplaneio-fluxcd/flux-operator/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^flux-operator version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "controlplaneio-fluxcd",
+      "repo_name": "flux-operator",
+      "asset": "flux-operator_1.0.0_linux_arm64.tar.gz",
+      "checksum": "bee32fb1fae90ef69a8e9b8252302e1db3ee57172a9c8df7b1faa5d49d2fda92",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "flux-operator",
+          "src": "flux-operator_1.0.0_linux_arm64/bin/flux-operator"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "controlplaneio-fluxcd/flux-operator/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^flux-operator version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "controlplaneio-fluxcd",
+      "repo_name": "flux-operator",
+      "asset": "flux-operator_1.0.0_linux_386.tar.gz",
+      "checksum": "c361582489fe3f68195557f504f4e6d246bd6a8f7afe70fe1e2f59b76963e139",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "flux-operator",
+          "src": "flux-operator_1.0.0_linux_386/bin/flux-operator"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "controlplaneio-fluxcd/flux-operator/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^flux-operator version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "controlplaneio-fluxcd",
+      "repo_name": "flux-operator",
+      "asset": "flux-operator_1.0.0_linux_arm.tar.gz",
+      "checksum": "da01dc1083533299db03188400443ee6d59dc25f33556104b0ce82a5277123fe",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "flux-operator",
+          "src": "flux-operator_1.0.0_linux_arm/bin/flux-operator"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "controlplaneio-fluxcd/flux-operator/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^flux-operator version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "controlplaneio-fluxcd",
+      "repo_name": "flux-operator",
+      "asset": "flux-operator_1.0.0_macOS_amd64.zip",
+      "checksum": "7d5307ca692eb05d75bf642057d391cccd65e6c9b608637ec772e8cbec4e8c26",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "flux-operator",
+          "src": "flux-operator_1.0.0_macOS_amd64/bin/flux-operator"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "controlplaneio-fluxcd/flux-operator/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^flux-operator version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "controlplaneio-fluxcd",
+      "repo_name": "flux-operator",
+      "asset": "flux-operator_1.0.0_macOS_arm64.zip",
+      "checksum": "419365620176652f4e94211e4f049203a48c20c2fd09f4024dc14955daf48964",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "flux-operator",
+          "src": "flux-operator_1.0.0_macOS_arm64/bin/flux-operator"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "controlplaneio-fluxcd/flux-operator/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^flux-operator version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "controlplaneio-fluxcd",
+      "repo_name": "flux-operator",
+      "asset": "flux-operator_1.0.0_windows_amd64.zip",
+      "checksum": "434886bb27a71fc1c620e8845d1c9c2fee4f46e053d3a7e0e728730a185eb749",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "flux-operator",
+          "src": "flux-operator_1.0.0_windows_amd64/bin/flux-operator.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "controlplaneio-fluxcd/flux-operator/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^flux-operator version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "controlplaneio-fluxcd",
+      "repo_name": "flux-operator",
+      "asset": "flux-operator_1.0.0_windows_arm64.zip",
+      "checksum": "787ab3401b9aef65640f49b80706a37856fba6a7d23b607ea4e24bfb6d18ebed",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "flux-operator",
+          "src": "flux-operator_1.0.0_windows_arm64/bin/flux-operator.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "controlplaneio-fluxcd/flux-operator/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^flux-operator version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "controlplaneio-fluxcd",
+      "repo_name": "flux-operator",
+      "asset": "flux-operator_1.0.0_windows_386.zip",
+      "checksum": "593f31598fabf4db3c97a48021d5db50f4688c161d592104f8089ba43f0ec537",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "flux-operator",
+          "src": "flux-operator_1.0.0_windows_386/bin/flux-operator.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "controlplaneio-fluxcd/flux-operator/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^flux-operator version 1.0.0"
+      }
+    }
+  ]
+}
