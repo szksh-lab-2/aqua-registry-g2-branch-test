@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "rancher/kim",
+  "version": "v1.0.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "rancher",
+      "repo_name": "kim",
+      "asset": "kim_1.0.0_linux_amd64.tar.gz",
+      "checksum": "7cb52c98b9b302d0ebee057a157a776d28c29009e66128792e1be9566ea95d64",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "kim",
+          "src": "kim_1.0.0_linux_amd64/bin/kim"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "rancher/kim/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kim version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "rancher",
+      "repo_name": "kim",
+      "asset": "kim_1.0.0_linux_arm64.tar.gz",
+      "checksum": "ba4b1a8968090ff10a99b47c2257aaaa748176446a5557f6e5a5cdcca943e86f",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "kim",
+          "src": "kim_1.0.0_linux_arm64/bin/kim"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "rancher/kim/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kim version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "rancher",
+      "repo_name": "kim",
+      "asset": "kim_1.0.0_linux_386.tar.gz",
+      "checksum": "5ef6b2958621d21f2103338e1175e2f94962ebb45375abf55be18c769d432a74",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "kim",
+          "src": "kim_1.0.0_linux_386/bin/kim"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "rancher/kim/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kim version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "rancher",
+      "repo_name": "kim",
+      "asset": "kim_1.0.0_linux_arm.tar.gz",
+      "checksum": "59701e7d60ab5d8d9742f44f33b8a95c168e5ffa9ad273c7a927bedf07869872",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "kim",
+          "src": "kim_1.0.0_linux_arm/bin/kim"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "rancher/kim/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kim version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "rancher",
+      "repo_name": "kim",
+      "asset": "kim_1.0.0_macOS_amd64.zip",
+      "checksum": "fa08147f2816e38d449bcd827d5a2cc34a89cc05d1989a5d831a64e902281c0c",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kim",
+          "src": "kim_1.0.0_macOS_amd64/bin/kim"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "rancher/kim/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kim version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "rancher",
+      "repo_name": "kim",
+      "asset": "kim_1.0.0_macOS_arm64.zip",
+      "checksum": "01941a7bd87df68caaa3fe8e3db9fc71e109a9ccaae493a5ec469808010f71b7",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kim",
+          "src": "kim_1.0.0_macOS_arm64/bin/kim"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "rancher/kim/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kim version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "rancher",
+      "repo_name": "kim",
+      "asset": "kim_1.0.0_windows_amd64.zip",
+      "checksum": "515f866fcbf237c494f6265c5e477c87dee8cd5f267bfbb54718c728f4ca0598",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kim",
+          "src": "kim_1.0.0_windows_amd64/bin/kim.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "rancher/kim/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kim version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "rancher",
+      "repo_name": "kim",
+      "asset": "kim_1.0.0_windows_arm64.zip",
+      "checksum": "46b29fc9233c281a03b612dac93182dad42042b2db4774e803874877a0bee793",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kim",
+          "src": "kim_1.0.0_windows_arm64/bin/kim.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "rancher/kim/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kim version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "rancher",
+      "repo_name": "kim",
+      "asset": "kim_1.0.0_windows_386.zip",
+      "checksum": "e3736108d88e431709ce4131dc8eb2a93d4113e01dcf2b051289972b81dbe82d",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kim",
+          "src": "kim_1.0.0_windows_386/bin/kim.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "rancher/kim/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kim version 1.0.0"
+      }
+    }
+  ]
+}
