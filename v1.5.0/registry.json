@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "ollama/ollama",
+  "version": "v1.5.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "ollama",
+      "repo_name": "ollama",
+      "asset": "ollama_1.5.0_linux_amd64.tar.gz",
+      "checksum": "abfca1626e51b5caedccd8944373688ba530aea27130f734e0cd8b121f64a686",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "ollama",
+          "src": "ollama_1.5.0_linux_amd64/bin/ollama"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "ollama/ollama/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^ollama version 1.5.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "ollama",
+      "repo_name": "ollama",
+      "asset": "ollama_1.5.0_linux_arm64.tar.gz",
+      "checksum": "d861e33a7ce98f24326df5295a20ce10fb46595840b42d758fae2f1072705e31",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "ollama",
+          "src": "ollama_1.5.0_linux_arm64/bin/ollama"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "ollama/ollama/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^ollama version 1.5.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "ollama",
+      "repo_name": "ollama",
+      "asset": "ollama_1.5.0_linux_386.tar.gz",
+      "checksum": "1af99e47053008f203ebe5a81e28e239555b9abc96bd899e15910a68c2fb57e9",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "ollama",
+          "src": "ollama_1.5.0_linux_386/bin/ollama"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "ollama/ollama/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^ollama version 1.5.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "ollama",
+      "repo_name": "ollama",
+      "asset": "ollama_1.5.0_linux_arm.tar.gz",
+      "checksum": "a2a5aacc32f88dea4ffcec06049d27fbaebddcddbb8dd97132ae4c836ac8c1ef",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "ollama",
+          "src": "ollama_1.5.0_linux_arm/bin/ollama"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "ollama/ollama/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^ollama version 1.5.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "ollama",
+      "repo_name": "ollama",
+      "asset": "ollama_1.5.0_macOS_amd64.zip",
+      "checksum": "f4e7f49c6da491af39c7250ff4b758a2ae10edba36442669b20e984c196c0eee",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "ollama",
+          "src": "ollama_1.5.0_macOS_amd64/bin/ollama"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "ollama/ollama/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^ollama version 1.5.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "ollama",
+      "repo_name": "ollama",
+      "asset": "ollama_1.5.0_macOS_arm64.zip",
+      "checksum": "157d65773b14ae73997011cbda9f78917fc2a263bcbd7fd7e69fb28eccc7056b",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "ollama",
+          "src": "ollama_1.5.0_macOS_arm64/bin/ollama"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "ollama/ollama/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^ollama version 1.5.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "ollama",
+      "repo_name": "ollama",
+      "asset": "ollama_1.5.0_windows_amd64.zip",
+      "checksum": "a91a3847b0e375da0b2484b3b9436212b8230291c54a0dfa310079cc57b49cc7",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "ollama",
+          "src": "ollama_1.5.0_windows_amd64/bin/ollama.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "ollama/ollama/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^ollama version 1.5.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "ollama",
+      "repo_name": "ollama",
+      "asset": "ollama_1.5.0_windows_arm64.zip",
+      "checksum": "6cc9593c81e1981e3b2a0bcf3ad0b222b67d57ac06ee03c4e703e2700aba7221",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "ollama",
+          "src": "ollama_1.5.0_windows_arm64/bin/ollama.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "ollama/ollama/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^ollama version 1.5.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "ollama",
+      "repo_name": "ollama",
+      "asset": "ollama_1.5.0_windows_386.zip",
+      "checksum": "39a95e8230e4b55a36535d87986b12d72e510318a1dc9907172bfbd9efac2be3",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "ollama",
+          "src": "ollama_1.5.0_windows_386/bin/ollama.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "ollama/ollama/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^ollama version 1.5.0"
+      }
+    }
+  ]
+}
