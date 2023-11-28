@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "kubernetes/kops",
+  "version": "v1.9.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kops",
+      "asset": "kops_1.9.0_linux_amd64.tar.gz",
+      "checksum": "151c3d32373b7fe72581d3e3e9d2133137d2c77d9fa9f9367c7f6ae7904152d4",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "kops",
+          "src": "kops_1.9.0_linux_amd64/bin/kops"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kops/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kops version 1.9.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kops",
+      "asset": "kops_1.9.0_linux_arm64.tar.gz",
+      "checksum": "b51f0493a778bfba5dc3a98c80cd8cf271f1d6fe96d7f41cf91a92080544fe53",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "kops",
+          "src": "kops_1.9.0_linux_arm64/bin/kops"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kops/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kops version 1.9.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kops",
+      "asset": "kops_1.9.0_linux_386.tar.gz",
+      "checksum": "d031438be2f49f44668628423b847412fc2d4d7f7c4f0d76171e283b26d07f3f",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "kops",
+          "src": "kops_1.9.0_linux_386/bin/kops"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kops/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kops version 1.9.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kops",
+      "asset": "kops_1.9.0_linux_arm.tar.gz",
+      "checksum": "6ef275bac84344df49797b17521f1fff5911ed018f6e839d3856231ec2e739f8",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "kops",
+          "src": "kops_1.9.0_linux_arm/bin/kops"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kops/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kops version 1.9.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kops",
+      "asset": "kops_1.9.0_macOS_amd64.zip",
+      "checksum": "f4899326afbbc9a5e653597bc25f7ab9807db5be51ac06eb6d1b94dfdde3749c",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kops",
+          "src": "kops_1.9.0_macOS_amd64/bin/kops"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kops/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kops version 1.9.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kops",
+      "asset": "kops_1.9.0_macOS_arm64.zip",
+      "checksum": "10740d01a4e70eeebe39236463e020914acb8702c4848d333bc1fd1a0bfd5da8",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kops",
+          "src": "kops_1.9.0_macOS_arm64/bin/kops"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kops/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kops version 1.9.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kops",
+      "asset": "kops_1.9.0_windows_amd64.zip",
+      "checksum": "21db531a28a9666a258623b1b3ac1497e26349dc49e54c312d4abd2b075bdad6",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kops",
+          "src": "kops_1.9.0_windows_amd64/bin/kops.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kops/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kops version 1.9.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kops",
+      "asset": "kops_1.9.0_windows_arm64.zip",
+      "checksum": "fc62d78f6b90b1e8dcd8db1d8f104c1bee111a0979e454d0f7af8184f44ea6e6",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kops",
+          "src": "kops_1.9.0_windows_arm64/bin/kops.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kops/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kops version 1.9.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kops",
+      "asset": "kops_1.9.0_windows_386.zip",
+      "checksum": "1f6a32c14f2bcccffa4deec43098a23b248f8f8c90f38c595f99d743f9a94066",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kops",
+          "src": "kops_1.9.0_windows_386/bin/kops.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kops/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kops version 1.9.0"
+      }
+    }
+  ]
+}
