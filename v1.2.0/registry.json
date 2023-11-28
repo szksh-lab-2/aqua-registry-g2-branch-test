@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "coreos/butane",
+  "version": "v1.2.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "coreos",
+      "repo_name": "butane",
+      "asset": "butane_1.2.0_linux_amd64.tar.gz",
+      "checksum": "7655fc8f85c83013a93ce9d49a592b55db3766c54f64d5143e0fa652cd7f4d54",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "butane",
+          "src": "butane_1.2.0_linux_amd64/bin/butane"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "coreos/butane/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^butane version 1.2.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "coreos",
+      "repo_name": "butane",
+      "asset": "butane_1.2.0_linux_arm64.tar.gz",
+      "checksum": "32c330f9256813f1be59ea6afd1c5e89ad1a157d4142a54ffcfbb03f339f5956",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "butane",
+          "src": "butane_1.2.0_linux_arm64/bin/butane"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "coreos/butane/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^butane version 1.2.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "coreos",
+      "repo_name": "butane",
+      "asset": "butane_1.2.0_linux_386.tar.gz",
+      "checksum": "42a970f9caec9de96c170e67689a286844ba5c41b18b6195c82b1cc9f8a48271",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "butane",
+          "src": "butane_1.2.0_linux_386/bin/butane"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "coreos/butane/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^butane version 1.2.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "coreos",
+      "repo_name": "butane",
+      "asset": "butane_1.2.0_linux_arm.tar.gz",
+      "checksum": "0c8abc2a3cc0a97838dba69078568b9d40e1880a8c2a773dcd02cad93325026b",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "butane",
+          "src": "butane_1.2.0_linux_arm/bin/butane"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "coreos/butane/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^butane version 1.2.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "coreos",
+      "repo_name": "butane",
+      "asset": "butane_1.2.0_macOS_amd64.zip",
+      "checksum": "386d807028994f2b26c7dbbf60d8cd269d96600496dad26f160b330639337e89",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "butane",
+          "src": "butane_1.2.0_macOS_amd64/bin/butane"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "coreos/butane/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^butane version 1.2.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "coreos",
+      "repo_name": "butane",
+      "asset": "butane_1.2.0_macOS_arm64.zip",
+      "checksum": "89a8e45d010c948fb0157cfaaf614b8fe33f537fb576fbef56e420e7760ab669",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "butane",
+          "src": "butane_1.2.0_macOS_arm64/bin/butane"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "coreos/butane/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^butane version 1.2.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "coreos",
+      "repo_name": "butane",
+      "asset": "butane_1.2.0_windows_amd64.zip",
+      "checksum": "3cacaafa4887d1a8185b90b2445e3dd29edd83adca72736c79a72c598d8d89f2",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "butane",
+          "src": "butane_1.2.0_windows_amd64/bin/butane.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "coreos/butane/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^butane version 1.2.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "coreos",
+      "repo_name": "butane",
+      "asset": "butane_1.2.0_windows_arm64.zip",
+      "checksum": "07d23317c932f4e5523957890b79b7fc3eb836fa96684db730d74231a2cbcbc9",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "butane",
+          "src": "butane_1.2.0_windows_arm64/bin/butane.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "coreos/butane/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^butane version 1.2.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "coreos",
+      "repo_name": "butane",
+      "asset": "butane_1.2.0_windows_386.zip",
+      "checksum": "c9cb025bf4043306b77255ab42685b30b896e98801f010d55ec19bd7eb4c4da0",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "butane",
+          "src": "butane_1.2.0_windows_386/bin/butane.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "coreos/butane/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^butane version 1.2.0"
+      }
+    }
+  ]
+}
