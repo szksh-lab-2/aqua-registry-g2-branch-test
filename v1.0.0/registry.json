@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "acorn-io/runtime",
+  "version": "v1.0.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "acorn-io",
+      "repo_name": "runtime",
+      "asset": "runtime_1.0.0_linux_amd64.tar.gz",
+      "checksum": "2304e2ba9aab0add5164ccaf007cd64b4956679dfba7ab8d73dff443078bbd6f",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "runtime",
+          "src": "runtime_1.0.0_linux_amd64/bin/runtime"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "acorn-io/runtime/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^runtime version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "acorn-io",
+      "repo_name": "runtime",
+      "asset": "runtime_1.0.0_linux_arm64.tar.gz",
+      "checksum": "30184c3de13531909c99997343849bc7ea4773d11d251d19d5ae2dc234c3f61e",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "runtime",
+          "src": "runtime_1.0.0_linux_arm64/bin/runtime"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "acorn-io/runtime/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^runtime version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "acorn-io",
+      "repo_name": "runtime",
+      "asset": "runtime_1.0.0_linux_386.tar.gz",
+      "checksum": "d6a454e6fe3a0f803dcfb8a6874325d84ccf77f2f2c2280320154238d74ad7d9",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "runtime",
+          "src": "runtime_1.0.0_linux_386/bin/runtime"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "acorn-io/runtime/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^runtime version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "acorn-io",
+      "repo_name": "runtime",
+      "asset": "runtime_1.0.0_linux_arm.tar.gz",
+      "checksum": "34323c74b9ac08f70d4f64b6572b845c33a9c6f2c46cd5ac8ec5ac3fd2e9f503",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "runtime",
+          "src": "runtime_1.0.0_linux_arm/bin/runtime"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "acorn-io/runtime/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^runtime version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "acorn-io",
+      "repo_name": "runtime",
+      "asset": "runtime_1.0.0_macOS_amd64.zip",
+      "checksum": "010095a5d95c6f270780f5635c93fb8b646ab1eac91facfa103f82b3f1441dc2",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "runtime",
+          "src": "runtime_1.0.0_macOS_amd64/bin/runtime"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "acorn-io/runtime/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^runtime version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "acorn-io",
+      "repo_name": "runtime",
+      "asset": "runtime_1.0.0_macOS_arm64.zip",
+      "checksum": "dcbec098169b3b6bee3d9a8f29b4f2b6fc8e0004aaf101e91b230755e957bd85",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "runtime",
+          "src": "runtime_1.0.0_macOS_arm64/bin/runtime"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "acorn-io/runtime/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^runtime version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "acorn-io",
+      "repo_name": "runtime",
+      "asset": "runtime_1.0.0_windows_amd64.zip",
+      "checksum": "40c3865fff0709371503d0ac8481fba0f4cdb08aa17d932b1295914355cf36a6",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "runtime",
+          "src": "runtime_1.0.0_windows_amd64/bin/runtime.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "acorn-io/runtime/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^runtime version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "acorn-io",
+      "repo_name": "runtime",
+      "asset": "runtime_1.0.0_windows_arm64.zip",
+      "checksum": "3e42a8fc6b884fb9e6809e48bd5c32d27750ab55228573a1de8b9cc7f19db553",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "runtime",
+          "src": "runtime_1.0.0_windows_arm64/bin/runtime.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "acorn-io/runtime/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^runtime version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "acorn-io",
+      "repo_name": "runtime",
+      "asset": "runtime_1.0.0_windows_386.zip",
+      "checksum": "eed348966fbb5c2880ee419c1adc0b19408eca4eb2232440b62214425a1f4685",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "runtime",
+          "src": "runtime_1.0.0_windows_386/bin/runtime.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "acorn-io/runtime/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^runtime version 1.0.0"
+      }
+    }
+  ]
+}
