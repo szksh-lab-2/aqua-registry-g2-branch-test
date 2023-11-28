@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "kubernetes/kompose",
+  "version": "v1.6.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kompose",
+      "asset": "kompose_1.6.0_linux_amd64.tar.gz",
+      "checksum": "96b0cb0342feb04a572ada0735054725147fb925f87d598c4476b0be83096844",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "kompose",
+          "src": "kompose_1.6.0_linux_amd64/bin/kompose"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kompose/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kompose version 1.6.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kompose",
+      "asset": "kompose_1.6.0_linux_arm64.tar.gz",
+      "checksum": "38c600516811ac00903c3fac01988b495a3d5bf4a6a45417d24db21e8183b84d",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "kompose",
+          "src": "kompose_1.6.0_linux_arm64/bin/kompose"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kompose/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kompose version 1.6.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kompose",
+      "asset": "kompose_1.6.0_linux_386.tar.gz",
+      "checksum": "fe1fcc4e229f290a55465c72435b39bbd2d3e763246e99db126ae2de9b17ad4a",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "kompose",
+          "src": "kompose_1.6.0_linux_386/bin/kompose"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kompose/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kompose version 1.6.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kompose",
+      "asset": "kompose_1.6.0_linux_arm.tar.gz",
+      "checksum": "e18c8ecd988ccc9816d3e267cc338762b45826f63640edcf98cb44368792ad96",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "kompose",
+          "src": "kompose_1.6.0_linux_arm/bin/kompose"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kompose/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kompose version 1.6.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kompose",
+      "asset": "kompose_1.6.0_macOS_amd64.zip",
+      "checksum": "b5a27b96212b714c1ce20716b549a97987c63fa4fc4ced2d90a11f355f8a1521",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kompose",
+          "src": "kompose_1.6.0_macOS_amd64/bin/kompose"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kompose/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kompose version 1.6.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kompose",
+      "asset": "kompose_1.6.0_macOS_arm64.zip",
+      "checksum": "b0850858e3e28fc32f40ae846ca08ef7617d594adf13ffa1847841e8c0d6abd2",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kompose",
+          "src": "kompose_1.6.0_macOS_arm64/bin/kompose"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kompose/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kompose version 1.6.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kompose",
+      "asset": "kompose_1.6.0_windows_amd64.zip",
+      "checksum": "d918648888163da90e1b797a7fd1f1653225ea1e9c551268b3265eff176cfdc2",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kompose",
+          "src": "kompose_1.6.0_windows_amd64/bin/kompose.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kompose/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kompose version 1.6.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kompose",
+      "asset": "kompose_1.6.0_windows_arm64.zip",
+      "checksum": "b2f2ed2edc244900b9505d1b9bb9e47370ee3c49b57b619f14e5ccf4227ce24c",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kompose",
+          "src": "kompose_1.6.0_windows_arm64/bin/kompose.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kompose/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kompose version 1.6.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kompose",
+      "asset": "kompose_1.6.0_windows_386.zip",
+      "checksum": "e64b92bd8b8ee5b27d58ee1d112e8a6bf20fba8fd2800a04a97c81622cce433d",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kompose",
+          "src": "kompose_1.6.0_windows_386/bin/kompose.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kompose/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kompose version 1.6.0"
+      }
+    }
+  ]
+}
