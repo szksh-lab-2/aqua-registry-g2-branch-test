@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "prometheus/alertmanager",
+  "version": "v1.3.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "prometheus",
+      "repo_name": "alertmanager",
+      "asset": "alertmanager_1.3.0_linux_amd64.tar.gz",
+      "checksum": "a7216585e789394d7da413a15e16387f4e4de3bf5d4ec65c0abbf003b3a17e82",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "alertmanager",
+          "src": "alertmanager_1.3.0_linux_amd64/bin/alertmanager"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "prometheus/alertmanager/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^alertmanager version 1.3.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "prometheus",
+      "repo_name": "alertmanager",
+      "asset": "alertmanager_1.3.0_linux_arm64.tar.gz",
+      "checksum": "864f423cc9a394434ebf16d4e3fa7d95e0088f7bbd7e82bcbeb7ca0f378139d8",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "alertmanager",
+          "src": "alertmanager_1.3.0_linux_arm64/bin/alertmanager"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "prometheus/alertmanager/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^alertmanager version 1.3.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "prometheus",
+      "repo_name": "alertmanager",
+      "asset": "alertmanager_1.3.0_linux_386.tar.gz",
+      "checksum": "a6ae60b8d112a2cf9951c07795364a75fce33fe87e029ecf7f3944f9dc4bc912",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "alertmanager",
+          "src": "alertmanager_1.3.0_linux_386/bin/alertmanager"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "prometheus/alertmanager/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^alertmanager version 1.3.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "prometheus",
+      "repo_name": "alertmanager",
+      "asset": "alertmanager_1.3.0_linux_arm.tar.gz",
+      "checksum": "21978d6dba0f486cab8f0351bc8dabd893f819afa11016dacb897c24e55651f2",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "alertmanager",
+          "src": "alertmanager_1.3.0_linux_arm/bin/alertmanager"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "prometheus/alertmanager/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^alertmanager version 1.3.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "prometheus",
+      "repo_name": "alertmanager",
+      "asset": "alertmanager_1.3.0_macOS_amd64.zip",
+      "checksum": "df45d041920f2d8471d92373653bd3ee621bd2262e5fa73bc2a0343a80d63434",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "alertmanager",
+          "src": "alertmanager_1.3.0_macOS_amd64/bin/alertmanager"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "prometheus/alertmanager/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^alertmanager version 1.3.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "prometheus",
+      "repo_name": "alertmanager",
+      "asset": "alertmanager_1.3.0_macOS_arm64.zip",
+      "checksum": "5eb522e0520c9bdc1ef2e9b3f0b8cc6aeba67a42aa0188dcdf9b0d1f74635611",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "alertmanager",
+          "src": "alertmanager_1.3.0_macOS_arm64/bin/alertmanager"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "prometheus/alertmanager/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^alertmanager version 1.3.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "prometheus",
+      "repo_name": "alertmanager",
+      "asset": "alertmanager_1.3.0_windows_amd64.zip",
+      "checksum": "dcd9d64bd3460dace66129e78e27c904db0075939fa49be1ce4999aa61ecd8b8",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "alertmanager",
+          "src": "alertmanager_1.3.0_windows_amd64/bin/alertmanager.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "prometheus/alertmanager/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^alertmanager version 1.3.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "prometheus",
+      "repo_name": "alertmanager",
+      "asset": "alertmanager_1.3.0_windows_arm64.zip",
+      "checksum": "dfb5bf18874c077e7709c11ffc7389144e4e4f3377a89c33c14854da33f8433d",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "alertmanager",
+          "src": "alertmanager_1.3.0_windows_arm64/bin/alertmanager.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "prometheus/alertmanager/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^alertmanager version 1.3.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "prometheus",
+      "repo_name": "alertmanager",
+      "asset": "alertmanager_1.3.0_windows_386.zip",
+      "checksum": "61360a506614a74a519f2967c974f2632b8ab4df829f0c660e043f8818e1280a",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "alertmanager",
+          "src": "alertmanager_1.3.0_windows_386/bin/alertmanager.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "prometheus/alertmanager/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^alertmanager version 1.3.0"
+      }
+    }
+  ]
+}
