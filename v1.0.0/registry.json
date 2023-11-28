@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "kubermatic/kubeone",
+  "version": "v1.0.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "kubermatic",
+      "repo_name": "kubeone",
+      "asset": "kubeone_1.0.0_linux_amd64.tar.gz",
+      "checksum": "ae611a9ea8187490a494061e174f5e8514ca6709916f01be8511eabe28740a5a",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "kubeone",
+          "src": "kubeone_1.0.0_linux_amd64/bin/kubeone"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubermatic/kubeone/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kubeone version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "kubermatic",
+      "repo_name": "kubeone",
+      "asset": "kubeone_1.0.0_linux_arm64.tar.gz",
+      "checksum": "85bd1d0f5f76771e1952c5e4ff1ea4b3a3030e7fba25700fbb9ddead36191777",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "kubeone",
+          "src": "kubeone_1.0.0_linux_arm64/bin/kubeone"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubermatic/kubeone/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kubeone version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "kubermatic",
+      "repo_name": "kubeone",
+      "asset": "kubeone_1.0.0_linux_386.tar.gz",
+      "checksum": "fe40a542cd188e4be69d8333ef31775825c334a31245266346dd2dbf41f48fae",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "kubeone",
+          "src": "kubeone_1.0.0_linux_386/bin/kubeone"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubermatic/kubeone/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kubeone version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "kubermatic",
+      "repo_name": "kubeone",
+      "asset": "kubeone_1.0.0_linux_arm.tar.gz",
+      "checksum": "30a063f89721ac8c6533290ab6458b0676e4a63c3177d25199f0c5a0c9441a84",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "kubeone",
+          "src": "kubeone_1.0.0_linux_arm/bin/kubeone"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubermatic/kubeone/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kubeone version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "kubermatic",
+      "repo_name": "kubeone",
+      "asset": "kubeone_1.0.0_macOS_amd64.zip",
+      "checksum": "fb8c8084e711e355ea8e45b8770746eccb713af12ce8f67bed57571f9951fcff",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kubeone",
+          "src": "kubeone_1.0.0_macOS_amd64/bin/kubeone"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubermatic/kubeone/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kubeone version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "kubermatic",
+      "repo_name": "kubeone",
+      "asset": "kubeone_1.0.0_macOS_arm64.zip",
+      "checksum": "1a22a1f43f3c238c550dc4739a51369b7290d7b6214a2f51eaf77d1b30cfaf9b",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kubeone",
+          "src": "kubeone_1.0.0_macOS_arm64/bin/kubeone"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubermatic/kubeone/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kubeone version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "kubermatic",
+      "repo_name": "kubeone",
+      "asset": "kubeone_1.0.0_windows_amd64.zip",
+      "checksum": "c918189c233beddfd153f62c6fae050baae75b4d4998af1abc5bea5023cdd439",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kubeone",
+          "src": "kubeone_1.0.0_windows_amd64/bin/kubeone.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubermatic/kubeone/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kubeone version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "kubermatic",
+      "repo_name": "kubeone",
+      "asset": "kubeone_1.0.0_windows_arm64.zip",
+      "checksum": "19d61e8a241be61d5ab0d6fd4bb1c67e49d5b7039c31f72b8391b845904588e0",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kubeone",
+          "src": "kubeone_1.0.0_windows_arm64/bin/kubeone.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubermatic/kubeone/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kubeone version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "kubermatic",
+      "repo_name": "kubeone",
+      "asset": "kubeone_1.0.0_windows_386.zip",
+      "checksum": "84c11915c08844c4303c1d65f38a08b3cfa7ca26994e5755ae14a1fdecd2e91b",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kubeone",
+          "src": "kubeone_1.0.0_windows_386/bin/kubeone.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubermatic/kubeone/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kubeone version 1.0.0"
+      }
+    }
+  ]
+}
