@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "kanisterio/kanister",
+  "version": "v1.0.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "kanisterio",
+      "repo_name": "kanister",
+      "asset": "kanister_1.0.0_linux_amd64.tar.gz",
+      "checksum": "96a562b340af3ec661ad62df1c2a846d9a6a2a6c0cda896199ca186efe78af81",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "kanister",
+          "src": "kanister_1.0.0_linux_amd64/bin/kanister"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kanisterio/kanister/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kanister version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "kanisterio",
+      "repo_name": "kanister",
+      "asset": "kanister_1.0.0_linux_arm64.tar.gz",
+      "checksum": "215975b3b7d046651dbb5d60871a237e1f51140bdfc8e4b260952b09f382fdbd",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "kanister",
+          "src": "kanister_1.0.0_linux_arm64/bin/kanister"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kanisterio/kanister/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kanister version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "kanisterio",
+      "repo_name": "kanister",
+      "asset": "kanister_1.0.0_linux_386.tar.gz",
+      "checksum": "e9a7fe751fc31aab1202c974fde586f45180340278f631e132376749f1f4475b",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "kanister",
+          "src": "kanister_1.0.0_linux_386/bin/kanister"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kanisterio/kanister/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kanister version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "kanisterio",
+      "repo_name": "kanister",
+      "asset": "kanister_1.0.0_linux_arm.tar.gz",
+      "checksum": "53ff754e762951e4d89bd27b5d641ef2d334d74e7ada91cbc1ff565ecfc7fb5a",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "kanister",
+          "src": "kanister_1.0.0_linux_arm/bin/kanister"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kanisterio/kanister/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kanister version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "kanisterio",
+      "repo_name": "kanister",
+      "asset": "kanister_1.0.0_macOS_amd64.zip",
+      "checksum": "ca641a3ea3149a01775f0a5e0bdceb0f576c9d1f1dee82382411f2eb0302fd75",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kanister",
+          "src": "kanister_1.0.0_macOS_amd64/bin/kanister"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kanisterio/kanister/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kanister version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "kanisterio",
+      "repo_name": "kanister",
+      "asset": "kanister_1.0.0_macOS_arm64.zip",
+      "checksum": "b14cf76f64c2b871f71d4d10d18e31b8718f841da4d8b4495dee7e718fe0614b",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kanister",
+          "src": "kanister_1.0.0_macOS_arm64/bin/kanister"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kanisterio/kanister/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kanister version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "kanisterio",
+      "repo_name": "kanister",
+      "asset": "kanister_1.0.0_windows_amd64.zip",
+      "checksum": "88bc4d1410d351bc08306fc0944989e9824bce6dc19dcdb0269b8c67ee2779b5",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kanister",
+          "src": "kanister_1.0.0_windows_amd64/bin/kanister.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kanisterio/kanister/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kanister version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "kanisterio",
+      "repo_name": "kanister",
+      "asset": "kanister_1.0.0_windows_arm64.zip",
+      "checksum": "975744d268d32cbaeb8b71738d1d8dd0e9e91ef59b337444e17e8d77efded793",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kanister",
+          "src": "kanister_1.0.0_windows_arm64/bin/kanister.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kanisterio/kanister/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kanister version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "kanisterio",
+      "repo_name": "kanister",
+      "asset": "kanister_1.0.0_windows_386.zip",
+      "checksum": "5cb7dadfb6daa592859f668fb8f7943022ff4c368b432d26fe4869490c204f89",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kanister",
+          "src": "kanister_1.0.0_windows_386/bin/kanister.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kanisterio/kanister/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kanister version 1.0.0"
+      }
+    }
+  ]
+}
