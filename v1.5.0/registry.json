@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "blender/blender",
+  "version": "v1.5.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "blender",
+      "repo_name": "blender",
+      "asset": "blender_1.5.0_linux_amd64.tar.gz",
+      "checksum": "69029d0923c741cd78701f99c689278e19ccec884840518ed4387c3ad29a6a04",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "blender",
+          "src": "blender_1.5.0_linux_amd64/bin/blender"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "blender/blender/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^blender version 1.5.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "blender",
+      "repo_name": "blender",
+      "asset": "blender_1.5.0_linux_arm64.tar.gz",
+      "checksum": "ba633f2abef9681bdf9c7373bc8466245f235c014151a8134499af73f9a3e22c",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "blender",
+          "src": "blender_1.5.0_linux_arm64/bin/blender"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "blender/blender/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^blender version 1.5.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "blender",
+      "repo_name": "blender",
+      "asset": "blender_1.5.0_linux_386.tar.gz",
+      "checksum": "70d6f011da37edbbb51721953022f4f55ef8c6f9f97a762dcf70fa05f0090df2",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "blender",
+          "src": "blender_1.5.0_linux_386/bin/blender"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "blender/blender/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^blender version 1.5.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "blender",
+      "repo_name": "blender",
+      "asset": "blender_1.5.0_linux_arm.tar.gz",
+      "checksum": "69703990b1264165eb26a620aa00219dbf3cc3e775902ed7df542df66c8ea9a4",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "blender",
+          "src": "blender_1.5.0_linux_arm/bin/blender"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "blender/blender/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^blender version 1.5.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "blender",
+      "repo_name": "blender",
+      "asset": "blender_1.5.0_macOS_amd64.zip",
+      "checksum": "3d0f663cab2ba04094c0690c419bfe2fffb74f18fb194f8d548718d26a241b17",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "blender",
+          "src": "blender_1.5.0_macOS_amd64/bin/blender"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "blender/blender/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^blender version 1.5.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "blender",
+      "repo_name": "blender",
+      "asset": "blender_1.5.0_macOS_arm64.zip",
+      "checksum": "2af4e1261912a9faa1e8713f17ec780f028ed32ff0f70d59474c39edd089cdf9",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "blender",
+          "src": "blender_1.5.0_macOS_arm64/bin/blender"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "blender/blender/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^blender version 1.5.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "blender",
+      "repo_name": "blender",
+      "asset": "blender_1.5.0_windows_amd64.zip",
+      "checksum": "567ccfbb5697c3c9aaf0554c19bd238b1f0cf86e0475d561af739446f95a6e23",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "blender",
+          "src": "blender_1.5.0_windows_amd64/bin/blender.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "blender/blender/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^blender version 1.5.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "blender",
+      "repo_name": "blender",
+      "asset": "blender_1.5.0_windows_arm64.zip",
+      "checksum": "3ed7b71d595210a7d104c20d124c382af8ee13a80432f8de01dd4e3f5414f93b",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "blender",
+          "src": "blender_1.5.0_windows_arm64/bin/blender.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "blender/blender/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^blender version 1.5.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "blender",
+      "repo_name": "blender",
+      "asset": "blender_1.5.0_windows_386.zip",
+      "checksum": "257e49fcc068cc549d6d28ec45f7071b0917e969a86e20f49f6863c8a5550efe",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "blender",
+          "src": "blender_1.5.0_windows_386/bin/blender.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "blender/blender/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^blender version 1.5.0"
+      }
+    }
+  ]
+}
