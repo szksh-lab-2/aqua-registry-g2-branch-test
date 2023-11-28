@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "containers/crun",
+  "version": "v1.1.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "containers",
+      "repo_name": "crun",
+      "asset": "crun_1.1.0_linux_amd64.tar.gz",
+      "checksum": "fe2fd9c3e080adda729810ec051f4b4af8938b336b795bb76e17b57817f6e7b8",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "crun",
+          "src": "crun_1.1.0_linux_amd64/bin/crun"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "containers/crun/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^crun version 1.1.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "containers",
+      "repo_name": "crun",
+      "asset": "crun_1.1.0_linux_arm64.tar.gz",
+      "checksum": "8222f0ac5069fbe1e4a8bb517eaaeb843a35c2b2790edda81200e729baa29557",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "crun",
+          "src": "crun_1.1.0_linux_arm64/bin/crun"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "containers/crun/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^crun version 1.1.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "containers",
+      "repo_name": "crun",
+      "asset": "crun_1.1.0_linux_386.tar.gz",
+      "checksum": "7c7dfa5b0cf75d5670bd930e9d48a4b0f373a8882332385fc290f81e72a26e76",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "crun",
+          "src": "crun_1.1.0_linux_386/bin/crun"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "containers/crun/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^crun version 1.1.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "containers",
+      "repo_name": "crun",
+      "asset": "crun_1.1.0_linux_arm.tar.gz",
+      "checksum": "d790884115824fbf58229eec21211297002e3dcfd3d716c7aac8306de22bb914",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "crun",
+          "src": "crun_1.1.0_linux_arm/bin/crun"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "containers/crun/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^crun version 1.1.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "containers",
+      "repo_name": "crun",
+      "asset": "crun_1.1.0_macOS_amd64.zip",
+      "checksum": "6c6f734bfc10349e8d8e1729c33ec76db1229f8594b9566ee314c42532f97456",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "crun",
+          "src": "crun_1.1.0_macOS_amd64/bin/crun"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "containers/crun/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^crun version 1.1.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "containers",
+      "repo_name": "crun",
+      "asset": "crun_1.1.0_macOS_arm64.zip",
+      "checksum": "8a179cac1444acbc100cc39ed72ff158abf82e086760bc86a0dd2568f5dbaa26",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "crun",
+          "src": "crun_1.1.0_macOS_arm64/bin/crun"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "containers/crun/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^crun version 1.1.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "containers",
+      "repo_name": "crun",
+      "asset": "crun_1.1.0_windows_amd64.zip",
+      "checksum": "23c29f2ff2f6977795aa021b5fb1592c046fb14caf1f813bceb5c5913f479262",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "crun",
+          "src": "crun_1.1.0_windows_amd64/bin/crun.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "containers/crun/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^crun version 1.1.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "containers",
+      "repo_name": "crun",
+      "asset": "crun_1.1.0_windows_arm64.zip",
+      "checksum": "530130197e8e1583bb1dfb180c6f8e0ca1a051713dc09b3d86323795ef326da7",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "crun",
+          "src": "crun_1.1.0_windows_arm64/bin/crun.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "containers/crun/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^crun version 1.1.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "containers",
+      "repo_name": "crun",
+      "asset": "crun_1.1.0_windows_386.zip",
+      "checksum": "f581c35dbe8c42e47526d53b5cf914c7850bd40d2b3e69e1da9c8e636ac95e9b",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "crun",
+          "src": "crun_1.1.0_windows_386/bin/crun.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "containers/crun/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^crun version 1.1.0"
+      }
+    }
+  ]
+}
