@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "ossf/scorecard",
+  "version": "v1.0.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "ossf",
+      "repo_name": "scorecard",
+      "asset": "scorecard_1.0.0_linux_amd64.tar.gz",
+      "checksum": "4ec07020a8f722d5af73b9b205399244a738eedd1a6aaa6bc65fae8bf91739e9",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "scorecard",
+          "src": "scorecard_1.0.0_linux_amd64/bin/scorecard"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "ossf/scorecard/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^scorecard version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "ossf",
+      "repo_name": "scorecard",
+      "asset": "scorecard_1.0.0_linux_arm64.tar.gz",
+      "checksum": "b0c2e0cc0aed94435a1d499f987055a9ac9cba5cd3ee1c918ac7f72bf0b229e6",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "scorecard",
+          "src": "scorecard_1.0.0_linux_arm64/bin/scorecard"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "ossf/scorecard/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^scorecard version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "ossf",
+      "repo_name": "scorecard",
+      "asset": "scorecard_1.0.0_linux_386.tar.gz",
+      "checksum": "462b3e812348ea43d2c245f0071ff39a52e4d25ee802793837d3653cd1215332",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "scorecard",
+          "src": "scorecard_1.0.0_linux_386/bin/scorecard"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "ossf/scorecard/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^scorecard version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "ossf",
+      "repo_name": "scorecard",
+      "asset": "scorecard_1.0.0_linux_arm.tar.gz",
+      "checksum": "37a870f3e2a541780356bb83367d076990edeef58fd74c1162c3f40ee18635ed",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "scorecard",
+          "src": "scorecard_1.0.0_linux_arm/bin/scorecard"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "ossf/scorecard/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^scorecard version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "ossf",
+      "repo_name": "scorecard",
+      "asset": "scorecard_1.0.0_macOS_amd64.zip",
+      "checksum": "5c3af8e807937f2e89d284f3f8dd968761771d2fcd048490b91de7ecb797da3a",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "scorecard",
+          "src": "scorecard_1.0.0_macOS_amd64/bin/scorecard"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "ossf/scorecard/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^scorecard version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "ossf",
+      "repo_name": "scorecard",
+      "asset": "scorecard_1.0.0_macOS_arm64.zip",
+      "checksum": "fbc784adf5241736cacb87acdcb29ab1089616c85b99347934830733cba0682c",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "scorecard",
+          "src": "scorecard_1.0.0_macOS_arm64/bin/scorecard"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "ossf/scorecard/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^scorecard version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "ossf",
+      "repo_name": "scorecard",
+      "asset": "scorecard_1.0.0_windows_amd64.zip",
+      "checksum": "def7b9885a902fe64816e87e5984cd625e78a98e931439a158b8e358dce7e60d",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "scorecard",
+          "src": "scorecard_1.0.0_windows_amd64/bin/scorecard.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "ossf/scorecard/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^scorecard version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "ossf",
+      "repo_name": "scorecard",
+      "asset": "scorecard_1.0.0_windows_arm64.zip",
+      "checksum": "8621d55b7c8a3dd02ccc2015f2c585d80af11a0f594effe4f3a302f440d57b88",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "scorecard",
+          "src": "scorecard_1.0.0_windows_arm64/bin/scorecard.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "ossf/scorecard/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^scorecard version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "ossf",
+      "repo_name": "scorecard",
+      "asset": "scorecard_1.0.0_windows_386.zip",
+      "checksum": "9538eafb75297189ba2f0b72c665cc49b1e7323481635fddba4d27a9406d7a0c",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "scorecard",
+          "src": "scorecard_1.0.0_windows_386/bin/scorecard.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "ossf/scorecard/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^scorecard version 1.0.0"
+      }
+    }
+  ]
+}
