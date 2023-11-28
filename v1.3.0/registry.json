@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "cococonscious/koji",
+  "version": "v1.3.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "cococonscious",
+      "repo_name": "koji",
+      "asset": "koji_1.3.0_linux_amd64.tar.gz",
+      "checksum": "a96eb6faa3148eaa26303ed1157bc806503d2538e08057672eff5e6931198fd2",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "koji",
+          "src": "koji_1.3.0_linux_amd64/bin/koji"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "cococonscious/koji/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^koji version 1.3.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "cococonscious",
+      "repo_name": "koji",
+      "asset": "koji_1.3.0_linux_arm64.tar.gz",
+      "checksum": "526873c5ca6513d5b1acf6a7745b474b9744802d0e713451a2b04ecc3475b29e",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "koji",
+          "src": "koji_1.3.0_linux_arm64/bin/koji"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "cococonscious/koji/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^koji version 1.3.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "cococonscious",
+      "repo_name": "koji",
+      "asset": "koji_1.3.0_linux_386.tar.gz",
+      "checksum": "1a0e0f4d9feef33030aa687dd5c482ddea030a34c458c2fd67b72105fef475f2",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "koji",
+          "src": "koji_1.3.0_linux_386/bin/koji"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "cococonscious/koji/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^koji version 1.3.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "cococonscious",
+      "repo_name": "koji",
+      "asset": "koji_1.3.0_linux_arm.tar.gz",
+      "checksum": "00abdad4f33831354720f1699a016dc4d51b320423f30075c7250e3ba3d69ce6",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "koji",
+          "src": "koji_1.3.0_linux_arm/bin/koji"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "cococonscious/koji/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^koji version 1.3.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "cococonscious",
+      "repo_name": "koji",
+      "asset": "koji_1.3.0_macOS_amd64.zip",
+      "checksum": "45f01dc39e12509c6c9c15386a44a31c5253c2664b5d7212afb730aa4ff2b7f7",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "koji",
+          "src": "koji_1.3.0_macOS_amd64/bin/koji"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "cococonscious/koji/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^koji version 1.3.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "cococonscious",
+      "repo_name": "koji",
+      "asset": "koji_1.3.0_macOS_arm64.zip",
+      "checksum": "83633c2c0fb095e131cbf3a156c50f49f4926d6ec81b78d90571a393c8cb538d",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "koji",
+          "src": "koji_1.3.0_macOS_arm64/bin/koji"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "cococonscious/koji/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^koji version 1.3.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "cococonscious",
+      "repo_name": "koji",
+      "asset": "koji_1.3.0_windows_amd64.zip",
+      "checksum": "07340aa6e87c4d265ef8a50920f8114ad3dc996a146566fd414080682c36e7cd",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "koji",
+          "src": "koji_1.3.0_windows_amd64/bin/koji.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "cococonscious/koji/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^koji version 1.3.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "cococonscious",
+      "repo_name": "koji",
+      "asset": "koji_1.3.0_windows_arm64.zip",
+      "checksum": "cc9c670a64497c2ccd61ec7fdcd818a6a9019954d1a378dc840334c73f7f8678",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "koji",
+          "src": "koji_1.3.0_windows_arm64/bin/koji.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "cococonscious/koji/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^koji version 1.3.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "cococonscious",
+      "repo_name": "koji",
+      "asset": "koji_1.3.0_windows_386.zip",
+      "checksum": "123eaf69489d790e2029f8473d7e5bdcb74d717103ccb9ce431e93ed887b68fa",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "koji",
+          "src": "koji_1.3.0_windows_386/bin/koji.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "cococonscious/koji/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^koji version 1.3.0"
+      }
+    }
+  ]
+}
