@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "brigadecore/brigade",
+  "version": "v1.1.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "brigadecore",
+      "repo_name": "brigade",
+      "asset": "brigade_1.1.0_linux_amd64.tar.gz",
+      "checksum": "90afd046dec04eec31a59288054cd1d29eb546fdf9b2947f7781422d35d0ea92",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "brigade",
+          "src": "brigade_1.1.0_linux_amd64/bin/brigade"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "brigadecore/brigade/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^brigade version 1.1.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "brigadecore",
+      "repo_name": "brigade",
+      "asset": "brigade_1.1.0_linux_arm64.tar.gz",
+      "checksum": "2d77792fac44ea53f8158cf88bb4aaf56071ded5325005f170f28b66a97bf18f",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "brigade",
+          "src": "brigade_1.1.0_linux_arm64/bin/brigade"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "brigadecore/brigade/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^brigade version 1.1.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "brigadecore",
+      "repo_name": "brigade",
+      "asset": "brigade_1.1.0_linux_386.tar.gz",
+      "checksum": "1a5f286133d47f32624172189895578d7f9177152a3e8713ac81053620ee7988",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "brigade",
+          "src": "brigade_1.1.0_linux_386/bin/brigade"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "brigadecore/brigade/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^brigade version 1.1.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "brigadecore",
+      "repo_name": "brigade",
+      "asset": "brigade_1.1.0_linux_arm.tar.gz",
+      "checksum": "9fc3ae176053ca2d41827e4acc310f192f3a3570b2350103cfaea891614921c9",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "brigade",
+          "src": "brigade_1.1.0_linux_arm/bin/brigade"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "brigadecore/brigade/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^brigade version 1.1.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "brigadecore",
+      "repo_name": "brigade",
+      "asset": "brigade_1.1.0_macOS_amd64.zip",
+      "checksum": "ba68f27dce3982bbba3648169b1e8e8027615efb2e3269ead9562bb9089e35dc",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "brigade",
+          "src": "brigade_1.1.0_macOS_amd64/bin/brigade"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "brigadecore/brigade/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^brigade version 1.1.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "brigadecore",
+      "repo_name": "brigade",
+      "asset": "brigade_1.1.0_macOS_arm64.zip",
+      "checksum": "a205e422be4329dcf87a904f54f576ad85046a827dde93e40058daefff8759b0",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "brigade",
+          "src": "brigade_1.1.0_macOS_arm64/bin/brigade"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "brigadecore/brigade/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^brigade version 1.1.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "brigadecore",
+      "repo_name": "brigade",
+      "asset": "brigade_1.1.0_windows_amd64.zip",
+      "checksum": "1f2b20f8ad1f420f8a5f731baff3ec7a8330de1043f6cebb5049477cc764ba22",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "brigade",
+          "src": "brigade_1.1.0_windows_amd64/bin/brigade.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "brigadecore/brigade/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^brigade version 1.1.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "brigadecore",
+      "repo_name": "brigade",
+      "asset": "brigade_1.1.0_windows_arm64.zip",
+      "checksum": "b47a3551e005ee536cf8caf0ec594f3ad68248cc1e75804f1aef50dfebbd2195",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "brigade",
+          "src": "brigade_1.1.0_windows_arm64/bin/brigade.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "brigadecore/brigade/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^brigade version 1.1.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "brigadecore",
+      "repo_name": "brigade",
+      "asset": "brigade_1.1.0_windows_386.zip",
+      "checksum": "f4de756ce104d9ddb3c420d17e81c64efdfd559ae53ce8f66ca90808ae4a464a",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "brigade",
+          "src": "brigade_1.1.0_windows_386/bin/brigade.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "brigadecore/brigade/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^brigade version 1.1.0"
+      }
+    }
+  ]
+}
