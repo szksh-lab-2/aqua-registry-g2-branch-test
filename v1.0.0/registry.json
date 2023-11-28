@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "containers/podlet",
+  "version": "v1.0.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "containers",
+      "repo_name": "podlet",
+      "asset": "podlet_1.0.0_linux_amd64.tar.gz",
+      "checksum": "610126c48e197c88a2a870370e5b6953d27367aee78e9a386ad20791d7de236e",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "podlet",
+          "src": "podlet_1.0.0_linux_amd64/bin/podlet"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "containers/podlet/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^podlet version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "containers",
+      "repo_name": "podlet",
+      "asset": "podlet_1.0.0_linux_arm64.tar.gz",
+      "checksum": "9c4ea3ff64241f5e010cedb3543af3e565772a78909aa09fbf64c19eb6b02a7a",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "podlet",
+          "src": "podlet_1.0.0_linux_arm64/bin/podlet"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "containers/podlet/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^podlet version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "containers",
+      "repo_name": "podlet",
+      "asset": "podlet_1.0.0_linux_386.tar.gz",
+      "checksum": "b96c972313f39f9fa52c1098af96f440b60cc00c49ba88f6b5554d7de002fa78",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "podlet",
+          "src": "podlet_1.0.0_linux_386/bin/podlet"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "containers/podlet/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^podlet version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "containers",
+      "repo_name": "podlet",
+      "asset": "podlet_1.0.0_linux_arm.tar.gz",
+      "checksum": "32658ced1aa77514625f7a87efe683f09ff51e9f02ec67dfc4e3ff3ee2346a27",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "podlet",
+          "src": "podlet_1.0.0_linux_arm/bin/podlet"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "containers/podlet/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^podlet version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "containers",
+      "repo_name": "podlet",
+      "asset": "podlet_1.0.0_macOS_amd64.zip",
+      "checksum": "5931fbecea53debb98ce08f30e132918411dfd4c4f3e57769a1935d3691dae3f",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "podlet",
+          "src": "podlet_1.0.0_macOS_amd64/bin/podlet"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "containers/podlet/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^podlet version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "containers",
+      "repo_name": "podlet",
+      "asset": "podlet_1.0.0_macOS_arm64.zip",
+      "checksum": "55c86ef75bacb90dc6afc5cf51f6ab2e7036a8ff5691242169cc803418c694af",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "podlet",
+          "src": "podlet_1.0.0_macOS_arm64/bin/podlet"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "containers/podlet/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^podlet version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "containers",
+      "repo_name": "podlet",
+      "asset": "podlet_1.0.0_windows_amd64.zip",
+      "checksum": "c94dafa48aecf744bce345d5ac5bfff108eb661c6003a7de3cdfd4ef4bb02e18",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "podlet",
+          "src": "podlet_1.0.0_windows_amd64/bin/podlet.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "containers/podlet/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^podlet version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "containers",
+      "repo_name": "podlet",
+      "asset": "podlet_1.0.0_windows_arm64.zip",
+      "checksum": "19e1e624f68c2eda95e87c53331f08966057ad703ec330077d7ecbe61192f959",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "podlet",
+          "src": "podlet_1.0.0_windows_arm64/bin/podlet.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "containers/podlet/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^podlet version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "containers",
+      "repo_name": "podlet",
+      "asset": "podlet_1.0.0_windows_386.zip",
+      "checksum": "c0c2f98fe87a39eb6fca3e5b2913950e85297351e6506d4ce6032029e27c539c",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "podlet",
+          "src": "podlet_1.0.0_windows_386/bin/podlet.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "containers/podlet/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^podlet version 1.0.0"
+      }
+    }
+  ]
+}
