@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "buildkite/cli",
+  "version": "v1.0.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "buildkite",
+      "repo_name": "cli",
+      "asset": "cli_1.0.0_linux_amd64.tar.gz",
+      "checksum": "e4e07b1012c941fb2bf51fe184d551830d1407b17a0de7265bef3f62fbb54998",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "cli",
+          "src": "cli_1.0.0_linux_amd64/bin/cli"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "buildkite/cli/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cli version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "buildkite",
+      "repo_name": "cli",
+      "asset": "cli_1.0.0_linux_arm64.tar.gz",
+      "checksum": "53a771200aa43fce5635bc16230ef92968db03b0aedddd4d867420b88f199f97",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "cli",
+          "src": "cli_1.0.0_linux_arm64/bin/cli"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "buildkite/cli/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cli version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "buildkite",
+      "repo_name": "cli",
+      "asset": "cli_1.0.0_linux_386.tar.gz",
+      "checksum": "f8be792506db03479ec6b3b9f6112339e3f502378869b20246b52f2d10af187e",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "cli",
+          "src": "cli_1.0.0_linux_386/bin/cli"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "buildkite/cli/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cli version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "buildkite",
+      "repo_name": "cli",
+      "asset": "cli_1.0.0_linux_arm.tar.gz",
+      "checksum": "f7e7b6f8efbd60579fb79c1e735dcda68861742a60e713b88fd86ee2011f815f",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "cli",
+          "src": "cli_1.0.0_linux_arm/bin/cli"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "buildkite/cli/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cli version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "buildkite",
+      "repo_name": "cli",
+      "asset": "cli_1.0.0_macOS_amd64.zip",
+      "checksum": "f16c7cded07ee4a487638529efd041cbc2ccc8aa4d1360e09ebaa656d643d273",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "cli",
+          "src": "cli_1.0.0_macOS_amd64/bin/cli"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "buildkite/cli/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cli version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "buildkite",
+      "repo_name": "cli",
+      "asset": "cli_1.0.0_macOS_arm64.zip",
+      "checksum": "e925c2c0e844f3eeca46ec9d541a29202f1bf2cd136f732e013177854dc43e50",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "cli",
+          "src": "cli_1.0.0_macOS_arm64/bin/cli"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "buildkite/cli/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cli version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "buildkite",
+      "repo_name": "cli",
+      "asset": "cli_1.0.0_windows_amd64.zip",
+      "checksum": "abf46bc94d442f9bf10e888f19d13a8243f08b15922cd0eb8ea08bb56d3c421e",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "cli",
+          "src": "cli_1.0.0_windows_amd64/bin/cli.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "buildkite/cli/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cli version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "buildkite",
+      "repo_name": "cli",
+      "asset": "cli_1.0.0_windows_arm64.zip",
+      "checksum": "b2def3d7e7b546c10d198a00b4afe9ee5668cf838949d4145ef6560de9f989fb",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "cli",
+          "src": "cli_1.0.0_windows_arm64/bin/cli.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "buildkite/cli/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cli version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "buildkite",
+      "repo_name": "cli",
+      "asset": "cli_1.0.0_windows_386.zip",
+      "checksum": "c04dc9a07cf83462d95aa932a12ce38173ff76c1eda895ade2c99513b741bbc1",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "cli",
+          "src": "cli_1.0.0_windows_386/bin/cli.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "buildkite/cli/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cli version 1.0.0"
+      }
+    }
+  ]
+}
