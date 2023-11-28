@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "prometheus/promlens",
+  "version": "v1.5.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "prometheus",
+      "repo_name": "promlens",
+      "asset": "promlens_1.5.0_linux_amd64.tar.gz",
+      "checksum": "05ed8b32665f4d31425bc8549f80151ec1e17c65f38cf101f6da1a76cbb46575",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "promlens",
+          "src": "promlens_1.5.0_linux_amd64/bin/promlens"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "prometheus/promlens/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^promlens version 1.5.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "prometheus",
+      "repo_name": "promlens",
+      "asset": "promlens_1.5.0_linux_arm64.tar.gz",
+      "checksum": "dd3003cd56c5425eadf5da59682be3764a2b9ad799f0013756c7d2a7156db9dc",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "promlens",
+          "src": "promlens_1.5.0_linux_arm64/bin/promlens"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "prometheus/promlens/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^promlens version 1.5.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "prometheus",
+      "repo_name": "promlens",
+      "asset": "promlens_1.5.0_linux_386.tar.gz",
+      "checksum": "1f6bf78a48af7933da703d9508ed45d2be07db1315bef1d720e76f0c92ba0796",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "promlens",
+          "src": "promlens_1.5.0_linux_386/bin/promlens"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "prometheus/promlens/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^promlens version 1.5.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "prometheus",
+      "repo_name": "promlens",
+      "asset": "promlens_1.5.0_linux_arm.tar.gz",
+      "checksum": "4fa0797d747ca112e6f4a8d701bb43b131561c7cab1a4151a1dc10575a77ae82",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "promlens",
+          "src": "promlens_1.5.0_linux_arm/bin/promlens"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "prometheus/promlens/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^promlens version 1.5.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "prometheus",
+      "repo_name": "promlens",
+      "asset": "promlens_1.5.0_macOS_amd64.zip",
+      "checksum": "8870bcddeecb217570d5dd0aefd89c874072e3ba2f542cc95d8510646e1c753a",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "promlens",
+          "src": "promlens_1.5.0_macOS_amd64/bin/promlens"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "prometheus/promlens/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^promlens version 1.5.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "prometheus",
+      "repo_name": "promlens",
+      "asset": "promlens_1.5.0_macOS_arm64.zip",
+      "checksum": "045f36ac5d36083807a4f2c7c4f1228becdb8314765df988cdaec2a7bc0a43f9",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "promlens",
+          "src": "promlens_1.5.0_macOS_arm64/bin/promlens"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "prometheus/promlens/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^promlens version 1.5.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "prometheus",
+      "repo_name": "promlens",
+      "asset": "promlens_1.5.0_windows_amd64.zip",
+      "checksum": "a9be05249e8fce04fbe94842eab7f1688b5aad0b3d9ecb0d8721cfbbbc34e8af",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "promlens",
+          "src": "promlens_1.5.0_windows_amd64/bin/promlens.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "prometheus/promlens/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^promlens version 1.5.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "prometheus",
+      "repo_name": "promlens",
+      "asset": "promlens_1.5.0_windows_arm64.zip",
+      "checksum": "d69156f0ce2e6a8d770d4c3e1647228828c7146e758f08356c9e813fd096cc75",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "promlens",
+          "src": "promlens_1.5.0_windows_arm64/bin/promlens.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "prometheus/promlens/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^promlens version 1.5.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "prometheus",
+      "repo_name": "promlens",
+      "asset": "promlens_1.5.0_windows_386.zip",
+      "checksum": "17a2865c64e555443f1a72abad1a282f3b62fdfb4cd5ab4afbee5961feb369e9",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "promlens",
+          "src": "promlens_1.5.0_windows_386/bin/promlens.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "prometheus/promlens/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^promlens version 1.5.0"
+      }
+    }
+  ]
+}
