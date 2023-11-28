@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "cilium/hubble",
+  "version": "v1.0.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "cilium",
+      "repo_name": "hubble",
+      "asset": "hubble_1.0.0_linux_amd64.tar.gz",
+      "checksum": "1c9171ad562fb99acdc3970cc329f214ac42e5e5c788070f3f7daeea40144bc5",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "hubble",
+          "src": "hubble_1.0.0_linux_amd64/bin/hubble"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "cilium/hubble/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^hubble version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "cilium",
+      "repo_name": "hubble",
+      "asset": "hubble_1.0.0_linux_arm64.tar.gz",
+      "checksum": "85a5791d0c850b9717ff9142a69a735e0a2b32aac5d9828369e3c7992e67f937",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "hubble",
+          "src": "hubble_1.0.0_linux_arm64/bin/hubble"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "cilium/hubble/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^hubble version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "cilium",
+      "repo_name": "hubble",
+      "asset": "hubble_1.0.0_linux_386.tar.gz",
+      "checksum": "22f30530b03759b38be158df34f35847afd10bd45cedf052ba255010b44c4998",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "hubble",
+          "src": "hubble_1.0.0_linux_386/bin/hubble"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "cilium/hubble/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^hubble version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "cilium",
+      "repo_name": "hubble",
+      "asset": "hubble_1.0.0_linux_arm.tar.gz",
+      "checksum": "54e6686403dc0b2938beeeb7bd76c2c718f91108b1119b8d51dd5d9c2e02f2c5",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "hubble",
+          "src": "hubble_1.0.0_linux_arm/bin/hubble"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "cilium/hubble/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^hubble version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "cilium",
+      "repo_name": "hubble",
+      "asset": "hubble_1.0.0_macOS_amd64.zip",
+      "checksum": "f0bc5bc8b463ec439353929cef5f9aadc7405c7a074655ed18319746dba80cd8",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "hubble",
+          "src": "hubble_1.0.0_macOS_amd64/bin/hubble"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "cilium/hubble/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^hubble version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "cilium",
+      "repo_name": "hubble",
+      "asset": "hubble_1.0.0_macOS_arm64.zip",
+      "checksum": "16edaeaf6e16b1fb8fab1577409f8c144b5aa5ebca88766615018b6bcaae68f7",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "hubble",
+          "src": "hubble_1.0.0_macOS_arm64/bin/hubble"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "cilium/hubble/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^hubble version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "cilium",
+      "repo_name": "hubble",
+      "asset": "hubble_1.0.0_windows_amd64.zip",
+      "checksum": "afe48ec09e89c54a96812104f22b09c06116563279c6b24c224a5b0c89a5d38c",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "hubble",
+          "src": "hubble_1.0.0_windows_amd64/bin/hubble.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "cilium/hubble/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^hubble version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "cilium",
+      "repo_name": "hubble",
+      "asset": "hubble_1.0.0_windows_arm64.zip",
+      "checksum": "75da061b84024fd532e8df5a2f6b15258ada9b2e04a8ec1d159682a5611015e3",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "hubble",
+          "src": "hubble_1.0.0_windows_arm64/bin/hubble.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "cilium/hubble/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^hubble version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "cilium",
+      "repo_name": "hubble",
+      "asset": "hubble_1.0.0_windows_386.zip",
+      "checksum": "7e2aae0b9435d95e42a60f672f9bb10be8f26fb5c6891bc909718b3eafe7a9c0",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "hubble",
+          "src": "hubble_1.0.0_windows_386/bin/hubble.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "cilium/hubble/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^hubble version 1.0.0"
+      }
+    }
+  ]
+}
