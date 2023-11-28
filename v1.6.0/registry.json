@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "containers/conmon",
+  "version": "v1.6.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "containers",
+      "repo_name": "conmon",
+      "asset": "conmon_1.6.0_linux_amd64.tar.gz",
+      "checksum": "343500db71d621a9ad1263599a26e4cd5c5c8b3bc4d15c7a3ad601a690317ef5",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "conmon",
+          "src": "conmon_1.6.0_linux_amd64/bin/conmon"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "containers/conmon/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^conmon version 1.6.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "containers",
+      "repo_name": "conmon",
+      "asset": "conmon_1.6.0_linux_arm64.tar.gz",
+      "checksum": "f348a1500b24a54274263c69cc57ea5c04113f960b903663875d6b1fb42d9269",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "conmon",
+          "src": "conmon_1.6.0_linux_arm64/bin/conmon"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "containers/conmon/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^conmon version 1.6.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "containers",
+      "repo_name": "conmon",
+      "asset": "conmon_1.6.0_linux_386.tar.gz",
+      "checksum": "ed26a23235b6676310888aade41603111fd43a1a678794b640f0447aabc5b8cb",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "conmon",
+          "src": "conmon_1.6.0_linux_386/bin/conmon"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "containers/conmon/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^conmon version 1.6.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "containers",
+      "repo_name": "conmon",
+      "asset": "conmon_1.6.0_linux_arm.tar.gz",
+      "checksum": "bdce8c563f6bed3d4c1255b7c8204af73f2fe31fe3a0f5e5cefaa71ce6513d92",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "conmon",
+          "src": "conmon_1.6.0_linux_arm/bin/conmon"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "containers/conmon/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^conmon version 1.6.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "containers",
+      "repo_name": "conmon",
+      "asset": "conmon_1.6.0_macOS_amd64.zip",
+      "checksum": "590312cb434f7b0c06d0ba214ed013000bc36af912c20a3ab1588fcd54ddefec",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "conmon",
+          "src": "conmon_1.6.0_macOS_amd64/bin/conmon"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "containers/conmon/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^conmon version 1.6.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "containers",
+      "repo_name": "conmon",
+      "asset": "conmon_1.6.0_macOS_arm64.zip",
+      "checksum": "66ca9f242fec9974996007468f5dfda740e34ea059bc54e41c06dd140ed127d3",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "conmon",
+          "src": "conmon_1.6.0_macOS_arm64/bin/conmon"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "containers/conmon/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^conmon version 1.6.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "containers",
+      "repo_name": "conmon",
+      "asset": "conmon_1.6.0_windows_amd64.zip",
+      "checksum": "3e3c0ff8c164ad3862566dfc5eded5f670b20f0698b5a57ce76e751f609a75e1",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "conmon",
+          "src": "conmon_1.6.0_windows_amd64/bin/conmon.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "containers/conmon/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^conmon version 1.6.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "containers",
+      "repo_name": "conmon",
+      "asset": "conmon_1.6.0_windows_arm64.zip",
+      "checksum": "5f8c40a9deb912406caa72fe26c2d3311a51b43d51810f9c243d9d672b017758",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "conmon",
+          "src": "conmon_1.6.0_windows_arm64/bin/conmon.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "containers/conmon/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^conmon version 1.6.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "containers",
+      "repo_name": "conmon",
+      "asset": "conmon_1.6.0_windows_386.zip",
+      "checksum": "69701ce9f3cba2937f9b082faa1a5ced01c39f79b3606efc497ce52f7663c0cf",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "conmon",
+          "src": "conmon_1.6.0_windows_386/bin/conmon.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "containers/conmon/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^conmon version 1.6.0"
+      }
+    }
+  ]
+}
