@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "prometheus/prometheus",
+  "version": "v1.0.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "prometheus",
+      "repo_name": "prometheus",
+      "asset": "prometheus_1.0.0_linux_amd64.tar.gz",
+      "checksum": "d4541c567227b20a27483db6ea831ea26d6aaf3176f417b6b6c14ec517b5dc0b",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "prometheus",
+          "src": "prometheus_1.0.0_linux_amd64/bin/prometheus"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "prometheus/prometheus/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^prometheus version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "prometheus",
+      "repo_name": "prometheus",
+      "asset": "prometheus_1.0.0_linux_arm64.tar.gz",
+      "checksum": "ad1eb63277d3cbde4f2dee13654ea7680efb38ac6767bc6547b392929dc4070c",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "prometheus",
+          "src": "prometheus_1.0.0_linux_arm64/bin/prometheus"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "prometheus/prometheus/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^prometheus version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "prometheus",
+      "repo_name": "prometheus",
+      "asset": "prometheus_1.0.0_linux_386.tar.gz",
+      "checksum": "b4733348d7903a74254b9706489205a82fae490ddcba6e9e3eed6f1424c440d4",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "prometheus",
+          "src": "prometheus_1.0.0_linux_386/bin/prometheus"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "prometheus/prometheus/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^prometheus version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "prometheus",
+      "repo_name": "prometheus",
+      "asset": "prometheus_1.0.0_linux_arm.tar.gz",
+      "checksum": "746b37f414e70d5d8549c596d62f0f2af26db6fef0b5251976e5c45d20556df8",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "prometheus",
+          "src": "prometheus_1.0.0_linux_arm/bin/prometheus"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "prometheus/prometheus/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^prometheus version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "prometheus",
+      "repo_name": "prometheus",
+      "asset": "prometheus_1.0.0_macOS_amd64.zip",
+      "checksum": "02afb54713efb1ef9e5a80650af09c8ae5b93497647e0b58325674fcd9238794",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "prometheus",
+          "src": "prometheus_1.0.0_macOS_amd64/bin/prometheus"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "prometheus/prometheus/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^prometheus version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "prometheus",
+      "repo_name": "prometheus",
+      "asset": "prometheus_1.0.0_macOS_arm64.zip",
+      "checksum": "4aea58a5aa00bfb6192395b77de3cca89afdbcdb250180528ea7c65a25dceaa6",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "prometheus",
+          "src": "prometheus_1.0.0_macOS_arm64/bin/prometheus"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "prometheus/prometheus/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^prometheus version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "prometheus",
+      "repo_name": "prometheus",
+      "asset": "prometheus_1.0.0_windows_amd64.zip",
+      "checksum": "2fd93cdc81520fa26ca85a63f4ccede687566c6c9d3b5e7a7170bd70ae74857f",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "prometheus",
+          "src": "prometheus_1.0.0_windows_amd64/bin/prometheus.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "prometheus/prometheus/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^prometheus version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "prometheus",
+      "repo_name": "prometheus",
+      "asset": "prometheus_1.0.0_windows_arm64.zip",
+      "checksum": "c9a3960c2b707cd2e7cc1384a91ba8426abe99d603973b13bdb07b912a6bdb26",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "prometheus",
+          "src": "prometheus_1.0.0_windows_arm64/bin/prometheus.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "prometheus/prometheus/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^prometheus version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "prometheus",
+      "repo_name": "prometheus",
+      "asset": "prometheus_1.0.0_windows_386.zip",
+      "checksum": "3ae75e79643f4eac21b334c7d7db56b315956951d7b3d92c77ed3b38a18d050e",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "prometheus",
+          "src": "prometheus_1.0.0_windows_386/bin/prometheus.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "prometheus/prometheus/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^prometheus version 1.0.0"
+      }
+    }
+  ]
+}
