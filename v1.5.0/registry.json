@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "buildkite/agent",
+  "version": "v1.5.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "buildkite",
+      "repo_name": "agent",
+      "asset": "agent_1.5.0_linux_amd64.tar.gz",
+      "checksum": "82a969e8d54a5e40f8403c4a4412f06e0d1235043f9de9587a47d6a4771b9757",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "agent",
+          "src": "agent_1.5.0_linux_amd64/bin/agent"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "buildkite/agent/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^agent version 1.5.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "buildkite",
+      "repo_name": "agent",
+      "asset": "agent_1.5.0_linux_arm64.tar.gz",
+      "checksum": "0a499ad95d4592761a73421f3fb0d2c813a93bc430026dce92e273940717653e",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "agent",
+          "src": "agent_1.5.0_linux_arm64/bin/agent"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "buildkite/agent/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^agent version 1.5.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "buildkite",
+      "repo_name": "agent",
+      "asset": "agent_1.5.0_linux_386.tar.gz",
+      "checksum": "76f2f9e57e3c813e0bb9d7d9aa5594322c3642ef9d4040091838016c50d7c221",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "agent",
+          "src": "agent_1.5.0_linux_386/bin/agent"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "buildkite/agent/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^agent version 1.5.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "buildkite",
+      "repo_name": "agent",
+      "asset": "agent_1.5.0_linux_arm.tar.gz",
+      "checksum": "5e60feab37b00a351463507e7a680c1b00faa42258500041554a0134d0e10a6e",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "agent",
+          "src": "agent_1.5.0_linux_arm/bin/agent"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "buildkite/agent/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^agent version 1.5.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "buildkite",
+      "repo_name": "agent",
+      "asset": "agent_1.5.0_macOS_amd64.zip",
+      "checksum": "c10eecf67022f1f5f67c212b05a1eda79ffd020144f5aa04f1339623ca5c5986",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "agent",
+          "src": "agent_1.5.0_macOS_amd64/bin/agent"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "buildkite/agent/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^agent version 1.5.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "buildkite",
+      "repo_name": "agent",
+      "asset": "agent_1.5.0_macOS_arm64.zip",
+      "checksum": "b2a3087389b8116feb0967acd31c96d9e5f3f1fd9c03f06403bb4602660fdcd6",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "agent",
+          "src": "agent_1.5.0_macOS_arm64/bin/agent"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "buildkite/agent/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^agent version 1.5.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "buildkite",
+      "repo_name": "agent",
+      "asset": "agent_1.5.0_windows_amd64.zip",
+      "checksum": "c490c842e940e57f933d4ce4066e93d50b5c786e29684789d3a40ec579617f1d",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "agent",
+          "src": "agent_1.5.0_windows_amd64/bin/agent.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "buildkite/agent/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^agent version 1.5.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "buildkite",
+      "repo_name": "agent",
+      "asset": "agent_1.5.0_windows_arm64.zip",
+      "checksum": "781ba5b7b3d92d28fa0aa6b0a221e75e4ca25ac191926c5b87b7dbb35349e494",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "agent",
+          "src": "agent_1.5.0_windows_arm64/bin/agent.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "buildkite/agent/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^agent version 1.5.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "buildkite",
+      "repo_name": "agent",
+      "asset": "agent_1.5.0_windows_386.zip",
+      "checksum": "315cd81ecf8915888bfbfaddc2b73196d17b9f3e18ba90296a41bd4ecabba9cf",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "agent",
+          "src": "agent_1.5.0_windows_386/bin/agent.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "buildkite/agent/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^agent version 1.5.0"
+      }
+    }
+  ]
+}
