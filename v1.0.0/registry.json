@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "carvel-dev/kapp",
+  "version": "v1.0.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "carvel-dev",
+      "repo_name": "kapp",
+      "asset": "kapp_1.0.0_linux_amd64.tar.gz",
+      "checksum": "3b0d61a239b41fc9c0fb7cc6a8377248c7426b44bcef58b2f9d5d97f0190d044",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "kapp",
+          "src": "kapp_1.0.0_linux_amd64/bin/kapp"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "carvel-dev/kapp/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kapp version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "carvel-dev",
+      "repo_name": "kapp",
+      "asset": "kapp_1.0.0_linux_arm64.tar.gz",
+      "checksum": "5c2dac917f475aaff8a97121614feb05f6f8612da77b470167b6aa3f1144131b",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "kapp",
+          "src": "kapp_1.0.0_linux_arm64/bin/kapp"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "carvel-dev/kapp/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kapp version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "carvel-dev",
+      "repo_name": "kapp",
+      "asset": "kapp_1.0.0_linux_386.tar.gz",
+      "checksum": "0bd72285289bf201e426fa7c36f9642c740f4e3e5172c5affb42765ecf786e6d",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "kapp",
+          "src": "kapp_1.0.0_linux_386/bin/kapp"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "carvel-dev/kapp/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kapp version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "carvel-dev",
+      "repo_name": "kapp",
+      "asset": "kapp_1.0.0_linux_arm.tar.gz",
+      "checksum": "02728da7843e328908e661d8bf088b5df72acb793d3b094bf829490db07e8fa1",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "kapp",
+          "src": "kapp_1.0.0_linux_arm/bin/kapp"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "carvel-dev/kapp/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kapp version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "carvel-dev",
+      "repo_name": "kapp",
+      "asset": "kapp_1.0.0_macOS_amd64.zip",
+      "checksum": "89ce8ed756863f51a730970c6e5f137744d6344a58f4577163a60c40df1adb88",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kapp",
+          "src": "kapp_1.0.0_macOS_amd64/bin/kapp"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "carvel-dev/kapp/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kapp version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "carvel-dev",
+      "repo_name": "kapp",
+      "asset": "kapp_1.0.0_macOS_arm64.zip",
+      "checksum": "ce6115dfca5e0e08b0e905f8545bfca7c6bcc0ab9263ea9d5a23c2c3eb7d7044",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kapp",
+          "src": "kapp_1.0.0_macOS_arm64/bin/kapp"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "carvel-dev/kapp/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kapp version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "carvel-dev",
+      "repo_name": "kapp",
+      "asset": "kapp_1.0.0_windows_amd64.zip",
+      "checksum": "a9852ab0fed1590744e515e489d1c7a6aff99b287082ed0f50582c5deddf7335",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kapp",
+          "src": "kapp_1.0.0_windows_amd64/bin/kapp.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "carvel-dev/kapp/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kapp version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "carvel-dev",
+      "repo_name": "kapp",
+      "asset": "kapp_1.0.0_windows_arm64.zip",
+      "checksum": "5edc0db435dc2ff2a00174fe3a31bf055c2bc4a602906579e88a69741138484f",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kapp",
+          "src": "kapp_1.0.0_windows_arm64/bin/kapp.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "carvel-dev/kapp/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kapp version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "carvel-dev",
+      "repo_name": "kapp",
+      "asset": "kapp_1.0.0_windows_386.zip",
+      "checksum": "409030bed26baa8e7fc44366e29fa2eecc31df33e2e01dddc9d2b680059c9b5d",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kapp",
+          "src": "kapp_1.0.0_windows_386/bin/kapp.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "carvel-dev/kapp/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kapp version 1.0.0"
+      }
+    }
+  ]
+}
