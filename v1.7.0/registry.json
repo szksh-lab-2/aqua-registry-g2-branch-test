@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "helm/helm",
+  "version": "v1.7.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "helm",
+      "repo_name": "helm",
+      "asset": "helm_1.7.0_linux_amd64.tar.gz",
+      "checksum": "2ebbc5effbd605529886b4c2f07a0da2be482a703c437d9517ab9ac878c8bd09",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "helm",
+          "src": "helm_1.7.0_linux_amd64/bin/helm"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "helm/helm/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^helm version 1.7.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "helm",
+      "repo_name": "helm",
+      "asset": "helm_1.7.0_linux_arm64.tar.gz",
+      "checksum": "41f6d6df3692d03e3935a73cc8badf19d9b18d0948d460088fb49c95da19bf98",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "helm",
+          "src": "helm_1.7.0_linux_arm64/bin/helm"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "helm/helm/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^helm version 1.7.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "helm",
+      "repo_name": "helm",
+      "asset": "helm_1.7.0_linux_386.tar.gz",
+      "checksum": "28d48f0a9cff1bc936008637e34551fcd681a434eaa092e0449025d0f45bf7a9",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "helm",
+          "src": "helm_1.7.0_linux_386/bin/helm"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "helm/helm/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^helm version 1.7.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "helm",
+      "repo_name": "helm",
+      "asset": "helm_1.7.0_linux_arm.tar.gz",
+      "checksum": "4676da05c99a0facfe476284bf721e59d0daff50cdd80406967e41ec3c04d0f9",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "helm",
+          "src": "helm_1.7.0_linux_arm/bin/helm"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "helm/helm/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^helm version 1.7.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "helm",
+      "repo_name": "helm",
+      "asset": "helm_1.7.0_macOS_amd64.zip",
+      "checksum": "23c6e7e1ca59155a2b48930a0c9a42a81f6033ab0a26b3a2edbb504981f93811",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "helm",
+          "src": "helm_1.7.0_macOS_amd64/bin/helm"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "helm/helm/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^helm version 1.7.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "helm",
+      "repo_name": "helm",
+      "asset": "helm_1.7.0_macOS_arm64.zip",
+      "checksum": "c94e30ab37f0d98bdc79e7997dd5df4a8b9c6c157867de5e11fa45e404a2d92b",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "helm",
+          "src": "helm_1.7.0_macOS_arm64/bin/helm"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "helm/helm/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^helm version 1.7.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "helm",
+      "repo_name": "helm",
+      "asset": "helm_1.7.0_windows_amd64.zip",
+      "checksum": "25ed899451735b789544bf1901f68667c6996681b62816c9ecb9daca16c0f59c",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "helm",
+          "src": "helm_1.7.0_windows_amd64/bin/helm.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "helm/helm/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^helm version 1.7.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "helm",
+      "repo_name": "helm",
+      "asset": "helm_1.7.0_windows_arm64.zip",
+      "checksum": "0dc542f1623b148857b93728240393e13b3938e5a95d83d415bb3ed4857e9b30",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "helm",
+          "src": "helm_1.7.0_windows_arm64/bin/helm.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "helm/helm/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^helm version 1.7.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "helm",
+      "repo_name": "helm",
+      "asset": "helm_1.7.0_windows_386.zip",
+      "checksum": "0ab5b5c3a5b8ecff03a930671e7556903953f7c9b5ebfac8009f70331e1436ff",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "helm",
+          "src": "helm_1.7.0_windows_386/bin/helm.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "helm/helm/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^helm version 1.7.0"
+      }
+    }
+  ]
+}
