@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "helm/chart-releaser",
+  "version": "v1.5.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "helm",
+      "repo_name": "chart-releaser",
+      "asset": "chart-releaser_1.5.0_linux_amd64.tar.gz",
+      "checksum": "04a87fb9537c49309e75c6717a200f85fa583fa6d6772e275b81be94dc3f9ff0",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "chart-releaser",
+          "src": "chart-releaser_1.5.0_linux_amd64/bin/chart-releaser"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "helm/chart-releaser/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^chart-releaser version 1.5.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "helm",
+      "repo_name": "chart-releaser",
+      "asset": "chart-releaser_1.5.0_linux_arm64.tar.gz",
+      "checksum": "de127f7e4add10d7bc6dcd4732dcab44d0a08b95f3ffac7d0b31524d4d9b87b8",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "chart-releaser",
+          "src": "chart-releaser_1.5.0_linux_arm64/bin/chart-releaser"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "helm/chart-releaser/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^chart-releaser version 1.5.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "helm",
+      "repo_name": "chart-releaser",
+      "asset": "chart-releaser_1.5.0_linux_386.tar.gz",
+      "checksum": "c8a769198dfb6087c4fc7a006b9c0d0e184216d9b3c9a9f29ab068f8190ae9ab",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "chart-releaser",
+          "src": "chart-releaser_1.5.0_linux_386/bin/chart-releaser"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "helm/chart-releaser/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^chart-releaser version 1.5.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "helm",
+      "repo_name": "chart-releaser",
+      "asset": "chart-releaser_1.5.0_linux_arm.tar.gz",
+      "checksum": "810de7b3ad4551d0e6b02c93f2d23bf0a9212ab4e7045a1ff187a5cb26373f39",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "chart-releaser",
+          "src": "chart-releaser_1.5.0_linux_arm/bin/chart-releaser"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "helm/chart-releaser/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^chart-releaser version 1.5.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "helm",
+      "repo_name": "chart-releaser",
+      "asset": "chart-releaser_1.5.0_macOS_amd64.zip",
+      "checksum": "983b5047ff3f00427b03efb12e663e12745e46ab1159d90706dae626ce1d0e0d",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "chart-releaser",
+          "src": "chart-releaser_1.5.0_macOS_amd64/bin/chart-releaser"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "helm/chart-releaser/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^chart-releaser version 1.5.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "helm",
+      "repo_name": "chart-releaser",
+      "asset": "chart-releaser_1.5.0_macOS_arm64.zip",
+      "checksum": "f3922a788db3a2b45861715cefbd2e247d45dc07a451740af1984e0df93f7b62",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "chart-releaser",
+          "src": "chart-releaser_1.5.0_macOS_arm64/bin/chart-releaser"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "helm/chart-releaser/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^chart-releaser version 1.5.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "helm",
+      "repo_name": "chart-releaser",
+      "asset": "chart-releaser_1.5.0_windows_amd64.zip",
+      "checksum": "4456f86507cec63ec7f12e7d212fa14c2f1fb32d1574ca9203a7a0f62f40b32d",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "chart-releaser",
+          "src": "chart-releaser_1.5.0_windows_amd64/bin/chart-releaser.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "helm/chart-releaser/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^chart-releaser version 1.5.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "helm",
+      "repo_name": "chart-releaser",
+      "asset": "chart-releaser_1.5.0_windows_arm64.zip",
+      "checksum": "081a98f26a38dc48ca3b934d7d3699a52743958849bf21d7495202840b9c3c93",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "chart-releaser",
+          "src": "chart-releaser_1.5.0_windows_arm64/bin/chart-releaser.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "helm/chart-releaser/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^chart-releaser version 1.5.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "helm",
+      "repo_name": "chart-releaser",
+      "asset": "chart-releaser_1.5.0_windows_386.zip",
+      "checksum": "fadacdcd125760a2fefa1db8a652116e5b5d5db1ed4a9a092e273da7014503a1",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "chart-releaser",
+          "src": "chart-releaser_1.5.0_windows_386/bin/chart-releaser.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "helm/chart-releaser/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^chart-releaser version 1.5.0"
+      }
+    }
+  ]
+}
