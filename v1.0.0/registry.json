@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "containers/qemu-wrapper",
+  "version": "v1.0.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "containers",
+      "repo_name": "qemu-wrapper",
+      "asset": "qemu-wrapper_1.0.0_linux_amd64.tar.gz",
+      "checksum": "c7f23ae2eaa7809d510d4018c2aa759445ef62c06e33d376114622f9934e024d",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "qemu-wrapper",
+          "src": "qemu-wrapper_1.0.0_linux_amd64/bin/qemu-wrapper"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "containers/qemu-wrapper/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^qemu-wrapper version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "containers",
+      "repo_name": "qemu-wrapper",
+      "asset": "qemu-wrapper_1.0.0_linux_arm64.tar.gz",
+      "checksum": "294af9890acd000e4e345b1d68fe05f6d4bab44672f701d5ede941241719309b",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "qemu-wrapper",
+          "src": "qemu-wrapper_1.0.0_linux_arm64/bin/qemu-wrapper"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "containers/qemu-wrapper/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^qemu-wrapper version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "containers",
+      "repo_name": "qemu-wrapper",
+      "asset": "qemu-wrapper_1.0.0_linux_386.tar.gz",
+      "checksum": "05042b893af423bd615b7111983a66374ac22f8db22c821a35ed4cbe973103cd",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "qemu-wrapper",
+          "src": "qemu-wrapper_1.0.0_linux_386/bin/qemu-wrapper"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "containers/qemu-wrapper/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^qemu-wrapper version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "containers",
+      "repo_name": "qemu-wrapper",
+      "asset": "qemu-wrapper_1.0.0_linux_arm.tar.gz",
+      "checksum": "1986cb8087ac23e8d98701ed2123998200444682a237052ea6fb841d8c4d07a1",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "qemu-wrapper",
+          "src": "qemu-wrapper_1.0.0_linux_arm/bin/qemu-wrapper"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "containers/qemu-wrapper/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^qemu-wrapper version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "containers",
+      "repo_name": "qemu-wrapper",
+      "asset": "qemu-wrapper_1.0.0_macOS_amd64.zip",
+      "checksum": "b15336f03df03c2eaa7fb830fc1fc57bbf08840a24e542af6550a35cd47c1ed5",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "qemu-wrapper",
+          "src": "qemu-wrapper_1.0.0_macOS_amd64/bin/qemu-wrapper"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "containers/qemu-wrapper/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^qemu-wrapper version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "containers",
+      "repo_name": "qemu-wrapper",
+      "asset": "qemu-wrapper_1.0.0_macOS_arm64.zip",
+      "checksum": "64bceb54d96f2b20a0258e232db98c0e65d8f3303345461fe7b10f2051b93c23",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "qemu-wrapper",
+          "src": "qemu-wrapper_1.0.0_macOS_arm64/bin/qemu-wrapper"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "containers/qemu-wrapper/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^qemu-wrapper version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "containers",
+      "repo_name": "qemu-wrapper",
+      "asset": "qemu-wrapper_1.0.0_windows_amd64.zip",
+      "checksum": "a6d5d7d48237c3f33714b94803d328e9edd25feebd724bf67ded9ca4e89ae83e",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "qemu-wrapper",
+          "src": "qemu-wrapper_1.0.0_windows_amd64/bin/qemu-wrapper.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "containers/qemu-wrapper/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^qemu-wrapper version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "containers",
+      "repo_name": "qemu-wrapper",
+      "asset": "qemu-wrapper_1.0.0_windows_arm64.zip",
+      "checksum": "204481af860bee4713b28277bd92823997f24b28cee4bba26ece83edb09327ca",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "qemu-wrapper",
+          "src": "qemu-wrapper_1.0.0_windows_arm64/bin/qemu-wrapper.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "containers/qemu-wrapper/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^qemu-wrapper version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "containers",
+      "repo_name": "qemu-wrapper",
+      "asset": "qemu-wrapper_1.0.0_windows_386.zip",
+      "checksum": "82bc525114d2d872fc50cb6506042eeb5f4975dabaade026f9f0da91e2d0222e",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "qemu-wrapper",
+          "src": "qemu-wrapper_1.0.0_windows_386/bin/qemu-wrapper.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "containers/qemu-wrapper/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^qemu-wrapper version 1.0.0"
+      }
+    }
+  ]
+}
