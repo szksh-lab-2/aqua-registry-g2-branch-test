@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "kubernetes/kube-apiserver",
+  "version": "v1.4.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kube-apiserver",
+      "asset": "kube-apiserver_1.4.0_linux_amd64.tar.gz",
+      "checksum": "e302547e2933f2aee6b3a258292e4df199e1907bfdee755e8705ab893cfff106",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "kube-apiserver",
+          "src": "kube-apiserver_1.4.0_linux_amd64/bin/kube-apiserver"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kube-apiserver/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kube-apiserver version 1.4.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kube-apiserver",
+      "asset": "kube-apiserver_1.4.0_linux_arm64.tar.gz",
+      "checksum": "94c224775ce0bf92093d8055514751120d8d47984726b63e36799595087f79a4",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "kube-apiserver",
+          "src": "kube-apiserver_1.4.0_linux_arm64/bin/kube-apiserver"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kube-apiserver/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kube-apiserver version 1.4.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kube-apiserver",
+      "asset": "kube-apiserver_1.4.0_linux_386.tar.gz",
+      "checksum": "5e3cbc656e1c345699d0495695add26cd9131faea27580b46dcdb1e18a2defa9",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "kube-apiserver",
+          "src": "kube-apiserver_1.4.0_linux_386/bin/kube-apiserver"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kube-apiserver/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kube-apiserver version 1.4.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kube-apiserver",
+      "asset": "kube-apiserver_1.4.0_linux_arm.tar.gz",
+      "checksum": "95a8cb27c3b0d670ae06826727458b5117b0114c4dc8a0f5bfe0a725f0ed1564",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "kube-apiserver",
+          "src": "kube-apiserver_1.4.0_linux_arm/bin/kube-apiserver"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kube-apiserver/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kube-apiserver version 1.4.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kube-apiserver",
+      "asset": "kube-apiserver_1.4.0_macOS_amd64.zip",
+      "checksum": "c27c3566b63c98f0cf97757b2071cb21d0d5a81e64308d24b5cfd5d17d79a464",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kube-apiserver",
+          "src": "kube-apiserver_1.4.0_macOS_amd64/bin/kube-apiserver"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kube-apiserver/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kube-apiserver version 1.4.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kube-apiserver",
+      "asset": "kube-apiserver_1.4.0_macOS_arm64.zip",
+      "checksum": "1f678ac8d705fdb10eaf1f2208fe3fbddf5cd4476380fd02a06dc8e811c18b5b",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kube-apiserver",
+          "src": "kube-apiserver_1.4.0_macOS_arm64/bin/kube-apiserver"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kube-apiserver/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kube-apiserver version 1.4.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kube-apiserver",
+      "asset": "kube-apiserver_1.4.0_windows_amd64.zip",
+      "checksum": "fcba96987c1934cdc6eb53ef13e5455ccc141ac1a78ff0420bdc7ab741a8519e",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kube-apiserver",
+          "src": "kube-apiserver_1.4.0_windows_amd64/bin/kube-apiserver.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kube-apiserver/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kube-apiserver version 1.4.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kube-apiserver",
+      "asset": "kube-apiserver_1.4.0_windows_arm64.zip",
+      "checksum": "906f963b7cb37aa6e0cc14db12af3c2fe8d22c5c0239ddbcbeed7b1450c775b5",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kube-apiserver",
+          "src": "kube-apiserver_1.4.0_windows_arm64/bin/kube-apiserver.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kube-apiserver/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kube-apiserver version 1.4.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kube-apiserver",
+      "asset": "kube-apiserver_1.4.0_windows_386.zip",
+      "checksum": "79a85992f2da34b9fbcc35696263b6b57afad2c4c1bc9ebccc06a0bf3e3a4cdc",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kube-apiserver",
+          "src": "kube-apiserver_1.4.0_windows_386/bin/kube-apiserver.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kube-apiserver/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kube-apiserver version 1.4.0"
+      }
+    }
+  ]
+}
