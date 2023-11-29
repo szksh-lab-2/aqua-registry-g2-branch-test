@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "kubernetes/kubelet",
+  "version": "v1.7.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kubelet",
+      "asset": "kubelet_1.7.0_linux_amd64.tar.gz",
+      "checksum": "c8918f99b607e2d757a1b03a9ba66c09d51cc5e162e9744f96d2229f36c3d2a7",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "kubelet",
+          "src": "kubelet_1.7.0_linux_amd64/bin/kubelet"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kubelet/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kubelet version 1.7.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kubelet",
+      "asset": "kubelet_1.7.0_linux_arm64.tar.gz",
+      "checksum": "0b4857fd7abf72ccfecf04cfcdf3a4f8584e674bc091941d9859a6d7f7bc34d2",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "kubelet",
+          "src": "kubelet_1.7.0_linux_arm64/bin/kubelet"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kubelet/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kubelet version 1.7.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kubelet",
+      "asset": "kubelet_1.7.0_linux_386.tar.gz",
+      "checksum": "81d4e59b987a5c11d5a491689710740161b46c335ebe2f561f27714b0d088129",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "kubelet",
+          "src": "kubelet_1.7.0_linux_386/bin/kubelet"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kubelet/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kubelet version 1.7.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kubelet",
+      "asset": "kubelet_1.7.0_linux_arm.tar.gz",
+      "checksum": "6685c73ee9a5440e2e6ffe752aa7e462e6cd0c00a538560eac8f5a17fca525c1",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "kubelet",
+          "src": "kubelet_1.7.0_linux_arm/bin/kubelet"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kubelet/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kubelet version 1.7.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kubelet",
+      "asset": "kubelet_1.7.0_macOS_amd64.zip",
+      "checksum": "1a103bf256053ab310184daa264273670a2652ec038301dcc30d2e105f4cc2d2",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kubelet",
+          "src": "kubelet_1.7.0_macOS_amd64/bin/kubelet"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kubelet/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kubelet version 1.7.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kubelet",
+      "asset": "kubelet_1.7.0_macOS_arm64.zip",
+      "checksum": "78b068554cdae4e984cd383ae4a250b91ad4119f57447761d972883e37cc7de8",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kubelet",
+          "src": "kubelet_1.7.0_macOS_arm64/bin/kubelet"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kubelet/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kubelet version 1.7.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kubelet",
+      "asset": "kubelet_1.7.0_windows_amd64.zip",
+      "checksum": "e14248c1ad09a0b1061485d76f6643d72135a3e5e3cd1d54e47e95514b2d2d33",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kubelet",
+          "src": "kubelet_1.7.0_windows_amd64/bin/kubelet.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kubelet/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kubelet version 1.7.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kubelet",
+      "asset": "kubelet_1.7.0_windows_arm64.zip",
+      "checksum": "8cabb7681584f57f07203207d9cb090198339ae4a37a4f9125bcd69204e1d9d3",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kubelet",
+          "src": "kubelet_1.7.0_windows_arm64/bin/kubelet.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kubelet/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kubelet version 1.7.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kubelet",
+      "asset": "kubelet_1.7.0_windows_386.zip",
+      "checksum": "7c225f5676f258eea461d4bf1d056c51b2441ee919aed4d372a2453d419c8b64",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kubelet",
+          "src": "kubelet_1.7.0_windows_386/bin/kubelet.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kubelet/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kubelet version 1.7.0"
+      }
+    }
+  ]
+}
