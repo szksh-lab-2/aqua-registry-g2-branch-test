@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "apache/spark",
+  "version": "v1.6.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "apache",
+      "repo_name": "spark",
+      "asset": "spark_1.6.0_linux_amd64.tar.gz",
+      "checksum": "e4ff5f6390c792619af3d6be7497be81747e2efe1fdce11b1e0d1c8f2ae32dfc",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "spark",
+          "src": "spark_1.6.0_linux_amd64/bin/spark"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "apache/spark/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^spark version 1.6.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "apache",
+      "repo_name": "spark",
+      "asset": "spark_1.6.0_linux_arm64.tar.gz",
+      "checksum": "9f13a6c9a7ba656b006df3ca8dd03fa95a06cadfe110025e9e9949b4e57e1787",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "spark",
+          "src": "spark_1.6.0_linux_arm64/bin/spark"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "apache/spark/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^spark version 1.6.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "apache",
+      "repo_name": "spark",
+      "asset": "spark_1.6.0_linux_386.tar.gz",
+      "checksum": "d92a9a531cbe3adc18b2d4175822d38b4179a0c348f8d3e58f9832daf4c02d84",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "spark",
+          "src": "spark_1.6.0_linux_386/bin/spark"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "apache/spark/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^spark version 1.6.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "apache",
+      "repo_name": "spark",
+      "asset": "spark_1.6.0_linux_arm.tar.gz",
+      "checksum": "44c81fa839e11bbcf8ec419f3571ac2d3cb2b8664cd8dbe91396002204c8c5dc",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "spark",
+          "src": "spark_1.6.0_linux_arm/bin/spark"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "apache/spark/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^spark version 1.6.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "apache",
+      "repo_name": "spark",
+      "asset": "spark_1.6.0_macOS_amd64.zip",
+      "checksum": "b3c73375c5c6b02e3d198de637194c967000a581460a681a9d4442d99ee4409c",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "spark",
+          "src": "spark_1.6.0_macOS_amd64/bin/spark"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "apache/spark/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^spark version 1.6.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "apache",
+      "repo_name": "spark",
+      "asset": "spark_1.6.0_macOS_arm64.zip",
+      "checksum": "ea47949d3ed5be770d950979bd2da1ef9d0932213e069686e1baf6f03ab4d19b",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "spark",
+          "src": "spark_1.6.0_macOS_arm64/bin/spark"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "apache/spark/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^spark version 1.6.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "apache",
+      "repo_name": "spark",
+      "asset": "spark_1.6.0_windows_amd64.zip",
+      "checksum": "3182387ed8f72ab95a14fd89476c6ee304b2057d2725ff3a02e4863d6eb5f212",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "spark",
+          "src": "spark_1.6.0_windows_amd64/bin/spark.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "apache/spark/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^spark version 1.6.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "apache",
+      "repo_name": "spark",
+      "asset": "spark_1.6.0_windows_arm64.zip",
+      "checksum": "3bd63a1783b6bf328e8f6176f6e4a64d416490bf5eaf07334a32d6c43ea7dadf",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "spark",
+          "src": "spark_1.6.0_windows_arm64/bin/spark.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "apache/spark/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^spark version 1.6.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "apache",
+      "repo_name": "spark",
+      "asset": "spark_1.6.0_windows_386.zip",
+      "checksum": "a9a5874d99d7e7018c013f82732940252743729fb50256f487804927fe7c1771",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "spark",
+          "src": "spark_1.6.0_windows_386/bin/spark.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "apache/spark/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^spark version 1.6.0"
+      }
+    }
+  ]
+}
