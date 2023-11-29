@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "kubernetes/kubectl",
+  "version": "v1.7.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kubectl",
+      "asset": "kubectl_1.7.0_linux_amd64.tar.gz",
+      "checksum": "fab38ba2dec7d913e47ca1a8733956a5134504ae4b304b93b9e99af8411be520",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "kubectl",
+          "src": "kubectl_1.7.0_linux_amd64/bin/kubectl"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kubectl/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kubectl version 1.7.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kubectl",
+      "asset": "kubectl_1.7.0_linux_arm64.tar.gz",
+      "checksum": "eed93cebc41e9c867c2b192e8064732d6a2e86bba0f4c560d9a7c53f1557a9c2",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "kubectl",
+          "src": "kubectl_1.7.0_linux_arm64/bin/kubectl"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kubectl/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kubectl version 1.7.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kubectl",
+      "asset": "kubectl_1.7.0_linux_386.tar.gz",
+      "checksum": "a54fd9dd224f895d423f834e8507af112ede6c4f039c1276a7d7de37e735e1ea",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "kubectl",
+          "src": "kubectl_1.7.0_linux_386/bin/kubectl"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kubectl/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kubectl version 1.7.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kubectl",
+      "asset": "kubectl_1.7.0_linux_arm.tar.gz",
+      "checksum": "cc35ad8db746c9f324858f5e2ceaf3ecd16b7f3dc7c9ba2a8b0890bf74450bac",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "kubectl",
+          "src": "kubectl_1.7.0_linux_arm/bin/kubectl"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kubectl/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kubectl version 1.7.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kubectl",
+      "asset": "kubectl_1.7.0_macOS_amd64.zip",
+      "checksum": "b616038827c1ca3259a8296fb9afac25e491ca1459cfdb36d4f67678ddb6ff3d",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kubectl",
+          "src": "kubectl_1.7.0_macOS_amd64/bin/kubectl"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kubectl/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kubectl version 1.7.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kubectl",
+      "asset": "kubectl_1.7.0_macOS_arm64.zip",
+      "checksum": "06ccced553851dd9451eb185b3942e84f6ed6f6bf255c883c08617bab8abcc57",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kubectl",
+          "src": "kubectl_1.7.0_macOS_arm64/bin/kubectl"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kubectl/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kubectl version 1.7.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kubectl",
+      "asset": "kubectl_1.7.0_windows_amd64.zip",
+      "checksum": "958151c518b57c05b21b4ec441112ca4e9e867862e0daebc17977ca53808d04b",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kubectl",
+          "src": "kubectl_1.7.0_windows_amd64/bin/kubectl.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kubectl/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kubectl version 1.7.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kubectl",
+      "asset": "kubectl_1.7.0_windows_arm64.zip",
+      "checksum": "940a59e8cf964f52a85b097cadd27f1685e358f799800c06c4b44608e455f086",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kubectl",
+          "src": "kubectl_1.7.0_windows_arm64/bin/kubectl.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kubectl/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kubectl version 1.7.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kubectl",
+      "asset": "kubectl_1.7.0_windows_386.zip",
+      "checksum": "33c6f9ec818a88694a4f1173bf3e8664fb24f282d0dfd880c46441210392a5e9",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kubectl",
+          "src": "kubectl_1.7.0_windows_386/bin/kubectl.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kubectl/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kubectl version 1.7.0"
+      }
+    }
+  ]
+}
