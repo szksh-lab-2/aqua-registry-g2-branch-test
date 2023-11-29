@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "apache/pulsar",
+  "version": "v1.6.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "apache",
+      "repo_name": "pulsar",
+      "asset": "pulsar_1.6.0_linux_amd64.tar.gz",
+      "checksum": "5715a342207a29b936af58a339ef7ef9a85d2e85cfd1d72e5af6992e051963cb",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "pulsar",
+          "src": "pulsar_1.6.0_linux_amd64/bin/pulsar"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "apache/pulsar/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^pulsar version 1.6.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "apache",
+      "repo_name": "pulsar",
+      "asset": "pulsar_1.6.0_linux_arm64.tar.gz",
+      "checksum": "4af6a30867b4ae5f9d36ac9fc6f8d7dbe702d1c09ae115a065e51a25b015d1c2",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "pulsar",
+          "src": "pulsar_1.6.0_linux_arm64/bin/pulsar"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "apache/pulsar/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^pulsar version 1.6.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "apache",
+      "repo_name": "pulsar",
+      "asset": "pulsar_1.6.0_linux_386.tar.gz",
+      "checksum": "54069cb141e3f4f82b5cecb52c1ec77ddb3fc8047825c97b784196b0c1328734",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "pulsar",
+          "src": "pulsar_1.6.0_linux_386/bin/pulsar"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "apache/pulsar/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^pulsar version 1.6.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "apache",
+      "repo_name": "pulsar",
+      "asset": "pulsar_1.6.0_linux_arm.tar.gz",
+      "checksum": "2c6f5afb720bbe2061305867ba80ea5f26b8ef53fed45a1bb3e199b00e146fa7",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "pulsar",
+          "src": "pulsar_1.6.0_linux_arm/bin/pulsar"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "apache/pulsar/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^pulsar version 1.6.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "apache",
+      "repo_name": "pulsar",
+      "asset": "pulsar_1.6.0_macOS_amd64.zip",
+      "checksum": "2af8bf0712e8f47f77ac31803c541283a2065b79594ab87ad9eca45b884ee67f",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "pulsar",
+          "src": "pulsar_1.6.0_macOS_amd64/bin/pulsar"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "apache/pulsar/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^pulsar version 1.6.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "apache",
+      "repo_name": "pulsar",
+      "asset": "pulsar_1.6.0_macOS_arm64.zip",
+      "checksum": "200ff6d9ecd4d877e97653b37bccad6c324c06945156da8fe9ef300a351876e2",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "pulsar",
+          "src": "pulsar_1.6.0_macOS_arm64/bin/pulsar"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "apache/pulsar/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^pulsar version 1.6.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "apache",
+      "repo_name": "pulsar",
+      "asset": "pulsar_1.6.0_windows_amd64.zip",
+      "checksum": "95c605f740117e0f78ca2e3f2fa0b72c2499c9e0857d93f87b28cf17831960b7",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "pulsar",
+          "src": "pulsar_1.6.0_windows_amd64/bin/pulsar.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "apache/pulsar/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^pulsar version 1.6.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "apache",
+      "repo_name": "pulsar",
+      "asset": "pulsar_1.6.0_windows_arm64.zip",
+      "checksum": "970685b70b8211bd410c57db793a21151004cf5f191eecd79c8e443e7ca41e15",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "pulsar",
+          "src": "pulsar_1.6.0_windows_arm64/bin/pulsar.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "apache/pulsar/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^pulsar version 1.6.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "apache",
+      "repo_name": "pulsar",
+      "asset": "pulsar_1.6.0_windows_386.zip",
+      "checksum": "1c0640178ebbb01931a3e3d1cd95f21ed00762621e9b6414a0fc658993d15f14",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "pulsar",
+          "src": "pulsar_1.6.0_windows_386/bin/pulsar.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "apache/pulsar/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^pulsar version 1.6.0"
+      }
+    }
+  ]
+}
