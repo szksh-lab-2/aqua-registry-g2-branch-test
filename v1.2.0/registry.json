@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "projectdiscovery/nuclei",
+  "version": "v1.2.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "projectdiscovery",
+      "repo_name": "nuclei",
+      "asset": "nuclei_1.2.0_linux_amd64.tar.gz",
+      "checksum": "84dbc6e15b7fe440a3188be6b4c0a07301dc8724a3e58b07b915a75899d971d0",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "nuclei",
+          "src": "nuclei_1.2.0_linux_amd64/bin/nuclei"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "projectdiscovery/nuclei/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^nuclei version 1.2.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "projectdiscovery",
+      "repo_name": "nuclei",
+      "asset": "nuclei_1.2.0_linux_arm64.tar.gz",
+      "checksum": "703303b5485fd738b4080e6a08b8b7c87b58ca41b3f468209fe23cd9d55789ec",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "nuclei",
+          "src": "nuclei_1.2.0_linux_arm64/bin/nuclei"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "projectdiscovery/nuclei/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^nuclei version 1.2.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "projectdiscovery",
+      "repo_name": "nuclei",
+      "asset": "nuclei_1.2.0_linux_386.tar.gz",
+      "checksum": "6e4888ba57dd8a260bdc41df2dec3fa21025a9f1daae3e72755715cc4673053e",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "nuclei",
+          "src": "nuclei_1.2.0_linux_386/bin/nuclei"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "projectdiscovery/nuclei/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^nuclei version 1.2.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "projectdiscovery",
+      "repo_name": "nuclei",
+      "asset": "nuclei_1.2.0_linux_arm.tar.gz",
+      "checksum": "200f4a28b0b270b9af3a856e2b56532891316aa265e66a435b9d0681362877f9",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "nuclei",
+          "src": "nuclei_1.2.0_linux_arm/bin/nuclei"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "projectdiscovery/nuclei/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^nuclei version 1.2.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "projectdiscovery",
+      "repo_name": "nuclei",
+      "asset": "nuclei_1.2.0_macOS_amd64.zip",
+      "checksum": "06f8da68903619754dfe765f47c12be4ae172d2c0321837bb406ade0911def98",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "nuclei",
+          "src": "nuclei_1.2.0_macOS_amd64/bin/nuclei"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "projectdiscovery/nuclei/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^nuclei version 1.2.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "projectdiscovery",
+      "repo_name": "nuclei",
+      "asset": "nuclei_1.2.0_macOS_arm64.zip",
+      "checksum": "adbd0b7fd9a6732c967eb590bc721346b08eb8c917be1129c9be039f264b60c7",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "nuclei",
+          "src": "nuclei_1.2.0_macOS_arm64/bin/nuclei"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "projectdiscovery/nuclei/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^nuclei version 1.2.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "projectdiscovery",
+      "repo_name": "nuclei",
+      "asset": "nuclei_1.2.0_windows_amd64.zip",
+      "checksum": "bb0de7bf0277fd764b19c538cf3c75916f0f8c35549515ae327b376469d347f2",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "nuclei",
+          "src": "nuclei_1.2.0_windows_amd64/bin/nuclei.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "projectdiscovery/nuclei/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^nuclei version 1.2.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "projectdiscovery",
+      "repo_name": "nuclei",
+      "asset": "nuclei_1.2.0_windows_arm64.zip",
+      "checksum": "d5bdcda02717b0bb86a40081b3bd75c8cc7533c382514a71364eb6124e06d60c",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "nuclei",
+          "src": "nuclei_1.2.0_windows_arm64/bin/nuclei.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "projectdiscovery/nuclei/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^nuclei version 1.2.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "projectdiscovery",
+      "repo_name": "nuclei",
+      "asset": "nuclei_1.2.0_windows_386.zip",
+      "checksum": "c01bd88185d1922173e05e5af0ae4e1e7a917a959808edf0b6ca0bfefc65335a",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "nuclei",
+          "src": "nuclei_1.2.0_windows_386/bin/nuclei.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "projectdiscovery/nuclei/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^nuclei version 1.2.0"
+      }
+    }
+  ]
+}
