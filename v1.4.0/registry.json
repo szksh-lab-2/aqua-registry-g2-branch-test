@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "kyverno/chainsaw",
+  "version": "v1.4.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "kyverno",
+      "repo_name": "chainsaw",
+      "asset": "chainsaw_1.4.0_linux_amd64.tar.gz",
+      "checksum": "1cd69b77f08d21348ceed5a9f6036e0e3bbbd5875e95729270e822e22368a27f",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "chainsaw",
+          "src": "chainsaw_1.4.0_linux_amd64/bin/chainsaw"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kyverno/chainsaw/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^chainsaw version 1.4.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "kyverno",
+      "repo_name": "chainsaw",
+      "asset": "chainsaw_1.4.0_linux_arm64.tar.gz",
+      "checksum": "5050752e5740bf994f2760f1f74dac50ef51623b7c22a66866efe6d7114156ae",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "chainsaw",
+          "src": "chainsaw_1.4.0_linux_arm64/bin/chainsaw"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kyverno/chainsaw/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^chainsaw version 1.4.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "kyverno",
+      "repo_name": "chainsaw",
+      "asset": "chainsaw_1.4.0_linux_386.tar.gz",
+      "checksum": "94428b23dd881cc8d2fea3ad1239c6fe3430e8dd5e1d14dad22931526792b02a",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "chainsaw",
+          "src": "chainsaw_1.4.0_linux_386/bin/chainsaw"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kyverno/chainsaw/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^chainsaw version 1.4.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "kyverno",
+      "repo_name": "chainsaw",
+      "asset": "chainsaw_1.4.0_linux_arm.tar.gz",
+      "checksum": "20d264a0424247e16ea177ee6c924b172e5ce60e13ba9498352c3c606392bc28",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "chainsaw",
+          "src": "chainsaw_1.4.0_linux_arm/bin/chainsaw"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kyverno/chainsaw/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^chainsaw version 1.4.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "kyverno",
+      "repo_name": "chainsaw",
+      "asset": "chainsaw_1.4.0_macOS_amd64.zip",
+      "checksum": "6b6734f5effcdf6db36cdd786071e2456f1c271718912db19a935bc295376c5c",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "chainsaw",
+          "src": "chainsaw_1.4.0_macOS_amd64/bin/chainsaw"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kyverno/chainsaw/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^chainsaw version 1.4.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "kyverno",
+      "repo_name": "chainsaw",
+      "asset": "chainsaw_1.4.0_macOS_arm64.zip",
+      "checksum": "4a45459fb5ee8885752cf62af1bbc91cf554755f13670eb0962304f06c11444d",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "chainsaw",
+          "src": "chainsaw_1.4.0_macOS_arm64/bin/chainsaw"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kyverno/chainsaw/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^chainsaw version 1.4.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "kyverno",
+      "repo_name": "chainsaw",
+      "asset": "chainsaw_1.4.0_windows_amd64.zip",
+      "checksum": "e36f75c55efb96bfa0f027e8c2b52fce5bb17edfa869ae21cd98cf5aae78021c",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "chainsaw",
+          "src": "chainsaw_1.4.0_windows_amd64/bin/chainsaw.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kyverno/chainsaw/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^chainsaw version 1.4.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "kyverno",
+      "repo_name": "chainsaw",
+      "asset": "chainsaw_1.4.0_windows_arm64.zip",
+      "checksum": "69a235f36cf2c6cbcf0bf92db51ef85c83c285517f0b94b46974cad285d5abae",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "chainsaw",
+          "src": "chainsaw_1.4.0_windows_arm64/bin/chainsaw.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kyverno/chainsaw/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^chainsaw version 1.4.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "kyverno",
+      "repo_name": "chainsaw",
+      "asset": "chainsaw_1.4.0_windows_386.zip",
+      "checksum": "172f74a83d6c374f75b0bbc26bb552de89ced9eb715d51e15d1980e29eb3ff66",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "chainsaw",
+          "src": "chainsaw_1.4.0_windows_386/bin/chainsaw.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kyverno/chainsaw/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^chainsaw version 1.4.0"
+      }
+    }
+  ]
+}
