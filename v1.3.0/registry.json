@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "gogs/gogs",
+  "version": "v1.3.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "gogs",
+      "repo_name": "gogs",
+      "asset": "gogs_1.3.0_linux_amd64.tar.gz",
+      "checksum": "f95795502b6efb8992b68709f9ab06724a01296ca548a2a8195dfb027c1138e7",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "gogs",
+          "src": "gogs_1.3.0_linux_amd64/bin/gogs"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "gogs/gogs/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^gogs version 1.3.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "gogs",
+      "repo_name": "gogs",
+      "asset": "gogs_1.3.0_linux_arm64.tar.gz",
+      "checksum": "1f3e6c8fb5d1674e0ee7b1c1ff41e1f60db03dced128db88f20d8fcdfe255662",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "gogs",
+          "src": "gogs_1.3.0_linux_arm64/bin/gogs"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "gogs/gogs/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^gogs version 1.3.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "gogs",
+      "repo_name": "gogs",
+      "asset": "gogs_1.3.0_linux_386.tar.gz",
+      "checksum": "18a23ccc760d26a734638f07b07d2aee030f64722099213cea83e879c37b4b7f",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "gogs",
+          "src": "gogs_1.3.0_linux_386/bin/gogs"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "gogs/gogs/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^gogs version 1.3.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "gogs",
+      "repo_name": "gogs",
+      "asset": "gogs_1.3.0_linux_arm.tar.gz",
+      "checksum": "6034ae802cf0fcf67caea83563a947727aacfe760922908e796e0ac77e055d35",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "gogs",
+          "src": "gogs_1.3.0_linux_arm/bin/gogs"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "gogs/gogs/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^gogs version 1.3.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "gogs",
+      "repo_name": "gogs",
+      "asset": "gogs_1.3.0_macOS_amd64.zip",
+      "checksum": "3570dfdd5e357e700e8ff136d503ddb04753e5f86def124b08aaa8d0eb9b218c",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "gogs",
+          "src": "gogs_1.3.0_macOS_amd64/bin/gogs"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "gogs/gogs/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^gogs version 1.3.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "gogs",
+      "repo_name": "gogs",
+      "asset": "gogs_1.3.0_macOS_arm64.zip",
+      "checksum": "59ec8401aba26f3df00d6a6d05cfb69ef97f43761dc68318f04200b1eef3ab15",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "gogs",
+          "src": "gogs_1.3.0_macOS_arm64/bin/gogs"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "gogs/gogs/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^gogs version 1.3.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "gogs",
+      "repo_name": "gogs",
+      "asset": "gogs_1.3.0_windows_amd64.zip",
+      "checksum": "3dadd595a89e3a37a37487e1453b6d2dedb292de10ff83a7438864af5a593ff6",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "gogs",
+          "src": "gogs_1.3.0_windows_amd64/bin/gogs.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "gogs/gogs/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^gogs version 1.3.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "gogs",
+      "repo_name": "gogs",
+      "asset": "gogs_1.3.0_windows_arm64.zip",
+      "checksum": "3d7c1b8d1524492c8f675b5df34310ca9dfa1c6284a37999d90a399824008538",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "gogs",
+          "src": "gogs_1.3.0_windows_arm64/bin/gogs.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "gogs/gogs/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^gogs version 1.3.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "gogs",
+      "repo_name": "gogs",
+      "asset": "gogs_1.3.0_windows_386.zip",
+      "checksum": "27f1a646215f15e569c853accf1f361bc383b43e22fc2d2309f6ce18bfabe47c",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "gogs",
+          "src": "gogs_1.3.0_windows_386/bin/gogs.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "gogs/gogs/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^gogs version 1.3.0"
+      }
+    }
+  ]
+}
