@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "redpanda-data/redpanda",
+  "version": "v1.4.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "redpanda-data",
+      "repo_name": "redpanda",
+      "asset": "redpanda_1.4.0_linux_amd64.tar.gz",
+      "checksum": "171564182d68e7f5e902db99031ca87f0482645b201da4e457aa8daa7f148214",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "redpanda",
+          "src": "redpanda_1.4.0_linux_amd64/bin/redpanda"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "redpanda-data/redpanda/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^redpanda version 1.4.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "redpanda-data",
+      "repo_name": "redpanda",
+      "asset": "redpanda_1.4.0_linux_arm64.tar.gz",
+      "checksum": "5d45f6ad320b39fa976980b02e14e4c371b3b4ed0adf2cd1f0168c45e28b6c75",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "redpanda",
+          "src": "redpanda_1.4.0_linux_arm64/bin/redpanda"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "redpanda-data/redpanda/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^redpanda version 1.4.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "redpanda-data",
+      "repo_name": "redpanda",
+      "asset": "redpanda_1.4.0_linux_386.tar.gz",
+      "checksum": "3bbc641152f50ad039974b3c574e584a935ffdd59d94804d1a97830e81b620dd",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "redpanda",
+          "src": "redpanda_1.4.0_linux_386/bin/redpanda"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "redpanda-data/redpanda/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^redpanda version 1.4.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "redpanda-data",
+      "repo_name": "redpanda",
+      "asset": "redpanda_1.4.0_linux_arm.tar.gz",
+      "checksum": "34641977494825316aa7ff80de5b562ea20e0ea741cefd344150d4ce1595e23a",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "redpanda",
+          "src": "redpanda_1.4.0_linux_arm/bin/redpanda"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "redpanda-data/redpanda/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^redpanda version 1.4.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "redpanda-data",
+      "repo_name": "redpanda",
+      "asset": "redpanda_1.4.0_macOS_amd64.zip",
+      "checksum": "175d6ff0805f12e197c68d3047da45fd19a563adc0e510fc5087caa3273d8335",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "redpanda",
+          "src": "redpanda_1.4.0_macOS_amd64/bin/redpanda"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "redpanda-data/redpanda/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^redpanda version 1.4.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "redpanda-data",
+      "repo_name": "redpanda",
+      "asset": "redpanda_1.4.0_macOS_arm64.zip",
+      "checksum": "00df0b5eb9a3c2cce26c8ba0b76c5eb21eaada9e70c2f277fd1691e63150b4d0",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "redpanda",
+          "src": "redpanda_1.4.0_macOS_arm64/bin/redpanda"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "redpanda-data/redpanda/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^redpanda version 1.4.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "redpanda-data",
+      "repo_name": "redpanda",
+      "asset": "redpanda_1.4.0_windows_amd64.zip",
+      "checksum": "ad5c3db325bd48507e6714fbee7f623f9e6d9710e38b89ab492ddf81af66fea6",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "redpanda",
+          "src": "redpanda_1.4.0_windows_amd64/bin/redpanda.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "redpanda-data/redpanda/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^redpanda version 1.4.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "redpanda-data",
+      "repo_name": "redpanda",
+      "asset": "redpanda_1.4.0_windows_arm64.zip",
+      "checksum": "759724871838f287067a3107f38cd1e3fdca8b86e5fa48e65197ccf24fe97d68",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "redpanda",
+          "src": "redpanda_1.4.0_windows_arm64/bin/redpanda.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "redpanda-data/redpanda/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^redpanda version 1.4.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "redpanda-data",
+      "repo_name": "redpanda",
+      "asset": "redpanda_1.4.0_windows_386.zip",
+      "checksum": "785f90dfc99b94c7ce63b90859e060c95cd76d8ef4db4e8f3bc44ba886a8bdc1",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "redpanda",
+          "src": "redpanda_1.4.0_windows_386/bin/redpanda.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "redpanda-data/redpanda/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^redpanda version 1.4.0"
+      }
+    }
+  ]
+}
