@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "kubernetes/kube-aggregator",
+  "version": "v1.2.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kube-aggregator",
+      "asset": "kube-aggregator_1.2.0_linux_amd64.tar.gz",
+      "checksum": "f7ba24b0f611cda07b8e6a1f52ab4e04a86318b564ae0735b4625414fbcbe6a0",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "kube-aggregator",
+          "src": "kube-aggregator_1.2.0_linux_amd64/bin/kube-aggregator"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kube-aggregator/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kube-aggregator version 1.2.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kube-aggregator",
+      "asset": "kube-aggregator_1.2.0_linux_arm64.tar.gz",
+      "checksum": "f95a1f6e99c501628879f1481ff542c931a3fd266636871efcb99e8013b188a0",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "kube-aggregator",
+          "src": "kube-aggregator_1.2.0_linux_arm64/bin/kube-aggregator"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kube-aggregator/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kube-aggregator version 1.2.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kube-aggregator",
+      "asset": "kube-aggregator_1.2.0_linux_386.tar.gz",
+      "checksum": "4bcc18f41d316fca512609e8623836565f95eee7f2883d2e0403ab7c3c3816f3",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "kube-aggregator",
+          "src": "kube-aggregator_1.2.0_linux_386/bin/kube-aggregator"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kube-aggregator/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kube-aggregator version 1.2.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kube-aggregator",
+      "asset": "kube-aggregator_1.2.0_linux_arm.tar.gz",
+      "checksum": "e8090b66ad1b306fe68d9453e94eeb4690cc905173f8c36d3e01027d0ad34c1e",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "kube-aggregator",
+          "src": "kube-aggregator_1.2.0_linux_arm/bin/kube-aggregator"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kube-aggregator/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kube-aggregator version 1.2.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kube-aggregator",
+      "asset": "kube-aggregator_1.2.0_macOS_amd64.zip",
+      "checksum": "0e353d4795aab322da106f281a21fa2ae726a18f31abe312af6f1295139806d2",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kube-aggregator",
+          "src": "kube-aggregator_1.2.0_macOS_amd64/bin/kube-aggregator"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kube-aggregator/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kube-aggregator version 1.2.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kube-aggregator",
+      "asset": "kube-aggregator_1.2.0_macOS_arm64.zip",
+      "checksum": "86f23a267ddb766abd6a83e064a69649b3377101bcc572886c34dd5b901a34a5",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kube-aggregator",
+          "src": "kube-aggregator_1.2.0_macOS_arm64/bin/kube-aggregator"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kube-aggregator/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kube-aggregator version 1.2.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kube-aggregator",
+      "asset": "kube-aggregator_1.2.0_windows_amd64.zip",
+      "checksum": "e1554422b51a3a86df05a1efb3345cb22acc1140b9ce94ce204165c7d63c1ba2",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kube-aggregator",
+          "src": "kube-aggregator_1.2.0_windows_amd64/bin/kube-aggregator.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kube-aggregator/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kube-aggregator version 1.2.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kube-aggregator",
+      "asset": "kube-aggregator_1.2.0_windows_arm64.zip",
+      "checksum": "60a99a3c448d2aacbdd54a9fa52714caeb4766220c76f6b7e0567d8d2ba18898",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kube-aggregator",
+          "src": "kube-aggregator_1.2.0_windows_arm64/bin/kube-aggregator.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kube-aggregator/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kube-aggregator version 1.2.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kube-aggregator",
+      "asset": "kube-aggregator_1.2.0_windows_386.zip",
+      "checksum": "fdc8f422f59f923fc9215c8a59eefdd3db977499973ab4b630eb6234531ca3ab",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kube-aggregator",
+          "src": "kube-aggregator_1.2.0_windows_386/bin/kube-aggregator.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kube-aggregator/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kube-aggregator version 1.2.0"
+      }
+    }
+  ]
+}
