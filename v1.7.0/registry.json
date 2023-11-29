@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "kubernetes/kube-proxy",
+  "version": "v1.7.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kube-proxy",
+      "asset": "kube-proxy_1.7.0_linux_amd64.tar.gz",
+      "checksum": "c0b24ecba5209b07274c63ecccc60a35b8415c5df622c0244ba7d29f3d9b88ea",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "kube-proxy",
+          "src": "kube-proxy_1.7.0_linux_amd64/bin/kube-proxy"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kube-proxy/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kube-proxy version 1.7.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kube-proxy",
+      "asset": "kube-proxy_1.7.0_linux_arm64.tar.gz",
+      "checksum": "32b6d584c15976e39ca1055ad7adaa6102348ea0eb4b099a72ab7ac0c7268303",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "kube-proxy",
+          "src": "kube-proxy_1.7.0_linux_arm64/bin/kube-proxy"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kube-proxy/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kube-proxy version 1.7.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kube-proxy",
+      "asset": "kube-proxy_1.7.0_linux_386.tar.gz",
+      "checksum": "22a3619fc93af79e8f431edc61f8230f117dfe8d5e6c3904127391544f1f6496",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "kube-proxy",
+          "src": "kube-proxy_1.7.0_linux_386/bin/kube-proxy"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kube-proxy/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kube-proxy version 1.7.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kube-proxy",
+      "asset": "kube-proxy_1.7.0_linux_arm.tar.gz",
+      "checksum": "d28abbfa68cca78f37ce24e4d1e56c0efd4a66f17f7d21abd679bbd832bce878",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "kube-proxy",
+          "src": "kube-proxy_1.7.0_linux_arm/bin/kube-proxy"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kube-proxy/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kube-proxy version 1.7.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kube-proxy",
+      "asset": "kube-proxy_1.7.0_macOS_amd64.zip",
+      "checksum": "48f6a47c5abe75879f2f4271f8c904f9662ea4a7687481d57f2956bc0a6b7f5e",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kube-proxy",
+          "src": "kube-proxy_1.7.0_macOS_amd64/bin/kube-proxy"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kube-proxy/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kube-proxy version 1.7.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kube-proxy",
+      "asset": "kube-proxy_1.7.0_macOS_arm64.zip",
+      "checksum": "c330518f031d2f765d0c14455d0a38bb3cd78797e08e0be14a80c6c04e8c9d5d",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kube-proxy",
+          "src": "kube-proxy_1.7.0_macOS_arm64/bin/kube-proxy"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kube-proxy/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kube-proxy version 1.7.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kube-proxy",
+      "asset": "kube-proxy_1.7.0_windows_amd64.zip",
+      "checksum": "61b27ddc299b6c92aa4fffda9fc55a7c2f3903c99b7de1672f574e1ebeb65430",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kube-proxy",
+          "src": "kube-proxy_1.7.0_windows_amd64/bin/kube-proxy.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kube-proxy/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kube-proxy version 1.7.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kube-proxy",
+      "asset": "kube-proxy_1.7.0_windows_arm64.zip",
+      "checksum": "cd42bdaabac47c73df6db27264caa0ee0833bda6277a4b1b92f2b8cc062cd21e",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kube-proxy",
+          "src": "kube-proxy_1.7.0_windows_arm64/bin/kube-proxy.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kube-proxy/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kube-proxy version 1.7.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kube-proxy",
+      "asset": "kube-proxy_1.7.0_windows_386.zip",
+      "checksum": "91dd59411fe7b3eb091b0d036cc3b4073a591df13e2052189c970c710ae6ca47",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kube-proxy",
+          "src": "kube-proxy_1.7.0_windows_386/bin/kube-proxy.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kube-proxy/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kube-proxy version 1.7.0"
+      }
+    }
+  ]
+}
