@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "apache/jena",
+  "version": "v1.2.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "apache",
+      "repo_name": "jena",
+      "asset": "jena_1.2.0_linux_amd64.tar.gz",
+      "checksum": "9c80998eafe80724954a2fd8fd05410b02bcbbcdd3441323e74efb4c5bcae48b",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "jena",
+          "src": "jena_1.2.0_linux_amd64/bin/jena"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "apache/jena/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^jena version 1.2.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "apache",
+      "repo_name": "jena",
+      "asset": "jena_1.2.0_linux_arm64.tar.gz",
+      "checksum": "9b1fefd8d2335db6cf3cad2e6db61e2586da32c955990b851fcd7e386316ffbd",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "jena",
+          "src": "jena_1.2.0_linux_arm64/bin/jena"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "apache/jena/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^jena version 1.2.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "apache",
+      "repo_name": "jena",
+      "asset": "jena_1.2.0_linux_386.tar.gz",
+      "checksum": "3488af7ff92c1c6bd945279f2690963050c9792fc2f97cff15af337cedaca768",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "jena",
+          "src": "jena_1.2.0_linux_386/bin/jena"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "apache/jena/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^jena version 1.2.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "apache",
+      "repo_name": "jena",
+      "asset": "jena_1.2.0_linux_arm.tar.gz",
+      "checksum": "8e1c44cdfbdb1fc499a478da33d270bd9c29f1839b0d886d4697f6066284890c",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "jena",
+          "src": "jena_1.2.0_linux_arm/bin/jena"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "apache/jena/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^jena version 1.2.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "apache",
+      "repo_name": "jena",
+      "asset": "jena_1.2.0_macOS_amd64.zip",
+      "checksum": "5e95522c489d3ba0d13c546098e5080f1d5b11bea483f4cb41ac8fcedf087758",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "jena",
+          "src": "jena_1.2.0_macOS_amd64/bin/jena"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "apache/jena/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^jena version 1.2.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "apache",
+      "repo_name": "jena",
+      "asset": "jena_1.2.0_macOS_arm64.zip",
+      "checksum": "0dd4ee048a27797c2de8d4991bff3defdc0bcf91d967dee96efd546ab0f5d932",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "jena",
+          "src": "jena_1.2.0_macOS_arm64/bin/jena"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "apache/jena/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^jena version 1.2.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "apache",
+      "repo_name": "jena",
+      "asset": "jena_1.2.0_windows_amd64.zip",
+      "checksum": "68fb21e9529e6785b10f8603a3f4308ce3017d163999809606365825a31680f2",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "jena",
+          "src": "jena_1.2.0_windows_amd64/bin/jena.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "apache/jena/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^jena version 1.2.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "apache",
+      "repo_name": "jena",
+      "asset": "jena_1.2.0_windows_arm64.zip",
+      "checksum": "7aed1f1ac17e7c5cb21c91a5c918f5293e6254ed659a1c82d7f4048fdf5870a8",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "jena",
+          "src": "jena_1.2.0_windows_arm64/bin/jena.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "apache/jena/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^jena version 1.2.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "apache",
+      "repo_name": "jena",
+      "asset": "jena_1.2.0_windows_386.zip",
+      "checksum": "b9a7f501898f12e17ed18adb9e0b71c630994d55d55310560e2b6b7fe0b34711",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "jena",
+          "src": "jena_1.2.0_windows_386/bin/jena.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "apache/jena/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^jena version 1.2.0"
+      }
+    }
+  ]
+}
