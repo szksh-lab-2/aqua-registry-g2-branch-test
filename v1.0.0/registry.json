@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "redpanda-data/connect",
+  "version": "v1.0.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "redpanda-data",
+      "repo_name": "connect",
+      "asset": "connect_1.0.0_linux_amd64.tar.gz",
+      "checksum": "5a1f5d4b2227bd2734d04ad187b07978a86a688a4c1cd05690c1df0946828367",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "connect",
+          "src": "connect_1.0.0_linux_amd64/bin/connect"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "redpanda-data/connect/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^connect version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "redpanda-data",
+      "repo_name": "connect",
+      "asset": "connect_1.0.0_linux_arm64.tar.gz",
+      "checksum": "5e8de62da1753738d24e475098dbf481589c13b0c3ded06f4b12715c4086eec3",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "connect",
+          "src": "connect_1.0.0_linux_arm64/bin/connect"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "redpanda-data/connect/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^connect version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "redpanda-data",
+      "repo_name": "connect",
+      "asset": "connect_1.0.0_linux_386.tar.gz",
+      "checksum": "d419c19b784c600070d6936cf2da426feb109735691612c0f5c4d5c7d867583b",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "connect",
+          "src": "connect_1.0.0_linux_386/bin/connect"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "redpanda-data/connect/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^connect version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "redpanda-data",
+      "repo_name": "connect",
+      "asset": "connect_1.0.0_linux_arm.tar.gz",
+      "checksum": "2516b2f55153c2f0097c59fc691e64727cc75af58f18176a2a4a3e9456c66eeb",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "connect",
+          "src": "connect_1.0.0_linux_arm/bin/connect"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "redpanda-data/connect/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^connect version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "redpanda-data",
+      "repo_name": "connect",
+      "asset": "connect_1.0.0_macOS_amd64.zip",
+      "checksum": "5e6817ba75043fe73ac8526b229c3c2c7be881cf874eb03a91000e6e2ee5fb84",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "connect",
+          "src": "connect_1.0.0_macOS_amd64/bin/connect"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "redpanda-data/connect/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^connect version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "redpanda-data",
+      "repo_name": "connect",
+      "asset": "connect_1.0.0_macOS_arm64.zip",
+      "checksum": "1fecb75eb1ee7277f6c2c0b408fe90a15f2ae3ee3145134e81b51576b24f9b66",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "connect",
+          "src": "connect_1.0.0_macOS_arm64/bin/connect"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "redpanda-data/connect/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^connect version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "redpanda-data",
+      "repo_name": "connect",
+      "asset": "connect_1.0.0_windows_amd64.zip",
+      "checksum": "99dafeccb0678f97829154de5a53f154829a8e73b8e6547a51225ebdd95993ae",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "connect",
+          "src": "connect_1.0.0_windows_amd64/bin/connect.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "redpanda-data/connect/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^connect version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "redpanda-data",
+      "repo_name": "connect",
+      "asset": "connect_1.0.0_windows_arm64.zip",
+      "checksum": "7e15c2e6c3face9344d8350c24c030e40628c2583f00ee49f81e310f9a7186c3",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "connect",
+          "src": "connect_1.0.0_windows_arm64/bin/connect.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "redpanda-data/connect/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^connect version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "redpanda-data",
+      "repo_name": "connect",
+      "asset": "connect_1.0.0_windows_386.zip",
+      "checksum": "7c5ca9bfb63b0939102fdd5aaab9e4aa650b9f81a5044ad9fd636ad03fa94d35",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "connect",
+          "src": "connect_1.0.0_windows_386/bin/connect.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "redpanda-data/connect/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^connect version 1.0.0"
+      }
+    }
+  ]
+}
