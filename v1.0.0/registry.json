@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "openai/codex",
+  "version": "v1.0.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "openai",
+      "repo_name": "codex",
+      "asset": "codex_1.0.0_linux_amd64.tar.gz",
+      "checksum": "0a5a59c41a5b93082cfde3d4d7854bb30cb710fdb8e6c0107541a676f3aae916",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "codex",
+          "src": "codex_1.0.0_linux_amd64/bin/codex"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "openai/codex/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^codex version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "openai",
+      "repo_name": "codex",
+      "asset": "codex_1.0.0_linux_arm64.tar.gz",
+      "checksum": "cb8a19ea594a87a05a74385dc63e7b9fb5fc999941edfab28084e275f047ea6c",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "codex",
+          "src": "codex_1.0.0_linux_arm64/bin/codex"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "openai/codex/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^codex version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "openai",
+      "repo_name": "codex",
+      "asset": "codex_1.0.0_linux_386.tar.gz",
+      "checksum": "0d6b3686c52876fb1bb2da332fa80d7e8d98b6bc2b14d3333197ef78cb8a640a",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "codex",
+          "src": "codex_1.0.0_linux_386/bin/codex"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "openai/codex/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^codex version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "openai",
+      "repo_name": "codex",
+      "asset": "codex_1.0.0_linux_arm.tar.gz",
+      "checksum": "27094de93ae5b70e9804fd8d67fb2c1c9d342a39cef773aebf06dec506ad2464",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "codex",
+          "src": "codex_1.0.0_linux_arm/bin/codex"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "openai/codex/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^codex version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "openai",
+      "repo_name": "codex",
+      "asset": "codex_1.0.0_macOS_amd64.zip",
+      "checksum": "b1f9e99ff100fad88ec44cfa81b0ce4001164ce02ee484da45e6581a506c9688",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "codex",
+          "src": "codex_1.0.0_macOS_amd64/bin/codex"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "openai/codex/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^codex version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "openai",
+      "repo_name": "codex",
+      "asset": "codex_1.0.0_macOS_arm64.zip",
+      "checksum": "bed8debca0219ca3b65edad435ef7bc0b6b22bf9a3bc3a52978c3ec78e597be9",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "codex",
+          "src": "codex_1.0.0_macOS_arm64/bin/codex"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "openai/codex/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^codex version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "openai",
+      "repo_name": "codex",
+      "asset": "codex_1.0.0_windows_amd64.zip",
+      "checksum": "52aede0eea00e6bb5f525ced6bec861d8b653f3ae379d1f38d1b6fa4426feaea",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "codex",
+          "src": "codex_1.0.0_windows_amd64/bin/codex.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "openai/codex/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^codex version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "openai",
+      "repo_name": "codex",
+      "asset": "codex_1.0.0_windows_arm64.zip",
+      "checksum": "f62e6f5aa1458ce83739ef27daa5aaaebf72e344995a7a241ebe564eaae19e2f",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "codex",
+          "src": "codex_1.0.0_windows_arm64/bin/codex.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "openai/codex/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^codex version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "openai",
+      "repo_name": "codex",
+      "asset": "codex_1.0.0_windows_386.zip",
+      "checksum": "af55fcfa275767606f97cf2d8be9e6e9dea253356bcab816fc436c5705be4331",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "codex",
+          "src": "codex_1.0.0_windows_386/bin/codex.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "openai/codex/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^codex version 1.0.0"
+      }
+    }
+  ]
+}
