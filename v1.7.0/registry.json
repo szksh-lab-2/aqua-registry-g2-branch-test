@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "kubernetes/kube-scheduler",
+  "version": "v1.7.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kube-scheduler",
+      "asset": "kube-scheduler_1.7.0_linux_amd64.tar.gz",
+      "checksum": "cc3071b67d032b7a6b920a31707a49edf0d2adafdb9ea8b190381a96748a971e",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "kube-scheduler",
+          "src": "kube-scheduler_1.7.0_linux_amd64/bin/kube-scheduler"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kube-scheduler/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kube-scheduler version 1.7.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kube-scheduler",
+      "asset": "kube-scheduler_1.7.0_linux_arm64.tar.gz",
+      "checksum": "f51a7a7e9639ab064efc160adb7db628eec9ddc84c3c9de86126c74b72a85170",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "kube-scheduler",
+          "src": "kube-scheduler_1.7.0_linux_arm64/bin/kube-scheduler"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kube-scheduler/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kube-scheduler version 1.7.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kube-scheduler",
+      "asset": "kube-scheduler_1.7.0_linux_386.tar.gz",
+      "checksum": "417446957f1ccd1aac1bd4eca3fe9b4af3c8ee1c41b49b6b3fdeb4917b58fbb7",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "kube-scheduler",
+          "src": "kube-scheduler_1.7.0_linux_386/bin/kube-scheduler"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kube-scheduler/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kube-scheduler version 1.7.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kube-scheduler",
+      "asset": "kube-scheduler_1.7.0_linux_arm.tar.gz",
+      "checksum": "deb86b92a02a89ef06d8b0af5350e3f672fb589d37e022feb2a93ce01555f8ae",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "kube-scheduler",
+          "src": "kube-scheduler_1.7.0_linux_arm/bin/kube-scheduler"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kube-scheduler/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kube-scheduler version 1.7.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kube-scheduler",
+      "asset": "kube-scheduler_1.7.0_macOS_amd64.zip",
+      "checksum": "1e697518fe44c34b653e5a8e4c0a7376db44e11333802d0c518d772c9bd2b1bc",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kube-scheduler",
+          "src": "kube-scheduler_1.7.0_macOS_amd64/bin/kube-scheduler"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kube-scheduler/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kube-scheduler version 1.7.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kube-scheduler",
+      "asset": "kube-scheduler_1.7.0_macOS_arm64.zip",
+      "checksum": "25464973c0bcf612d861eb04696dcb69fb263e14897700ad4b7855b3bc77a47b",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kube-scheduler",
+          "src": "kube-scheduler_1.7.0_macOS_arm64/bin/kube-scheduler"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kube-scheduler/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kube-scheduler version 1.7.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kube-scheduler",
+      "asset": "kube-scheduler_1.7.0_windows_amd64.zip",
+      "checksum": "037389951c75172daf9e1f7df6ff838406138f491b9c2eb855a0873f789f8b7b",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kube-scheduler",
+          "src": "kube-scheduler_1.7.0_windows_amd64/bin/kube-scheduler.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kube-scheduler/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kube-scheduler version 1.7.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kube-scheduler",
+      "asset": "kube-scheduler_1.7.0_windows_arm64.zip",
+      "checksum": "f72fadcf688e65922d5f535bf28cde65bd205cf3385bff24cc3f521e0122f02a",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kube-scheduler",
+          "src": "kube-scheduler_1.7.0_windows_arm64/bin/kube-scheduler.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kube-scheduler/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kube-scheduler version 1.7.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kube-scheduler",
+      "asset": "kube-scheduler_1.7.0_windows_386.zip",
+      "checksum": "c772ddd6c14b0d1ff72c79eaf50e591ab29347cb107beb8787e444d92ccba2f5",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kube-scheduler",
+          "src": "kube-scheduler_1.7.0_windows_386/bin/kube-scheduler.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kube-scheduler/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kube-scheduler version 1.7.0"
+      }
+    }
+  ]
+}
