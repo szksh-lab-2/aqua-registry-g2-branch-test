@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "rancher-archives/rke",
+  "version": "v1.1.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "rancher-archives",
+      "repo_name": "rke",
+      "asset": "rke_1.1.0_linux_amd64.tar.gz",
+      "checksum": "3ded7e5162dc4e6c857475faab9fa10288567ab6b8880edcedaa885aadab42f4",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "rke",
+          "src": "rke_1.1.0_linux_amd64/bin/rke"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "rancher-archives/rke/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^rke version 1.1.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "rancher-archives",
+      "repo_name": "rke",
+      "asset": "rke_1.1.0_linux_arm64.tar.gz",
+      "checksum": "ff70e1ad85899d4496aa1b650460140e119244c47da010c22f030ef6c00f8938",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "rke",
+          "src": "rke_1.1.0_linux_arm64/bin/rke"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "rancher-archives/rke/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^rke version 1.1.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "rancher-archives",
+      "repo_name": "rke",
+      "asset": "rke_1.1.0_linux_386.tar.gz",
+      "checksum": "b8a6ec1e4d821a6717dab6543a3921fce51758b7ef7e55f394af3d5621cbce29",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "rke",
+          "src": "rke_1.1.0_linux_386/bin/rke"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "rancher-archives/rke/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^rke version 1.1.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "rancher-archives",
+      "repo_name": "rke",
+      "asset": "rke_1.1.0_linux_arm.tar.gz",
+      "checksum": "118556ee89d2cc1bc017f69c04dae6952737b878fabd077ea254a092ac7fefd8",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "rke",
+          "src": "rke_1.1.0_linux_arm/bin/rke"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "rancher-archives/rke/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^rke version 1.1.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "rancher-archives",
+      "repo_name": "rke",
+      "asset": "rke_1.1.0_macOS_amd64.zip",
+      "checksum": "179253c1e89eb151e7aefee3008bf720391d5f12f7547bda9f4e015e275ce8d1",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "rke",
+          "src": "rke_1.1.0_macOS_amd64/bin/rke"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "rancher-archives/rke/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^rke version 1.1.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "rancher-archives",
+      "repo_name": "rke",
+      "asset": "rke_1.1.0_macOS_arm64.zip",
+      "checksum": "9ed1a2f13dfc77ffdd44670440ec360f81d0f2cb2d68def08f838ff3870d9824",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "rke",
+          "src": "rke_1.1.0_macOS_arm64/bin/rke"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "rancher-archives/rke/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^rke version 1.1.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "rancher-archives",
+      "repo_name": "rke",
+      "asset": "rke_1.1.0_windows_amd64.zip",
+      "checksum": "063952ee24be218b9a98c0c9efd74db17832749ee0e3d703e7c7370258cc874a",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "rke",
+          "src": "rke_1.1.0_windows_amd64/bin/rke.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "rancher-archives/rke/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^rke version 1.1.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "rancher-archives",
+      "repo_name": "rke",
+      "asset": "rke_1.1.0_windows_arm64.zip",
+      "checksum": "b0dd3041001dfeb928748b96b3ee803660d90f56facdcce6d7dca5961652ae1f",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "rke",
+          "src": "rke_1.1.0_windows_arm64/bin/rke.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "rancher-archives/rke/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^rke version 1.1.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "rancher-archives",
+      "repo_name": "rke",
+      "asset": "rke_1.1.0_windows_386.zip",
+      "checksum": "3cb3c13c4fffad0c1fd5174524df6e3a95e4e6fbc7e05696c512b829ba4df1fe",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "rke",
+          "src": "rke_1.1.0_windows_386/bin/rke.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "rancher-archives/rke/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^rke version 1.1.0"
+      }
+    }
+  ]
+}
