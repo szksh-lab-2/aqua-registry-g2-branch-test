@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "porter-dev/porter",
+  "version": "v1.0.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "porter-dev",
+      "repo_name": "porter",
+      "asset": "porter_1.0.0_linux_amd64.tar.gz",
+      "checksum": "99a03ce4cc03273d3db28a6b951de8c4e5be15116aaea036228cffc4baf37c7b",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "porter",
+          "src": "porter_1.0.0_linux_amd64/bin/porter"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "porter-dev/porter/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^porter version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "porter-dev",
+      "repo_name": "porter",
+      "asset": "porter_1.0.0_linux_arm64.tar.gz",
+      "checksum": "614eaa3bfe599487b79e5fcee4b01475ab650575b9f24465ffebba6bd3c80f65",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "porter",
+          "src": "porter_1.0.0_linux_arm64/bin/porter"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "porter-dev/porter/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^porter version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "porter-dev",
+      "repo_name": "porter",
+      "asset": "porter_1.0.0_linux_386.tar.gz",
+      "checksum": "73a7d68ec7905520d740a969f24bc1a62f97f1c945af91c38e68e9a0ca397e0d",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "porter",
+          "src": "porter_1.0.0_linux_386/bin/porter"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "porter-dev/porter/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^porter version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "porter-dev",
+      "repo_name": "porter",
+      "asset": "porter_1.0.0_linux_arm.tar.gz",
+      "checksum": "e51fc0cd27764baa192888720b29806518b35405f070294c1863b917ba925ac9",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "porter",
+          "src": "porter_1.0.0_linux_arm/bin/porter"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "porter-dev/porter/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^porter version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "porter-dev",
+      "repo_name": "porter",
+      "asset": "porter_1.0.0_macOS_amd64.zip",
+      "checksum": "4be196c980986174b9962dcb43103a014541d5502d3bc637f6266da68567627e",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "porter",
+          "src": "porter_1.0.0_macOS_amd64/bin/porter"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "porter-dev/porter/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^porter version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "porter-dev",
+      "repo_name": "porter",
+      "asset": "porter_1.0.0_macOS_arm64.zip",
+      "checksum": "755705c2492096ff7f1c65b76effb58630bf2a035eb54658fe22eb491b713317",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "porter",
+          "src": "porter_1.0.0_macOS_arm64/bin/porter"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "porter-dev/porter/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^porter version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "porter-dev",
+      "repo_name": "porter",
+      "asset": "porter_1.0.0_windows_amd64.zip",
+      "checksum": "a433bbf0f668a36155516967d6d0cd9cad13a04355a8c07aee8d5472343d7223",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "porter",
+          "src": "porter_1.0.0_windows_amd64/bin/porter.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "porter-dev/porter/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^porter version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "porter-dev",
+      "repo_name": "porter",
+      "asset": "porter_1.0.0_windows_arm64.zip",
+      "checksum": "220bcab2d66d2f59ead8dc1681462a684c9607c2165b98288f12b199d69b1690",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "porter",
+          "src": "porter_1.0.0_windows_arm64/bin/porter.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "porter-dev/porter/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^porter version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "porter-dev",
+      "repo_name": "porter",
+      "asset": "porter_1.0.0_windows_386.zip",
+      "checksum": "e6beb2f3811c342319cf9504b7e9d479f287075d670a16078b8b659f20db3fdb",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "porter",
+          "src": "porter_1.0.0_windows_386/bin/porter.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "porter-dev/porter/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^porter version 1.0.0"
+      }
+    }
+  ]
+}
