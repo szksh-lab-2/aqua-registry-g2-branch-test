@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "kubernetes/kube-controller-manager",
+  "version": "v1.1.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kube-controller-manager",
+      "asset": "kube-controller-manager_1.1.0_linux_amd64.tar.gz",
+      "checksum": "869fb138641588e2279404bd0eea3d98f3d39a523184816263173c4420a94314",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "kube-controller-manager",
+          "src": "kube-controller-manager_1.1.0_linux_amd64/bin/kube-controller-manager"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kube-controller-manager/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kube-controller-manager version 1.1.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kube-controller-manager",
+      "asset": "kube-controller-manager_1.1.0_linux_arm64.tar.gz",
+      "checksum": "c02c35edfaadb3fd166e421a3bea168e4bc7ac4a610e41325a87d3d549ef3dec",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "kube-controller-manager",
+          "src": "kube-controller-manager_1.1.0_linux_arm64/bin/kube-controller-manager"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kube-controller-manager/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kube-controller-manager version 1.1.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kube-controller-manager",
+      "asset": "kube-controller-manager_1.1.0_linux_386.tar.gz",
+      "checksum": "670a46c0c71354edaf257d487cf43bb99e645470faa77a496403f1e77b0545d4",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "kube-controller-manager",
+          "src": "kube-controller-manager_1.1.0_linux_386/bin/kube-controller-manager"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kube-controller-manager/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kube-controller-manager version 1.1.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kube-controller-manager",
+      "asset": "kube-controller-manager_1.1.0_linux_arm.tar.gz",
+      "checksum": "f085d9e71b5a2ff303f511b3d7374f60ebd870e6e64e35cbfc33a4998c7e44b4",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "kube-controller-manager",
+          "src": "kube-controller-manager_1.1.0_linux_arm/bin/kube-controller-manager"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kube-controller-manager/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kube-controller-manager version 1.1.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kube-controller-manager",
+      "asset": "kube-controller-manager_1.1.0_macOS_amd64.zip",
+      "checksum": "6c6502f42c345e569885b816aa1eb6996c56b535409fc5aa7977c50220be4dc9",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kube-controller-manager",
+          "src": "kube-controller-manager_1.1.0_macOS_amd64/bin/kube-controller-manager"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kube-controller-manager/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kube-controller-manager version 1.1.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kube-controller-manager",
+      "asset": "kube-controller-manager_1.1.0_macOS_arm64.zip",
+      "checksum": "611926744b53b56e73bb9aaf41cb6bd476bfe78d8b005781f9eae4ef012dde23",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kube-controller-manager",
+          "src": "kube-controller-manager_1.1.0_macOS_arm64/bin/kube-controller-manager"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kube-controller-manager/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kube-controller-manager version 1.1.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kube-controller-manager",
+      "asset": "kube-controller-manager_1.1.0_windows_amd64.zip",
+      "checksum": "37d8a09eff9b3c3582147b061c1b63b4f779dad6ee7a72fd926ea29c74b80449",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kube-controller-manager",
+          "src": "kube-controller-manager_1.1.0_windows_amd64/bin/kube-controller-manager.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kube-controller-manager/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kube-controller-manager version 1.1.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kube-controller-manager",
+      "asset": "kube-controller-manager_1.1.0_windows_arm64.zip",
+      "checksum": "c307162c5270a18949c4edbc59e083bd58654da2f786757aed60034a8b2bc3e9",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kube-controller-manager",
+          "src": "kube-controller-manager_1.1.0_windows_arm64/bin/kube-controller-manager.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kube-controller-manager/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kube-controller-manager version 1.1.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kube-controller-manager",
+      "asset": "kube-controller-manager_1.1.0_windows_386.zip",
+      "checksum": "ab6a1983681bd092b1ea3c316642a5da7577f123db6955ff4173365c2966e0b8",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kube-controller-manager",
+          "src": "kube-controller-manager_1.1.0_windows_386/bin/kube-controller-manager.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kube-controller-manager/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kube-controller-manager version 1.1.0"
+      }
+    }
+  ]
+}
