@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "apache/tomcat",
+  "version": "v1.9.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "apache",
+      "repo_name": "tomcat",
+      "asset": "tomcat_1.9.0_linux_amd64.tar.gz",
+      "checksum": "8c8d0d8911320b1bdb62ccca4cb8ae74abc26c7f9e3c3409498d6d7f740720b0",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "tomcat",
+          "src": "tomcat_1.9.0_linux_amd64/bin/tomcat"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "apache/tomcat/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^tomcat version 1.9.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "apache",
+      "repo_name": "tomcat",
+      "asset": "tomcat_1.9.0_linux_arm64.tar.gz",
+      "checksum": "7eb114efe7de41dd41f19eacb5fe4f03339145f04c1ef591137b81e9127bc885",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "tomcat",
+          "src": "tomcat_1.9.0_linux_arm64/bin/tomcat"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "apache/tomcat/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^tomcat version 1.9.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "apache",
+      "repo_name": "tomcat",
+      "asset": "tomcat_1.9.0_linux_386.tar.gz",
+      "checksum": "6b9baf6a5da3ea672e885bebae1e9cff92027e27c04f57ecf4b7db8d6b68cb8b",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "tomcat",
+          "src": "tomcat_1.9.0_linux_386/bin/tomcat"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "apache/tomcat/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^tomcat version 1.9.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "apache",
+      "repo_name": "tomcat",
+      "asset": "tomcat_1.9.0_linux_arm.tar.gz",
+      "checksum": "e042122ac405e4ca7ed4a961afc61587418094aeafac7ec6b4c60cdfbdf7ca05",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "tomcat",
+          "src": "tomcat_1.9.0_linux_arm/bin/tomcat"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "apache/tomcat/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^tomcat version 1.9.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "apache",
+      "repo_name": "tomcat",
+      "asset": "tomcat_1.9.0_macOS_amd64.zip",
+      "checksum": "b3904befda646f8eb169ce6a4c033390a2f8a4497ba7c13b173215c520c18904",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "tomcat",
+          "src": "tomcat_1.9.0_macOS_amd64/bin/tomcat"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "apache/tomcat/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^tomcat version 1.9.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "apache",
+      "repo_name": "tomcat",
+      "asset": "tomcat_1.9.0_macOS_arm64.zip",
+      "checksum": "f58b464d2a634a569f8a7d3a3ebf7b7424ff792866a44a4ceeb03fead76d502c",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "tomcat",
+          "src": "tomcat_1.9.0_macOS_arm64/bin/tomcat"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "apache/tomcat/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^tomcat version 1.9.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "apache",
+      "repo_name": "tomcat",
+      "asset": "tomcat_1.9.0_windows_amd64.zip",
+      "checksum": "4cf84921f85da53c2f97a50538e7f49305d5df63077976026544c6ee096c7dd9",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "tomcat",
+          "src": "tomcat_1.9.0_windows_amd64/bin/tomcat.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "apache/tomcat/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^tomcat version 1.9.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "apache",
+      "repo_name": "tomcat",
+      "asset": "tomcat_1.9.0_windows_arm64.zip",
+      "checksum": "37a75ec8418b0d6847acd8d1fc3a6b6ee03a58a0b6228d74d114df64c95175f5",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "tomcat",
+          "src": "tomcat_1.9.0_windows_arm64/bin/tomcat.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "apache/tomcat/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^tomcat version 1.9.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "apache",
+      "repo_name": "tomcat",
+      "asset": "tomcat_1.9.0_windows_386.zip",
+      "checksum": "29e359f44ae113b99c430e9db71a8564fee154a6295f3edc482c335c37e8953d",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "tomcat",
+          "src": "tomcat_1.9.0_windows_386/bin/tomcat.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "apache/tomcat/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^tomcat version 1.9.0"
+      }
+    }
+  ]
+}
