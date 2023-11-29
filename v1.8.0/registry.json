@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "carvel-dev/ytt",
+  "version": "v1.8.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "carvel-dev",
+      "repo_name": "ytt",
+      "asset": "ytt_1.8.0_linux_amd64.tar.gz",
+      "checksum": "32aa9d2883280d618441338fd60158dec067ef6ff95b09b9503636f8f2b77787",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "ytt",
+          "src": "ytt_1.8.0_linux_amd64/bin/ytt"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "carvel-dev/ytt/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^ytt version 1.8.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "carvel-dev",
+      "repo_name": "ytt",
+      "asset": "ytt_1.8.0_linux_arm64.tar.gz",
+      "checksum": "b6eeca67065361a63334ec4b9407d2262576a67c5408c1e66e5d3d6b69fbc4e1",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "ytt",
+          "src": "ytt_1.8.0_linux_arm64/bin/ytt"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "carvel-dev/ytt/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^ytt version 1.8.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "carvel-dev",
+      "repo_name": "ytt",
+      "asset": "ytt_1.8.0_linux_386.tar.gz",
+      "checksum": "a1c78f7985f6be0e9202f2aa80308ca355b7bc9b7e6b2bbbe8012b9952ceed92",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "ytt",
+          "src": "ytt_1.8.0_linux_386/bin/ytt"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "carvel-dev/ytt/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^ytt version 1.8.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "carvel-dev",
+      "repo_name": "ytt",
+      "asset": "ytt_1.8.0_linux_arm.tar.gz",
+      "checksum": "0122967d8799d731368182f85d990eb1773cdaefaae93dac43bda4f1ef31d79c",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "ytt",
+          "src": "ytt_1.8.0_linux_arm/bin/ytt"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "carvel-dev/ytt/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^ytt version 1.8.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "carvel-dev",
+      "repo_name": "ytt",
+      "asset": "ytt_1.8.0_macOS_amd64.zip",
+      "checksum": "ac3b5f2275c94f9604f6abde8a52a42d6c0d54342e71ef28153003dc8ab369c0",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "ytt",
+          "src": "ytt_1.8.0_macOS_amd64/bin/ytt"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "carvel-dev/ytt/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^ytt version 1.8.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "carvel-dev",
+      "repo_name": "ytt",
+      "asset": "ytt_1.8.0_macOS_arm64.zip",
+      "checksum": "5931f1a32f11e3274e8b5e40db8280e0bbcdb7cb25e895aad94cbf804a6570e7",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "ytt",
+          "src": "ytt_1.8.0_macOS_arm64/bin/ytt"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "carvel-dev/ytt/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^ytt version 1.8.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "carvel-dev",
+      "repo_name": "ytt",
+      "asset": "ytt_1.8.0_windows_amd64.zip",
+      "checksum": "2dda71e442bde5843d2696b2f3872f3bfc1b9d11b19901d1d5c1218ded9463fb",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "ytt",
+          "src": "ytt_1.8.0_windows_amd64/bin/ytt.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "carvel-dev/ytt/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^ytt version 1.8.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "carvel-dev",
+      "repo_name": "ytt",
+      "asset": "ytt_1.8.0_windows_arm64.zip",
+      "checksum": "e48d49ef2d1d460a4d272d9868dbf87aad9c4a8a90ea6c199ba661e589230241",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "ytt",
+          "src": "ytt_1.8.0_windows_arm64/bin/ytt.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "carvel-dev/ytt/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^ytt version 1.8.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "carvel-dev",
+      "repo_name": "ytt",
+      "asset": "ytt_1.8.0_windows_386.zip",
+      "checksum": "b879dc9b4de3652df3fe15da68df7e815cc1a5baea59e7437c9f7b2d13e6bfa9",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "ytt",
+          "src": "ytt_1.8.0_windows_386/bin/ytt.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "carvel-dev/ytt/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^ytt version 1.8.0"
+      }
+    }
+  ]
+}
