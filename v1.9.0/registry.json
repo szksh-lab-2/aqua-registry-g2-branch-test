@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "kubernetes/kubeadm",
+  "version": "v1.9.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kubeadm",
+      "asset": "kubeadm_1.9.0_linux_amd64.tar.gz",
+      "checksum": "686c70a4da27739f0f7e2d62aa23fa0c45e6d69ea1f5126c3ee0006524c875b2",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "kubeadm",
+          "src": "kubeadm_1.9.0_linux_amd64/bin/kubeadm"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kubeadm/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kubeadm version 1.9.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kubeadm",
+      "asset": "kubeadm_1.9.0_linux_arm64.tar.gz",
+      "checksum": "2e25996c03200ae9a6eb2c78115efc8c2bd4f8aa4ad02991b1b0b86d4eeb3c34",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "kubeadm",
+          "src": "kubeadm_1.9.0_linux_arm64/bin/kubeadm"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kubeadm/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kubeadm version 1.9.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kubeadm",
+      "asset": "kubeadm_1.9.0_linux_386.tar.gz",
+      "checksum": "4b1abf4c752bb3b956f453af932d0502f3a3d9e43a5e7596e1e9ef54cfc12211",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "kubeadm",
+          "src": "kubeadm_1.9.0_linux_386/bin/kubeadm"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kubeadm/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kubeadm version 1.9.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kubeadm",
+      "asset": "kubeadm_1.9.0_linux_arm.tar.gz",
+      "checksum": "061090eec8f3b1c38b0226ab091c27edb1c91a0d22383abacb9afba02f50f221",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "kubeadm",
+          "src": "kubeadm_1.9.0_linux_arm/bin/kubeadm"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kubeadm/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kubeadm version 1.9.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kubeadm",
+      "asset": "kubeadm_1.9.0_macOS_amd64.zip",
+      "checksum": "a816b08eb4203b1c7ef308bba3ba781cf58a6b0c71e9c7ea09919ec8354a8e70",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kubeadm",
+          "src": "kubeadm_1.9.0_macOS_amd64/bin/kubeadm"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kubeadm/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kubeadm version 1.9.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kubeadm",
+      "asset": "kubeadm_1.9.0_macOS_arm64.zip",
+      "checksum": "1d4a035f48f217dcaa80d426e50d9fe3b3301439b9b48a6ed95cf1a5d3115f60",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kubeadm",
+          "src": "kubeadm_1.9.0_macOS_arm64/bin/kubeadm"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kubeadm/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kubeadm version 1.9.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kubeadm",
+      "asset": "kubeadm_1.9.0_windows_amd64.zip",
+      "checksum": "01a525b5785ef692d9434c88f0992a932565b25a89e2ce026b6d7474faf5d387",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kubeadm",
+          "src": "kubeadm_1.9.0_windows_amd64/bin/kubeadm.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kubeadm/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kubeadm version 1.9.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kubeadm",
+      "asset": "kubeadm_1.9.0_windows_arm64.zip",
+      "checksum": "83abb1e331f158c5f59a5c550a550d746828e4d15e2e72421f613785606b6e9a",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kubeadm",
+          "src": "kubeadm_1.9.0_windows_arm64/bin/kubeadm.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kubeadm/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kubeadm version 1.9.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "kubernetes",
+      "repo_name": "kubeadm",
+      "asset": "kubeadm_1.9.0_windows_386.zip",
+      "checksum": "6e476c1eb50c6b0a252883c5872f7cda7743be09236e3fda3ac3e963ebafd2a7",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kubeadm",
+          "src": "kubeadm_1.9.0_windows_386/bin/kubeadm.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kubernetes/kubeadm/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kubeadm version 1.9.0"
+      }
+    }
+  ]
+}
