@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "apache/maven",
+  "version": "v1.0.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "apache",
+      "repo_name": "maven",
+      "asset": "maven_1.0.0_linux_amd64.tar.gz",
+      "checksum": "39cb5eca6cd5df8a8dd0b6d51761d69a7d5cb73c769bca902bf1221d9097e033",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "maven",
+          "src": "maven_1.0.0_linux_amd64/bin/maven"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "apache/maven/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^maven version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "apache",
+      "repo_name": "maven",
+      "asset": "maven_1.0.0_linux_arm64.tar.gz",
+      "checksum": "b28f9803cbd8bc11d4a457ca4811314084414919b32ee082941716a4eecb99bf",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "maven",
+          "src": "maven_1.0.0_linux_arm64/bin/maven"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "apache/maven/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^maven version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "apache",
+      "repo_name": "maven",
+      "asset": "maven_1.0.0_linux_386.tar.gz",
+      "checksum": "69083cb21cc2be15703aca273ea399a73781d9778fc5d50dda4ce21d4beaba83",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "maven",
+          "src": "maven_1.0.0_linux_386/bin/maven"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "apache/maven/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^maven version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "apache",
+      "repo_name": "maven",
+      "asset": "maven_1.0.0_linux_arm.tar.gz",
+      "checksum": "0a0c9c308f87e035b2d153af717369e7f2c25a60ee850cfa5afb5d53883d7bc2",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "maven",
+          "src": "maven_1.0.0_linux_arm/bin/maven"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "apache/maven/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^maven version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "apache",
+      "repo_name": "maven",
+      "asset": "maven_1.0.0_macOS_amd64.zip",
+      "checksum": "a8a9bba6ea32065c7b7409cf142a4c77bb410be47de3592336b8a2e160a677b6",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "maven",
+          "src": "maven_1.0.0_macOS_amd64/bin/maven"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "apache/maven/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^maven version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "apache",
+      "repo_name": "maven",
+      "asset": "maven_1.0.0_macOS_arm64.zip",
+      "checksum": "7711c170ee41d89a1c3a21b4f0b218ec77b36ca213718d8ff54b96e585818603",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "maven",
+          "src": "maven_1.0.0_macOS_arm64/bin/maven"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "apache/maven/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^maven version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "apache",
+      "repo_name": "maven",
+      "asset": "maven_1.0.0_windows_amd64.zip",
+      "checksum": "90fc67f4536c31a968609465c4037bfc861adc9c5e53830c273b9e1e16f6cad6",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "maven",
+          "src": "maven_1.0.0_windows_amd64/bin/maven.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "apache/maven/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^maven version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "apache",
+      "repo_name": "maven",
+      "asset": "maven_1.0.0_windows_arm64.zip",
+      "checksum": "d255c4642fc0b3ad27992d107a3e19026eeac2a854bc7dd6c9f9375860530173",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "maven",
+          "src": "maven_1.0.0_windows_arm64/bin/maven.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "apache/maven/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^maven version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "apache",
+      "repo_name": "maven",
+      "asset": "maven_1.0.0_windows_386.zip",
+      "checksum": "0980345af94dfa3a36636826f147a8799c5e1497aa9308e4e93bcd952d27a100",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "maven",
+          "src": "maven_1.0.0_windows_386/bin/maven.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "apache/maven/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^maven version 1.0.0"
+      }
+    }
+  ]
+}
