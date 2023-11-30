@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "vmware/govc",
+  "version": "v1.3.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "vmware",
+      "repo_name": "govc",
+      "asset": "govc_1.3.0_linux_amd64.tar.gz",
+      "checksum": "483c2d4db886ffe22a24dac31d10986749c4e0c36ba11a327fb48d8c7ee49608",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "govc",
+          "src": "govc_1.3.0_linux_amd64/bin/govc"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "vmware/govc/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^govc version 1.3.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "vmware",
+      "repo_name": "govc",
+      "asset": "govc_1.3.0_linux_arm64.tar.gz",
+      "checksum": "713e32a363989d27351ba9eb9e52294a607c36e4857ad037823c3f5d2c6406b3",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "govc",
+          "src": "govc_1.3.0_linux_arm64/bin/govc"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "vmware/govc/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^govc version 1.3.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "vmware",
+      "repo_name": "govc",
+      "asset": "govc_1.3.0_linux_386.tar.gz",
+      "checksum": "3375d9966947f74d897a747a0d4b54f93f3c21921d7eb4342fe80feb58be7fec",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "govc",
+          "src": "govc_1.3.0_linux_386/bin/govc"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "vmware/govc/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^govc version 1.3.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "vmware",
+      "repo_name": "govc",
+      "asset": "govc_1.3.0_linux_arm.tar.gz",
+      "checksum": "e2781aa153695913b69ccd8a321746c9b5c8d72d04ccd5b41cced0286d32487d",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "govc",
+          "src": "govc_1.3.0_linux_arm/bin/govc"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "vmware/govc/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^govc version 1.3.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "vmware",
+      "repo_name": "govc",
+      "asset": "govc_1.3.0_macOS_amd64.zip",
+      "checksum": "9733d25f607d0b03d518667a0e8548968390ac736b9b988fb249b63c94857488",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "govc",
+          "src": "govc_1.3.0_macOS_amd64/bin/govc"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "vmware/govc/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^govc version 1.3.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "vmware",
+      "repo_name": "govc",
+      "asset": "govc_1.3.0_macOS_arm64.zip",
+      "checksum": "33e3436214b995dde7c70dcd075ccec00e879d8385b05da7154046892d4a215e",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "govc",
+          "src": "govc_1.3.0_macOS_arm64/bin/govc"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "vmware/govc/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^govc version 1.3.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "vmware",
+      "repo_name": "govc",
+      "asset": "govc_1.3.0_windows_amd64.zip",
+      "checksum": "94b90a3419d2635b733a88d4c4efd95f86c6687df25ded55fbe98c8c5891f229",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "govc",
+          "src": "govc_1.3.0_windows_amd64/bin/govc.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "vmware/govc/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^govc version 1.3.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "vmware",
+      "repo_name": "govc",
+      "asset": "govc_1.3.0_windows_arm64.zip",
+      "checksum": "b898d5a9cae2465bee6650e8067c66859a4738754dfbb8b865cb68365a900944",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "govc",
+          "src": "govc_1.3.0_windows_arm64/bin/govc.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "vmware/govc/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^govc version 1.3.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "vmware",
+      "repo_name": "govc",
+      "asset": "govc_1.3.0_windows_386.zip",
+      "checksum": "b1fcf7b11454b3352f24877da9c57f00f09584b4873f18974645e9e9ebdc6240",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "govc",
+          "src": "govc_1.3.0_windows_386/bin/govc.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "vmware/govc/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^govc version 1.3.0"
+      }
+    }
+  ]
+}
