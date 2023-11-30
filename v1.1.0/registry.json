@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "bazel-contrib/buildifier",
+  "version": "v1.1.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "bazel-contrib",
+      "repo_name": "buildifier",
+      "asset": "buildifier_1.1.0_linux_amd64.tar.gz",
+      "checksum": "8613643cbd3bab8a6b79c5ed93cd2e895e3fe08f8e07ab39beaa892354d3268e",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "buildifier",
+          "src": "buildifier_1.1.0_linux_amd64/bin/buildifier"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "bazel-contrib/buildifier/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^buildifier version 1.1.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "bazel-contrib",
+      "repo_name": "buildifier",
+      "asset": "buildifier_1.1.0_linux_arm64.tar.gz",
+      "checksum": "d0ed5cb12de7aa832aac3844fdf6a70b145e6daa4ca5f94d0831c9508ba19eed",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "buildifier",
+          "src": "buildifier_1.1.0_linux_arm64/bin/buildifier"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "bazel-contrib/buildifier/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^buildifier version 1.1.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "bazel-contrib",
+      "repo_name": "buildifier",
+      "asset": "buildifier_1.1.0_linux_386.tar.gz",
+      "checksum": "4132da584f8b819b61005f04aa51b4eb2fbe503702e9696f1ea8e5e7c697ff76",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "buildifier",
+          "src": "buildifier_1.1.0_linux_386/bin/buildifier"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "bazel-contrib/buildifier/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^buildifier version 1.1.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "bazel-contrib",
+      "repo_name": "buildifier",
+      "asset": "buildifier_1.1.0_linux_arm.tar.gz",
+      "checksum": "47e497c6e67fc3e2af6e36a1b638d03d96ed01dc61785d232695cae9a8d2c10f",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "buildifier",
+          "src": "buildifier_1.1.0_linux_arm/bin/buildifier"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "bazel-contrib/buildifier/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^buildifier version 1.1.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "bazel-contrib",
+      "repo_name": "buildifier",
+      "asset": "buildifier_1.1.0_macOS_amd64.zip",
+      "checksum": "43ce5c306f2cb7d901c026796f26a06a6cc5b38d4705005f5c259f02e6c1b7b9",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "buildifier",
+          "src": "buildifier_1.1.0_macOS_amd64/bin/buildifier"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "bazel-contrib/buildifier/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^buildifier version 1.1.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "bazel-contrib",
+      "repo_name": "buildifier",
+      "asset": "buildifier_1.1.0_macOS_arm64.zip",
+      "checksum": "d84cea119635a6a3101dd2d275f27f6c635f78ea7de755fd31c629c234915608",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "buildifier",
+          "src": "buildifier_1.1.0_macOS_arm64/bin/buildifier"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "bazel-contrib/buildifier/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^buildifier version 1.1.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "bazel-contrib",
+      "repo_name": "buildifier",
+      "asset": "buildifier_1.1.0_windows_amd64.zip",
+      "checksum": "2d234c30bf4b6a499723ca51a82c7f32f0eb9756021a2d175a5c3b0582a2cd08",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "buildifier",
+          "src": "buildifier_1.1.0_windows_amd64/bin/buildifier.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "bazel-contrib/buildifier/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^buildifier version 1.1.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "bazel-contrib",
+      "repo_name": "buildifier",
+      "asset": "buildifier_1.1.0_windows_arm64.zip",
+      "checksum": "e7cef89a96e834758a713f28bc436dfa34342c3bed89cbe48bbe04cbcb4793e8",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "buildifier",
+          "src": "buildifier_1.1.0_windows_arm64/bin/buildifier.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "bazel-contrib/buildifier/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^buildifier version 1.1.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "bazel-contrib",
+      "repo_name": "buildifier",
+      "asset": "buildifier_1.1.0_windows_386.zip",
+      "checksum": "c04e4441b344a4b30598585edafc59172faf0ec1c075e0ec6aa1199d5276206c",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "buildifier",
+          "src": "buildifier_1.1.0_windows_386/bin/buildifier.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "bazel-contrib/buildifier/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^buildifier version 1.1.0"
+      }
+    }
+  ]
+}
