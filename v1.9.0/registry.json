@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "xremap/kde",
+  "version": "v1.9.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "xremap",
+      "repo_name": "kde",
+      "asset": "kde_1.9.0_linux_amd64.tar.gz",
+      "checksum": "a872999b67c2a04a89237b62b19eee30270a96f0a93e86901ca5bd97595708e0",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "kde",
+          "src": "kde_1.9.0_linux_amd64/bin/kde"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "xremap/kde/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kde version 1.9.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "xremap",
+      "repo_name": "kde",
+      "asset": "kde_1.9.0_linux_arm64.tar.gz",
+      "checksum": "a96cb87b1e916c25b1ead9a132414c66edd2a3f435ca46379f67b135c6461413",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "kde",
+          "src": "kde_1.9.0_linux_arm64/bin/kde"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "xremap/kde/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kde version 1.9.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "xremap",
+      "repo_name": "kde",
+      "asset": "kde_1.9.0_linux_386.tar.gz",
+      "checksum": "0526369eba3af7da3adff5506937359681e2496fecb7e940a41406c8d9d3863e",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "kde",
+          "src": "kde_1.9.0_linux_386/bin/kde"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "xremap/kde/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kde version 1.9.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "xremap",
+      "repo_name": "kde",
+      "asset": "kde_1.9.0_linux_arm.tar.gz",
+      "checksum": "bed1746e4efc7246ffc6e1be6f8507669f3afa275ffccf879e312aee6dfa41ca",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "kde",
+          "src": "kde_1.9.0_linux_arm/bin/kde"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "xremap/kde/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kde version 1.9.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "xremap",
+      "repo_name": "kde",
+      "asset": "kde_1.9.0_macOS_amd64.zip",
+      "checksum": "5f67bbde8d2be87523de1927161beb6fdc4710cc65d88a3238beffe84b4cd5e9",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kde",
+          "src": "kde_1.9.0_macOS_amd64/bin/kde"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "xremap/kde/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kde version 1.9.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "xremap",
+      "repo_name": "kde",
+      "asset": "kde_1.9.0_macOS_arm64.zip",
+      "checksum": "b2cc99c2d1e23420d77a8cfbe16db1a86a590ff13ddd61f2012e53cbb8f20619",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kde",
+          "src": "kde_1.9.0_macOS_arm64/bin/kde"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "xremap/kde/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kde version 1.9.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "xremap",
+      "repo_name": "kde",
+      "asset": "kde_1.9.0_windows_amd64.zip",
+      "checksum": "824740c503ae3de3a64245cc224103355a370f43c8806db570dc0e66e2edd57d",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kde",
+          "src": "kde_1.9.0_windows_amd64/bin/kde.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "xremap/kde/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kde version 1.9.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "xremap",
+      "repo_name": "kde",
+      "asset": "kde_1.9.0_windows_arm64.zip",
+      "checksum": "c3dbfeb0b5d9aa209fe3795e2dedb3a5abcac5fa0f18c80840abd7ff4f58b2dc",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kde",
+          "src": "kde_1.9.0_windows_arm64/bin/kde.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "xremap/kde/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kde version 1.9.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "xremap",
+      "repo_name": "kde",
+      "asset": "kde_1.9.0_windows_386.zip",
+      "checksum": "f828aa9cd051e76a4c95b2b7926e52cd04205e02589aafb69db21395241ef14b",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "kde",
+          "src": "kde_1.9.0_windows_386/bin/kde.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "xremap/kde/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^kde version 1.9.0"
+      }
+    }
+  ]
+}
