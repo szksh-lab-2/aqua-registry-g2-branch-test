@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "velero-io/velero",
+  "version": "v1.2.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "velero-io",
+      "repo_name": "velero",
+      "asset": "velero_1.2.0_linux_amd64.tar.gz",
+      "checksum": "e9a427ee51f8367226e99afeb5e9e0aa41c18298fdc20e7326623c6fa7aeaff6",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "velero",
+          "src": "velero_1.2.0_linux_amd64/bin/velero"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "velero-io/velero/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^velero version 1.2.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "velero-io",
+      "repo_name": "velero",
+      "asset": "velero_1.2.0_linux_arm64.tar.gz",
+      "checksum": "ea82ffee76a45f0b48b01a16379c8fd40720d425d191cddadc60aeacfb963cfe",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "velero",
+          "src": "velero_1.2.0_linux_arm64/bin/velero"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "velero-io/velero/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^velero version 1.2.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "velero-io",
+      "repo_name": "velero",
+      "asset": "velero_1.2.0_linux_386.tar.gz",
+      "checksum": "416f2e8a2f379be6367d2b662c03db745e8ebc3678b665fd1fc1826cfe3433e3",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "velero",
+          "src": "velero_1.2.0_linux_386/bin/velero"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "velero-io/velero/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^velero version 1.2.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "velero-io",
+      "repo_name": "velero",
+      "asset": "velero_1.2.0_linux_arm.tar.gz",
+      "checksum": "f1710e31a51d73eb9bf61b3542cab39002a5f4f8492e0341cabff166ceb1e53a",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "velero",
+          "src": "velero_1.2.0_linux_arm/bin/velero"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "velero-io/velero/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^velero version 1.2.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "velero-io",
+      "repo_name": "velero",
+      "asset": "velero_1.2.0_macOS_amd64.zip",
+      "checksum": "d85f58d8c10c60e5d4e3a3e7e7ab66486f7ac4e6dee61e3ca4a0743233378d51",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "velero",
+          "src": "velero_1.2.0_macOS_amd64/bin/velero"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "velero-io/velero/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^velero version 1.2.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "velero-io",
+      "repo_name": "velero",
+      "asset": "velero_1.2.0_macOS_arm64.zip",
+      "checksum": "3bdefee607c9568f466c35a8104e6a4587638408a97ba0f017de568cb69c7ae0",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "velero",
+          "src": "velero_1.2.0_macOS_arm64/bin/velero"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "velero-io/velero/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^velero version 1.2.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "velero-io",
+      "repo_name": "velero",
+      "asset": "velero_1.2.0_windows_amd64.zip",
+      "checksum": "4cd940e9ff133f86a05ceb1cef3ecabca4281ca53fe3eb41a5d6a60aa5903217",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "velero",
+          "src": "velero_1.2.0_windows_amd64/bin/velero.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "velero-io/velero/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^velero version 1.2.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "velero-io",
+      "repo_name": "velero",
+      "asset": "velero_1.2.0_windows_arm64.zip",
+      "checksum": "06e347d513f61d9cb9424736ea9cd4e2cfe55088e0f269146d46f1eba8329dc9",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "velero",
+          "src": "velero_1.2.0_windows_arm64/bin/velero.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "velero-io/velero/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^velero version 1.2.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "velero-io",
+      "repo_name": "velero",
+      "asset": "velero_1.2.0_windows_386.zip",
+      "checksum": "997f5e368a35d5bd6bd36d089f4f941994e7f852830786386f322e35681ebdff",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "velero",
+          "src": "velero_1.2.0_windows_386/bin/velero.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "velero-io/velero/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^velero version 1.2.0"
+      }
+    }
+  ]
+}
