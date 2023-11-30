@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "name": "kyma-project/cli",
+  "version": "v1.0.0",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "kyma-project",
+      "repo_name": "cli",
+      "asset": "cli_1.0.0_linux_amd64.tar.gz",
+      "checksum": "405420ca4aa62e14242439d12f8be4f4c9242c3a23357438ac814f64da28f228",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "cli",
+          "src": "cli_1.0.0_linux_amd64/bin/cli"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kyma-project/cli/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cli version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "kyma-project",
+      "repo_name": "cli",
+      "asset": "cli_1.0.0_linux_arm64.tar.gz",
+      "checksum": "9c0c7a1cf60cc662df5a8eaf2a512bb5e77bb0a92055220a33b390cb539edb85",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "cli",
+          "src": "cli_1.0.0_linux_arm64/bin/cli"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kyma-project/cli/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cli version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "kyma-project",
+      "repo_name": "cli",
+      "asset": "cli_1.0.0_linux_386.tar.gz",
+      "checksum": "573fb250e753f0168d740503f1469330fe9bcb608f10ef1f859e9abdef1c1e92",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "cli",
+          "src": "cli_1.0.0_linux_386/bin/cli"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kyma-project/cli/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cli version 1.0.0"
+      }
+    },
+    {
+      "os": "linux",
+      "arch": "arm",
+      "type": "github_release",
+      "repo_owner": "kyma-project",
+      "repo_name": "cli",
+      "asset": "cli_1.0.0_linux_arm.tar.gz",
+      "checksum": "976154e0c1b427d0a9eb3f5e06f458fc432fdabfb39fae0e9f1f652c1fb5cf60",
+      "checksum_algorithm": "sha256",
+      "format": "tar.gz",
+      "files": [
+        {
+          "name": "cli",
+          "src": "cli_1.0.0_linux_arm/bin/cli"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kyma-project/cli/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cli version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "kyma-project",
+      "repo_name": "cli",
+      "asset": "cli_1.0.0_macOS_amd64.zip",
+      "checksum": "a17ef7d98faecbaa1ed0cc8476d786caf2af266af3d15e4a1dfb176a40820cbe",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "cli",
+          "src": "cli_1.0.0_macOS_amd64/bin/cli"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kyma-project/cli/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cli version 1.0.0"
+      }
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "kyma-project",
+      "repo_name": "cli",
+      "asset": "cli_1.0.0_macOS_arm64.zip",
+      "checksum": "1e4dbe30e2245784c46d08bb414985dc139e2da5b9269715f0d2a94b20c209c7",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "cli",
+          "src": "cli_1.0.0_macOS_arm64/bin/cli"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kyma-project/cli/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cli version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "type": "github_release",
+      "repo_owner": "kyma-project",
+      "repo_name": "cli",
+      "asset": "cli_1.0.0_windows_amd64.zip",
+      "checksum": "5092090c576548ccfae69c8d5ef25239de8f17907563d20c9d2ad70aa97c1ac0",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "cli",
+          "src": "cli_1.0.0_windows_amd64/bin/cli.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kyma-project/cli/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cli version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "type": "github_release",
+      "repo_owner": "kyma-project",
+      "repo_name": "cli",
+      "asset": "cli_1.0.0_windows_arm64.zip",
+      "checksum": "81b2af4ad6f761eee18ac20a1a9ab1d1e57e328d735eec8fae9af4a4d6f1972c",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "cli",
+          "src": "cli_1.0.0_windows_arm64/bin/cli.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kyma-project/cli/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cli version 1.0.0"
+      }
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "type": "github_release",
+      "repo_owner": "kyma-project",
+      "repo_name": "cli",
+      "asset": "cli_1.0.0_windows_386.zip",
+      "checksum": "a4facdea57a3d811fd1be6ac750e8763871a148d881490ceb8358a0c28d4a42e",
+      "checksum_algorithm": "sha256",
+      "format": "zip",
+      "files": [
+        {
+          "name": "cli",
+          "src": "cli_1.0.0_windows_386/bin/cli.exe"
+        }
+      ],
+      "github_artifact_attestations": {
+        "signer_workflow": "kyma-project/cli/.github/workflows/deployment.yml"
+      },
+      "test": {
+        "command": "--version",
+        "stdout": "^cli version 1.0.0"
+      }
+    }
+  ]
+}
